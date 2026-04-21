@@ -40,9 +40,9 @@ Last synced from LeetCode profile `manikantbindass`: 2026-04-22, Asia/Calcutta
 
 - [x] Minimize Hamming Distance After Swap Operations
 - [x] Spiral Matrix II
-- [x] Insert Interval
+- [x] Insert Interval -- Java + Go
 - [x] Merge Intervals
-- [x] Search a 2D Matrix
+- [x] Search a 2D Matrix -- Java + Go
 - [x] Text Justification
 - [x] Plus One
 - [x] Permutations II
@@ -52,12 +52,12 @@ Last synced from LeetCode profile `manikantbindass`: 2026-04-22, Asia/Calcutta
 - [x] Search in Rotated Sorted Array II
 - [x] 4Sum
 - [x] Largest Rectangle in Histogram
-- [x] Set Matrix Zeroes
+- [x] Set Matrix Zeroes -- Java + Go
 - [x] Find First and Last Position of Element in Sorted Array
 - [x] Combination Sum
 - [x] Best Time to Buy and Sell Stock III
 - [x] Merge Sorted Array
-- [x] Minimum Path Sum
+- [x] Minimum Path Sum -- Java + C++
 
 ---
 

@@ -105,15 +105,15 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submissions, while the profile count confirms 52 total solved problems.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 52 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
 | Minimize Hamming Distance After Swap Operations | Graphs | [Java](Graphs/MinimizeHammingDistanceAfterSwapOperations.java) |
 | Spiral Matrix II | Matrix | [Java](Matrix/SpiralMatrixII.java) |
-| Insert Interval | Intervals | [Java](Intervals/InsertInterval.java) |
+| Insert Interval | Intervals | [Java](Intervals/InsertInterval.java), [Go](Intervals/InsertInterval.go) |
 | Merge Intervals | Intervals | [Java](Intervals/MergeIntervals.java) |
-| Search a 2D Matrix | Matrix | [Java](Matrix/SearchA2DMatrix.java) |
+| Search a 2D Matrix | Matrix | [Java](Matrix/SearchA2DMatrix.java), [Go](Matrix/SearchA2DMatrix.go) |
 | Text Justification | Strings | [Java](Strings/TextJustification.java) |
 | Plus One | Arrays | [Java](Arrays/PlusOne.java) |
 | Permutations II | Backtracking | [Java](Backtracking/PermutationsII.java) |
@@ -123,12 +123,12 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Search in Rotated Sorted Array II | BinarySearch | [Java](BinarySearch/SearchInRotatedSortedArrayII.java) |
 | 4Sum | Arrays | [Java](Arrays/FourSum.java) |
 | Largest Rectangle in Histogram | Stack | [Java](Stack/LargestRectangleInHistogram.java) |
-| Set Matrix Zeroes | Matrix | [Java](Matrix/SetMatrixZeroes.java) |
+| Set Matrix Zeroes | Matrix | [Java](Matrix/SetMatrixZeroes.java), [Go](Matrix/SetMatrixZeroes.go) |
 | Find First and Last Position of Element in Sorted Array | BinarySearch | [Java](BinarySearch/FindFirstAndLastPositionOfElementInSortedArray.java) |
 | Combination Sum | Backtracking | [Java](Backtracking/CombinationSum.java) |
 | Best Time to Buy and Sell Stock III | DP | [Java](DP/BestTimeToBuyAndSellStockIII.java) |
 | Merge Sorted Array | Arrays | [Java](Arrays/MergeSortedArray.java) |
-| Minimum Path Sum | DP | [Java](DP/MinimumPathSum.java) |
+| Minimum Path Sum | DP | [Java](DP/MinimumPathSum.java), [C++](DP/MinimumPathSum.cpp) |
 
 ## LeetCode Stats
 
