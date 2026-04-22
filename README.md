@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-52%20Problems-22c55e?style=for-the-badge" alt="52 solved" />
+  <img src="https://img.shields.io/badge/Solved-53%20Problems-22c55e?style=for-the-badge" alt="53 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -19,21 +19,21 @@ Last synced: 2026-04-22, Asia/Calcutta
 
 | Metric | Progress |
 |---|---:|
-| Total solved | 52 |
-| Goal progress | 52 / 300, 17.3% |
+| Total solved | 53 |
+| Goal progress | 53 / 300, 17.7% |
 | Easy | 12 solved |
-| Medium | 30 solved |
+| Medium | 31 solved |
 | Hard | 10 solved |
 | Failed attempts still open | 2 Hard |
 | Global rank | 2,457,782 |
 
-![Overall Goal Progress](https://progress-bar.xyz/17/?scale=100&title=Goal+52%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/18/?scale=100&title=Goal+53%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 12
-    "Medium" : 30
+    "Medium" : 31
     "Hard" : 10
 ```
 
@@ -42,7 +42,7 @@ flowchart LR
     A["Arrays: 33"] --> B["Two Pointers: 11"]
     A --> C["Binary Search: 6"]
     A --> D["DP: 6"]
-    E["String: 13"] --> F["Sliding Window: 1"]
+    E["String: 14"] --> F["Sliding Window: 2"]
     G["Graphs"] --> H["Union-Find: 1"]
     I["Backtracking: 4"] --> J["Permutations / Combination Sum"]
 ```
@@ -109,6 +109,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Substring with Concatenation of All Words | Strings | [Java](Strings/SubstringWithConcatenationOfAllWords.java), [Go](Strings/SubstringWithConcatenationOfAllWords.go), [Python](Strings/SubstringWithConcatenationOfAllWords.py) |
 | Minimize Hamming Distance After Swap Operations | Graphs | [Java](Graphs/MinimizeHammingDistanceAfterSwapOperations.java) |
 | Spiral Matrix II | Matrix | [Java](Matrix/SpiralMatrixII.java) |
 | Insert Interval | Intervals | [Java](Intervals/InsertInterval.java), [Go](Intervals/InsertInterval.go) |
@@ -135,23 +136,24 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
 | Easy | 12 | 938 | 1.3% |
-| Medium | 30 | 2,044 | 1.5% |
+| Medium | 31 | 2,044 | 1.5% |
 | Hard | 10 | 924 | 1.1% |
-| All | 52 | 3,906 | 1.3% |
+| All | 53 | 3,906 | 1.4% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 45 |
-| Go | 6 |
+| Java | 46 |
+| Go | 7 |
 | C++ | 1 |
+| Python | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 33 | String | 13 |
+| Array | 33 | String | 14 |
 | Two Pointers | 11 | Math | 8 |
-| Hash Table | 7 | Sorting | 7 |
+| Hash Table | 8 | Sorting | 7 |
 | Binary Search | 6 | Dynamic Programming | 6 |
 | Linked List | 5 | Recursion | 5 |
 | Matrix | 5 | Stack | 4 |
@@ -159,7 +161,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Divide and Conquer | 2 | Monotonic Stack | 2 |
 | Trie | 1 | Union-Find | 1 |
 | Greedy | 1 | Depth-First Search | 1 |
-| Sliding Window | 1 | Bit Manipulation | 1 |
+| Sliding Window | 2 | Bit Manipulation | 1 |
 
 ## Pattern Checklist
 
