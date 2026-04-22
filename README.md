@@ -65,6 +65,117 @@ DSA-Preparation-FAANG-/
 `-- Manikant-DSA-FAANG-Prep/  Daily logs and extra practice structure
 ```
 
+## Key Concepts
+
+Use this section like quick radio-button tabs: pick a concept, then open its panel to review when the algorithm is useful, common signals, and what to remember in interviews.
+
+| Select | Concept | Best Used For |
+|---|---|---|
+| ◉ | [Sliding Window](#sliding-window-concept) | Contiguous subarrays/substrings, frequency windows |
+| ○ | [Two Pointers](#two-pointers-concept) | Sorted arrays, pairs, partitions, in-place scans |
+| ○ | [Binary Search](#binary-search-concept) | Sorted data, answer search, monotonic conditions |
+| ○ | [Dynamic Programming](#dynamic-programming-concept) | Overlapping subproblems and repeated choices |
+| ○ | [Graphs](#graphs-concept) | Relationships, reachability, shortest paths, components |
+| ○ | [Backtracking](#backtracking-concept) | Generate combinations, permutations, subsets, choices |
+| ○ | [Monotonic Stack](#monotonic-stack-concept) | Next greater/smaller, histogram, range contribution |
+| ○ | [Union-Find](#union-find-concept) | Fast connectivity, grouping, merge/find operations |
+
+<details id="sliding-window-concept" open>
+<summary><strong>Sliding Window</strong></summary>
+
+| What to Know | Details |
+|---|---|
+| Used when | The problem asks about a contiguous subarray or substring. |
+| Signals | "Longest", "shortest", "at most k", "minimum window", repeated character/frequency checks. |
+| Core idea | Move the right pointer to expand, move the left pointer to restore validity. |
+| Examples | Longest Substring Without Repeating Characters, Substring with Concatenation of All Words. |
+
+</details>
+
+<details id="two-pointers-concept">
+<summary><strong>Two Pointers</strong></summary>
+
+| What to Know | Details |
+|---|---|
+| Used when | You scan from both ends, compare pairs, or compact data in place. |
+| Signals | Sorted array, pair sum, palindrome check, remove duplicates, partitioning. |
+| Core idea | Move the pointer that can still improve the answer while preserving order or constraints. |
+| Examples | Two Sum variants, 4Sum, Remove Duplicates from Sorted Array II. |
+
+</details>
+
+<details id="binary-search-concept">
+<summary><strong>Binary Search</strong></summary>
+
+| What to Know | Details |
+|---|---|
+| Used when | Data is sorted or the answer has a monotonic true/false boundary. |
+| Signals | "Find first/last", "minimum possible", "maximum possible", rotated sorted array. |
+| Core idea | Keep the half that can still contain the answer and discard the rest. |
+| Examples | Search in Rotated Sorted Array II, Find First and Last Position. |
+
+</details>
+
+<details id="dynamic-programming-concept">
+<summary><strong>Dynamic Programming</strong></summary>
+
+| What to Know | Details |
+|---|---|
+| Used when | The same subproblems repeat and choices affect future answers. |
+| Signals | "Maximum/minimum ways", "count paths", "choose or skip", grid movement, stock states. |
+| Core idea | Define the state clearly, then build transitions from smaller solved states. |
+| Examples | Minimum Path Sum, Best Time to Buy and Sell Stock III. |
+
+</details>
+
+<details id="graphs-concept">
+<summary><strong>Graphs</strong></summary>
+
+| What to Know | Details |
+|---|---|
+| Used when | Items have relationships, dependencies, routes, or connected groups. |
+| Signals | Nodes/edges, matrix as grid, "can reach", "shortest path", "components". |
+| Core idea | Model the relationships first, then choose BFS, DFS, topological sort, or Dijkstra. |
+| Examples | Minimize Hamming Distance After Swap Operations. |
+
+</details>
+
+<details id="backtracking-concept">
+<summary><strong>Backtracking</strong></summary>
+
+| What to Know | Details |
+|---|---|
+| Used when | You need to explore all valid choices under constraints. |
+| Signals | Permutations, combinations, subsets, search tree, "all possible". |
+| Core idea | Choose, recurse, then undo the choice to try the next path. |
+| Examples | Permutations, Permutations II, Combination Sum. |
+
+</details>
+
+<details id="monotonic-stack-concept">
+<summary><strong>Monotonic Stack</strong></summary>
+
+| What to Know | Details |
+|---|---|
+| Used when | You need nearest greater/smaller elements or efficient range boundaries. |
+| Signals | Histogram area, next greater element, stock span, subarray minimum/maximum contribution. |
+| Core idea | Maintain a stack in increasing or decreasing order and pop when the order breaks. |
+| Examples | Largest Rectangle in Histogram. |
+
+</details>
+
+<details id="union-find-concept">
+<summary><strong>Union-Find</strong></summary>
+
+| What to Know | Details |
+|---|---|
+| Used when | You repeatedly merge groups and ask whether items are connected. |
+| Signals | Components, swaps allowed, connected cities, redundant connection, accounts merge. |
+| Core idea | Use parent pointers with path compression and union by rank/size. |
+| Examples | Minimize Hamming Distance After Swap Operations. |
+
+</details>
+
 ## Topic Summaries
 
 ### Dynamic Programming
