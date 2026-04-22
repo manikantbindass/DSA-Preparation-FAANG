@@ -79,6 +79,9 @@ Use this section like quick radio-button tabs: pick a concept, then open its pan
 | ○ | [Backtracking](#backtracking-concept) | Generate combinations, permutations, subsets, choices |
 | ○ | [Monotonic Stack](#monotonic-stack-concept) | Next greater/smaller, histogram, range contribution |
 | ○ | [Union-Find](#union-find-concept) | Fast connectivity, grouping, merge/find operations |
+| ○ | [Important Algorithms](#important-algorithms) | Interview-ready named algorithms and where to use them |
+| ○ | [Algorithm Cheat Sheet](#algorithm-cheat-sheet) | Fast pattern selection during problem solving |
+| ○ | [Complexity Graph](#complexity-graph) | Time and space complexity notation reference |
 
 <details id="sliding-window-concept" open>
 <summary><strong>Sliding Window</strong></summary>
@@ -173,6 +176,142 @@ Use this section like quick radio-button tabs: pick a concept, then open its pan
 | Signals | Components, swaps allowed, connected cities, redundant connection, accounts merge. |
 | Core idea | Use parent pointers with path compression and union by rank/size. |
 | Examples | Minimize Hamming Distance After Swap Operations. |
+
+</details>
+
+<details id="important-algorithms" open>
+<summary><strong>Important Algorithms for Interviews</strong></summary>
+
+### String Algorithms
+
+| Algorithm | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
+| KMP | Pattern search, repeated prefix/suffix matching | Build LPS array to avoid rechecking matched characters | O(n + m) time, O(m) space |
+| Rabin-Karp | Multiple pattern checks, rolling substring hash | Compare rolling hashes, verify on collision | O(n + m) average, O(nm) worst |
+| Z Algorithm | Pattern matching, prefix similarity, string compression | Compute longest prefix match starting at every index | O(n) time, O(n) space |
+| Manacher's Algorithm | Longest palindromic substring | Expand around transformed centers using palindrome radius reuse | O(n) time, O(n) space |
+| Trie | Prefix search, word dictionary, autocomplete, XOR queries | Store characters/bits as tree paths | O(word length) per operation |
+
+### Array and Searching Algorithms
+
+| Algorithm | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
+| Binary Search | Sorted arrays, answer search, lower/upper bound | Search the monotonic boundary, not always the exact value | O(log n) |
+| Prefix Sum | Range sum, subarray sum, difference between intervals | Precompute cumulative values | O(n) build, O(1) query |
+| Difference Array | Range updates, interval increments | Mark start/end deltas, then prefix once | O(n + q) |
+| Kadane's Algorithm | Maximum subarray sum | Track best subarray ending at current index | O(n) |
+| Quickselect | kth largest/smallest | Partition like quicksort but recurse one side | O(n) average |
+| Merge Sort | Stable sorting, inversion count | Divide, sort halves, merge while counting | O(n log n) |
+| Counting Sort | Small bounded integer values | Count frequencies instead of comparing | O(n + k) |
+
+### Graph Algorithms
+
+| Algorithm | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
+| BFS | Shortest path in unweighted graph, level order | Queue by distance layers | O(V + E) |
+| DFS | Components, cycles, recursion over choices | Explore fully before backtracking | O(V + E) |
+| Topological Sort | Course schedule, dependency ordering | Use indegree queue or DFS postorder | O(V + E) |
+| Dijkstra | Shortest path with non-negative weights | Greedy min-distance priority queue | O((V + E) log V) |
+| Bellman-Ford | Shortest path with negative edges | Relax all edges V - 1 times | O(VE) |
+| Floyd-Warshall | All-pairs shortest paths | Try every node as intermediate | O(V^3) |
+| Kruskal | Minimum spanning tree | Sort edges, connect with Union-Find | O(E log E) |
+| Prim | Minimum spanning tree | Grow tree using min edge heap | O(E log V) |
+| Union-Find | Dynamic connectivity, grouping, MST | Path compression plus union by size/rank | Almost O(1) amortized |
+
+### DP Algorithms and Patterns
+
+| Pattern | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
+| Fibonacci DP | Climbing stairs, simple recurrence | Store previous states, often compress to O(1) space | O(n) |
+| Grid DP | Paths, minimum path sum, unique paths | Current cell depends on top/left/neighbors | O(rows * cols) |
+| Knapsack DP | Choose items under capacity | Decide take/skip for each item and capacity | O(n * capacity) |
+| LIS | Longest increasing subsequence | DP O(n^2) or binary-search tails O(n log n) | O(n log n) best |
+| LCS/Edit Distance | Compare strings, insert/delete/replace | 2D DP over prefixes | O(nm) |
+| Interval DP | Palindromes, matrix chain, burst balloons | Solve smaller intervals before larger intervals | O(n^2) to O(n^3) |
+| Bitmask DP | Small n assignment/subset states | Represent chosen set as bits | O(n * 2^n) |
+
+### Greedy Algorithms
+
+| Algorithm / Pattern | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
+| Activity Selection | Maximum non-overlapping intervals | Sort by earliest end time | O(n log n) |
+| Interval Merge | Merge ranges, meeting rooms | Sort by start, merge overlapping ranges | O(n log n) |
+| Huffman Coding | Optimal prefix codes, merge costs | Repeatedly merge two smallest values | O(n log n) |
+| Jump Game Greedy | Reachability, minimum jumps | Track farthest reachable index | O(n) |
+| Gas Station | Circular feasibility | Reset start when tank becomes negative | O(n) |
+| Fractional Knapsack | Max value with divisible items | Sort by value density | O(n log n) |
+
+### Backtracking Algorithms
+
+| Pattern | Where It Is Used | Best Approach / Key Idea | Typical Complexity |
+|---|---|---|---|
+| Subsets | Generate all possible include/exclude choices | Choose or skip each item | O(2^n) |
+| Permutations | All orderings | Swap/visited array, avoid duplicates with sorting | O(n * n!) |
+| Combination Sum | Pick numbers with constraints | Recurse with current index and remaining target | Exponential |
+| N-Queens | Constraint placement | Track used columns and diagonals | Exponential |
+| Sudoku Solver | Constraint satisfaction | Fill the most constrained empty cell first | Exponential |
+
+</details>
+
+<details id="algorithm-cheat-sheet" open>
+<summary><strong>Algorithm Cheat Sheet</strong></summary>
+
+| If You See This | Think This First | Why |
+|---|---|---|
+| Sorted array or monotonic answer | Binary Search | Cuts search space in half |
+| Contiguous subarray/substring | Sliding Window or Prefix Sum | Maintains range efficiently |
+| Pair/triplet in sorted data | Two Pointers | Avoids nested loops |
+| "Maximum/minimum subarray" | Kadane or DP | Tracks best ending here |
+| "All possible" results | Backtracking | Explores choice tree |
+| Repeated choices with optimal answer | Dynamic Programming | Stores overlapping subproblems |
+| Dependencies or ordering | Topological Sort | Resolves prerequisite order |
+| Shortest path, equal weights | BFS | First visit gives shortest distance |
+| Shortest path, positive weights | Dijkstra | Greedy closest-node expansion |
+| Connected groups / allowed swaps | Union-Find | Fast component merge and lookup |
+| Prefix dictionary / word search | Trie | Character-by-character branching |
+| Palindrome substring | Expand Around Center; Manacher for optimal | Center expansion is simple, Manacher is O(n) |
+| Next greater/smaller | Monotonic Stack | Keeps useful candidates only |
+| Repeated range updates | Difference Array | Converts many updates into one prefix pass |
+| kth largest/smallest | Heap or Quickselect | Heap is stable O(n log k), quickselect is average O(n) |
+
+### Problem Solving Flow
+
+```text
+1. Read constraints first.
+2. Identify the pattern: array, string, graph, tree, DP, greedy, backtracking.
+3. Start with brute force and name the bottleneck.
+4. Replace the bottleneck with a known tool: hash map, sort, heap, prefix, DP, graph traversal.
+5. Prove the invariant: what stays true after every loop/recursive call?
+6. Test edge cases: empty, one item, duplicates, negative values, max constraints.
+7. State complexity clearly before final submission.
+```
+
+</details>
+
+<details id="complexity-graph" open>
+<summary><strong>Time and Space Complexity Graph</strong></summary>
+
+```mermaid
+flowchart LR
+    A["O(1)<br/>constant"] --> B["O(log n)<br/>binary search"]
+    B --> C["O(n)<br/>single pass"]
+    C --> D["O(n log n)<br/>efficient sorting"]
+    D --> E["O(n^2)<br/>nested loops"]
+    E --> F["O(n^3)<br/>triple loops / Floyd-Warshall"]
+    F --> G["O(2^n)<br/>subsets / bitmask DP"]
+    G --> H["O(n!)<br/>permutations"]
+```
+
+| Notation | Common Source | Good For | Watch Out |
+|---|---|---|---|
+| O(1) | Direct math, hash lookup average | Constant-time checks | Hash collisions are rare but possible |
+| O(log n) | Binary search, balanced trees | Huge sorted search spaces | Needs sorted/monotonic property |
+| O(n) | One pass, BFS/DFS over nodes and edges | Most interview-optimal scans | Hidden work inside substring/copy can add cost |
+| O(n log n) | Sorting, heap operations over n items | Sorting-based interview solutions | Often acceptable for 10^5 elements |
+| O(n^2) | Pair checks, 2D DP | Medium constraints, matrix work | Too slow for 10^5 |
+| O(n^3) | Triple loops, Floyd-Warshall, interval DP | Small n only | Usually fails unless n is tiny |
+| O(2^n) | Subsets, bitmask DP | n around 20 or less | Exponential growth |
+| O(n!) | Permutations, exhaustive ordering | n around 10 or less | Explodes fastest |
 
 </details>
 
