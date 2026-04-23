@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-55%20Problems-22c55e?style=for-the-badge" alt="55 solved" />
+  <img src="https://img.shields.io/badge/Solved-56%20Problems-22c55e?style=for-the-badge" alt="56 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -19,27 +19,27 @@ Last synced: 2026-04-23, Asia/Calcutta
 
 | Metric | Progress |
 |---|---:|
-| Total solved | 55 |
-| Goal progress | 55 / 300, 18.3% |
+| Total solved | 56 |
+| Goal progress | 56 / 300, 18.7% |
 | Easy | 13 solved |
-| Medium | 32 solved |
+| Medium | 33 solved |
 | Hard | 10 solved |
 | Failed attempts still open | 2 Hard |
 | Global rank | 2,457,782 |
 
-![Overall Goal Progress](https://progress-bar.xyz/18/?scale=100&title=Goal+55%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/18/?scale=100&title=Goal+56%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 13
-    "Medium" : 32
+    "Medium" : 33
     "Hard" : 10
 ```
 
 ```mermaid
 flowchart LR
-    A["Arrays: 34"] --> B["Two Pointers: 11"]
+    A["Arrays: 35"] --> B["Two Pointers: 11"]
     A --> C["Binary Search: 6"]
     A --> D["DP: 6"]
     E["String: 16"] --> F["Sliding Window: 2"]
@@ -435,10 +435,11 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 55 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 56 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Intervals Between Identical Elements | Arrays | [Java](Arrays/IntervalsBetweenIdenticalElements.java), [Python](Arrays/IntervalsBetweenIdenticalElements.py), [Go](Arrays/IntervalsBetweenIdenticalElements.go) |
 | Words Within Two Edits of Dictionary | Strings | [Java](Strings/WordsWithinTwoEditsOfDictionary.java) |
 | Count and Say | Strings | [Go](Strings/CountAndSay.go) |
 | Substring with Concatenation of All Words | Strings | [Java](Strings/SubstringWithConcatenationOfAllWords.java), [Go](Strings/SubstringWithConcatenationOfAllWords.go), [Python](Strings/SubstringWithConcatenationOfAllWords.py) |
@@ -468,24 +469,24 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
 | Easy | 13 | 938 | 1.4% |
-| Medium | 32 | 2,044 | 1.6% |
+| Medium | 33 | 2,044 | 1.6% |
 | Hard | 10 | 924 | 1.1% |
-| All | 55 | 3,906 | 1.4% |
+| All | 56 | 3,906 | 1.4% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 47 |
-| Go | 8 |
+| Java | 48 |
+| Go | 9 |
 | C++ | 1 |
-| Python | 1 |
+| Python | 2 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 34 | String | 16 |
+| Array | 35 | String | 16 |
 | Two Pointers | 11 | Math | 8 |
-| Hash Table | 8 | Sorting | 7 |
+| Hash Table | 9 | Sorting | 7 |
 | Binary Search | 6 | Dynamic Programming | 6 |
 | Linked List | 5 | Recursion | 5 |
 | Matrix | 5 | Stack | 4 |
