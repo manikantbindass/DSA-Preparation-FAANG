@@ -21,9 +21,9 @@ Last synced: 2026-04-23, Asia/Calcutta
 |---|---:|
 | Total solved | 58 |
 | Goal progress | 58 / 300, 19.3% |
-| Easy | 13 solved |
-| Medium | 33 solved |
-| Hard | 10 solved |
+| Easy | 12 solved |
+| Medium | 35 solved |
+| Hard | 11 solved |
 | Failed attempts still open | 2 Hard |
 | Global rank | 2,457,782 |
 
@@ -32,14 +32,14 @@ Last synced: 2026-04-23, Asia/Calcutta
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
-    "Easy" : 13
+    "Easy" : 12
     "Medium" : 35
-    "Hard" : 10
+    "Hard" : 11
 ```
 
 ```mermaid
 flowchart LR
-    A["Arrays: 35"] --> B["Two Pointers: 11"]
+    A["Arrays: 37"] --> B["Two Pointers: 11"]
     A --> C["Binary Search: 6"]
     A --> D["DP: 6"]
     E["String: 17"] --> F["Sliding Window: 2"]
@@ -470,31 +470,30 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
-| Easy | 13 | 938 | 1.4% |
-| Medium | 35 | 2,044 | 1.7% |
-| Hard | 10 | 924 | 1.1% |
-| All | 58 | 3,906 | 1.5% |
+| Easy | 12 | 938 | 1.3% |
+| Medium | 35 | 2,045 | 1.7% |
+| Hard | 11 | 924 | 1.2% |
+| All | 58 | 3,907 | 1.5% |
 
 | Language | Problems Solved |
 |---|---:|
 | Java | 50 |
-| Go | 11 |
+| Go | 7 |
 | C++ | 1 |
-| Python | 4 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 35 | String | 17 |
+| Array | 37 | String | 17 |
 | Two Pointers | 11 | Math | 8 |
-| Hash Table | 10 | Sorting | 7 |
+| Hash Table | 10 | Sorting | 8 |
 | Binary Search | 6 | Dynamic Programming | 6 |
 | Linked List | 5 | Recursion | 5 |
 | Matrix | 5 | Stack | 4 |
 | Backtracking | 5 | Simulation | 3 |
 | Divide and Conquer | 2 | Monotonic Stack | 2 |
-| Trie | 1 | Union-Find | 1 |
+| Trie | 2 | Union-Find | 1 |
 | Greedy | 1 | Depth-First Search | 1 |
 | Sliding Window | 2 | Bit Manipulation | 1 |
 
