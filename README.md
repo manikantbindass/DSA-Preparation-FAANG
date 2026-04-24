@@ -15,17 +15,23 @@ This repository tracks my FAANG-level DSA preparation with Java implementations,
 
 ## Progress Dashboard
 
-Last synced: 2026-04-23, Asia/Calcutta
+<!-- LEETCODE-STATS:START -->
+Last synced: 2026-04-24 17:01 UTC
+
+### 🚀 LeetCode Stats
+
+![LeetCode Rank](https://img.shields.io/badge/Rank-2230850-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
+![Solved](https://img.shields.io/badge/Solved-61-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-61%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
-| Total solved | 61 |
+| Rank | 2,230,850 |
+| Solved | 61 |
+| Easy | 13 |
+| Medium | 36 |
+| Hard | 12 |
 | Goal progress | 61 / 300, 20.3% |
-| Easy | 13 solved |
-| Medium | 36 solved |
-| Hard | 12 solved |
-| Failed attempts still open | 2 Hard |
-| Global rank | 2,230,850 |
 
 ![Overall Goal Progress](https://progress-bar.xyz/20/?scale=100&title=Goal+61%2F300&width=700&color=22c55e&suffix=%25)
 
@@ -36,16 +42,7 @@ pie showData
     "Medium" : 36
     "Hard" : 12
 ```
-
-```mermaid
-flowchart LR
-    A["Arrays: 37"] --> B["Two Pointers: 11"]
-    A --> C["Binary Search: 6"]
-    A --> D["DP: 6"]
-    E["String: 20"] --> F["Sliding Window: 3"]
-    G["Graphs"] --> H["Union-Find: 1"]
-    I["Backtracking: 4"] --> J["Permutations / Combination Sum"]
-```
+<!-- LEETCODE-STATS:END -->
 
 ## Repository Map
 
