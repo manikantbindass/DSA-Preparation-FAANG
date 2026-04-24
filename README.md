@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-58%20Problems-22c55e?style=for-the-badge" alt="58 solved" />
+  <img src="https://img.shields.io/badge/Solved-61%20Problems-22c55e?style=for-the-badge" alt="61 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -19,22 +19,22 @@ Last synced: 2026-04-23, Asia/Calcutta
 
 | Metric | Progress |
 |---|---:|
-| Total solved | 58 |
-| Goal progress | 58 / 300, 19.3% |
-| Easy | 12 solved |
-| Medium | 35 solved |
-| Hard | 11 solved |
+| Total solved | 61 |
+| Goal progress | 61 / 300, 20.3% |
+| Easy | 13 solved |
+| Medium | 36 solved |
+| Hard | 12 solved |
 | Failed attempts still open | 2 Hard |
 | Global rank | 2,393,491 |
 
-![Overall Goal Progress](https://progress-bar.xyz/19/?scale=100&title=Goal+58%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/20/?scale=100&title=Goal+61%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
-    "Easy" : 12
-    "Medium" : 35
-    "Hard" : 11
+    "Easy" : 13
+    "Medium" : 36
+    "Hard" : 12
 ```
 
 ```mermaid
@@ -42,7 +42,7 @@ flowchart LR
     A["Arrays: 37"] --> B["Two Pointers: 11"]
     A --> C["Binary Search: 6"]
     A --> D["DP: 6"]
-    E["String: 17"] --> F["Sliding Window: 2"]
+    E["String: 20"] --> F["Sliding Window: 3"]
     G["Graphs"] --> H["Union-Find: 1"]
     I["Backtracking: 4"] --> J["Permutations / Combination Sum"]
 ```
@@ -439,6 +439,9 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Minimum Window Substring | SlidingWindow | [Java](SlidingWindow/MinimumWindowSubstring.java), [Python](SlidingWindow/MinimumWindowSubstring.py), [Go](SlidingWindow/MinimumWindowSubstring.go) |
+| Simplify Path | Stack | [Java](Stack/SimplifyPath.java), [Python](Stack/SimplifyPath.py), [Go](Stack/SimplifyPath.go) |
+| Furthest Point From Origin | Strings | [Java](Strings/FurthestPointFromOrigin.java), [Python](Strings/FurthestPointFromOrigin.py), [Go](Strings/FurthestPointFromOrigin.go) |
 | Combination Sum II | Backtracking | [Java](Backtracking/CombinationSumII.java), [Python](Backtracking/CombinationSumII.py), [Go](Backtracking/CombinationSumII.go) |
 | Group Anagrams | Strings | [Java](Strings/GroupAnagrams.java), [Python](Strings/GroupAnagrams.py), [Go](Strings/GroupAnagrams.go) |
 | Intervals Between Identical Elements | Arrays | [Java](Arrays/IntervalsBetweenIdenticalElements.java), [Python](Arrays/IntervalsBetweenIdenticalElements.py), [Go](Arrays/IntervalsBetweenIdenticalElements.go) |
@@ -470,32 +473,33 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
-| Easy | 12 | 938 | 1.3% |
-| Medium | 35 | 2,045 | 1.7% |
-| Hard | 11 | 924 | 1.2% |
-| All | 58 | 3,907 | 1.5% |
+| Easy | 13 | 938 | 1.4% |
+| Medium | 36 | 2,045 | 1.8% |
+| Hard | 12 | 924 | 1.3% |
+| All | 61 | 3,907 | 1.6% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 50 |
-| Go | 7 |
+| Java | 53 |
+| Go | 10 |
+| Python | 6 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 37 | String | 17 |
+| Array | 37 | String | 20 |
 | Two Pointers | 11 | Math | 8 |
-| Hash Table | 10 | Sorting | 8 |
+| Hash Table | 11 | Sorting | 8 |
 | Binary Search | 6 | Dynamic Programming | 6 |
 | Linked List | 5 | Recursion | 5 |
-| Matrix | 5 | Stack | 4 |
-| Backtracking | 5 | Simulation | 3 |
+| Matrix | 5 | Stack | 5 |
+| Backtracking | 5 | Simulation | 4 |
 | Divide and Conquer | 2 | Monotonic Stack | 2 |
 | Trie | 2 | Union-Find | 1 |
 | Greedy | 1 | Depth-First Search | 1 |
-| Sliding Window | 2 | Bit Manipulation | 1 |
+| Sliding Window | 3 | Bit Manipulation | 1 |
 
 ## Pattern Checklist
 
