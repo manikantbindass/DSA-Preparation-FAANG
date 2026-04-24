@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-62%20Problems-22c55e?style=for-the-badge" alt="62 solved" />
+  <img src="https://img.shields.io/badge/Solved-63%20Problems-22c55e?style=for-the-badge" alt="63 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -21,26 +21,26 @@ Last synced: 2026-04-24 17:01 UTC
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-2230850-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-62-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-62%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-63-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-63%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 2,230,850 |
-| Solved | 62 |
+| Solved | 63 |
 | Easy | 13 |
 | Medium | 37 |
-| Hard | 12 |
-| Goal progress | 62 / 300, 20.7% |
+| Hard | 13 |
+| Goal progress | 63 / 300, 21.0% |
 
-![Overall Goal Progress](https://progress-bar.xyz/21/?scale=100&title=Goal+62%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/21/?scale=100&title=Goal+63%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 13
     "Medium" : 37
-    "Hard" : 12
+    "Hard" : 13
 ```
 <!-- LEETCODE-STATS:END -->
 
@@ -136,7 +136,7 @@ Use this section like quick radio-button tabs: pick a concept, then open its pan
 | Used when | Items have relationships, dependencies, routes, or connected groups. |
 | Signals | Nodes/edges, matrix as grid, "can reach", "shortest path", "components". |
 | Core idea | Model the relationships first, then choose BFS, DFS, topological sort, or Dijkstra. |
-| Examples | Minimize Hamming Distance After Swap Operations. |
+| Examples | Minimize Hamming Distance After Swap Operations, Word Ladder. |
 
 </details>
 
@@ -425,17 +425,18 @@ Graph questions are about modeling relationships, then picking traversal or conn
 | Pattern | What to Remember | Example in Repo |
 |---|---|---|
 | Union-Find | Fast component merging and lookup | [MinimizeHammingDistanceAfterSwapOperations.java](Graphs/MinimizeHammingDistanceAfterSwapOperations.java) |
-| BFS | Shortest path in unweighted graphs | Practice target |
+| BFS | Shortest path in unweighted graphs | [WordLadder.java](Graphs/WordLadder.java) |
 | DFS | Connected components, cycle detection, flood fill | Practice target |
 | Topological Sort | Directed dependency order with indegrees or DFS states | Practice target |
 | Dijkstra | Weighted shortest path with priority queue | Practice target |
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 62 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 63 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Word Ladder | Graphs | [Java](Graphs/WordLadder.java), [Python](Graphs/WordLadder.py), [Go](Graphs/WordLadder.go) |
 | Multiply Strings | Strings | [Java](Strings/MultiplyStrings.java), [Python](Strings/MultiplyStrings.py), [Go](Strings/MultiplyStrings.go) |
 | Minimum Window Substring | SlidingWindow | [Java](SlidingWindow/MinimumWindowSubstring.java), [Python](SlidingWindow/MinimumWindowSubstring.py), [Go](SlidingWindow/MinimumWindowSubstring.go) |
 | Simplify Path | Stack | [Java](Stack/SimplifyPath.java), [Python](Stack/SimplifyPath.py), [Go](Stack/SimplifyPath.go) |
@@ -473,14 +474,14 @@ These solution files cover the latest public accepted submissions exposed by Lee
 |---|---:|---:|---:|
 | Easy | 13 | 938 | 1.4% |
 | Medium | 37 | 2,045 | 1.8% |
-| Hard | 12 | 924 | 1.3% |
-| All | 62 | 3,907 | 1.6% |
+| Hard | 13 | 924 | 1.4% |
+| All | 63 | 3,907 | 1.6% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 54 |
-| Go | 11 |
-| Python | 7 |
+| Java | 55 |
+| Go | 12 |
+| Python | 8 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
