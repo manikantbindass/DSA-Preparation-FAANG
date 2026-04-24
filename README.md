@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-63%20Problems-22c55e?style=for-the-badge" alt="63 solved" />
+  <img src="https://img.shields.io/badge/Solved-64%20Problems-22c55e?style=for-the-badge" alt="64 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -21,25 +21,25 @@ Last synced: 2026-04-24 17:01 UTC
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-2230850-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-63-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-63%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-64-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-64%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 2,230,850 |
-| Solved | 63 |
+| Solved | 64 |
 | Easy | 13 |
-| Medium | 37 |
+| Medium | 38 |
 | Hard | 13 |
-| Goal progress | 63 / 300, 21.0% |
+| Goal progress | 64 / 300, 21.3% |
 
-![Overall Goal Progress](https://progress-bar.xyz/21/?scale=100&title=Goal+63%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/21/?scale=100&title=Goal+64%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 13
-    "Medium" : 37
+    "Medium" : 38
     "Hard" : 13
 ```
 <!-- LEETCODE-STATS:END -->
@@ -148,7 +148,7 @@ Use this section like quick radio-button tabs: pick a concept, then open its pan
 | Used when | You need to explore all valid choices under constraints. |
 | Signals | Permutations, combinations, subsets, search tree, "all possible". |
 | Core idea | Choose, recurse, then undo the choice to try the next path. |
-| Examples | Permutations, Permutations II, Combination Sum. |
+| Examples | Permutations, Permutations II, Combination Sum, Generate Parentheses. |
 
 </details>
 
@@ -432,10 +432,11 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 63 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 64 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Generate Parentheses | Backtracking | [Java](Backtracking/GenerateParentheses.java), [Python](Backtracking/GenerateParentheses.py), [Go](Backtracking/GenerateParentheses.go) |
 | Word Ladder | Graphs | [Java](Graphs/WordLadder.java), [Python](Graphs/WordLadder.py), [Go](Graphs/WordLadder.go) |
 | Multiply Strings | Strings | [Java](Strings/MultiplyStrings.java), [Python](Strings/MultiplyStrings.py), [Go](Strings/MultiplyStrings.go) |
 | Minimum Window Substring | SlidingWindow | [Java](SlidingWindow/MinimumWindowSubstring.java), [Python](SlidingWindow/MinimumWindowSubstring.py), [Go](SlidingWindow/MinimumWindowSubstring.go) |
@@ -473,15 +474,15 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
 | Easy | 13 | 938 | 1.4% |
-| Medium | 37 | 2,045 | 1.8% |
+| Medium | 38 | 2,045 | 1.9% |
 | Hard | 13 | 924 | 1.4% |
-| All | 63 | 3,907 | 1.6% |
+| All | 64 | 3,907 | 1.6% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 55 |
-| Go | 12 |
-| Python | 8 |
+| Java | 56 |
+| Go | 13 |
+| Python | 9 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
@@ -494,7 +495,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Binary Search | 6 | Dynamic Programming | 6 |
 | Linked List | 5 | Recursion | 5 |
 | Matrix | 5 | Stack | 5 |
-| Backtracking | 5 | Simulation | 5 |
+| Backtracking | 6 | Simulation | 5 |
 | Divide and Conquer | 2 | Monotonic Stack | 2 |
 | Trie | 2 | Union-Find | 1 |
 | Greedy | 1 | Depth-First Search | 1 |
