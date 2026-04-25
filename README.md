@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-64%20Problems-22c55e?style=for-the-badge" alt="64 solved" />
+  <img src="https://img.shields.io/badge/Solved-65%20Problems-22c55e?style=for-the-badge" alt="65 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -21,26 +21,26 @@ Last synced: 2026-04-24 17:01 UTC
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-2230850-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-64-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-64%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-65-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-65%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 2,230,850 |
-| Solved | 64 |
+| Solved | 65 |
 | Easy | 13 |
 | Medium | 38 |
-| Hard | 13 |
-| Goal progress | 64 / 300, 21.3% |
+| Hard | 14 |
+| Goal progress | 65 / 300, 21.7% |
 
-![Overall Goal Progress](https://progress-bar.xyz/21/?scale=100&title=Goal+64%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/22/?scale=100&title=Goal+65%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 13
     "Medium" : 38
-    "Hard" : 13
+    "Hard" : 14
 ```
 <!-- LEETCODE-STATS:END -->
 
@@ -432,10 +432,11 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 64 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 65 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Maximize the Distance Between Points on a Square | BinarySearch | [Java](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.java), [Python](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.py), [Go](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.go) |
 | Generate Parentheses | Backtracking | [Java](Backtracking/GenerateParentheses.java), [Python](Backtracking/GenerateParentheses.py), [Go](Backtracking/GenerateParentheses.go) |
 | Word Ladder | Graphs | [Java](Graphs/WordLadder.java), [Python](Graphs/WordLadder.py), [Go](Graphs/WordLadder.go) |
 | Multiply Strings | Strings | [Java](Strings/MultiplyStrings.java), [Python](Strings/MultiplyStrings.py), [Go](Strings/MultiplyStrings.go) |
@@ -475,24 +476,24 @@ These solution files cover the latest public accepted submissions exposed by Lee
 |---|---:|---:|---:|
 | Easy | 13 | 938 | 1.4% |
 | Medium | 38 | 2,045 | 1.9% |
-| Hard | 13 | 924 | 1.4% |
-| All | 64 | 3,907 | 1.6% |
+| Hard | 14 | 924 | 1.5% |
+| All | 65 | 3,907 | 1.7% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 56 |
-| Go | 13 |
-| Python | 9 |
+| Java | 57 |
+| Go | 14 |
+| Python | 10 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 37 | String | 21 |
-| Two Pointers | 11 | Math | 9 |
-| Hash Table | 11 | Sorting | 8 |
-| Binary Search | 6 | Dynamic Programming | 6 |
+| Array | 38 | String | 21 |
+| Two Pointers | 11 | Math | 10 |
+| Hash Table | 11 | Sorting | 9 |
+| Binary Search | 7 | Dynamic Programming | 6 |
 | Linked List | 5 | Recursion | 5 |
 | Matrix | 5 | Stack | 5 |
 | Backtracking | 6 | Simulation | 5 |
@@ -500,6 +501,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Trie | 2 | Union-Find | 1 |
 | Greedy | 1 | Depth-First Search | 1 |
 | Sliding Window | 3 | Bit Manipulation | 1 |
+| Geometry | 1 |  |  |
 
 ## Pattern Checklist
 
