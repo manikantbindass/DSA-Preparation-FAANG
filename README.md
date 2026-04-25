@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-65%20Problems-22c55e?style=for-the-badge" alt="65 solved" />
+  <img src="https://img.shields.io/badge/Solved-66%20Problems-22c55e?style=for-the-badge" alt="66 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -16,31 +16,31 @@ This repository tracks my FAANG-level DSA preparation with Java implementations,
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-04-24 17:01 UTC
+Last synced: 2026-04-25 13:57 UTC
 
 ### 🚀 LeetCode Stats
 
-![LeetCode Rank](https://img.shields.io/badge/Rank-2230850-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-65-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-65%2F300-f59e0b?style=for-the-badge)
+![LeetCode Rank](https://img.shields.io/badge/Rank-2067103-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
+![Solved](https://img.shields.io/badge/Solved-66-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-66%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
-| Rank | 2,230,850 |
-| Solved | 65 |
+| Rank | 2,067,103 |
+| Solved | 66 |
 | Easy | 13 |
 | Medium | 38 |
-| Hard | 14 |
-| Goal progress | 65 / 300, 21.7% |
+| Hard | 15 |
+| Goal progress | 66 / 300, 22.0% |
 
-![Overall Goal Progress](https://progress-bar.xyz/22/?scale=100&title=Goal+65%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/22/?scale=100&title=Goal+66%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 13
     "Medium" : 38
-    "Hard" : 14
+    "Hard" : 15
 ```
 <!-- LEETCODE-STATS:END -->
 
@@ -432,10 +432,11 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 65 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 66 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Trapping Rain Water | Arrays | [Java](Arrays/TrappingRainWater.java), [Python](Arrays/TrappingRainWater.py), [Go](Arrays/TrappingRainWater.go) |
 | Maximize the Distance Between Points on a Square | BinarySearch | [Java](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.java), [Python](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.py), [Go](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.go) |
 | Generate Parentheses | Backtracking | [Java](Backtracking/GenerateParentheses.java), [Python](Backtracking/GenerateParentheses.py), [Go](Backtracking/GenerateParentheses.go) |
 | Word Ladder | Graphs | [Java](Graphs/WordLadder.java), [Python](Graphs/WordLadder.py), [Go](Graphs/WordLadder.go) |
@@ -476,28 +477,28 @@ These solution files cover the latest public accepted submissions exposed by Lee
 |---|---:|---:|---:|
 | Easy | 13 | 938 | 1.4% |
 | Medium | 38 | 2,045 | 1.9% |
-| Hard | 14 | 924 | 1.5% |
-| All | 65 | 3,907 | 1.7% |
+| Hard | 15 | 924 | 1.6% |
+| All | 66 | 3,907 | 1.7% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 57 |
-| Go | 14 |
-| Python | 10 |
+| Java | 58 |
+| Go | 15 |
+| Python | 11 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 38 | String | 21 |
-| Two Pointers | 11 | Math | 10 |
+| Array | 39 | String | 21 |
+| Two Pointers | 12 | Math | 10 |
 | Hash Table | 11 | Sorting | 9 |
-| Binary Search | 7 | Dynamic Programming | 6 |
+| Binary Search | 7 | Dynamic Programming | 7 |
 | Linked List | 5 | Recursion | 5 |
-| Matrix | 5 | Stack | 5 |
+| Matrix | 5 | Stack | 6 |
 | Backtracking | 6 | Simulation | 5 |
-| Divide and Conquer | 2 | Monotonic Stack | 2 |
+| Divide and Conquer | 2 | Monotonic Stack | 3 |
 | Trie | 2 | Union-Find | 1 |
 | Greedy | 1 | Depth-First Search | 1 |
 | Sliding Window | 3 | Bit Manipulation | 1 |
