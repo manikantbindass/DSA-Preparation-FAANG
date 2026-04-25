@@ -436,7 +436,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
-| Trapping Rain Water | Arrays | [Java](Arrays/TrappingRainWater.java), [Python](Arrays/TrappingRainWater.py), [Go](Arrays/TrappingRainWater.go) |
+| Rotate Image | Matrix | [Java](Matrix/RotateImage.java), [Python](Matrix/RotateImage.py), [Go](Matrix/RotateImage.go) |
 | Maximize the Distance Between Points on a Square | BinarySearch | [Java](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.java), [Python](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.py), [Go](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.go) |
 | Generate Parentheses | Backtracking | [Java](Backtracking/GenerateParentheses.java), [Python](Backtracking/GenerateParentheses.py), [Go](Backtracking/GenerateParentheses.go) |
 | Word Ladder | Graphs | [Java](Graphs/WordLadder.java), [Python](Graphs/WordLadder.py), [Go](Graphs/WordLadder.go) |
@@ -492,13 +492,13 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
 | Array | 39 | String | 21 |
-| Two Pointers | 12 | Math | 10 |
+| Two Pointers | 11 | Math | 11 |
 | Hash Table | 11 | Sorting | 9 |
-| Binary Search | 7 | Dynamic Programming | 7 |
+| Binary Search | 7 | Dynamic Programming | 6 |
 | Linked List | 5 | Recursion | 5 |
-| Matrix | 5 | Stack | 6 |
+| Matrix | 6 | Stack | 5 |
 | Backtracking | 6 | Simulation | 5 |
-| Divide and Conquer | 2 | Monotonic Stack | 3 |
+| Divide and Conquer | 2 | Monotonic Stack | 2 |
 | Trie | 2 | Union-Find | 1 |
 | Greedy | 1 | Depth-First Search | 1 |
 | Sliding Window | 3 | Bit Manipulation | 1 |
