@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-67%20Problems-22c55e?style=for-the-badge" alt="67 solved" />
+  <img src="https://img.shields.io/badge/Solved-69%20Problems-22c55e?style=for-the-badge" alt="69 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -16,31 +16,31 @@ This repository tracks my FAANG-level DSA preparation with Java implementations,
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-04-25 14:15 UTC
+Last synced: 2026-04-26 07:59 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-2067103-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-67-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-67%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-69-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-69%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 2,067,103 |
-| Solved | 67 |
+| Solved | 69 |
 | Easy | 13 |
-| Medium | 39 |
-| Hard | 15 |
-| Goal progress | 67 / 300, 22.3% |
+| Medium | 40 |
+| Hard | 16 |
+| Goal progress | 69 / 300, 23.0% |
 
-![Overall Goal Progress](https://progress-bar.xyz/22/?scale=100&title=Goal+67%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/23/?scale=100&title=Goal+69%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 13
-    "Medium" : 39
-    "Hard" : 15
+    "Medium" : 40
+    "Hard" : 16
 ```
 <!-- LEETCODE-STATS:END -->
 
@@ -433,10 +433,12 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 67 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 69 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Detect Cycles in 2D Grid | Graphs | [Java](Graphs/DetectCyclesIn2DGrid.java), [Python](Graphs/DetectCyclesIn2DGrid.py), [Go](Graphs/DetectCyclesIn2DGrid.go) |
+| Subsets | Backtracking | [Java](Backtracking/Subsets.java), [Python](Backtracking/Subsets.py), [Go](Backtracking/Subsets.go) |
 | Trapping Rain Water | Arrays | [Java](Arrays/TrappingRainWater.java), [Python](Arrays/TrappingRainWater.py), [Go](Arrays/TrappingRainWater.go) |
 | Rotate Image | Matrix | [Java](Matrix/RotateImage.java), [Python](Matrix/RotateImage.py), [Go](Matrix/RotateImage.go) |
 | Maximize the Distance Between Points on a Square | BinarySearch | [Java](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.java), [Python](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.py), [Go](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.go) |
@@ -478,32 +480,32 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
 | Easy | 13 | 938 | 1.4% |
-| Medium | 39 | 2,045 | 1.9% |
-| Hard | 15 | 924 | 1.6% |
-| All | 67 | 3,907 | 1.7% |
+| Medium | 40 | 2,045 | 2.0% |
+| Hard | 16 | 924 | 1.7% |
+| All | 69 | 3,907 | 1.8% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 59 |
-| Go | 16 |
-| Python | 12 |
+| Java | 61 |
+| Go | 18 |
+| Python | 14 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 40 | String | 21 |
+| Array | 42 | String | 21 |
 | Two Pointers | 12 | Math | 11 |
 | Hash Table | 11 | Sorting | 9 |
 | Binary Search | 7 | Dynamic Programming | 7 |
 | Linked List | 5 | Recursion | 5 |
-| Matrix | 6 | Stack | 6 |
-| Backtracking | 6 | Simulation | 5 |
+| Matrix | 7 | Stack | 6 |
+| Backtracking | 7 | Simulation | 5 |
 | Divide and Conquer | 2 | Monotonic Stack | 3 |
-| Trie | 2 | Union-Find | 1 |
-| Greedy | 1 | Depth-First Search | 1 |
-| Sliding Window | 3 | Bit Manipulation | 1 |
+| Trie | 2 | Union-Find | 2 |
+| Greedy | 1 | Depth-First Search | 2 |
+| Sliding Window | 3 | Bit Manipulation | 2 |
 | Geometry | 1 |  |  |
 
 ## Pattern Checklist
