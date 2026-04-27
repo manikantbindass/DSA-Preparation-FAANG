@@ -16,30 +16,30 @@ This repository tracks my FAANG-level DSA preparation with Java implementations,
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-04-27 08:29 UTC
+Last synced: 2026-04-27 09:16 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-1964958-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-71-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-71%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-73-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-73%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 1,964,958 |
-| Solved | 71 |
+| Solved | 73 |
 | Easy | 13 |
-| Medium | 43 |
+| Medium | 45 |
 | Hard | 15 |
-| Goal progress | 71 / 300, 23.7% |
+| Goal progress | 73 / 300, 24.3% |
 
-![Overall Goal Progress](https://progress-bar.xyz/24/?scale=100&title=Goal+71%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/24/?scale=100&title=Goal+73%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 13
-    "Medium" : 43
+    "Medium" : 45
     "Hard" : 15
 ```
 <!-- LEETCODE-STATS:END -->
@@ -433,7 +433,7 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 70 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 73 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
