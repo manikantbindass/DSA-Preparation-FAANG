@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-74%20Problems-22c55e?style=for-the-badge" alt="74 solved" />
+  <img src="https://img.shields.io/badge/Solved-76%20Problems-22c55e?style=for-the-badge" alt="76 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -16,30 +16,30 @@ This repository tracks my FAANG-level DSA preparation with Java implementations,
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-04-28 08:28 UTC
+Last synced: 2026-04-28 09:13 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-1908336-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-74-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-74%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-76-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-76%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 1,908,336 |
-| Solved | 74 |
-| Easy | 13 |
-| Medium | 46 |
+| Solved | 76 |
+| Easy | 14 |
+| Medium | 47 |
 | Hard | 15 |
-| Goal progress | 74 / 300, 24.7% |
+| Goal progress | 76 / 300, 25.3% |
 
-![Overall Goal Progress](https://progress-bar.xyz/25/?scale=100&title=Goal+74%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/25/?scale=100&title=Goal+76%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
-    "Easy" : 13
-    "Medium" : 46
+    "Easy" : 14
+    "Medium" : 47
     "Hard" : 15
 ```
 <!-- LEETCODE-STATS:END -->
@@ -433,7 +433,7 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 74 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 76 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
@@ -487,9 +487,9 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
 | Easy | 14 | 938 | 1.5% |
-| Medium | 44 | 2,045 | 2.2% |
+| Medium | 47 | 2,045 | 2.3% |
 | Hard | 15 | 924 | 1.6% |
-| All | 73 | 3,907 | 1.9% |
+| All | 76 | 3,907 | 1.9% |
 
 | Language | Problems Solved |
 |---|---:|
