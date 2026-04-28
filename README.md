@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-70%20Problems-22c55e?style=for-the-badge" alt="73 solved" />
+  <img src="https://img.shields.io/badge/Solved-74%20Problems-22c55e?style=for-the-badge" alt="74 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -433,10 +433,13 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 73 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 74 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Minimum Operations to Make a Uni-Value Grid | Matrix | [Java](Matrix/MinimumOperationsToMakeAUniValueGrid.java), [Python](Matrix/MinimumOperationsToMakeAUniValueGrid.py), [Go](Matrix/MinimumOperationsToMakeAUniValueGrid.go) |
+| Remove Nth Node From End of List | LinkedList | [Java](LinkedList/RemoveNthNodeFromEndOfList.java), [Python](LinkedList/RemoveNthNodeFromEndOfList.py), [Go](LinkedList/RemoveNthNodeFromEndOfList.go) |
+| Find the Index of the First Occurrence in a String | Strings | [Java](Strings/FindTheIndexOfTheFirstOccurrenceInAString.java), [Python](Strings/FindTheIndexOfTheFirstOccurrenceInAString.py), [Go](Strings/FindTheIndexOfTheFirstOccurrenceInAString.go) |
 | Check if There is a Valid Path in a Grid | Graphs | [Java](Graphs/CheckIfThereIsAValidPathInAGrid.java), [Python](Graphs/CheckIfThereIsAValidPathInAGrid.py), [Go](Graphs/CheckIfThereIsAValidPathInAGrid.go) |
 | Valid Sudoku | Matrix | [Java](Matrix/ValidSudoku.java), [Python](Matrix/ValidSudoku.py), [Go](Matrix/ValidSudoku.go) |
 | Jump Game II | Arrays | [Java](Arrays/JumpGameII.java), [Python](Arrays/JumpGameII.py), [Go](Arrays/JumpGameII.go) |
@@ -483,28 +486,28 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
-| Easy | 13 | 938 | 1.4% |
-| Medium | 42 | 2,045 | 2.1% |
+| Easy | 14 | 938 | 1.5% |
+| Medium | 44 | 2,045 | 2.2% |
 | Hard | 15 | 924 | 1.6% |
-| All | 70 | 3,907 | 1.8% |
+| All | 73 | 3,907 | 1.9% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 62 |
-| Go | 19 |
-| Python | 15 |
+| Java | 65 |
+| Go | 22 |
+| Python | 18 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 43 | String | 22 |
-| Two Pointers | 12 | Math | 11 |
-| Hash Table | 11 | Sorting | 9 |
+| Array | 44 | String | 23 |
+| Two Pointers | 14 | Math | 12 |
+| Hash Table | 11 | Sorting | 10 |
 | Binary Search | 7 | Dynamic Programming | 7 |
-| Linked List | 5 | Recursion | 5 |
-| Matrix | 8 | Stack | 6 |
+| Linked List | 6 | Recursion | 5 |
+| Matrix | 9 | Stack | 6 |
 | Backtracking | 8 | Simulation | 5 |
 | Divide and Conquer | 2 | Monotonic Stack | 3 |
 | Trie | 2 | Union-Find | 2 |
