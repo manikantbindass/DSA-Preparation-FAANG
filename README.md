@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-88%20Problems-22c55e?style=for-the-badge" alt="88 solved" />
+  <img src="https://img.shields.io/badge/Solved-91%20Problems-22c55e?style=for-the-badge" alt="91 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -16,30 +16,30 @@ This repository tracks my FAANG-level DSA preparation with Java implementations,
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-05-04 14:06 UTC
+Last synced: 2026-05-04 16:37 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-1641531-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-90-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-90%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-91-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-91%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 1,641,531 |
-| Solved | 90 |
-| Easy | 15 |
-| Medium | 57 |
+| Solved | 91 |
+| Easy | 16 |
+| Medium | 56 |
 | Hard | 18 |
-| Goal progress | 90 / 300, 30.0% |
+| Goal progress | 91 / 300, 30.3% |
 
-![Overall Goal Progress](https://progress-bar.xyz/30/?scale=100&title=Goal+90%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/30/?scale=100&title=Goal+91%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
-    "Easy" : 15
-    "Medium" : 57
+    "Easy" : 16
+    "Medium" : 56
     "Hard" : 18
 ```
 <!-- LEETCODE-STATS:END -->
@@ -433,10 +433,13 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 88 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 91 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Rotate String | Strings | [Java](Strings/RotateString.java), [Python](Strings/RotateString.py), [Go](Strings/RotateString.go) |
+| Construct Binary Tree from Inorder and Postorder Traversal | Trees | [Java](Trees/ConstructBinaryTreeFromInorderAndPostorderTraversal.java), [Python](Trees/ConstructBinaryTreeFromInorderAndPostorderTraversal.py), [Go](Trees/ConstructBinaryTreeFromInorderAndPostorderTraversal.go) |
+| Convert Sorted Array to Binary Search Tree | Trees | [Java](Trees/ConvertSortedArrayToBinarySearchTree.java), [Python](Trees/ConvertSortedArrayToBinarySearchTree.py), [Go](Trees/ConvertSortedArrayToBinarySearchTree.go) |
 | Rotated Digits | Arrays | [Java](Arrays/RotatedDigits.java), [Python](Arrays/RotatedDigits.py), [Go](Arrays/RotatedDigits.go) |
 | Subsets II | Backtracking | [Java](Backtracking/SubsetsII.java), [Python](Backtracking/SubsetsII.py), [Go](Backtracking/SubsetsII.go) |
 | Construct Binary Tree from Preorder and Inorder Traversal | Trees | [Java](Trees/ConstructBinaryTreeFromPreorderAndInorderTraversal.java), [Python](Trees/ConstructBinaryTreeFromPreorderAndInorderTraversal.py), [Go](Trees/ConstructBinaryTreeFromPreorderAndInorderTraversal.go) |
@@ -498,35 +501,36 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
-| Easy | 14 | 938 | 1.5% |
-| Medium | 55 | 2,045 | 2.7% |
+| Easy | 16 | 938 | 1.7% |
+| Medium | 56 | 2,045 | 2.7% |
 | Hard | 18 | 924 | 1.9% |
-| All | 88 | 3,907 | 2.3% |
+| All | 91 | 3,907 | 2.3% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 77 |
-| Go | 34 |
-| Python | 30 |
+| Java | 80 |
+| Go | 37 |
+| Python | 33 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 55 | String | 23 |
+| Array | 57 | String | 24 |
 | Two Pointers | 14 | Math | 14 |
-| Hash Table | 12 | Sorting | 10 |
+| Hash Table | 13 | Sorting | 10 |
 | Binary Search | 7 | Dynamic Programming | 14 |
 | Linked List | 6 | Recursion | 5 |
 | Matrix | 14 | Stack | 6 |
 | Backtracking | 11 | Simulation | 6 |
-| Divide and Conquer | 4 | Monotonic Stack | 3 |
-| Tree | 1 | Binary Tree | 1 |
-| Trie | 2 | Union-Find | 2 |
-| Greedy | 2 | Depth-First Search | 3 |
-| Sliding Window | 3 | Bit Manipulation | 3 |
-| Geometry | 1 | Prefix Sum | 1 |
+| Divide and Conquer | 6 | Monotonic Stack | 3 |
+| Tree | 3 | Binary Tree | 3 |
+| Binary Search Tree | 1 | Trie | 2 |
+| Union-Find | 2 | Greedy | 2 |
+| Depth-First Search | 3 | Sliding Window | 3 |
+| Bit Manipulation | 3 | Geometry | 1 |
+| String Matching | 1 | Prefix Sum | 1 |
 
 ## Pattern Checklist
 
