@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-91%20Problems-22c55e?style=for-the-badge" alt="91 solved" />
+  <img src="https://img.shields.io/badge/Solved-93%20Problems-22c55e?style=for-the-badge" alt="93 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -433,10 +433,13 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 91 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 93 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Rotate List | LinkedList | [Java](LinkedList/RotateList.java), [Python](LinkedList/RotateList.py), [Go](LinkedList/RotateList.go) |
+| Pascal's Triangle | Arrays | [Java](Arrays/PascalsTriangle.java), [Python](Arrays/PascalsTriangle.py), [Go](Arrays/PascalsTriangle.go) |
+| Triangle | DP | [Java](DP/Triangle.java), [Python](DP/Triangle.py), [Go](DP/Triangle.go) |
 | Rotate String | Strings | [Java](Strings/RotateString.java), [Python](Strings/RotateString.py), [Go](Strings/RotateString.go) |
 | Construct Binary Tree from Inorder and Postorder Traversal | Trees | [Java](Trees/ConstructBinaryTreeFromInorderAndPostorderTraversal.java), [Python](Trees/ConstructBinaryTreeFromInorderAndPostorderTraversal.py), [Go](Trees/ConstructBinaryTreeFromInorderAndPostorderTraversal.go) |
 | Convert Sorted Array to Binary Search Tree | Trees | [Java](Trees/ConvertSortedArrayToBinarySearchTree.java), [Python](Trees/ConvertSortedArrayToBinarySearchTree.py), [Go](Trees/ConvertSortedArrayToBinarySearchTree.go) |
@@ -501,27 +504,27 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
-| Easy | 16 | 938 | 1.7% |
-| Medium | 56 | 2,045 | 2.7% |
+| Easy | 17 | 938 | 1.8% |
+| Medium | 58 | 2,045 | 2.8% |
 | Hard | 18 | 924 | 1.9% |
-| All | 91 | 3,907 | 2.3% |
+| All | 93 | 3,907 | 2.4% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 80 |
-| Go | 37 |
-| Python | 33 |
+| Java | 83 |
+| Go | 40 |
+| Python | 36 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 57 | String | 24 |
-| Two Pointers | 14 | Math | 14 |
+| Array | 59 | String | 24 |
+| Two Pointers | 15 | Math | 14 |
 | Hash Table | 13 | Sorting | 10 |
-| Binary Search | 7 | Dynamic Programming | 14 |
-| Linked List | 6 | Recursion | 5 |
+| Binary Search | 7 | Dynamic Programming | 16 |
+| Linked List | 7 | Recursion | 5 |
 | Matrix | 14 | Stack | 6 |
 | Backtracking | 11 | Simulation | 6 |
 | Divide and Conquer | 6 | Monotonic Stack | 3 |
