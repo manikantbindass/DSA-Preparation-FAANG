@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-93%20Problems-22c55e?style=for-the-badge" alt="93 solved" />
+  <img src="https://img.shields.io/badge/Solved-97%20Problems-22c55e?style=for-the-badge" alt="97 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -16,30 +16,30 @@ This repository tracks my FAANG-level DSA preparation with Java implementations,
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-05-06 08:29 UTC
+Last synced: 2026-05-06 12:59 UTC
 
 ### 🚀 LeetCode Stats
 
-![LeetCode Rank](https://img.shields.io/badge/Rank-1615268-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-94-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-94%2F300-f59e0b?style=for-the-badge)
+![LeetCode Rank](https://img.shields.io/badge/Rank-1576885-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
+![Solved](https://img.shields.io/badge/Solved-97-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-97%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
-| Rank | 1,615,268 |
-| Solved | 94 |
-| Easy | 17 |
-| Medium | 59 |
+| Rank | 1,576,885 |
+| Solved | 97 |
+| Easy | 19 |
+| Medium | 60 |
 | Hard | 18 |
-| Goal progress | 94 / 300, 31.3% |
+| Goal progress | 97 / 300, 32.3% |
 
-![Overall Goal Progress](https://progress-bar.xyz/31/?scale=100&title=Goal+94%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/32/?scale=100&title=Goal+97%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
-    "Easy" : 17
-    "Medium" : 59
+    "Easy" : 19
+    "Medium" : 60
     "Hard" : 18
 ```
 <!-- LEETCODE-STATS:END -->
@@ -433,10 +433,13 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 93 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 97 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Rotating the Box | Matrix | [Java](Matrix/RotatingTheBox.java), [Python](Matrix/RotatingTheBox.py), [Go](Matrix/RotatingTheBox.go) |
+| Pascal's Triangle II | Arrays | [Java](Arrays/PascalsTriangleII.java), [Python](Arrays/PascalsTriangleII.py), [Go](Arrays/PascalsTriangleII.go) |
+| Best Time to Buy and Sell Stock | Arrays | [Java](Arrays/BestTimeToBuyAndSellStock.java), [Python](Arrays/BestTimeToBuyAndSellStock.py), [Go](Arrays/BestTimeToBuyAndSellStock.go) |
 | Rotate List | LinkedList | [Java](LinkedList/RotateList.java), [Python](LinkedList/RotateList.py), [Go](LinkedList/RotateList.go) |
 | Pascal's Triangle | Arrays | [Java](Arrays/PascalsTriangle.java), [Python](Arrays/PascalsTriangle.py), [Go](Arrays/PascalsTriangle.go) |
 | Triangle | DP | [Java](DP/Triangle.java), [Python](DP/Triangle.py), [Go](DP/Triangle.go) |
@@ -504,29 +507,29 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
-| Easy | 17 | 938 | 1.8% |
-| Medium | 58 | 2,045 | 2.8% |
+| Easy | 19 | 938 | 2.0% |
+| Medium | 60 | 2,045 | 2.9% |
 | Hard | 18 | 924 | 1.9% |
-| All | 93 | 3,907 | 2.4% |
+| All | 97 | 3,907 | 2.5% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 83 |
-| Go | 40 |
-| Python | 36 |
+| Java | 86 |
+| Go | 43 |
+| Python | 39 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 59 | String | 24 |
-| Two Pointers | 15 | Math | 14 |
+| Array | 62 | String | 24 |
+| Two Pointers | 16 | Math | 14 |
 | Hash Table | 13 | Sorting | 10 |
-| Binary Search | 7 | Dynamic Programming | 16 |
+| Binary Search | 7 | Dynamic Programming | 18 |
 | Linked List | 7 | Recursion | 5 |
-| Matrix | 14 | Stack | 6 |
-| Backtracking | 11 | Simulation | 6 |
+| Matrix | 15 | Stack | 6 |
+| Backtracking | 11 | Simulation | 7 |
 | Divide and Conquer | 6 | Monotonic Stack | 3 |
 | Tree | 3 | Binary Tree | 3 |
 | Binary Search Tree | 1 | Trie | 2 |
