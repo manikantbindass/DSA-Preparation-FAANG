@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-97%20Problems-22c55e?style=for-the-badge" alt="97 solved" />
+  <img src="https://img.shields.io/badge/Solved-100%20Problems-22c55e?style=for-the-badge" alt="100 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -16,31 +16,31 @@ This repository tracks my FAANG-level DSA preparation with Java implementations,
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-05-07 08:36 UTC
+Last synced: 2026-05-07 13:43 UTC
 
 ### 🚀 LeetCode Stats
 
-![LeetCode Rank](https://img.shields.io/badge/Rank-1576885-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-97-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-97%2F300-f59e0b?style=for-the-badge)
+![LeetCode Rank](https://img.shields.io/badge/Rank-1540411-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
+![Solved](https://img.shields.io/badge/Solved-100-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-100%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
-| Rank | 1,576,885 |
-| Solved | 97 |
-| Easy | 19 |
-| Medium | 60 |
-| Hard | 18 |
-| Goal progress | 97 / 300, 32.3% |
+| Rank | 1,540,411 |
+| Solved | 100 |
+| Easy | 20 |
+| Medium | 61 |
+| Hard | 19 |
+| Goal progress | 100 / 300, 33.3% |
 
-![Overall Goal Progress](https://progress-bar.xyz/32/?scale=100&title=Goal+97%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/33/?scale=100&title=Goal+100%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
-    "Easy" : 19
-    "Medium" : 60
-    "Hard" : 18
+    "Easy" : 20
+    "Medium" : 61
+    "Hard" : 19
 ```
 <!-- LEETCODE-STATS:END -->
 
@@ -433,10 +433,13 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 97 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 100 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Jump Game IX | Arrays | [Java](Arrays/JumpGameIX.java), [Python](Arrays/JumpGameIX.py), [Go](Arrays/JumpGameIX.go) |
+| Wildcard Matching | DP | [Java](DP/WildcardMatching.java), [Python](DP/WildcardMatching.py), [Go](DP/WildcardMatching.go) |
+| Length of Last Word | Strings | [Java](Strings/LengthOfLastWord.java), [Python](Strings/LengthOfLastWord.py), [Go](Strings/LengthOfLastWord.go) |
 | Rotating the Box | Matrix | [Java](Matrix/RotatingTheBox.java), [Python](Matrix/RotatingTheBox.py), [Go](Matrix/RotatingTheBox.go) |
 | Pascal's Triangle II | Arrays | [Java](Arrays/PascalsTriangleII.java), [Python](Arrays/PascalsTriangleII.py), [Go](Arrays/PascalsTriangleII.go) |
 | Best Time to Buy and Sell Stock | Arrays | [Java](Arrays/BestTimeToBuyAndSellStock.java), [Python](Arrays/BestTimeToBuyAndSellStock.py), [Go](Arrays/BestTimeToBuyAndSellStock.go) |
@@ -507,33 +510,33 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
-| Easy | 19 | 938 | 2.0% |
-| Medium | 60 | 2,045 | 2.9% |
-| Hard | 18 | 924 | 1.9% |
-| All | 97 | 3,907 | 2.5% |
+| Easy | 20 | 938 | 2.1% |
+| Medium | 61 | 2,045 | 3.0% |
+| Hard | 19 | 924 | 2.1% |
+| All | 100 | 3,907 | 2.6% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 86 |
-| Go | 43 |
-| Python | 39 |
+| Java | 89 |
+| Go | 46 |
+| Python | 42 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 62 | String | 24 |
+| Array | 63 | String | 26 |
 | Two Pointers | 16 | Math | 14 |
 | Hash Table | 13 | Sorting | 10 |
-| Binary Search | 7 | Dynamic Programming | 18 |
-| Linked List | 7 | Recursion | 5 |
+| Binary Search | 7 | Dynamic Programming | 20 |
+| Linked List | 7 | Recursion | 6 |
 | Matrix | 15 | Stack | 6 |
 | Backtracking | 11 | Simulation | 7 |
 | Divide and Conquer | 6 | Monotonic Stack | 3 |
 | Tree | 3 | Binary Tree | 3 |
 | Binary Search Tree | 1 | Trie | 2 |
-| Union-Find | 2 | Greedy | 2 |
+| Union-Find | 2 | Greedy | 3 |
 | Depth-First Search | 3 | Sliding Window | 3 |
 | Bit Manipulation | 3 | Geometry | 1 |
 | String Matching | 1 | Prefix Sum | 1 |
