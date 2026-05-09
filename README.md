@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-103%20Problems-22c55e?style=for-the-badge" alt="103 solved" />
+  <img src="https://img.shields.io/badge/Solved-106%20Problems-22c55e?style=for-the-badge" alt="106 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -433,10 +433,13 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 103 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 106 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Cyclically Rotating a Grid | Matrix | [Java](Matrix/CyclicallyRotatingAGrid.java), [Python](Matrix/CyclicallyRotatingAGrid.py), [Go](Matrix/CyclicallyRotatingAGrid.go) |
+| Valid Number | Strings | [Java](Strings/ValidNumber.java), [Python](Strings/ValidNumber.py), [Go](Strings/ValidNumber.go) |
+| Unique Paths | DP | [Java](DP/UniquePaths.java), [Python](DP/UniquePaths.py), [Go](DP/UniquePaths.go) |
 | Minimum Jumps to Reach End via Prime Teleportation | Graphs | [Java](Graphs/MinimumJumpsToReachEndViaPrimeTeleportation.java), [Python](Graphs/MinimumJumpsToReachEndViaPrimeTeleportation.py), [Go](Graphs/MinimumJumpsToReachEndViaPrimeTeleportation.go) |
 | Pow(x, n) | Math | [Java](Math/PowXN.java), [Python](Math/PowXN.py), [Go](Math/PowXN.go) |
 | N-Queens II | Backtracking | [Java](Backtracking/NQueensII.java), [Python](Backtracking/NQueensII.py), [Go](Backtracking/NQueensII.go) |
@@ -514,28 +517,28 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
 | Easy | 20 | 938 | 2.1% |
-| Medium | 63 | 2,045 | 3.1% |
-| Hard | 20 | 924 | 2.2% |
-| All | 103 | 3,907 | 2.6% |
+| Medium | 65 | 2,045 | 3.2% |
+| Hard | 21 | 924 | 2.3% |
+| All | 106 | 3,907 | 2.7% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 92 |
-| Go | 49 |
-| Python | 45 |
+| Java | 95 |
+| Go | 52 |
+| Python | 48 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 64 | String | 26 |
+| Array | 65 | String | 27 |
 | Two Pointers | 16 | Math | 16 |
 | Hash Table | 14 | Sorting | 10 |
-| Binary Search | 7 | Dynamic Programming | 20 |
+| Binary Search | 7 | Dynamic Programming | 21 |
 | Linked List | 7 | Recursion | 7 |
-| Matrix | 15 | Stack | 6 |
-| Backtracking | 12 | Simulation | 7 |
+| Matrix | 16 | Stack | 6 |
+| Backtracking | 12 | Simulation | 8 |
 | Divide and Conquer | 6 | Monotonic Stack | 3 |
 | Tree | 3 | Binary Tree | 3 |
 | Binary Search Tree | 1 | Trie | 2 |
