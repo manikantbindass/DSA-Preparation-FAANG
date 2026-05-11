@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-109%20Problems-22c55e?style=for-the-badge" alt="109 solved" />
+  <img src="https://img.shields.io/badge/Solved-110%20Problems-22c55e?style=for-the-badge" alt="110 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -433,10 +433,11 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while the profile count confirms 109 total solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while this repository currently includes 110 repo-maintained solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Separate the Digits in an Array | Arrays | [Java](Arrays/SeparateTheDigitsInAnArray.java), [Python](Arrays/SeparateTheDigitsInAnArray.py), [Go](Arrays/SeparateTheDigitsInAnArray.go) |
 | Maximum Number of Jumps to Reach the Last Index | DP | [Java](DP/MaximumNumberOfJumpsToReachTheLastIndex.java), [Python](DP/MaximumNumberOfJumpsToReachTheLastIndex.py), [Go](DP/MaximumNumberOfJumpsToReachTheLastIndex.go) |
 | Permutation Sequence | Math | [Java](Math/PermutationSequence.java), [Python](Math/PermutationSequence.py), [Go](Math/PermutationSequence.go) |
 | Add Binary | Strings | [Java](Strings/AddBinary.java), [Python](Strings/AddBinary.py), [Go](Strings/AddBinary.go) |
@@ -519,24 +520,24 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
-| Easy | 21 | 938 | 2.2% |
+| Easy | 22 | 938 | 2.3% |
 | Medium | 66 | 2,045 | 3.2% |
 | Hard | 22 | 924 | 2.4% |
-| All | 109 | 3,907 | 2.8% |
+| All | 110 | 3,907 | 2.8% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 98 |
-| Go | 55 |
-| Python | 51 |
+| Java | 99 |
+| Go | 56 |
+| Python | 52 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 66 | String | 29 |
-| Two Pointers | 16 | Math | 18 |
+| Array | 67 | String | 29 |
+| Two Pointers | 16 | Math | 19 |
 | Hash Table | 14 | Sorting | 10 |
 | Binary Search | 7 | Dynamic Programming | 22 |
 | Linked List | 7 | Recursion | 8 |
