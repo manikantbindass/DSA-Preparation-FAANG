@@ -16,17 +16,17 @@ This repository tracks my FAANG-level DSA preparation with Java implementations,
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-05-17 08:23 UTC
+Last synced: 2026-05-17 13:24 UTC
 
 ### 🚀 LeetCode Stats
 
-![LeetCode Rank](https://img.shields.io/badge/Rank-1252783-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
+![LeetCode Rank](https://img.shields.io/badge/Rank-1209326-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
 ![Solved](https://img.shields.io/badge/Solved-130-22c55e?style=for-the-badge)
 ![Goal](https://img.shields.io/badge/Goal-130%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
-| Rank | 1,252,783 |
+| Rank | 1,209,326 |
 | Solved | 130 |
 | Easy | 28 |
 | Medium | 74 |
