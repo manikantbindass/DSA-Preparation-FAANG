@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-113%20Problems-22c55e?style=for-the-badge" alt="113 solved" />
+  <img src="https://img.shields.io/badge/Solved-130%20Problems-22c55e?style=for-the-badge" alt="130 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -433,11 +433,28 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while this repository currently includes 113 repo-maintained solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while this repository currently includes 130 repo-maintained solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Minimum Initial Energy to Finish Tasks | Arrays | [Java](Arrays/MinimumInitialEnergyToFinishTasks.java), [Python](Arrays/MinimumInitialEnergyToFinishTasks.py), [Go](Arrays/MinimumInitialEnergyToFinishTasks.go) |
+| Minimum Moves to Make Array Complementary | Arrays | [Java](Arrays/MinimumMovesToMakeArrayComplementary.java), [Python](Arrays/MinimumMovesToMakeArrayComplementary.py), [Go](Arrays/MinimumMovesToMakeArrayComplementary.go) |
+| Check if Array is Good | Arrays | [Java](Arrays/CheckIfArrayIsGood.java), [Python](Arrays/CheckIfArrayIsGood.py), [Go](Arrays/CheckIfArrayIsGood.go) |
+| Scramble String | Strings | [Java](Strings/ScrambleString.java), [Python](Strings/ScrambleString.py), [Go](Strings/ScrambleString.go) |
+| Find Minimum in Rotated Sorted Array | BinarySearch | [Java](BinarySearch/FindMinimumInRotatedSortedArray.java), [Python](BinarySearch/FindMinimumInRotatedSortedArray.py), [Go](BinarySearch/FindMinimumInRotatedSortedArray.go) |
+| Sqrt(x) | BinarySearch | [Java](BinarySearch/SqrtX.java), [Python](BinarySearch/SqrtX.py), [Go](BinarySearch/SqrtX.go) |
+| Find Minimum in Rotated Sorted Array II | BinarySearch | [Java](BinarySearch/FindMinimumInRotatedSortedArrayII.java), [Python](BinarySearch/FindMinimumInRotatedSortedArrayII.py), [Go](BinarySearch/FindMinimumInRotatedSortedArrayII.go) |
+| Climbing Stairs | DP | [Java](DP/ClimbingStairs.java), [Python](DP/ClimbingStairs.py), [Go](DP/ClimbingStairs.go) |
+| Jump Game III | Graphs | [Java](Graphs/JumpGameIII.java), [Python](Graphs/JumpGameIII.py), [Go](Graphs/JumpGameIII.go) |
+| Combinations | Backtracking | [Java](Backtracking/Combinations.java), [Python](Backtracking/Combinations.py), [Go](Backtracking/Combinations.go) |
 | Valid Perfect Square | BinarySearch | [Java](BinarySearch/ValidPerfectSquare.java), [Python](BinarySearch/ValidPerfectSquare.py), [Go](BinarySearch/ValidPerfectSquare.go) |
+| Jump Game IV | Graphs | [Java](Graphs/JumpGameIV.java), [Python](Graphs/JumpGameIV.py), [Go](Graphs/JumpGameIV.go) |
+| Minimum Common Value | Arrays | [Java](Arrays/MinimumCommonValue.java), [Python](Arrays/MinimumCommonValue.py), [Go](Arrays/MinimumCommonValue.go) |
+| Remove Duplicates from Sorted List II | LinkedList | [Java](LinkedList/RemoveDuplicatesFromSortedListII.java), [Python](LinkedList/RemoveDuplicatesFromSortedListII.py), [Go](LinkedList/RemoveDuplicatesFromSortedListII.go) |
+| Remove Duplicates from Sorted List | LinkedList | [Java](LinkedList/RemoveDuplicatesFromSortedList.java), [Python](LinkedList/RemoveDuplicatesFromSortedList.py), [Go](LinkedList/RemoveDuplicatesFromSortedList.go) |
+| Find the Prefix Common Array of Two Arrays | Arrays | [Java](Arrays/FindThePrefixCommonArrayOfTwoArrays.java), [Python](Arrays/FindThePrefixCommonArrayOfTwoArrays.py), [Go](Arrays/FindThePrefixCommonArrayOfTwoArrays.go) |
+| Partition List | LinkedList | [Java](LinkedList/PartitionList.java), [Python](LinkedList/PartitionList.py), [Go](LinkedList/PartitionList.go) |
+| Gray Code | Math | [Java](Math/GrayCode.java), [Python](Math/GrayCode.py), [Go](Math/GrayCode.go) |
 | Squares of a Sorted Array | Arrays | [Java](Arrays/SquaresOfASortedArray.java), [Python](Arrays/SquaresOfASortedArray.py), [Go](Arrays/SquaresOfASortedArray.go) |
 | Perfect Squares | DP | [Java](DP/PerfectSquares.java), [Python](DP/PerfectSquares.py), [Go](DP/PerfectSquares.go) |
 | Separate the Digits in an Array | Arrays | [Java](Arrays/SeparateTheDigitsInAnArray.java), [Python](Arrays/SeparateTheDigitsInAnArray.py), [Go](Arrays/SeparateTheDigitsInAnArray.go) |
@@ -523,36 +540,36 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
-| Easy | 24 | 938 | 2.6% |
-| Medium | 67 | 2,045 | 3.3% |
-| Hard | 22 | 924 | 2.4% |
-| All | 113 | 3,907 | 2.9% |
+| Easy | 29 | 938 | 3.1% |
+| Medium | 75 | 2,045 | 3.7% |
+| Hard | 26 | 924 | 2.8% |
+| All | 130 | 3,907 | 3.3% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 102 |
-| Go | 59 |
-| Python | 55 |
+| Java | 119 |
+| Go | 76 |
+| Python | 72 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 68 | String | 29 |
-| Two Pointers | 17 | Math | 21 |
-| Hash Table | 14 | Sorting | 11 |
-| Binary Search | 8 | Dynamic Programming | 23 |
-| Linked List | 7 | Recursion | 8 |
+| Array | 78 | String | 30 |
+| Two Pointers | 20 | Math | 24 |
+| Hash Table | 18 | Sorting | 13 |
+| Binary Search | 12 | Dynamic Programming | 25 |
+| Linked List | 10 | Recursion | 8 |
 | Matrix | 16 | Stack | 6 |
-| Backtracking | 12 | Simulation | 9 |
+| Backtracking | 14 | Simulation | 9 |
 | Divide and Conquer | 6 | Monotonic Stack | 3 |
 | Tree | 3 | Binary Tree | 3 |
 | Binary Search Tree | 1 | Trie | 2 |
-| Union-Find | 2 | Greedy | 3 |
-| Depth-First Search | 3 | Sliding Window | 3 |
-| Bit Manipulation | 4 | Geometry | 1 |
-| String Matching | 1 | Prefix Sum | 1 |
+| Union-Find | 2 | Greedy | 5 |
+| Depth-First Search | 4 | Sliding Window | 3 |
+| Bit Manipulation | 6 | Geometry | 1 |
+| String Matching | 1 | Prefix Sum | 2 |
 
 ## Pattern Checklist
 
