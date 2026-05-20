@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-110%20Problems-22c55e?style=for-the-badge" alt="110 solved" />
+  <img src="https://img.shields.io/badge/Solved-113%20Problems-22c55e?style=for-the-badge" alt="113 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -433,10 +433,13 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while this repository currently includes 110 repo-maintained solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while this repository currently includes 113 repo-maintained solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Valid Perfect Square | BinarySearch | [Java](BinarySearch/ValidPerfectSquare.java), [Python](BinarySearch/ValidPerfectSquare.py), [Go](BinarySearch/ValidPerfectSquare.go) |
+| Squares of a Sorted Array | Arrays | [Java](Arrays/SquaresOfASortedArray.java), [Python](Arrays/SquaresOfASortedArray.py), [Go](Arrays/SquaresOfASortedArray.go) |
+| Perfect Squares | DP | [Java](DP/PerfectSquares.java), [Python](DP/PerfectSquares.py), [Go](DP/PerfectSquares.go) |
 | Separate the Digits in an Array | Arrays | [Java](Arrays/SeparateTheDigitsInAnArray.java), [Python](Arrays/SeparateTheDigitsInAnArray.py), [Go](Arrays/SeparateTheDigitsInAnArray.go) |
 | Maximum Number of Jumps to Reach the Last Index | DP | [Java](DP/MaximumNumberOfJumpsToReachTheLastIndex.java), [Python](DP/MaximumNumberOfJumpsToReachTheLastIndex.py), [Go](DP/MaximumNumberOfJumpsToReachTheLastIndex.go) |
 | Permutation Sequence | Math | [Java](Math/PermutationSequence.java), [Python](Math/PermutationSequence.py), [Go](Math/PermutationSequence.go) |
@@ -520,26 +523,26 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
 |---|---:|---:|---:|
-| Easy | 22 | 938 | 2.3% |
-| Medium | 66 | 2,045 | 3.2% |
+| Easy | 24 | 938 | 2.6% |
+| Medium | 67 | 2,045 | 3.3% |
 | Hard | 22 | 924 | 2.4% |
-| All | 110 | 3,907 | 2.8% |
+| All | 113 | 3,907 | 2.9% |
 
 | Language | Problems Solved |
 |---|---:|
-| Java | 99 |
-| Go | 56 |
-| Python | 52 |
+| Java | 102 |
+| Go | 59 |
+| Python | 55 |
 | C++ | 1 |
 
 ## Topic Coverage From LeetCode Tags
 
 | Topic | Problems Solved | Topic | Problems Solved |
 |---|---:|---|---:|
-| Array | 67 | String | 29 |
-| Two Pointers | 16 | Math | 19 |
-| Hash Table | 14 | Sorting | 10 |
-| Binary Search | 7 | Dynamic Programming | 22 |
+| Array | 68 | String | 29 |
+| Two Pointers | 17 | Math | 21 |
+| Hash Table | 14 | Sorting | 11 |
+| Binary Search | 8 | Dynamic Programming | 23 |
 | Linked List | 7 | Recursion | 8 |
 | Matrix | 16 | Stack | 6 |
 | Backtracking | 12 | Simulation | 9 |
