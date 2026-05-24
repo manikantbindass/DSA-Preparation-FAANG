@@ -16,31 +16,31 @@ This repository tracks my FAANG-level DSA preparation with Java implementations,
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-05-24 03:47 UTC
+Last synced: 2026-05-24 08:31 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-1079676-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-150-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-150%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-156-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-156%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 1,079,676 |
-| Solved | 150 |
-| Easy | 35 |
-| Medium | 85 |
-| Hard | 30 |
-| Goal progress | 150 / 300, 50.0% |
+| Solved | 156 |
+| Easy | 36 |
+| Medium | 88 |
+| Hard | 32 |
+| Goal progress | 156 / 300, 52.0% |
 
-![Overall Goal Progress](https://progress-bar.xyz/50/?scale=100&title=Goal+150%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/52/?scale=100&title=Goal+156%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
-    "Easy" : 35
-    "Medium" : 85
-    "Hard" : 30
+    "Easy" : 36
+    "Medium" : 88
+    "Hard" : 32
 ```
 <!-- LEETCODE-STATS:END -->
 
