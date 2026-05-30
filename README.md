@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-101%20Problems-22c55e?style=for-the-badge" alt="101 solved" />
+  <img src="https://img.shields.io/badge/Solved-128%20Problems-22c55e?style=for-the-badge" alt="128 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -433,10 +433,37 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while this repository currently includes 101 repo-maintained solved problems across 302 solution files. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while this repository currently includes 128 repo-maintained solved problems across 382 solution files. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Find the Length of the Longest Common Prefix | Strings | [Java](Strings/LengthOfLongestCommonPrefix.java), [Python](Strings/LengthOfLongestCommonPrefix.py), [Go](Strings/LengthOfLongestCommonPrefix.go) |
+| Decode Ways | DP | [Java](DP/DecodeWays.java), [Python](DP/DecodeWays.py), [Go](DP/DecodeWays.go) |
+| Reverse Linked List II | LinkedList | [Java](LinkedList/ReverseLinkedListII.java), [Python](LinkedList/ReverseLinkedListII.py), [Go](LinkedList/ReverseLinkedListII.go) |
+| Restore IP Addresses | Backtracking | [Java](Backtracking/RestoreIPAddresses.java), [Python](Backtracking/RestoreIPAddresses.py), [Go](Backtracking/RestoreIPAddresses.go) |
+| Check if Array Is Sorted and Rotated | Arrays | [Java](Arrays/CheckIfArrayIsSortedAndRotated.java), [Python](Arrays/CheckIfArrayIsSortedAndRotated.py), [Go](Arrays/CheckIfArrayIsSortedAndRotated.go) |
+| Binary Tree Inorder Traversal | Trees | [Java](Trees/BinaryTreeInorderTraversal.java), [Python](Trees/BinaryTreeInorderTraversal.py), [Go](Trees/BinaryTreeInorderTraversal.go) |
+| Unique Binary Search Trees II | Trees | [Java](Trees/UniqueBinarySearchTreesII.java), [Python](Trees/UniqueBinarySearchTreesII.py), [Go](Trees/UniqueBinarySearchTreesII.go) |
+| Jump Game V | DP | [Java](DP/JumpGameV_1340.java), [Python](DP/JumpGameV_1340.py), [Go](DP/JumpGameV_1340.go) |
+| Unique Binary Search Trees | DP | [Java](DP/UniqueBinarySearchTrees_96.java), [Python](DP/UniqueBinarySearchTrees_96.py), [Go](DP/UniqueBinarySearchTrees_96.go) |
+| Interleaving String | DP | [Java](DP/InterleavingString.java), [Python](DP/InterleavingString.py), [Go](DP/InterleavingString.go) |
+| Jump Game VII | DP | [Java](DP/JumpGameVII.java), [Python](DP/JumpGameVII.py), [Go](DP/JumpGameVII.go) |
+| Validate Binary Search Tree | Trees | [Java](Trees/ValidateBinarySearchTree.java), [Python](Trees/ValidateBinarySearchTree.py), [Go](Trees/ValidateBinarySearchTree.go) |
+| Recover Binary Search Tree | Trees | [Java](Trees/RecoverBinarySearchTree.java), [Python](Trees/RecoverBinarySearchTree.py), [Go](Trees/RecoverBinarySearchTree.go) |
+| Count the Number of Special Characters I | Strings | [Java](Strings/CountTheNumberOfSpecialCharactersI.java), [Python](Strings/CountTheNumberOfSpecialCharactersI.py), [Go](Strings/CountTheNumberOfSpecialCharactersI.go) |
+| Same Tree | Trees | [Java](Trees/SameTree.java), [Python](Trees/SameTree.py), [Go](Trees/SameTree.go) |
+| Count the Number of Special Characters II | Strings | [Java](Strings/CountTheNumberOfSpecialCharactersII.java), [Python](Strings/CountTheNumberOfSpecialCharactersII.py), [Go](Strings/CountTheNumberOfSpecialCharactersII.go) |
+| Symmetric Tree | Trees | [Java](Trees/SymmetricTree.java), [Python](Trees/SymmetricTree.py), [Go](Trees/SymmetricTree.go) |
+| Binary Tree Level Order Traversal | Trees | [Java](Trees/BinaryTreeLevelOrderTraversal.java), [Python](Trees/BinaryTreeLevelOrderTraversal.py), [Go](Trees/BinaryTreeLevelOrderTraversal.go) |
+| Longest Common Suffix Queries | Strings | [Java](Strings/LongestCommonSuffixQueries.java), [Python](Strings/LongestCommonSuffixQueries.py), [Go](Strings/LongestCommonSuffixQueries.go) |
+| Binary Tree Zigzag Level Order Traversal | Trees | [Java](Trees/BinaryTreeZigzagLevelOrderTraversal.java), [Python](Trees/BinaryTreeZigzagLevelOrderTraversal.py), [Go](Trees/BinaryTreeZigzagLevelOrderTraversal.go) |
+| Maximum Depth of Binary Tree | Trees | [Java](Trees/MaximumDepthOfBinaryTree.java), [Python](Trees/MaximumDepthOfBinaryTree.py), [Go](Trees/MaximumDepthOfBinaryTree.go) |
+| Minimum Element After Replacement With Digit Sum | Arrays | [Java](Arrays/MinimumElementAfterReplacementWithDigitSum.java), [Python](Arrays/MinimumElementAfterReplacementWithDigitSum.py), [Go](Arrays/MinimumElementAfterReplacementWithDigitSum.go) |
+| Binary Tree Level Order Traversal II | Trees | [Java](Trees/BinaryTreeLevelOrderTraversalII.java), [Python](Trees/BinaryTreeLevelOrderTraversalII.py), [Go](Trees/BinaryTreeLevelOrderTraversalII.go) |
+| Convert Sorted List to Binary Search Tree | Trees | [Java](Trees/ConvertSortedListToBinarySearchTree.java), [Python](Trees/ConvertSortedListToBinarySearchTree.py), [Go](Trees/ConvertSortedListToBinarySearchTree.go) |
+| Block Placement Queries | BinarySearch | [Java](BinarySearch/BlockPlacementQueries.java), [Python](BinarySearch/BlockPlacementQueries.py), [Go](BinarySearch/BlockPlacementQueries.go) |
+| Balanced Binary Tree | Trees | [Java](Trees/BalancedBinaryTree.java), [Python](Trees/BalancedBinaryTree.py), [Go](Trees/BalancedBinaryTree.go) |
+| Minimum Depth of Binary Tree | Trees | [Java](Trees/MinimumDepthOfBinaryTree.java), [Python](Trees/MinimumDepthOfBinaryTree.py), [Go](Trees/MinimumDepthOfBinaryTree.go) |
 | Minimum Initial Energy to Finish Tasks | Arrays | [Java](Arrays/MinimumInitialEnergyToFinishTasks.java), [Python](Arrays/MinimumInitialEnergyToFinishTasks.py), [Go](Arrays/MinimumInitialEnergyToFinishTasks.go) |
 | Minimum Moves to Make Array Complementary | Arrays | [Java](Arrays/MinimumMovesToMakeArrayComplementary.java), [Python](Arrays/MinimumMovesToMakeArrayComplementary.py), [Go](Arrays/MinimumMovesToMakeArrayComplementary.go) |
 | Check if Array is Good | Arrays | [Java](Arrays/CheckIfArrayIsGood.java), [Python](Arrays/CheckIfArrayIsGood.py), [Go](Arrays/CheckIfArrayIsGood.go) |
@@ -543,31 +570,31 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| Repo-maintained solved problems | 101 |
-| Total solution files | 302 |
-| Java solution files | 100 |
-| Python solution files | 100 |
-| Go solution files | 101 |
+| Repo-maintained solved problems | 128 |
+| Total solution files | 382 |
+| Java solution files | 127 |
+| Python solution files | 127 |
+| Go solution files | 127 |
 | C++ solution files | 1 |
 
 ## Topic Coverage From Solution Folders
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 24 |
-| Backtracking | 12 |
-| BinarySearch | 7 |
-| DP | 12 |
+| Arrays | 26 |
+| Backtracking | 13 |
+| BinarySearch | 8 |
+| DP | 17 |
 | Graphs | 7 |
 | Intervals | 2 |
-| LinkedList | 5 |
+| LinkedList | 6 |
 | Math | 3 |
 | Matrix | 9 |
 | SlidingWindow | 1 |
 | Stack | 2 |
-| Strings | 14 |
-| Trees | 3 |
-| Total | 101 |
+| Strings | 18 |
+| Trees | 16 |
+| Total | 128 |
 
 ## Pattern Checklist
 
