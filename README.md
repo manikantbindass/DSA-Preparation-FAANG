@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-130%20Problems-22c55e?style=for-the-badge" alt="130 solved" />
+  <img src="https://img.shields.io/badge/Solved-101%20Problems-22c55e?style=for-the-badge" alt="101 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -433,7 +433,7 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while this repository currently includes 130 repo-maintained solved problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while this repository currently includes 101 repo-maintained solved problems across 302 solution files. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
@@ -514,12 +514,13 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Intervals Between Identical Elements | Arrays | [Java](Arrays/IntervalsBetweenIdenticalElements.java), [Python](Arrays/IntervalsBetweenIdenticalElements.py), [Go](Arrays/IntervalsBetweenIdenticalElements.go) |
 | Words Within Two Edits of Dictionary | Strings | [Java](Strings/WordsWithinTwoEditsOfDictionary.java) |
 | Count and Say | Strings | [Go](Strings/CountAndSay.go) |
+| Longest Substring Without Repeating Characters | Strings | [Java](Strings/LongestSubstring.java), [Python](Strings/LongestSubstring.py), [Go](Strings/LongestSubstring.go) |
 | Substring with Concatenation of All Words | Strings | [Java](Strings/SubstringWithConcatenationOfAllWords.java), [Go](Strings/SubstringWithConcatenationOfAllWords.go), [Python](Strings/SubstringWithConcatenationOfAllWords.py) |
 | Minimize Hamming Distance After Swap Operations | Graphs | [Java](Graphs/MinimizeHammingDistanceAfterSwapOperations.java) |
 | Spiral Matrix II | Matrix | [Java](Matrix/SpiralMatrixII.java) |
-| Insert Interval | Intervals | [Java](Intervals/InsertInterval.java), [Go](Intervals/InsertInterval.go) |
+| Insert Interval | Intervals | [Java](Intervals/InsertInterval.java), [Python](Intervals/InsertInterval.py), [Go](Intervals/InsertInterval.go) |
 | Merge Intervals | Intervals | [Java](Intervals/MergeIntervals.java) |
-| Search a 2D Matrix | Matrix | [Java](Matrix/SearchA2DMatrix.java), [Go](Matrix/SearchA2DMatrix.go) |
+| Search a 2D Matrix | Matrix | [Java](Matrix/SearchA2DMatrix.java), [Python](Matrix/SearchA2DMatrix.py), [Go](Matrix/SearchA2DMatrix.go) |
 | Text Justification | Strings | [Java](Strings/TextJustification.java) |
 | Plus One | Arrays | [Java](Arrays/PlusOne.java) |
 | Permutations II | Backtracking | [Java](Backtracking/PermutationsII.java) |
@@ -527,49 +528,46 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Remove Duplicates from Sorted Array II | Arrays | [Java](Arrays/RemoveDuplicatesFromSortedArrayII.java) |
 | First Missing Positive | Arrays | [Java](Arrays/FirstMissingPositive.java) |
 | Search in Rotated Sorted Array II | BinarySearch | [Java](BinarySearch/SearchInRotatedSortedArrayII.java) |
+| Two Sum | Arrays | [Java](Arrays/TwoSum.java), [Python](Arrays/TwoSum.py), [Go](Arrays/TwoSum.go) |
 | 4Sum | Arrays | [Java](Arrays/FourSum.java) |
 | Largest Rectangle in Histogram | Stack | [Java](Stack/LargestRectangleInHistogram.java) |
-| Set Matrix Zeroes | Matrix | [Java](Matrix/SetMatrixZeroes.java), [Go](Matrix/SetMatrixZeroes.go) |
+| Set Matrix Zeroes | Matrix | [Java](Matrix/SetMatrixZeroes.java), [Python](Matrix/SetMatrixZeroes.py), [Go](Matrix/SetMatrixZeroes.go) |
 | Find First and Last Position of Element in Sorted Array | BinarySearch | [Java](BinarySearch/FindFirstAndLastPositionOfElementInSortedArray.java) |
 | Combination Sum | Backtracking | [Java](Backtracking/CombinationSum.java) |
 | Best Time to Buy and Sell Stock III | DP | [Java](DP/BestTimeToBuyAndSellStockIII.java) |
 | Merge Sorted Array | Arrays | [Java](Arrays/MergeSortedArray.java) |
-| Minimum Path Sum | DP | [Java](DP/MinimumPathSum.java), [C++](DP/MinimumPathSum.cpp) |
+| Edit Distance | DP | [Java](DP/EditDistance.java), [Python](DP/EditDistance.py), [Go](DP/EditDistance.go) |
+| Minimum Path Sum | DP | [Java](DP/MinimumPathSum.java), [Python](DP/MinimumPathSum.py), [Go](DP/MinimumPathSum.go), [C++](DP/MinimumPathSum.cpp) |
 
-## LeetCode Stats
+## Repository Coverage
 
-| Difficulty | Solved | Total LeetCode Questions | Platform Coverage |
-|---|---:|---:|---:|
-| Easy | 29 | 938 | 3.1% |
-| Medium | 75 | 2,045 | 3.7% |
-| Hard | 26 | 924 | 2.8% |
-| All | 130 | 3,907 | 3.3% |
-
-| Language | Problems Solved |
+| Metric | Count |
 |---|---:|
-| Java | 119 |
-| Go | 76 |
-| Python | 72 |
-| C++ | 1 |
+| Repo-maintained solved problems | 101 |
+| Total solution files | 302 |
+| Java solution files | 100 |
+| Python solution files | 100 |
+| Go solution files | 101 |
+| C++ solution files | 1 |
 
-## Topic Coverage From LeetCode Tags
+## Topic Coverage From Solution Folders
 
-| Topic | Problems Solved | Topic | Problems Solved |
-|---|---:|---|---:|
-| Array | 78 | String | 30 |
-| Two Pointers | 20 | Math | 24 |
-| Hash Table | 18 | Sorting | 13 |
-| Binary Search | 12 | Dynamic Programming | 25 |
-| Linked List | 10 | Recursion | 8 |
-| Matrix | 16 | Stack | 6 |
-| Backtracking | 14 | Simulation | 9 |
-| Divide and Conquer | 6 | Monotonic Stack | 3 |
-| Tree | 3 | Binary Tree | 3 |
-| Binary Search Tree | 1 | Trie | 2 |
-| Union-Find | 2 | Greedy | 5 |
-| Depth-First Search | 4 | Sliding Window | 3 |
-| Bit Manipulation | 6 | Geometry | 1 |
-| String Matching | 1 | Prefix Sum | 2 |
+| Topic Folder | Problems |
+|---|---:|
+| Arrays | 24 |
+| Backtracking | 12 |
+| BinarySearch | 7 |
+| DP | 12 |
+| Graphs | 7 |
+| Intervals | 2 |
+| LinkedList | 5 |
+| Math | 3 |
+| Matrix | 9 |
+| SlidingWindow | 1 |
+| Stack | 2 |
+| Strings | 14 |
+| Trees | 3 |
+| Total | 101 |
 
 ## Pattern Checklist
 
