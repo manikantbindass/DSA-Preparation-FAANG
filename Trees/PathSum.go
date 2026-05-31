@@ -1,0 +1,63 @@
+/*
+LeetCode Problem 112: Path Sum
+Problem Number: 112
+Difficulty: Easy
+Link: https://leetcode.com/problems/path-sum/
+
+Given the root of a binary tree and an integer targetSum, return true if the tree has a 
+root-to-leaf path such that adding up all the values along the path equals targetSum.
+
+A leaf is a node with no children.
+
+Example 1:
+Input: root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22
+Output: true
+Explanation: The path 5 -> 4 -> 11 -> 2 sums to 22.
+
+Example 2:
+Input: root = [1,2,3], targetSum = 5
+Output: false
+
+Example 3:
+Input: root = [], targetSum = 0
+Output: false
+
+Constraints:
+- The number of nodes in the tree is in the range [0, 5000].
+- -1000 <= Node.val <= 1000
+- -1000 <= targetSum <= 1000
+
+Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+Time Complexity: O(n) - visit each node once
+Space Complexity: O(h) - where h is the height of the tree (recursion stack)
+*/
+
+package trees
+
+// TreeNode defines a node in a binary tree.
+type TreeNode struct {
+    Val   int
+    Left  *TreeNode
+    Right *TreeNode
+}
+
+func hasPathSum(root *TreeNode, targetSum int) bool {
+    return dfs(root, targetSum)
+}
+
+func dfs(node *TreeNode, remainingSum int) bool {
+    if node == nil {
+        return false
+    }
+    
+    // Subtract current node's value from remaining sum
+    remainingSum -= node.Val
+    
+    // Check if it's a leaf node and remaining sum is zero
+    if node.Left == nil && node.Right == nil {
+        return remainingSum == 0
+    }
+    
+    // Recursively check left and right subtrees
+    return dfs(node.Left, remainingSum) || dfs(node.Right, remainingSum)
+}
