@@ -16,29 +16,29 @@ This repository tracks my FAANG-level DSA preparation with Java implementations,
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-06-04 04:13 UTC
+Last synced: 2026-06-04 09:58 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-840060-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-191-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-191%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-192-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-192%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 840,060 |
-| Solved | 191 |
-| Easy | 48 |
+| Solved | 192 |
+| Easy | 49 |
 | Medium | 106 |
 | Hard | 37 |
-| Goal progress | 191 / 300, 63.7% |
+| Goal progress | 192 / 300, 64.0% |
 
-![Overall Goal Progress](https://progress-bar.xyz/64/?scale=100&title=Goal+191%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/64/?scale=100&title=Goal+192%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
-    "Easy" : 48
+    "Easy" : 49
     "Medium" : 106
     "Hard" : 37
 ```
