@@ -1,0 +1,74 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a">
+        <animate attributeName="stop-color" values="#0f172a;#172554;#0f172a" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#2563eb">
+        <animate attributeName="stop-color" values="#2563eb;#1d4ed8;#2563eb" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#f59e0b">
+        <animate attributeName="stop-color" values="#f59e0b;#f97316;#f59e0b" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="260" rx="28" fill="url(#bg)"/>
+
+  <g opacity="0.3" filter="url(#blur)">
+    <circle cx="140" cy="68" r="62" fill="#60a5fa">
+      <animate attributeName="cx" values="140;210;140" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="68;92;68" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1030" cy="60" r="58" fill="#fbbf24">
+      <animate attributeName="cx" values="1030;960;1030" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;84;60" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="930" cy="210" r="84" fill="#1d4ed8">
+      <animate attributeName="cx" values="930;860;930" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="210;185;210" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <path d="M0 204C120 176 240 236 360 214C480 192 600 142 720 148C840 154 960 210 1080 196C1140 189 1175 171 1200 160V260H0V204Z" fill="#0b1120" fill-opacity="0.22">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="
+        M0 204C120 176 240 236 360 214C480 192 600 142 720 148C840 154 960 210 1080 196C1140 189 1175 171 1200 160V260H0V204Z;
+        M0 194C120 224 240 188 360 201C480 214 600 155 720 160C840 165 960 188 1080 176C1140 170 1175 162 1200 150V260H0V194Z;
+        M0 204C120 176 240 236 360 214C480 192 600 142 720 148C840 154 960 210 1080 196C1140 189 1175 171 1200 160V260H0V204Z"/>
+  </path>
+
+  <g opacity="0.9">
+    <rect x="-240" y="0" width="240" height="260" fill="url(#shine)">
+      <animate attributeName="x" values="-240;1240" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="600" y="108" text-anchor="middle" fill="#ffffff" font-size="38" font-weight="700" font-family="Segoe UI, Arial, sans-serif">
+    DSA Preparation for FAANG
+  </text>
+  <text x="600" y="145" text-anchor="middle" fill="#dbeafe" font-size="17" font-weight="600" font-family="Segoe UI, Arial, sans-serif">
+    LeetCode Progress | Java, Python and Go | Interview Patterns
+  </text>
+
+  <g fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
+    <rect x="362" y="176" width="86" height="28" rx="14" fill="#111827" fill-opacity="0.32"/>
+    <text x="405" y="194" text-anchor="middle">150 in Repo</text>
+    <rect x="458" y="176" width="94" height="28" rx="14" fill="#111827" fill-opacity="0.32"/>
+    <text x="505" y="194" text-anchor="middle">200 Solved</text>
+    <rect x="562" y="176" width="78" height="28" rx="14" fill="#111827" fill-opacity="0.32"/>
+    <text x="601" y="194" text-anchor="middle">Java</text>
+    <rect x="650" y="176" width="88" height="28" rx="14" fill="#111827" fill-opacity="0.32"/>
+    <text x="694" y="194" text-anchor="middle">Python</text>
+    <rect x="748" y="176" width="64" height="28" rx="14" fill="#111827" fill-opacity="0.32"/>
+    <text x="780" y="194" text-anchor="middle">Go</text>
+  </g>
+</svg>

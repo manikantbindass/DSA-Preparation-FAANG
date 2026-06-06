@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:2563eb,100:f59e0b&height=210&section=header&text=DSA%20Preparation%20for%20FAANG&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Java%20%7C%20Python%20%7C%20Go%20Solutions&descAlignY=58&descSize=17&animation=fadeIn&cacheBust=20260606" alt="DSA Preparation for FAANG animated header" />
+  <img src="assets/readme-header.svg" alt="DSA Preparation for FAANG animated header" />
 </p>
 
 <p align="center">
