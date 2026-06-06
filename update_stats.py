@@ -11,6 +11,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 import requests
 
@@ -31,6 +32,19 @@ class LeetCodeStats:
     easy_solved: int
     medium_solved: int
     hard_solved: int
+
+
+@dataclass(frozen=True)
+class ContestStats:
+    attended_contests_count: int
+    contest_rating: float | None
+    global_ranking: int | None
+    top_percentage: float | None
+    latest_contest_title: str | None
+    latest_contest_start_time: int | None
+    latest_ranking: int | None
+    latest_problems_solved: int | None
+    latest_total_problems: int | None
 
 
 def request_with_retries(
@@ -142,14 +156,123 @@ def fetch_leetcode_stats(username: str) -> LeetCodeStats:
     raise RuntimeError("Unable to fetch LeetCode stats:\n" + "\n".join(errors))
 
 
+def fetch_contest_stats(username: str) -> ContestStats:
+    query = """
+    query userContest($username: String!) {
+      userContestRanking(username: $username) {
+        attendedContestsCount
+        rating
+        globalRanking
+        topPercentage
+      }
+      userContestRankingHistory(username: $username) {
+        attended
+        rating
+        ranking
+        problemsSolved
+        totalProblems
+        contest {
+          title
+          startTime
+        }
+      }
+    }
+    """
+    headers = {
+        "Content-Type": "application/json",
+        "Referer": f"https://leetcode.com/u/{username}/",
+        "User-Agent": "README contest stats updater",
+    }
+    response = request_with_retries(
+        "POST",
+        GRAPHQL_URL,
+        json={"query": query, "variables": {"username": username}},
+        headers=headers,
+    )
+    payload = response.json().get("data", {})
+    ranking = payload.get("userContestRanking") or {}
+    history = [
+        item
+        for item in (payload.get("userContestRankingHistory") or [])
+        if item.get("attended")
+    ]
+    latest = max(
+        history,
+        key=lambda item: int(item.get("contest", {}).get("startTime") or 0),
+        default=None,
+    )
+
+    return ContestStats(
+        attended_contests_count=int(ranking.get("attendedContestsCount") or len(history)),
+        contest_rating=float(ranking["rating"]) if ranking.get("rating") is not None else None,
+        global_ranking=int(ranking["globalRanking"]) if ranking.get("globalRanking") else None,
+        top_percentage=float(ranking["topPercentage"]) if ranking.get("topPercentage") else None,
+        latest_contest_title=latest.get("contest", {}).get("title") if latest else None,
+        latest_contest_start_time=(
+            int(latest.get("contest", {}).get("startTime"))
+            if latest and latest.get("contest", {}).get("startTime") is not None
+            else None
+        ),
+        latest_ranking=int(latest["ranking"]) if latest and latest.get("ranking") else None,
+        latest_problems_solved=(
+            int(latest["problemsSolved"])
+            if latest and latest.get("problemsSolved") is not None
+            else None
+        ),
+        latest_total_problems=(
+            int(latest["totalProblems"])
+            if latest and latest.get("totalProblems") is not None
+            else None
+        ),
+    )
+
+
 def format_rank(rank: int) -> str:
     return f"{rank:,}"
 
 
-def render_dashboard(stats: LeetCodeStats, username: str, goal: int) -> str:
+def format_contest_rank(rank: int | None) -> str:
+    return format_rank(rank) if rank is not None else "Not available from public API"
+
+
+def format_contest_rating(rating: float | None) -> str:
+    return f"{rating:.1f}" if rating is not None else "Not available from public API"
+
+
+def format_contest_top_percentage(top_percentage: float | None) -> str:
+    return (
+        f"{top_percentage:.2f}%"
+        if top_percentage is not None
+        else "Not available from public API"
+    )
+
+
+def format_contest_date(start_time: int | None) -> str:
+    if start_time is None:
+        return "Not available"
+    return datetime.fromtimestamp(start_time, tz=timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+
+def format_contest_result(solved: int | None, total: int | None) -> str:
+    if solved is None or total is None:
+        return "Not available"
+    return f"{solved} / {total} solved"
+
+
+def badge_text(value: str) -> str:
+    return quote(value, safe="")
+
+
+def render_dashboard(
+    stats: LeetCodeStats,
+    contest_stats: ContestStats,
+    username: str,
+    goal: int,
+) -> str:
     goal_percent = (stats.total_solved / goal) * 100 if goal else 0
     progress_value = round(goal_percent)
     synced_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    latest_contest_title = contest_stats.latest_contest_title or "No public contest history"
 
     template = """## Progress Dashboard
 
@@ -180,6 +303,25 @@ pie showData
     "Medium" : {{MEDIUM_SOLVED}}
     "Hard" : {{HARD_SOLVED}}
 ```
+
+### 🏁 Contest Snapshot
+
+![Contest Participation](https://img.shields.io/badge/Participations-{{CONTEST_PARTICIPATIONS_BADGE}}-8b5cf6?style=for-the-badge)
+![Contest Rating](https://img.shields.io/badge/Contest_Rating-{{CONTEST_RATING_BADGE}}-0ea5e9?style=for-the-badge)
+![Top Percentage](https://img.shields.io/badge/Top-{{CONTEST_TOP_PERCENTAGE_BADGE}}-f97316?style=for-the-badge)
+
+| Contest Metric | Value |
+|---|---:|
+| Participations | {{CONTEST_PARTICIPATIONS}} |
+| Contest rating | {{CONTEST_RATING}} |
+| Global ranking | {{CONTEST_GLOBAL_RANK}} |
+| Top percentage | {{CONTEST_TOP_PERCENTAGE}} |
+| Latest recorded contest | {{LATEST_CONTEST_TITLE}} |
+| Latest recorded date | {{LATEST_CONTEST_DATE}} |
+| Latest recorded result | {{LATEST_CONTEST_RESULT}} |
+| Latest recorded rank | {{LATEST_CONTEST_RANK}} |
+
+> Contest rating and global ranking show `Not available from public API` when LeetCode's public GraphQL returns `null` or `0` for the profile.
 <!-- LEETCODE-STATS:END -->
 """
 
@@ -195,6 +337,28 @@ pie showData
         "{{GOAL}}": str(goal),
         "{{GOAL_PERCENT}}": f"{goal_percent:.1f}",
         "{{PROGRESS_VALUE}}": str(progress_value),
+        "{{CONTEST_PARTICIPATIONS}}": str(contest_stats.attended_contests_count),
+        "{{CONTEST_PARTICIPATIONS_BADGE}}": badge_text(str(contest_stats.attended_contests_count)),
+        "{{CONTEST_RATING}}": format_contest_rating(contest_stats.contest_rating),
+        "{{CONTEST_RATING_BADGE}}": badge_text(
+            f"{contest_stats.contest_rating:.1f}"
+            if contest_stats.contest_rating is not None
+            else "N/A"
+        ),
+        "{{CONTEST_GLOBAL_RANK}}": format_contest_rank(contest_stats.global_ranking),
+        "{{CONTEST_TOP_PERCENTAGE}}": format_contest_top_percentage(contest_stats.top_percentage),
+        "{{CONTEST_TOP_PERCENTAGE_BADGE}}": badge_text(
+            f"{contest_stats.top_percentage:.2f}%"
+            if contest_stats.top_percentage is not None
+            else "N/A"
+        ),
+        "{{LATEST_CONTEST_TITLE}}": latest_contest_title,
+        "{{LATEST_CONTEST_DATE}}": format_contest_date(contest_stats.latest_contest_start_time),
+        "{{LATEST_CONTEST_RESULT}}": format_contest_result(
+            contest_stats.latest_problems_solved,
+            contest_stats.latest_total_problems,
+        ),
+        "{{LATEST_CONTEST_RANK}}": format_contest_rank(contest_stats.latest_ranking),
     }
     for placeholder, value in replacements.items():
         template = template.replace(placeholder, value)
@@ -223,7 +387,8 @@ def main() -> int:
     args = parser.parse_args()
 
     stats = fetch_leetcode_stats(args.username)
-    dashboard = render_dashboard(stats, args.username, args.goal)
+    contest_stats = fetch_contest_stats(args.username)
+    dashboard = render_dashboard(stats, contest_stats, args.username, args.goal)
     changed = update_readme(args.readme, dashboard)
 
     print(

@@ -18,7 +18,7 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-06-06 13:47 UTC
+Last synced: 2026-06-06 14:34 UTC
 
 ### 🚀 LeetCode Stats
 
@@ -44,6 +44,25 @@ pie showData
     "Medium" : 111
     "Hard" : 39
 ```
+
+### 🏁 Contest Snapshot
+
+![Contest Participation](https://img.shields.io/badge/Participations-5-8b5cf6?style=for-the-badge)
+![Contest Rating](https://img.shields.io/badge/Contest_Rating-N%2FA-0ea5e9?style=for-the-badge)
+![Top Percentage](https://img.shields.io/badge/Top-N%2FA-f97316?style=for-the-badge)
+
+| Contest Metric | Value |
+|---|---:|
+| Participations | 5 |
+| Contest rating | Not available from public API |
+| Global ranking | Not available from public API |
+| Top percentage | Not available from public API |
+| Latest recorded contest | Weekly Contest 504 |
+| Latest recorded date | 2026-05-31 02:30 UTC |
+| Latest recorded result | 0 / 4 solved |
+| Latest recorded rank | Not available from public API |
+
+> Contest rating and global ranking show `Not available from public API` when LeetCode's public GraphQL returns `null` or `0` for the profile.
 <!-- LEETCODE-STATS:END -->
 
 ## Repository Map
@@ -56,6 +75,7 @@ DSA-Preparation-FAANG-/
 |-- DP/             Grid DP and stock-state DP
 |-- Graphs/         Union-Find and graph traversal patterns
 |-- Intervals/      Merge and insert interval patterns
+|-- LeetCode-Contests/ Contest-specific solutions and notes
 |-- LinkedList/     Linked-list reversal, partitioning, and pointer work
 |-- Math/           Number patterns, bit-based construction, and counting
 |-- Matrix/         Matrix traversal and in-place marking
