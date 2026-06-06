@@ -438,7 +438,7 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while this repository currently includes 150 repo-maintained solved problems across 448 solution files. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The LeetCode profile total is currently 200 solved problems, while this GitHub repository currently includes code for 150 distinct problems across 448 solution files. In other words, the GitHub repo is a maintained code archive and does not yet contain all 200 accepted LeetCode problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
@@ -597,7 +597,9 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| Repo-maintained solved problems | 150 |
+| LeetCode profile solved total | 200 |
+| Repo problems with code in GitHub | 150 |
+| Problems with Java, Python, and Go | 148 |
 | Total solution files | 448 |
 | Java solution files | 149 |
 | Python solution files | 149 |
