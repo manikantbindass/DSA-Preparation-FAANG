@@ -1,0 +1,30 @@
+{
+  "contest": {
+    "attendedContestsCount": 5,
+    "globalRanking": null,
+    "latestContest": {
+      "problemsSolved": 0,
+      "ranking": null,
+      "startTime": 1780194600,
+      "startTimeUtc": "2026-05-31T02:30:00+00:00",
+      "title": "Weekly Contest 504",
+      "totalProblems": 4
+    },
+    "rating": 1500.0,
+    "source": "leetcode.com/graphql",
+    "sourceStatus": "contest aggregate unavailable; using latest history rating",
+    "topPercentage": null
+  },
+  "generatedAt": "2026-06-06 15:00 UTC",
+  "goal": 300,
+  "leetcode": {
+    "easySolved": 50,
+    "goalProgressPercent": 66.7,
+    "hardSolved": 39,
+    "mediumSolved": 111,
+    "ranking": 791359,
+    "totalSolved": 200
+  },
+  "profileUrl": "https://leetcode.com/u/manikantbindass/",
+  "username": "manikantbindass"
+}

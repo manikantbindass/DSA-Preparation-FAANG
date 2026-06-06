@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import re
 import sys
@@ -17,6 +18,7 @@ import requests
 
 
 README_PATH = Path("README.md")
+API_PATH = Path("api/leetcode-stats.json")
 PUBLIC_API_URL = "https://leetcode-stats-api.herokuapp.com/{username}"
 GRAPHQL_URL = "https://leetcode.com/graphql"
 DEFAULT_USERNAME = "manikantbindass"
@@ -45,6 +47,7 @@ class ContestStats:
     latest_ranking: int | None
     latest_problems_solved: int | None
     latest_total_problems: int | None
+    source_status: str
 
 
 def request_with_retries(
@@ -201,10 +204,19 @@ def fetch_contest_stats(username: str) -> ContestStats:
         key=lambda item: int(item.get("contest", {}).get("startTime") or 0),
         default=None,
     )
+    latest_rating = (
+        float(latest["rating"])
+        if latest and latest.get("rating") is not None
+        else None
+    )
 
     return ContestStats(
         attended_contests_count=int(ranking.get("attendedContestsCount") or len(history)),
-        contest_rating=float(ranking["rating"]) if ranking.get("rating") is not None else None,
+        contest_rating=(
+            float(ranking["rating"])
+            if ranking.get("rating") is not None
+            else latest_rating
+        ),
         global_ranking=int(ranking["globalRanking"]) if ranking.get("globalRanking") else None,
         top_percentage=float(ranking["topPercentage"]) if ranking.get("topPercentage") else None,
         latest_contest_title=latest.get("contest", {}).get("title") if latest else None,
@@ -224,6 +236,26 @@ def fetch_contest_stats(username: str) -> ContestStats:
             if latest and latest.get("totalProblems") is not None
             else None
         ),
+        source_status=(
+            "contest aggregate unavailable; using latest history rating"
+            if not ranking
+            else "ok"
+        ),
+    )
+
+
+def empty_contest_stats(message: str) -> ContestStats:
+    return ContestStats(
+        attended_contests_count=0,
+        contest_rating=None,
+        global_ranking=None,
+        top_percentage=None,
+        latest_contest_title=None,
+        latest_contest_start_time=None,
+        latest_ranking=None,
+        latest_problems_solved=None,
+        latest_total_problems=None,
+        source_status=message,
     )
 
 
@@ -263,15 +295,69 @@ def badge_text(value: str) -> str:
     return quote(value, safe="")
 
 
+def contest_api_url(readme: Path, api_path: Path) -> str:
+    if readme.name == "README.md" and api_path.as_posix() == "api/leetcode-stats.json":
+        return "https://raw.githubusercontent.com/manikantbindass/DSA-Preparation-FAANG/main/api/leetcode-stats.json"
+    return api_path.as_posix()
+
+
+def iso_timestamp(timestamp: int | None) -> str | None:
+    if timestamp is None:
+        return None
+    return datetime.fromtimestamp(timestamp, tz=timezone.utc).isoformat()
+
+
+def render_public_api(
+    stats: LeetCodeStats,
+    contest_stats: ContestStats,
+    username: str,
+    goal: int,
+    synced_at: str,
+) -> dict[str, Any]:
+    return {
+        "username": username,
+        "generatedAt": synced_at,
+        "profileUrl": f"https://leetcode.com/u/{username}/",
+        "goal": goal,
+        "leetcode": {
+            "ranking": stats.ranking,
+            "totalSolved": stats.total_solved,
+            "easySolved": stats.easy_solved,
+            "mediumSolved": stats.medium_solved,
+            "hardSolved": stats.hard_solved,
+            "goalProgressPercent": round((stats.total_solved / goal) * 100, 1)
+            if goal
+            else 0,
+        },
+        "contest": {
+            "attendedContestsCount": contest_stats.attended_contests_count,
+            "rating": contest_stats.contest_rating,
+            "globalRanking": contest_stats.global_ranking,
+            "topPercentage": contest_stats.top_percentage,
+            "latestContest": {
+                "title": contest_stats.latest_contest_title,
+                "startTime": contest_stats.latest_contest_start_time,
+                "startTimeUtc": iso_timestamp(contest_stats.latest_contest_start_time),
+                "ranking": contest_stats.latest_ranking,
+                "problemsSolved": contest_stats.latest_problems_solved,
+                "totalProblems": contest_stats.latest_total_problems,
+            },
+            "source": "leetcode.com/graphql",
+            "sourceStatus": contest_stats.source_status,
+        },
+    }
+
+
 def render_dashboard(
     stats: LeetCodeStats,
     contest_stats: ContestStats,
     username: str,
     goal: int,
+    api_path: Path,
+    synced_at: str,
 ) -> str:
     goal_percent = (stats.total_solved / goal) * 100 if goal else 0
     progress_value = round(goal_percent)
-    synced_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     latest_contest_title = contest_stats.latest_contest_title or "No public contest history"
 
     template = """## Progress Dashboard
@@ -320,8 +406,11 @@ pie showData
 | Latest recorded date | {{LATEST_CONTEST_DATE}} |
 | Latest recorded result | {{LATEST_CONTEST_RESULT}} |
 | Latest recorded rank | {{LATEST_CONTEST_RANK}} |
+| Contest API source status | {{CONTEST_SOURCE_STATUS}} |
 
-> Contest rating and global ranking show `Not available from public API` when LeetCode's public GraphQL returns `null` or `0` for the profile.
+Public JSON API: [api/leetcode-stats.json]({{PUBLIC_API_URL}})
+
+> Global ranking and top percentage show `Not available from public API` when LeetCode's public GraphQL returns `null` or `0` for the profile.
 <!-- LEETCODE-STATS:END -->
 """
 
@@ -359,6 +448,8 @@ pie showData
             contest_stats.latest_total_problems,
         ),
         "{{LATEST_CONTEST_RANK}}": format_contest_rank(contest_stats.latest_ranking),
+        "{{CONTEST_SOURCE_STATUS}}": contest_stats.source_status,
+        "{{PUBLIC_API_URL}}": contest_api_url(Path("README.md"), api_path),
     }
     for placeholder, value in replacements.items():
         template = template.replace(placeholder, value)
@@ -379,22 +470,58 @@ def update_readme(readme: Path, dashboard: str) -> bool:
     return True
 
 
+def update_public_api(api_path: Path, payload: dict[str, Any]) -> bool:
+    api_path.parent.mkdir(parents=True, exist_ok=True)
+    encoded = json.dumps(payload, indent=2, sort_keys=True) + "\n"
+    if api_path.exists() and api_path.read_text(encoding="utf-8") == encoded:
+        return False
+
+    api_path.write_text(encoded, encoding="utf-8", newline="\n")
+    return True
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--readme", type=Path, default=README_PATH)
+    parser.add_argument("--api", type=Path, default=API_PATH)
     parser.add_argument("--username", default=os.getenv("LEETCODE_USERNAME", DEFAULT_USERNAME))
     parser.add_argument("--goal", type=int, default=int(os.getenv("LEETCODE_GOAL", DEFAULT_GOAL)))
     args = parser.parse_args()
 
     stats = fetch_leetcode_stats(args.username)
-    contest_stats = fetch_contest_stats(args.username)
-    dashboard = render_dashboard(stats, contest_stats, args.username, args.goal)
-    changed = update_readme(args.readme, dashboard)
+    try:
+        contest_stats = fetch_contest_stats(args.username)
+    except Exception as exc:  # noqa: BLE001 - keep solved stats automation alive.
+        contest_stats = empty_contest_stats(f"contest stats unavailable: {exc}")
+
+    synced_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    dashboard = render_dashboard(
+        stats,
+        contest_stats,
+        args.username,
+        args.goal,
+        args.api,
+        synced_at,
+    )
+    api_payload = render_public_api(
+        stats,
+        contest_stats,
+        args.username,
+        args.goal,
+        synced_at,
+    )
+    readme_changed = update_readme(args.readme, dashboard)
+    api_changed = update_public_api(args.api, api_payload)
 
     print(
         "README updated"
-        if changed
-        else "README already up to date"
+        if readme_changed
+        else "README already up to date",
+    )
+    print(
+        "Public API updated"
+        if api_changed
+        else "Public API already up to date",
     )
     return 0
 

@@ -35,13 +35,13 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          if git diff --quiet README.md; then
-            echo "README.md is already up to date."
+          if git diff --quiet README.md api/leetcode-stats.json; then
+            echo "README.md and public stats API are already up to date."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md api/leetcode-stats.json
           git commit -m "Update LeetCode stats"
           git push
