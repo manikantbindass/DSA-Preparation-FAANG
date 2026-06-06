@@ -1,17 +1,19 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:2563eb,100:f59e0b&height=210&section=header&text=DSA%20Preparation%20for%20FAANG&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=LeetCode%20Progress%20%7C%20Java%20Solutions%20%7C%20Interview%20Patterns&descAlignY=58&descSize=17&animation=fadeIn" alt="DSA Preparation for FAANG animated header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:2563eb,100:f59e0b&height=210&section=header&text=DSA%20Preparation%20for%20FAANG&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=LeetCode%20Progress%20%7C%20Java%2C%20Python%20%26%20Go%20%7C%20Interview%20Patterns&descAlignY=58&descSize=17&animation=fadeIn" alt="DSA Preparation for FAANG animated header" />
 </p>
 
 <p align="center">
   <a href="https://leetcode.com/u/manikantbindass/"><img src="https://img.shields.io/badge/LeetCode-manikantbindass-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Solved-128%20Problems-22c55e?style=for-the-badge" alt="128 solved" />
+  <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Solved-200%20Problems-22c55e?style=for-the-badge" alt="200 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
 ## Mission
 
-This repository tracks my FAANG-level DSA preparation with Java implementations, pattern notes, and LeetCode progress from [`manikantbindass`](https://leetcode.com/u/manikantbindass/). The goal is simple: build strong recall, clean implementation habits, and interview-ready problem patterns.
+This repository tracks my FAANG-level DSA preparation with Java, Python, and Go implementations, pattern notes, and LeetCode progress from [`manikantbindass`](https://leetcode.com/u/manikantbindass/). The goal is simple: build strong recall, clean implementation habits, and interview-ready problem patterns.
 
 ## Progress Dashboard
 
@@ -54,7 +56,10 @@ DSA-Preparation-FAANG-/
 |-- DP/             Grid DP and stock-state DP
 |-- Graphs/         Union-Find and graph traversal patterns
 |-- Intervals/      Merge and insert interval patterns
+|-- LinkedList/     Linked-list reversal, partitioning, and pointer work
+|-- Math/           Number patterns, bit-based construction, and counting
 |-- Matrix/         Matrix traversal and in-place marking
+|-- SlidingWindow/  Contiguous substring and subarray window patterns
 |-- Stack/          Monotonic stack problems
 |-- Strings/        Sliding window and formatting
 |-- Trees/          Tree practice area
@@ -433,10 +438,32 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while this repository currently includes 128 repo-maintained solved problems across 382 solution files. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode publicly exposes the latest accepted submission metadata and language, while this repository currently includes 150 repo-maintained solved problems across 448 solution files. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Palindrome Partitioning | Backtracking | [Java](Backtracking/PalindromePartitioning.java), [Python](Backtracking/PalindromePartitioning.py), [Go](Backtracking/PalindromePartitioning.go) |
+| Surrounded Regions | Matrix | [Java](Matrix/SurroundedRegions.java), [Python](Matrix/SurroundedRegions.py), [Go](Matrix/SurroundedRegions.go) |
+| Left and Right Sum Differences | Arrays | [Java](Arrays/LeftAndRightSumDifferences.java), [Python](Arrays/LeftAndRightSumDifferences.py), [Go](Arrays/LeftAndRightSumDifferences.go) |
+| Destroying Asteroids | Arrays | [Java](Arrays/DestroyingAsteroids.java), [Python](Arrays/DestroyingAsteroids.py), [Go](Arrays/DestroyingAsteroids.go) |
+| Path Sum | Trees | [Java](Trees/PathSum.java), [Python](Trees/PathSum.py), [Go](Trees/PathSum.go) |
+| Path Sum II | Trees | [Java](Trees/PathSumII.java), [Python](Trees/PathSumII.py), [Go](Trees/PathSumII.go) |
+| Minimum Cost of Buying Candies With Discount | Arrays | [Java](Arrays/MinimumCostOfBuyingCandiesWithDiscount.java), [Python](Arrays/MinimumCostOfBuyingCandiesWithDiscount.py), [Go](Arrays/MinimumCostOfBuyingCandiesWithDiscount.go) |
+| Flatten Binary Tree to Linked List | Trees | [Java](Trees/FlattenBinaryTreeToLinkedList.java), [Python](Trees/FlattenBinaryTreeToLinkedList.py), [Go](Trees/FlattenBinaryTreeToLinkedList.go) |
+| Distinct Subsequences | DP | [Java](DP/DistinctSubsequences.java), [Python](DP/DistinctSubsequences.py), [Go](DP/DistinctSubsequences.go) |
+| Earliest Finish Time for Land and Water Rides I | Arrays | [Java](Arrays/EarliestFinishTimeForLandAndWaterRidesI.java), [Python](Arrays/EarliestFinishTimeForLandAndWaterRidesI.py), [Go](Arrays/EarliestFinishTimeForLandAndWaterRidesI.go) |
+| Populating Next Right Pointers in Each Node | Trees | [Java](Trees/PopulatingNextRightPointersInEachNode.java), [Python](Trees/PopulatingNextRightPointersInEachNode.py), [Go](Trees/PopulatingNextRightPointersInEachNode.go) |
+| Populating Next Right Pointers in Each Node II | Trees | [Java](Trees/PopulatingNextRightPointersInEachNodeII.java), [Python](Trees/PopulatingNextRightPointersInEachNodeII.py), [Go](Trees/PopulatingNextRightPointersInEachNodeII.go) |
+| Earliest Finish Time for Land and Water Rides II | Arrays | [Java](Arrays/EarliestFinishTimeForLandAndWaterRidesII.java), [Python](Arrays/EarliestFinishTimeForLandAndWaterRidesII.py), [Go](Arrays/EarliestFinishTimeForLandAndWaterRidesII.go) |
+| Best Time to Buy and Sell Stock II | Arrays | [Java](Arrays/BestTimeToBuyAndSellStockII.java), [Python](Arrays/BestTimeToBuyAndSellStockII.py), [Go](Arrays/BestTimeToBuyAndSellStockII.go) |
+| Binary Tree Maximum Path Sum | Trees | [Java](Trees/BinaryTreeMaximumPathSum.java), [Python](Trees/BinaryTreeMaximumPathSum.py), [Go](Trees/BinaryTreeMaximumPathSum.go) |
+| Total Waviness of Numbers in Range I | Math | [Java](Math/TotalWavinessOfNumbersInRangeI.java), [Python](Math/TotalWavinessOfNumbersInRangeI.py), [Go](Math/TotalWavinessOfNumbersInRangeI.go) |
+| Valid Palindrome | Strings | [Java](Strings/ValidPalindrome.java), [Python](Strings/ValidPalindrome.py), [Go](Strings/ValidPalindrome.go) |
+| Word Ladder II | Graphs | [Java](Graphs/WordLadderII.java), [Python](Graphs/WordLadderII.py), [Go](Graphs/WordLadderII.go) |
+| Min Stack | Stack | [Java](Stack/MinStack.java), [Python](Stack/MinStack.py), [Go](Stack/MinStack.go) |
+| Total Waviness of Numbers in Range II | DP | [Java](DP/TotalWavinessOfNumbersInRangeII.java), [Python](DP/TotalWavinessOfNumbersInRangeII.py), [Go](DP/TotalWavinessOfNumbersInRangeII.go) |
+| Longest Consecutive Sequence | Arrays | [Java](Arrays/LongestConsecutiveSequence.java), [Python](Arrays/LongestConsecutiveSequence.py), [Go](Arrays/LongestConsecutiveSequence.go) |
+| Sum Root to Leaf Numbers | Trees | [Java](Trees/SumRootToLeafNumbers.java), [Python](Trees/SumRootToLeafNumbers.py), [Go](Trees/SumRootToLeafNumbers.go) |
 | Find the Length of the Longest Common Prefix | Strings | [Java](Strings/LengthOfLongestCommonPrefix.java), [Python](Strings/LengthOfLongestCommonPrefix.py), [Go](Strings/LengthOfLongestCommonPrefix.go) |
 | Decode Ways | DP | [Java](DP/DecodeWays.java), [Python](DP/DecodeWays.py), [Go](DP/DecodeWays.go) |
 | Reverse Linked List II | LinkedList | [Java](LinkedList/ReverseLinkedListII.java), [Python](LinkedList/ReverseLinkedListII.py), [Go](LinkedList/ReverseLinkedListII.go) |
@@ -570,31 +597,31 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| Repo-maintained solved problems | 128 |
-| Total solution files | 382 |
-| Java solution files | 127 |
-| Python solution files | 127 |
-| Go solution files | 127 |
+| Repo-maintained solved problems | 150 |
+| Total solution files | 448 |
+| Java solution files | 149 |
+| Python solution files | 149 |
+| Go solution files | 149 |
 | C++ solution files | 1 |
 
 ## Topic Coverage From Solution Folders
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 26 |
-| Backtracking | 13 |
+| Arrays | 33 |
+| Backtracking | 14 |
 | BinarySearch | 8 |
-| DP | 17 |
-| Graphs | 7 |
+| DP | 19 |
+| Graphs | 8 |
 | Intervals | 2 |
 | LinkedList | 6 |
-| Math | 3 |
-| Matrix | 9 |
+| Math | 4 |
+| Matrix | 10 |
 | SlidingWindow | 1 |
-| Stack | 2 |
-| Strings | 18 |
-| Trees | 16 |
-| Total | 128 |
+| Stack | 3 |
+| Strings | 19 |
+| Trees | 23 |
+| Total | 150 |
 
 ## Pattern Checklist
 
