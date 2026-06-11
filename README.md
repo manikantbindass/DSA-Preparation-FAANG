@@ -18,50 +18,50 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-06-11 16:05 UTC
+Last synced: 2026-06-11 20:24 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-702667-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-221-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-221%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-222-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-222%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 702,667 |
-| Solved | 221 |
-| Easy | 53 |
+| Solved | 222 |
+| Easy | 54 |
 | Medium | 123 |
 | Hard | 45 |
-| Goal progress | 221 / 300, 73.7% |
+| Goal progress | 222 / 300, 74.0% |
 
-![Overall Goal Progress](https://progress-bar.xyz/74/?scale=100&title=Goal+221%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/74/?scale=100&title=Goal+222%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
-    "Easy" : 53
+    "Easy" : 54
     "Medium" : 123
     "Hard" : 45
 ```
 
 ### 🏁 Contest Snapshot
 
-![Contest Participation](https://img.shields.io/badge/Participations-5-8b5cf6?style=for-the-badge)
-![Contest Rating](https://img.shields.io/badge/Contest_Rating-1500.0-0ea5e9?style=for-the-badge)
-![Top Percentage](https://img.shields.io/badge/Top-N%2FA-f97316?style=for-the-badge)
+![Contest Participation](https://img.shields.io/badge/Participations-2-8b5cf6?style=for-the-badge)
+![Contest Rating](https://img.shields.io/badge/Contest_Rating-2061.5-0ea5e9?style=for-the-badge)
+![Top Percentage](https://img.shields.io/badge/Top-1.84%25-f97316?style=for-the-badge)
 
 | Contest Metric | Value |
 |---|---:|
-| Participations | 5 |
-| Contest rating | 1500.0 |
-| Global ranking | Not available from public API |
-| Top percentage | Not available from public API |
-| Latest recorded contest | Weekly Contest 504 |
-| Latest recorded date | 2026-05-31 02:30 UTC |
-| Latest recorded result | 0 / 4 solved |
-| Latest recorded rank | Not available from public API |
-| Contest API source status | contest aggregate unavailable; using latest history rating |
+| Participations | 2 |
+| Contest rating | 2061.5 |
+| Global ranking | 15,434 |
+| Top percentage | 1.84% |
+| Latest recorded contest | Weekly Contest 505 |
+| Latest recorded date | 2026-06-07 02:30 UTC |
+| Latest recorded result | 3 / 4 solved |
+| Latest recorded rank | 303 |
+| Contest API source status | ok |
 
 Public JSON API: [api/leetcode-stats.json](https://raw.githubusercontent.com/manikantbindass/DSA-Preparation-FAANG/main/api/leetcode-stats.json)
 
