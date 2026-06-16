@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-200%20Problems-22c55e?style=for-the-badge" alt="200 solved" />
+  <img src="https://img.shields.io/badge/Solved-241%20Problems-22c55e?style=for-the-badge" alt="241 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -461,10 +461,40 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The LeetCode profile total is currently 200 solved problems, while this GitHub repository currently includes code for 150 distinct problems across 448 solution files. In other words, the GitHub repo is a maintained code archive and does not yet contain all 200 accepted LeetCode problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The LeetCode profile total is currently 241 solved problems, while this GitHub repository currently includes code for 180 distinct problems across 539 solution files. In other words, the GitHub repo is a maintained code archive and does not yet contain all 241 accepted LeetCode problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Create Binary Tree From Descriptions | Trees | [Java](Trees/CreateBinaryTreeFromDescriptions.java), [Python](Trees/CreateBinaryTreeFromDescriptions.py), [Go](Trees/CreateBinaryTreeFromDescriptions.go) |
+| Clone Graph | Graphs | [Java](Graphs/CloneGraph.java), [Python](Graphs/CloneGraph.py), [Go](Graphs/CloneGraph.go) |
+| Palindrome Partitioning II | DP | [Java](DP/PalindromePartitioningII.java), [Python](DP/PalindromePartitioningII.py), [Go](DP/PalindromePartitioningII.go) |
+| Gas Station | Arrays | [Java](Arrays/GasStation.java), [Python](Arrays/GasStation.py), [Go](Arrays/GasStation.go) |
+| Candy | Arrays | [Java](Arrays/Candy.java), [Python](Arrays/Candy.py), [Go](Arrays/Candy.go) |
+| Maximum Total Subarray Value I | Arrays | [Java](Arrays/MaximumTotalSubarrayValueI.java), [Python](Arrays/MaximumTotalSubarrayValueI.py), [Go](Arrays/MaximumTotalSubarrayValueI.go) |
+| Single Number | Arrays | [Java](Arrays/SingleNumber.java), [Python](Arrays/SingleNumber.py), [Go](Arrays/SingleNumber.go) |
+| Single Number II | Arrays | [Java](Arrays/SingleNumberII.java), [Python](Arrays/SingleNumberII.py), [Go](Arrays/SingleNumberII.go) |
+| Maximum Total Subarray Value II | Arrays | [Java](Arrays/MaximumTotalSubarrayValueII.java), [Python](Arrays/MaximumTotalSubarrayValueII.py), [Go](Arrays/MaximumTotalSubarrayValueII.go) |
+| Word Break | DP | [Java](DP/WordBreak.java), [Python](DP/WordBreak.py), [Go](DP/WordBreak.go) |
+| Copy List with Random Pointer | LinkedList | [Java](LinkedList/CopyListWithRandomPointer.java), [Python](LinkedList/CopyListWithRandomPointer.py), [Go](LinkedList/CopyListWithRandomPointer.go) |
+| Number of Ways to Assign Edge Weights I | Graphs | [Java](Graphs/NumberOfWaysToAssignEdgeWeightsI.java), [Python](Graphs/NumberOfWaysToAssignEdgeWeightsI.py), [Go](Graphs/NumberOfWaysToAssignEdgeWeightsI.go) |
+| Word Break II | Backtracking | [Java](Backtracking/WordBreakII.java), [Python](Backtracking/WordBreakII.py), [Go](Backtracking/WordBreakII.go) |
+| Number of Ways to Assign Edge Weights II | Graphs | [Java](Graphs/NumberOfWaysToAssignEdgeWeightsII.java), [Python](Graphs/NumberOfWaysToAssignEdgeWeightsII.py), [Go](Graphs/NumberOfWaysToAssignEdgeWeightsII.go) |
+| Linked List Cycle | LinkedList | [Java](LinkedList/LinkedListCycle.java), [Python](LinkedList/LinkedListCycle.py), [Go](LinkedList/LinkedListCycle.go) |
+| Linked List Cycle II | LinkedList | [Java](LinkedList/LinkedListCycleII.java), [Python](LinkedList/LinkedListCycleII.py), [Go](LinkedList/LinkedListCycleII.go) |
+| Reorder List | LinkedList | [Java](LinkedList/ReorderList.java), [Python](LinkedList/ReorderList.py), [Go](LinkedList/ReorderList.go) |
+| Weighted Word Mapping | Strings | [Java](Strings/WeightedWordMapping.java), [Python](Strings/WeightedWordMapping.py), [Go](Strings/WeightedWordMapping.go) |
+| Binary Tree Preorder Traversal | Trees | [Java](Trees/BinaryTreePreorderTraversal.java), [Python](Trees/BinaryTreePreorderTraversal.py), [Go](Trees/BinaryTreePreorderTraversal.go) |
+| Binary Tree Postorder Traversal | Trees | [Java](Trees/BinaryTreePostorderTraversal.java), [Python](Trees/BinaryTreePostorderTraversal.py), [Go](Trees/BinaryTreePostorderTraversal.go) |
+| Maximum Twin Sum of a Linked List | LinkedList | [Java](LinkedList/MaximumTwinSumOfALinkedList.java), [Python](LinkedList/MaximumTwinSumOfALinkedList.py), [Go](LinkedList/MaximumTwinSumOfALinkedList.go) |
+| LRU Cache | LinkedList | [Java](LinkedList/LRUCache.java), [Python](LinkedList/LRUCache.py), [Go](LinkedList/LRUCache.go) |
+| Insertion Sort List | LinkedList | [Java](LinkedList/InsertionSortList.java), [Python](LinkedList/InsertionSortList.py), [Go](LinkedList/InsertionSortList.go) |
+| Delete the Middle Node of a Linked List | LinkedList | [Java](LinkedList/DeleteTheMiddleNodeOfALinkedList.java), [Python](LinkedList/DeleteTheMiddleNodeOfALinkedList.py), [Go](LinkedList/DeleteTheMiddleNodeOfALinkedList.go) |
+| Sort List | LinkedList | [Java](LinkedList/SortList.java), [Python](LinkedList/SortList.py), [Go](LinkedList/SortList.go) |
+| Max Points on a Line | Math | [Java](Math/MaxPointsOnALine.java), [Python](Math/MaxPointsOnALine.py), [Go](Math/MaxPointsOnALine.go) |
+| Process String with Special Operations I | Strings | [Java](Strings/ProcessStringWithSpecialOperationsI.java), [Python](Strings/ProcessStringWithSpecialOperationsI.py), [Go](Strings/ProcessStringWithSpecialOperationsI.go) |
+| Evaluate Reverse Polish Notation | Stack | [Java](Stack/EvaluateReversePolishNotation.java), [Python](Stack/EvaluateReversePolishNotation.py), [Go](Stack/EvaluateReversePolishNotation.go) |
+| Reverse Words in a String | Strings | [Java](Strings/ReverseWordsInAString.java), [Python](Strings/ReverseWordsInAString.py), [Go](Strings/ReverseWordsInAString.go) |
+| Partition Array According to Given Pivot | Arrays | [Java](Arrays/PartitionArrayAccordingToGivenPivot.java), [Python](Arrays/PartitionArrayAccordingToGivenPivot.py), [Go](Arrays/PartitionArrayAccordingToGivenPivot.go) |
 | Palindrome Partitioning | Backtracking | [Java](Backtracking/PalindromePartitioning.java), [Python](Backtracking/PalindromePartitioning.py), [Go](Backtracking/PalindromePartitioning.go) |
 | Surrounded Regions | Matrix | [Java](Matrix/SurroundedRegions.java), [Python](Matrix/SurroundedRegions.py), [Go](Matrix/SurroundedRegions.go) |
 | Left and Right Sum Differences | Arrays | [Java](Arrays/LeftAndRightSumDifferences.java), [Python](Arrays/LeftAndRightSumDifferences.py), [Go](Arrays/LeftAndRightSumDifferences.go) |
@@ -620,33 +650,33 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 200 |
-| Repo problems with code in GitHub | 150 |
-| Problems with Java, Python, and Go | 148 |
-| Total solution files | 448 |
-| Java solution files | 149 |
-| Python solution files | 149 |
-| Go solution files | 149 |
+| LeetCode profile solved total | 241 |
+| Repo problems with code in GitHub | 180 |
+| Problems with Java, Python, and Go | 179 |
+| Total solution files | 539 |
+| Java solution files | 179 |
+| Python solution files | 179 |
+| Go solution files | 180 |
 | C++ solution files | 1 |
 
 ## Topic Coverage From Solution Folders
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 33 |
-| Backtracking | 14 |
+| Arrays | 40 |
+| Backtracking | 15 |
 | BinarySearch | 8 |
-| DP | 19 |
-| Graphs | 8 |
+| DP | 21 |
+| Graphs | 11 |
 | Intervals | 2 |
-| LinkedList | 6 |
-| Math | 4 |
+| LinkedList | 15 |
+| Math | 5 |
 | Matrix | 10 |
 | SlidingWindow | 1 |
-| Stack | 3 |
-| Strings | 19 |
-| Trees | 23 |
-| Total | 150 |
+| Stack | 4 |
+| Strings | 22 |
+| Trees | 26 |
+| Total | 180 |
 
 ## Pattern Checklist
 
