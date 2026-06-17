@@ -1,0 +1,48 @@
+"""
+LeetCode Problem 162: Find Peak Element
+Problem Number: 162
+Difficulty: Medium
+Link: https://leetcode.com/problems/find-peak-element/
+
+A peak element is an element that is strictly greater than its neighbors.
+Given a 0-indexed integer array nums, find a peak element, and return its index.
+If the array contains multiple peaks, return the index to any of the peaks.
+
+Example 1:
+Input: nums = [1,2,3,1]
+Output: 2
+Explanation: 3 is a peak element and your function should return the index number 2.
+
+Example 2:
+Input: nums = [1,2,1,3,5,6,4]
+Output: 5
+Explanation: Your function can return either index number 1 where the peak element is 2,
+             or index number 5 where the peak element is 6.
+
+Constraints:
+- 1 <= nums.length <= 1000
+- -2^31 <= nums[i] <= 2^31 - 1
+- nums[i] != nums[i + 1] for all valid i.
+
+Topics: Array, Binary Search
+Time Complexity: O(log n) - binary search
+Space Complexity: O(1) - only using constant extra space
+"""
+
+from typing import List
+
+class Solution:
+    def findPeakElement(self, nums: List[int]) -> int:
+        left, right = 0, len(nums) - 1
+        
+        while left < right:
+            mid = left + (right - left) // 2
+            
+            # If mid is less than its right neighbor, peak is on the right side
+            if nums[mid] < nums[mid + 1]:
+                left = mid + 1
+            else:
+                # Otherwise, peak is on the left side (including mid)
+                right = mid
+        
+        return left
