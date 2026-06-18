@@ -15,21 +15,7 @@
 
 This repository tracks my FAANG-level DSA preparation with Java, Python, and Go implementations, pattern notes, and LeetCode progress from [`manikantbindass`](https://leetcode.com/u/manikantbindass/). The goal is simple: build strong recall, clean implementation habits, and interview-ready problem patterns.
 
-## AI Model Timeline
 
-<p align="center">
-  <img src="assets/ai-model-timeline.svg" alt="Frontier AI model evolution timeline from 2020 to June 2026" />
-</p>
-
-This repo now also keeps a compact AI-awareness snapshot for major public LLM milestones, model families, and current restricted-access notes. The latest timeline image tracks frontier-model progress from 2020 through June 2026, including the reported restricted or disabled status of Anthropic's Mythos/Fable line.
-
-| AI Snapshot | Value |
-|---|---|
-| Timeline range | 2020 -> June 2026 |
-| Main families tracked | OpenAI, Anthropic, Google, Meta, Mistral, DeepSeek, xAI, open/other |
-| Latest score badges from image | GPT-5.5 Max 60, GPT-5.5 High 59, Claude 4.7 Max 57 |
-| Restricted watchlist | Claude Mythos / Mythos 5, Fable 5 |
-| Full notes | [AI-Model-Timeline/README.md](AI-Model-Timeline/README.md) |
 
 ## Progress Dashboard
 
