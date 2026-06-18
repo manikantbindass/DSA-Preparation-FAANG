@@ -7,13 +7,29 @@
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-241%20Problems-22c55e?style=for-the-badge" alt="241 solved" />
+  <img src="https://img.shields.io/badge/Solved-245%20Problems-22c55e?style=for-the-badge" alt="245 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
 ## Mission
 
 This repository tracks my FAANG-level DSA preparation with Java, Python, and Go implementations, pattern notes, and LeetCode progress from [`manikantbindass`](https://leetcode.com/u/manikantbindass/). The goal is simple: build strong recall, clean implementation habits, and interview-ready problem patterns.
+
+## AI Model Timeline
+
+<p align="center">
+  <img src="assets/ai-model-timeline.svg" alt="Frontier AI model evolution timeline from 2020 to June 2026" />
+</p>
+
+This repo now also keeps a compact AI-awareness snapshot for major public LLM milestones, model families, and current restricted-access notes. The latest timeline image tracks frontier-model progress from 2020 through June 2026, including the reported restricted or disabled status of Anthropic's Mythos/Fable line.
+
+| AI Snapshot | Value |
+|---|---|
+| Timeline range | 2020 -> June 2026 |
+| Main families tracked | OpenAI, Anthropic, Google, Meta, Mistral, DeepSeek, xAI, open/other |
+| Latest score badges from image | GPT-5.5 Max 60, GPT-5.5 High 59, Claude 4.7 Max 57 |
+| Restricted watchlist | Claude Mythos / Mythos 5, Fable 5 |
+| Full notes | [AI-Model-Timeline/README.md](AI-Model-Timeline/README.md) |
 
 ## Progress Dashboard
 
@@ -72,6 +88,7 @@ Public JSON API: [api/leetcode-stats.json](https://raw.githubusercontent.com/man
 
 ```text
 DSA-Preparation-FAANG-/
+|-- AI-Model-Timeline/ Frontier AI model timeline and restricted-access notes
 |-- Arrays/         Core array, two-pointer, prefix, cyclic placement
 |-- Backtracking/   Permutations and combination search
 |-- BinarySearch/   Classic sorted-search templates
@@ -461,7 +478,7 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The LeetCode profile total is currently 241 solved problems, while this GitHub repository currently includes code for 180 distinct problems across 539 solution files. In other words, the GitHub repo is a maintained code archive and does not yet contain all 241 accepted LeetCode problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The LeetCode profile total is currently 245 solved problems, while this GitHub repository currently includes code for 188 distinct problems across 561 solution files. In other words, the GitHub repo is a maintained code archive and does not yet contain all 245 accepted LeetCode problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
@@ -650,33 +667,33 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 241 |
-| Repo problems with code in GitHub | 180 |
-| Problems with Java, Python, and Go | 179 |
-| Total solution files | 539 |
-| Java solution files | 179 |
-| Python solution files | 179 |
-| Go solution files | 180 |
+| LeetCode profile solved total | 245 |
+| Repo problems with code in GitHub | 188 |
+| Problems with Java, Python, and Go | 186 |
+| Total solution files | 561 |
+| Java solution files | 187 |
+| Python solution files | 186 |
+| Go solution files | 187 |
 | C++ solution files | 1 |
 
 ## Topic Coverage From Solution Folders
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 40 |
+| Arrays | 43 |
 | Backtracking | 15 |
-| BinarySearch | 8 |
-| DP | 21 |
+| BinarySearch | 9 |
+| DP | 22 |
 | Graphs | 11 |
 | Intervals | 2 |
-| LinkedList | 15 |
-| Math | 5 |
+| LinkedList | 16 |
+| Math | 6 |
 | Matrix | 10 |
 | SlidingWindow | 1 |
 | Stack | 4 |
-| Strings | 22 |
+| Strings | 23 |
 | Trees | 26 |
-| Total | 180 |
+| Total | 188 |
 
 ## Pattern Checklist
 

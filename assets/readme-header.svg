@@ -61,9 +61,9 @@
 
   <g fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
     <rect x="362" y="176" width="86" height="28" rx="14" fill="#111827" fill-opacity="0.32"/>
-    <text x="405" y="194" text-anchor="middle">180 in Repo</text>
+    <text x="405" y="194" text-anchor="middle">188 in Repo</text>
     <rect x="458" y="176" width="94" height="28" rx="14" fill="#111827" fill-opacity="0.32"/>
-    <text x="505" y="194" text-anchor="middle">241 Solved</text>
+    <text x="505" y="194" text-anchor="middle">245 Solved</text>
     <rect x="562" y="176" width="78" height="28" rx="14" fill="#111827" fill-opacity="0.32"/>
     <text x="601" y="194" text-anchor="middle">Java</text>
     <rect x="650" y="176" width="88" height="28" rx="14" fill="#111827" fill-opacity="0.32"/>

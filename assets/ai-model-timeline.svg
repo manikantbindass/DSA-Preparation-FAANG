@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Frontier AI model evolution timeline from 2020 to June 2026</title>
+  <desc id="desc">A dark themed timeline of major public AI model milestones with a restricted access watchlist for Claude Mythos and Fable 5.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#07111f"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#162033"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.12 0 0 0 0 0.72 0 0 0 0 1 0 0 0 .35 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .title{font:800 32px Segoe UI,Arial,sans-serif;fill:#fff}
+      .sub{font:600 14px Segoe UI,Arial,sans-serif;fill:#c7d2fe}
+      .year{font:800 17px Segoe UI,Arial,sans-serif;fill:#fff}
+      .chip{font:800 10.5px Segoe UI,Arial,sans-serif;fill:#fff}
+      .small{font:700 11px Segoe UI,Arial,sans-serif;fill:#cbd5e1}
+      .tiny{font:700 9px Segoe UI,Arial,sans-serif;fill:#cbd5e1}
+      .card{fill:url(#panel);stroke:#334155;stroke-width:1.1}
+      .openai{fill:#10b981}.google{fill:#38bdf8}.anthropic{fill:#f59e0b}.meta{fill:#f97316}.mistral{fill:#ec4899}.deepseek{fill:#14b8a6}.xai{fill:#020617;stroke:#475569}.other{fill:#8b5cf6}.restricted{fill:#dc2626}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+      @keyframes pulse{0%,100%{opacity:.75}50%{opacity:1}}
+      .float{animation:float 5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .pulse{animation:pulse 2.2s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="650" rx="28" fill="url(#bg)"/>
+  <circle cx="1020" cy="86" r="165" fill="#0ea5e9" opacity=".08" filter="url(#glow)"/>
+  <circle cx="122" cy="585" r="130" fill="#f59e0b" opacity=".07"/>
+  <text x="600" y="48" text-anchor="middle" class="title">Frontier AI Model Evolution Timeline</text>
+  <text x="600" y="73" text-anchor="middle" class="sub">Major public LLM milestones from 2020 to June 2026, oldest to newest</text>
+
+  <g transform="translate(36 112)">
+    <g class="float">
+      <rect class="card" x="0" y="0" width="147" height="362" rx="16"/>
+      <text x="73.5" y="28" text-anchor="middle" class="year">2020</text>
+      <rect class="openai" x="17" y="52" width="113" height="24" rx="8"/><text class="chip" x="73.5" y="68" text-anchor="middle">GPT-3</text>
+      <rect class="google" x="17" y="84" width="113" height="24" rx="8"/><text class="chip" x="73.5" y="100" text-anchor="middle">T5</text>
+      <rect class="google" x="17" y="116" width="113" height="24" rx="8"/><text class="chip" x="73.5" y="132" text-anchor="middle">GShard</text>
+    </g>
+    <g class="float" style="animation-delay:.2s">
+      <rect class="card" x="160" y="0" width="147" height="362" rx="16"/>
+      <text x="233.5" y="28" text-anchor="middle" class="year">2021</text>
+      <rect class="other" x="177" y="52" width="113" height="24" rx="8"/><text class="chip" x="233.5" y="68" text-anchor="middle">Jurassic-1</text>
+      <rect class="openai" x="177" y="84" width="113" height="24" rx="8"/><text class="chip" x="233.5" y="100" text-anchor="middle">Codex</text>
+      <rect class="google" x="177" y="116" width="113" height="24" rx="8"/><text class="chip" x="233.5" y="132" text-anchor="middle">LaMDA</text>
+      <rect fill="#64748b" x="177" y="148" width="113" height="24" rx="8"/><text class="chip" x="233.5" y="164" text-anchor="middle">MT-NLG</text>
+    </g>
+    <g class="float" style="animation-delay:.4s">
+      <rect class="card" x="320" y="0" width="147" height="362" rx="16"/>
+      <text x="393.5" y="28" text-anchor="middle" class="year">2022</text>
+      <rect fill="#64748b" x="337" y="52" width="113" height="24" rx="8"/><text class="chip" x="393.5" y="68" text-anchor="middle">Chinchilla</text>
+      <rect class="google" x="337" y="84" width="113" height="24" rx="8"/><text class="chip" x="393.5" y="100" text-anchor="middle">PaLM</text>
+      <rect class="meta" x="337" y="116" width="113" height="24" rx="8"/><text class="chip" x="393.5" y="132" text-anchor="middle">OPT</text>
+      <rect class="other" x="337" y="148" width="113" height="24" rx="8"/><text class="chip" x="393.5" y="164" text-anchor="middle">BLOOM</text>
+      <rect class="openai" x="337" y="180" width="113" height="24" rx="8"/><text class="chip" x="393.5" y="196" text-anchor="middle">InstructGPT</text>
+      <rect class="openai" x="337" y="212" width="113" height="24" rx="8"/><text class="chip" x="393.5" y="228" text-anchor="middle">ChatGPT 3.5</text>
+    </g>
+    <g class="float" style="animation-delay:.6s">
+      <rect class="card" x="480" y="0" width="147" height="362" rx="16"/>
+      <text x="553.5" y="28" text-anchor="middle" class="year">2023</text>
+      <rect class="meta" x="497" y="52" width="113" height="24" rx="8"/><text class="chip" x="553.5" y="68" text-anchor="middle">LLaMA 1</text>
+      <rect class="openai" x="497" y="84" width="113" height="24" rx="8"/><text class="chip" x="553.5" y="100" text-anchor="middle">GPT-4</text>
+      <rect class="anthropic" x="497" y="116" width="113" height="24" rx="8"/><text class="chip" x="553.5" y="132" text-anchor="middle">Claude 1</text>
+      <rect class="google" x="497" y="148" width="113" height="24" rx="8"/><text class="chip" x="553.5" y="164" text-anchor="middle">PaLM 2</text>
+      <rect class="anthropic" x="497" y="180" width="113" height="24" rx="8"/><text class="chip" x="553.5" y="196" text-anchor="middle">Claude 2</text>
+      <rect class="meta" x="497" y="212" width="113" height="24" rx="8"/><text class="chip" x="553.5" y="228" text-anchor="middle">Llama 2</text>
+      <rect class="mistral" x="497" y="244" width="113" height="24" rx="8"/><text class="chip" x="553.5" y="260" text-anchor="middle">Mistral 7B</text>
+      <rect class="openai" x="497" y="276" width="113" height="24" rx="8"/><text class="chip" x="553.5" y="292" text-anchor="middle">GPT-4 Turbo</text>
+      <rect class="google" x="497" y="308" width="113" height="24" rx="8"/><text class="chip" x="553.5" y="324" text-anchor="middle">Gemini 1.0</text>
+    </g>
+    <g class="float" style="animation-delay:.8s">
+      <rect class="card" x="640" y="0" width="147" height="362" rx="16"/>
+      <text x="713.5" y="28" text-anchor="middle" class="year">2024</text>
+      <rect class="google" x="657" y="52" width="113" height="24" rx="8"/><text class="chip" x="713.5" y="68" text-anchor="middle">Gemini 1.5</text>
+      <rect class="anthropic" x="657" y="84" width="113" height="24" rx="8"/><text class="chip" x="713.5" y="100" text-anchor="middle">Claude 3</text>
+      <rect class="other" x="657" y="116" width="113" height="24" rx="8"/><text class="chip" x="713.5" y="132" text-anchor="middle">DBRX</text>
+      <rect class="meta" x="657" y="148" width="113" height="24" rx="8"/><text class="chip" x="713.5" y="164" text-anchor="middle">Llama 3</text>
+      <rect class="openai" x="657" y="180" width="113" height="24" rx="8"/><text class="chip" x="713.5" y="196" text-anchor="middle">GPT-4o</text>
+      <rect class="anthropic" x="657" y="212" width="113" height="24" rx="8"/><text class="chip" x="713.5" y="228" text-anchor="middle">Claude 3.5</text>
+      <rect class="mistral" x="657" y="244" width="113" height="24" rx="8"/><text class="chip" x="713.5" y="260" text-anchor="middle">Mistral Large 2</text>
+      <rect class="xai" x="657" y="276" width="113" height="24" rx="8"/><text class="chip" x="713.5" y="292" text-anchor="middle">Grok-2</text>
+      <rect class="openai" x="657" y="308" width="113" height="24" rx="8"/><text class="chip" x="713.5" y="324" text-anchor="middle">OpenAI o1</text>
+    </g>
+    <g class="float" style="animation-delay:1s">
+      <rect class="card" x="800" y="0" width="147" height="362" rx="16"/>
+      <text x="873.5" y="28" text-anchor="middle" class="year">2025</text>
+      <rect class="deepseek" x="817" y="52" width="113" height="24" rx="8"/><text class="chip" x="873.5" y="68" text-anchor="middle">DeepSeek-R1</text>
+      <rect class="openai" x="817" y="84" width="113" height="24" rx="8"/><text class="chip" x="873.5" y="100" text-anchor="middle">GPT-4.5</text>
+      <rect class="anthropic" x="817" y="116" width="113" height="24" rx="8"/><text class="chip" x="873.5" y="132" text-anchor="middle">Claude 3.7</text>
+      <rect class="google" x="817" y="148" width="113" height="24" rx="8"/><text class="chip" x="873.5" y="164" text-anchor="middle">Gemini 2.5 Pro</text>
+      <rect class="meta" x="817" y="180" width="113" height="24" rx="8"/><text class="chip" x="873.5" y="196" text-anchor="middle">Llama 4</text>
+      <rect class="openai" x="817" y="212" width="113" height="24" rx="8"/><text class="chip" x="873.5" y="228" text-anchor="middle">GPT-5</text>
+      <rect class="xai" x="817" y="244" width="113" height="24" rx="8"/><text class="chip" x="873.5" y="260" text-anchor="middle">Grok 4</text>
+      <rect class="anthropic" x="817" y="276" width="113" height="24" rx="8"/><text class="chip" x="873.5" y="292" text-anchor="middle">Claude Opus 4.5</text>
+      <rect class="openai" x="817" y="308" width="113" height="24" rx="8"/><text class="chip" x="873.5" y="324" text-anchor="middle">GPT-5.1 / 5.2</text>
+    </g>
+    <g class="float" style="animation-delay:1.2s">
+      <rect x="960" y="0" width="168" height="362" rx="16" fill="#082f49" stroke="#0ea5e9" stroke-width="1.4"/>
+      <text x="1044" y="28" text-anchor="middle" class="year">2026 Jan-Jun</text>
+      <rect class="openai" x="978" y="52" width="132" height="24" rx="8"/><text class="chip" x="1044" y="68" text-anchor="middle">GPT-5.3 Codex</text>
+      <rect class="openai" x="978" y="84" width="132" height="24" rx="8"/><text class="chip" x="1044" y="100" text-anchor="middle">GPT-5.4</text>
+      <rect class="google" x="978" y="116" width="132" height="24" rx="8"/><text class="chip" x="1044" y="132" text-anchor="middle">Gemini 3.1 Pro</text>
+      <rect class="anthropic" x="978" y="148" width="132" height="24" rx="8"/><text class="chip" x="1044" y="164" text-anchor="middle">Claude Opus 4.6</text>
+      <rect class="anthropic" x="978" y="180" width="132" height="24" rx="8"/><text class="chip" x="1044" y="196" text-anchor="middle">Claude Opus 4.7</text>
+      <rect class="deepseek" x="978" y="212" width="132" height="24" rx="8"/><text class="chip" x="1044" y="228" text-anchor="middle">DeepSeek V4</text>
+      <rect fill="#0ea5e9" x="978" y="244" width="132" height="24" rx="8"/><text class="chip" x="1044" y="260" text-anchor="middle">GPT-5.5 Max 60</text>
+      <rect fill="#d946ef" x="978" y="276" width="132" height="24" rx="8"/><text class="chip" x="1044" y="292" text-anchor="middle">GPT-5.5 High 59</text>
+      <rect fill="#fb923c" x="978" y="308" width="132" height="24" rx="8"/><text class="chip" x="1044" y="324" text-anchor="middle">Claude 4.7 Max 57</text>
+    </g>
+  </g>
+
+  <g transform="translate(92 512)">
+    <rect x="0" y="0" width="1016" height="54" rx="18" fill="#1e293b" stroke="#334155"/>
+    <rect class="openai" x="24" y="19" width="13" height="13" rx="3"/><text class="small" x="46" y="30">OpenAI</text>
+    <rect class="anthropic" x="132" y="19" width="13" height="13" rx="3"/><text class="small" x="154" y="30">Anthropic</text>
+    <rect class="google" x="260" y="19" width="13" height="13" rx="3"/><text class="small" x="282" y="30">Google</text>
+    <rect class="meta" x="366" y="19" width="13" height="13" rx="3"/><text class="small" x="388" y="30">Meta</text>
+    <rect class="mistral" x="468" y="19" width="13" height="13" rx="3"/><text class="small" x="490" y="30">Mistral</text>
+    <rect class="deepseek" x="592" y="19" width="13" height="13" rx="3"/><text class="small" x="614" y="30">DeepSeek</text>
+    <rect class="xai" x="720" y="19" width="13" height="13" rx="3"/><text class="small" x="742" y="30">xAI</text>
+    <rect class="other" x="812" y="19" width="13" height="13" rx="3"/><text class="small" x="834" y="30">Open / Other</text>
+  </g>
+
+  <g transform="translate(92 585)">
+    <rect x="0" y="0" width="1016" height="42" rx="14" fill="#111827" stroke="#334155"/>
+    <rect class="restricted pulse" x="24" y="12" width="18" height="18" rx="5"/>
+    <text class="small" x="54" y="27">Restricted watchlist: Claude Mythos / Mythos 5 and Fable 5 were reported as access-restricted or disabled after June 2026 export-control concerns.</text>
+  </g>
+</svg>
