@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-245%20Problems-22c55e?style=for-the-badge" alt="245 solved" />
+  <img src="https://img.shields.io/badge/Solved-275%20Problems-22c55e?style=for-the-badge" alt="275 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -20,30 +20,30 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-06-25 09:25 UTC
+Last synced: 2026-06-25 10:01 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-539684-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-272-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-272%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-275-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-275%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 539,684 |
-| Solved | 272 |
+| Solved | 275 |
 | Easy | 66 |
-| Medium | 151 |
+| Medium | 154 |
 | Hard | 55 |
-| Goal progress | 272 / 300, 90.7% |
+| Goal progress | 275 / 300, 91.7% |
 
-![Overall Goal Progress](https://progress-bar.xyz/91/?scale=100&title=Goal+272%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/92/?scale=100&title=Goal+275%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 66
-    "Medium" : 151
+    "Medium" : 154
     "Hard" : 55
 ```
 
@@ -85,6 +85,7 @@ DSA-Preparation-FAANG-/
 |-- LinkedList/     Linked-list reversal, partitioning, and pointer work
 |-- Math/           Number patterns, bit-based construction, and counting
 |-- Matrix/         Matrix traversal and in-place marking
+|-- MySQL/          SQL database problems and query practice
 |-- SlidingWindow/  Contiguous substring and subarray window patterns
 |-- Stack/          Monotonic stack problems
 |-- Strings/        Sliding window and formatting
@@ -464,10 +465,36 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The LeetCode profile total is currently 245 solved problems, while this GitHub repository currently includes code for 188 distinct problems across 561 solution files. In other words, the GitHub repo is a maintained code archive and does not yet contain all 245 accepted LeetCode problems. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 275 solved problems, while this GitHub repository currently includes 210 tracked folder entries across 622 solution files: 205 DSA entries in Java/Python/Go topic folders plus 5 SQL entries in `MySQL`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Process String with Special Operations II | Strings | [Java](Strings/ProcessStringWithSpecialOperationsII.java), [Python](Strings/ProcessStringWithSpecialOperationsII.py), [Go](Strings/ProcessStringWithSpecialOperationsII.go) |
+| Maximum Product Subarray | Arrays | [Java](Arrays/MaximumProductSubarray.java), [Python](Arrays/MaximumProductSubarray.py), [Go](Arrays/MaximumProductSubarray.go) |
+| Find Peak Element | BinarySearch | [Java](BinarySearch/FindPeakElement.java), [Python](BinarySearch/FindPeakElement.py), [Go](BinarySearch/FindPeakElement.go) |
+| Angle Between Hands of a Clock | Math | [Java](Math/AngleBetweenHandsOfAClock.java), [Python](Math/AngleBetweenHandsOfAClock.py), [Go](Math/AngleBetweenHandsOfAClock.go) |
+| Intersection of Two Linked Lists | LinkedList | [Java](LinkedList/IntersectionOfTwoLinkedLists.java), [Python](LinkedList/IntersectionOfTwoLinkedLists.py), [Go](LinkedList/IntersectionOfTwoLinkedLists.go) |
+| Find the Highest Altitude | Arrays | [Java](Arrays/FindTheHighestAltitude.java), [Python](Arrays/FindTheHighestAltitude.py), [Go](Arrays/FindTheHighestAltitude.go) |
+| Maximum Gap | Arrays | [Java](Arrays/MaximumGap.java), [Python](Arrays/MaximumGap.py), [Go](Arrays/MaximumGap.go) |
+| Compare Version Numbers | Strings | [Java](Strings/CompareVersionNumbers.java), [Python](Strings/CompareVersionNumbers.py), [Go](Strings/CompareVersionNumbers.go) |
+| Maximum Building Height | Arrays | [Java](Arrays/MaximumBuildingHeight.java), [Python](Arrays/MaximumBuildingHeight.py), [Go](Arrays/MaximumBuildingHeight.go) |
+| Fraction to Recurring Decimal | Math | [Java](Math/FractionToRecurringDecimal.java), [Python](Math/FractionToRecurringDecimal.py), [Go](Math/FractionToRecurringDecimal.go) |
+| Two Sum II - Input Array Is Sorted | Arrays | [Java](Arrays/TwoSumIIInputArrayIsSorted.java), [Python](Arrays/TwoSumIIInputArrayIsSorted.py), [Go](Arrays/TwoSumIIInputArrayIsSorted.go) |
+| Maximum Ice Cream Bars | Arrays | [Java](Arrays/MaximumIceCreamBars.java), [Python](Arrays/MaximumIceCreamBars.py), [Go](Arrays/MaximumIceCreamBars.go) |
+| Excel Sheet Column Title | Math | [Java](Math/ExcelSheetColumnTitle.java), [Python](Math/ExcelSheetColumnTitle.py), [Go](Math/ExcelSheetColumnTitle.go) |
+| Majority Element | Arrays | [Java](Arrays/MajorityElement.java), [Python](Arrays/MajorityElement.py), [Go](Arrays/MajorityElement.go) |
+| Maximum Number of Balloons | Strings | [Java](Strings/MaximumNumberOfBalloons.java), [Python](Strings/MaximumNumberOfBalloons.py), [Go](Strings/MaximumNumberOfBalloons.go) |
+| Excel Sheet Column Number | Math | [Java](Math/ExcelSheetColumnNumber.java), [Python](Math/ExcelSheetColumnNumber.py), [Go](Math/ExcelSheetColumnNumber.go) |
+| Factorial Trailing Zeroes | Math | [Java](Math/FactorialTrailingZeroes.java), [Python](Math/FactorialTrailingZeroes.py), [Go](Math/FactorialTrailingZeroes.go) |
+| Number of ZigZag Arrays I | DP | [Java](DP/NumberOfZigZagArraysI.java), [Python](DP/NumberOfZigZagArraysI.py), [Go](DP/NumberOfZigZagArraysI.go) |
+| Binary Search Tree Iterator | Trees | [Java](Trees/BinarySearchTreeIterator.java), [Python](Trees/BinarySearchTreeIterator.py), [Go](Trees/BinarySearchTreeIterator.go) |
+| Dungeon Game | DP | [Java](DP/DungeonGame.java), [Python](DP/DungeonGame.py), [Go](DP/DungeonGame.go) |
+| Number of ZigZag Arrays II | Math | [Java](Math/NumberOfZigZagArraysII.java), [Python](Math/NumberOfZigZagArraysII.py), [Go](Math/NumberOfZigZagArraysII.go) |
+| Count Subarrays With Majority Element I | Arrays | [Java](Arrays/CountSubarraysWithMajorityElementI.java), [Python](Arrays/CountSubarraysWithMajorityElementI.py), [Go](Arrays/CountSubarraysWithMajorityElementI.go) |
+| Combine Two Tables | MySQL | [Python](MySQL/CombineTwoTables.py), [SQL](MySQL/CombineTwoTables.sql) |
+| Second Highest Salary | MySQL | [Python](MySQL/SecondHighestSalary.py), [SQL](MySQL/SecondHighestSalary.sql) |
+| Nth Highest Salary | MySQL | [Python](MySQL/NthHighestSalary.py), [SQL](MySQL/NthHighestSalary.sql) |
+| Rank Scores | MySQL | [Python](MySQL/RankScores.py), [SQL](MySQL/RankScores.sql) |
 | Create Binary Tree From Descriptions | Trees | [Java](Trees/CreateBinaryTreeFromDescriptions.java), [Python](Trees/CreateBinaryTreeFromDescriptions.py), [Go](Trees/CreateBinaryTreeFromDescriptions.go) |
 | Clone Graph | Graphs | [Java](Graphs/CloneGraph.java), [Python](Graphs/CloneGraph.py), [Go](Graphs/CloneGraph.go) |
 | Palindrome Partitioning II | DP | [Java](DP/PalindromePartitioningII.java), [Python](DP/PalindromePartitioningII.py), [Go](DP/PalindromePartitioningII.go) |
@@ -653,33 +680,37 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 245 |
-| Repo problems with code in GitHub | 188 |
-| Problems with Java, Python, and Go | 186 |
-| Total solution files | 561 |
-| Java solution files | 187 |
-| Python solution files | 186 |
-| Go solution files | 187 |
+| LeetCode profile solved total | 275 |
+| DSA topic problems with code | 205 |
+| SQL problems in MySQL | 5 |
+| Repo tracked folder entries | 210 |
+| Problems with Java, Python, and Go | 203 |
+| Total solution files | 622 |
+| Java solution files | 204 |
+| Python solution files | 208 |
+| Go solution files | 204 |
 | C++ solution files | 1 |
+| SQL solution files | 5 |
 
 ## Topic Coverage From Solution Folders
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 43 |
+| Arrays | 50 |
 | Backtracking | 15 |
 | BinarySearch | 9 |
-| DP | 22 |
+| DP | 24 |
 | Graphs | 11 |
 | Intervals | 2 |
 | LinkedList | 16 |
-| Math | 6 |
+| Math | 11 |
 | Matrix | 10 |
+| MySQL | 5 |
 | SlidingWindow | 1 |
 | Stack | 4 |
-| Strings | 23 |
-| Trees | 26 |
-| Total | 188 |
+| Strings | 25 |
+| Trees | 27 |
+| Total | 210 |
 
 ## Pattern Checklist
 
