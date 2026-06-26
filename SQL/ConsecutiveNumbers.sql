@@ -12,13 +12,13 @@
 --   number, then the current number appears consecutively three times. The
 --   DISTINCT ensures each number is listed only once. For other languages,
 --   we simulate this logic: in Java/Python/Go, we read the data, sort by
---   id, then iterate checking for three consecutive equal values. For SQL,
---   we use the same window function approach. For pandas, we use shift to
---   create lag and lead columns and filter.
+--   id, then iterate checking for three consecutive equal numbers. For
+--   SQL, we use the same window function approach. For pandas, we use
+--   shift to create lag and lead columns and filter.
 -- 
 -- Complexity
---   Time  : O(n)
---   Space : O(n)
+--   Time  : O(n) where n is number of rows in Logs
+--   Space : O(1) extra space (excluding output)
 -- 
 -- Runtime  : 556
 -- Memory   : 0

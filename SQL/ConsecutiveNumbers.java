@@ -12,13 +12,13 @@
 //   number, then the current number appears consecutively three times. The
 //   DISTINCT ensures each number is listed only once. For other languages,
 //   we simulate this logic: in Java/Python/Go, we read the data, sort by
-//   id, then iterate checking for three consecutive equal values. For SQL,
-//   we use the same window function approach. For pandas, we use shift to
-//   create lag and lead columns and filter.
+//   id, then iterate checking for three consecutive equal numbers. For
+//   SQL, we use the same window function approach. For pandas, we use
+//   shift to create lag and lead columns and filter.
 // 
 // Complexity
-//   Time  : O(n)
-//   Space : O(n)
+//   Time  : O(n) where n is number of rows in Logs
+//   Space : O(1) extra space (excluding output)
 // 
 // Runtime  : 556
 // Memory   : 0
@@ -36,18 +36,18 @@ public class Solution {
         String query = "SELECT id, num FROM Logs ORDER BY id";
         Statement stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(query);
-        List<Integer> ids = new ArrayList<>();
+        List<Integer> result = new ArrayList<>();
         List<Integer> nums = new ArrayList<>();
         while (rs.next()) {
-            ids.add(rs.getInt("id"));
             nums.add(rs.getInt("num"));
         }
-        Set<Integer> resultSet = new HashSet<>();
-        for (int i = 1; i < nums.size() - 1; i++) {
-            if (nums.get(i).equals(nums.get(i-1)) && nums.get(i).equals(nums.get(i+1))) {
-                resultSet.add(nums.get(i));
+        for (int i = 2; i < nums.size(); i++) {
+            if (nums.get(i-2).equals(nums.get(i-1)) && nums.get(i-1).equals(nums.get(i))) {
+                if (result.isEmpty() || !result.get(result.size()-1).equals(nums.get(i))) {
+                    result.add(nums.get(i));
+                }
             }
         }
-        return new ArrayList<>(resultSet);
+        return result;
     }
 }
