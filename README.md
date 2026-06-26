@@ -1,3 +1,29 @@
+<!-- LEETCODE-AI-SYNC:START -->
+# 📚 DSA-Preparation-FAANG — LeetCode Solutions
+
+> Auto-maintained by [LeetCode AI Sync](https://github.com/manikantbindass/Leetcode-GitPush-extension) ✨
+
+## 📊 Progress
+
+![Total](https://img.shields.io/badge/Total-0-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-0-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-0-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-0-ef4444?style=flat-square)
+
+| Difficulty | Solved |
+|-----------|--------|
+| 🟢 Easy   | 0 |
+| 🟡 Medium | 0 |
+| 🔴 Hard   | 0 |
+| **Total** | **0** |
+
+## 🕐 Recent Submissions
+
+| Problem | Difficulty | Topics | Date |
+|---------|-----------|--------|------|
+| — | — | — | — |
+
+---
+*Last updated: Fri, 26 Jun 2026 18:26:32 GMT*
+<!-- LEETCODE-AI-SYNC:END -->
+
 <p align="center">
   <img src="assets/readme-header.svg" alt="DSA Preparation for FAANG animated header" />
 </p>
