@@ -12,13 +12,13 @@
 //   number, then the current number appears consecutively three times. The
 //   DISTINCT ensures each number is listed only once. For other languages,
 //   we simulate this logic: in Java/Python/Go, we read the data, sort by
-//   id, then iterate checking for three consecutive equal numbers. For
-//   SQL, we use the same window function approach. For pandas, we use
-//   shift to create lag and lead columns and filter.
+//   id, then scan for consecutive equal numbers. For SQL, we use the same
+//   window function approach. For pandas, we use shift to create lag and
+//   lead columns and filter.
 // 
 // Complexity
-//   Time  : O(n) where n is number of rows in Logs
-//   Space : O(1) extra space (excluding output)
+//   Time  : O(n log n) due to sorting by id (or O(n) if already sorted)
+//   Space : O(n) for storing the data
 // 
 // Runtime  : 556
 // Memory   : 0
@@ -35,6 +35,11 @@ import (
 	"fmt"
 )
 
+type Log struct {
+	Id  int
+	Num int
+}
+
 func findConsecutiveNumbers(db *sql.DB) ([]int, error) {
 	rows, err := db.Query("SELECT id, num FROM Logs ORDER BY id")
 	if err != nil {
@@ -42,22 +47,25 @@ func findConsecutiveNumbers(db *sql.DB) ([]int, error) {
 	}
 	defer rows.Close()
 
-	var nums []int
+	var logs []Log
 	for rows.Next() {
-		var id, num int
-		if err := rows.Scan(&id, &num); err != nil {
+		var l Log
+		if err := rows.Scan(&l.Id, &l.Num); err != nil {
 			return nil, err
 		}
-		nums = append(nums, num)
+		logs = append(logs, l)
 	}
 
-	result := []int{}
-	for i := 2; i < len(nums); i++ {
-		if nums[i-2] == nums[i-1] && nums[i-1] == nums[i] {
-			if len(result) == 0 || result[len(result)-1] != nums[i] {
-				result = append(result, nums[i])
-			}
+	set := make(map[int]bool)
+	for i := 1; i < len(logs)-1; i++ {
+		if logs[i].Num == logs[i-1].Num && logs[i].Num == logs[i+1].Num {
+			set[logs[i].Num] = true
 		}
+	}
+
+	result := make([]int, 0, len(set))
+	for k := range set {
+		result = append(result, k)
 	}
 	return result, nil
 }
