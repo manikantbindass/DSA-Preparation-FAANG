@@ -10,15 +10,15 @@
 #   window functions LAG and LEAD to compare each row with its previous
 #   and next rows. If both the previous and next numbers equal the current
 #   number, then the current number appears consecutively three times. The
-#   DISTINCT ensures each number is listed once. For other languages, we
-#   simulate this logic: in Java/Python/Go, we read the data, sort by id,
-#   then scan for consecutive equal numbers. For SQL, we use the same
-#   window function approach. For pandas, we use shift to create lag and
-#   lead columns and filter.
+#   DISTINCT ensures each number is listed only once. For other languages,
+#   we simulate this logic: in Java/Python/Go, we read the data, sort by
+#   id, then iterate checking for three consecutive equal values. For SQL,
+#   we use the same window function approach. For pandas, we use shift to
+#   create lag and lead columns and filter.
 # 
 # Complexity
-#   Time  : O(n) where n is number of rows in Logs
-#   Space : O(1) extra space (excluding output)
+#   Time  : O(n)
+#   Space : O(n)
 # 
 # Runtime  : 556
 # Memory   : 0
@@ -30,7 +30,7 @@
 
 import pandas as pd
 
-def consecutive_numbers(logs: pd.DataFrame) -> pd.DataFrame:
+def find_consecutive_numbers(logs: pd.DataFrame) -> pd.DataFrame:
     logs = logs.sort_values('id')
     logs['prev'] = logs['num'].shift(1)
     logs['next'] = logs['num'].shift(-1)
