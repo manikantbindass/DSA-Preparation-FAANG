@@ -5,23 +5,23 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-0-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-0-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-0-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-0-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-1-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-0-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-1-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-0-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 0 |
-| 🟡 Medium | 0 |
+| 🟡 Medium | 1 |
 | 🔴 Hard   | 0 |
-| **Total** | **0** |
+| **Total** | **1** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
-| — | — | — | — |
+| [#180 Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | 🟡 Medium | Database | Jun 26, 2026 |
 
 ---
-*Last updated: Fri, 26 Jun 2026 18:26:32 GMT*
+*Last updated: Fri, 26 Jun 2026 18:28:25 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
