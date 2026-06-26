@@ -9,9 +9,9 @@
 #   largest possible number. The key insight is to use a custom comparator
 #   for sorting: for two strings a and b, we compare a+b vs b+a. If a+b >
 #   b+a, then a should come before b. After sorting, if the first element
-#   is "0", the entire number is zero. Otherwise, we join the sorted
-#   strings. This greedy sorting approach works because the comparator
-#   ensures the optimal order.
+#   is "0", the entire number is zero. Otherwise, we concatenate the
+#   sorted strings. This greedy sorting approach works because the
+#   comparator ensures the optimal ordering.
 # 
 # Complexity
 #   Time  : O(n log n)
@@ -27,12 +27,24 @@
 
 import pandas as pd
 
-class Solution:
-    def largestNumber(self, nums: List[int]) -> str:
-        df = pd.DataFrame({'num': nums})
-        df['str'] = df['num'].astype(str)
-        # Custom comparator using sort_values with key is not straightforward; use Python's sort
-        strs = df['str'].tolist()
-        strs.sort(key=functools.cmp_to_key(lambda a, b: -1 if a + b > b + a else (1 if a + b < b + a else 0)))
-        result = ''.join(strs)
-        return '0' if result[0] == '0' else result
+def largestNumber(nums):
+    # Convert to strings
+    s = pd.Series(nums).astype(str)
+    # Custom comparator: sort by a+b > b+a
+    # We can use the key parameter with a custom function that returns a tuple
+    # But pandas sort_values doesn't support custom comparator directly.
+    # Instead, we can use Python's sorted with key.
+    sorted_vals = sorted(s, key=lambda x: x*10, reverse=True)  # Not correct; need proper comparator
+    # Proper approach: use functools.cmp_to_key
+    from functools import cmp_to_key
+    def compare(a, b):
+        if a+b > b+a:
+            return -1
+        elif a+b < b+a:
+            return 1
+        else:
+            return 0
+    sorted_vals = sorted(s, key=cmp_to_key(compare))
+    if sorted_vals[0] == '0':
+        return '0'
+    return ''.join(sorted_vals)

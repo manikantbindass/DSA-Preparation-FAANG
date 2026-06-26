@@ -9,9 +9,9 @@
 //   largest possible number. The key insight is to use a custom comparator
 //   for sorting: for two strings a and b, we compare a+b vs b+a. If a+b >
 //   b+a, then a should come before b. After sorting, if the first element
-//   is "0", the entire number is zero. Otherwise, we join the sorted
-//   strings. This greedy sorting approach works because the comparator
-//   ensures the optimal order.
+//   is "0", the entire number is zero. Otherwise, we concatenate the
+//   sorted strings. This greedy sorting approach works because the
+//   comparator ensures the optimal ordering.
 // 
 // Complexity
 //   Time  : O(n log n)
