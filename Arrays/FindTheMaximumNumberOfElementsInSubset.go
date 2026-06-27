@@ -5,29 +5,27 @@
 // URL        : https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/
 // ──────────────────────────────────────────────────────────────────────
 // Approach
-//   We need to find the longest subset that can be arranged into a
-//   palindrome-like sequence where each element is the square of the
-//   previous one until the middle, then mirrored back. The pattern is
-//   essentially a sequence that goes up by squaring and then down by
-//   square roots. For each distinct number x (except 1), we can build a
-//   chain by repeatedly squaring as long as we have at least two copies of
-//   the current number (to use both sides of the palindrome). When we can
-//   no longer square (either because the next square is not present or we
-//   have only one copy), we add one more if that number exists (to be the
-//   center). For the number 1, it's special because 1^2 = 1, so we can
-//   have any number of 1's, but the pattern must be symmetric: we can use
-//   an odd number of 1's (since the center can be a single 1). So the
-//   maximum length for 1 is the largest odd count ≤ total count of 1's. We
-//   use a hash map to count frequencies, then iterate over distinct
-//   numbers (excluding 1) to compute the longest chain starting from each.
-//   The answer is the maximum over all chains and the chain from 1.
+//   We need to find the longest subsequence that can be arranged into a
+//   palindrome-like pattern where each element is the square of the
+//   previous one until the middle, then mirrored. The pattern is
+//   symmetric: [x, x^2, x^4, ..., x^(2^k), ..., x^4, x^2, x]. This means
+//   we can think of building chains by repeatedly squaring numbers. For
+//   each starting number, we can follow the chain of squares as long as we
+//   have at least two copies of each intermediate number (except possibly
+//   the middle element which can appear once). We also handle the special
+//   case of 1, because 1^2 = 1, so any number of 1's can form a chain of
+//   length 1 (or any odd length if we have enough copies). The algorithm
+//   counts frequencies, then for each distinct number (except 1), we
+//   traverse the chain of squares, counting pairs (2 each) until we hit a
+//   number with count 1 or missing. For 1, we compute the maximum odd
+//   length from its count. We take the maximum over all chains.
 // 
 // Complexity
-//   Time  : O(n log max(nums))
+//   Time  : O(n log log maxVal)
 //   Space : O(n)
 // 
-// Runtime  : 52 ms
-// Memory   : 67.6 MB
+// Runtime  : 
+// Memory   : 
 // 
 // Examples
 //   Example 1:
@@ -61,12 +59,14 @@ func maximumLength(nums []int) int {
     }
     for x := range cnt {
         length := 0
-        for cnt[x] >= 2 {
+        for cnt[x] > 1 {
             x = x * x
             length += 2
         }
-        if cnt[x] == 1 {
-            length++
+        if cnt[x] > 0 {
+            length += 1
+        } else {
+            length -= 1
         }
         if length > ans {
             ans = length
