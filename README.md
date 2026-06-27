@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-25-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-6-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-19-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-0-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-26-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-7-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-19-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-0-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 6 |
+| 🟢 Easy   | 7 |
 | 🟡 Medium | 19 |
 | 🔴 Hard   | 0 |
-| **Total** | **25** |
+| **Total** | **26** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#183 Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | 🟢 Easy | Database | Jun 27, 2026 |
 | [#183 Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | 🟢 Easy | Database | Jun 27, 2026 |
 | [#182 Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 Easy | Database | Jun 27, 2026 |
 | [#182 Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 Easy | Database | Jun 27, 2026 |
@@ -27,10 +28,9 @@
 | [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
 | [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
 | [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
-| [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
 
 ---
-*Last updated: Sat, 27 Jun 2026 09:11:31 GMT*
+*Last updated: Sat, 27 Jun 2026 09:14:59 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
