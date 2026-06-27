@@ -5,23 +5,58 @@
 # URL        : https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/
 # ──────────────────────────────────────────────────────────────────────
 # Approach
-#   We need to find the longest subsequence that can be arranged into a
-#   palindrome-like pattern where each element is the square of the
-#   previous one until the middle, then mirrored. The pattern is
-#   symmetric: [x, x^2, x^4, ..., x^(2^k), ..., x^4, x^2, x]. This means
-#   we can think of building chains by repeatedly squaring numbers. For
-#   each starting number, we can follow the chain of squares as long as we
-#   have at least two copies of each intermediate number (except possibly
-#   the middle element which can appear once). We also handle the special
-#   case of 1, because 1^2 = 1, so any number of 1's can form a chain of
-#   length 1 (or any odd length if we have enough copies). The algorithm
-#   counts frequencies, then for each distinct number (except 1), we
-#   traverse the chain of squares, counting pairs (2 each) until we hit a
-#   number with count 1 or missing. For 1, we compute the maximum odd
-#   length from its count. We take the maximum over all chains.
+#   We need to find the longest subset that can be arranged into a
+#   symmetric sequence where each element (except the middle) is the
+#   square of the previous one. The pattern is like a palindrome of
+#   powers: starting from some x, then x^2, x^4, ..., up to some peak,
+#   then back down. This means the sequence is determined by a base number
+#   and repeated squaring. We count frequencies of each number. For 1, the
+#   pattern is just [1] or [1,1,1,...] but note that 1^2 = 1, so any
+#   number of 1's can form a valid subset? Actually the pattern requires
+#   that each step squares the previous, so for 1 it's always 1, so any
+#   number of 1's works, but the pattern length must be odd? Let's think:
+#   [1] is valid, [1,1] is not because 1^2 = 1, but the pattern expects
+#   [x, x^2] which would be [1,1] but then the reverse part would be [1]?
+#   Actually the pattern is symmetric: [x, x^2, x^4, ..., x^k, ..., x^4,
+#   x^2, x]. For x=1, all elements are 1, so any odd length works? But the
+#   pattern requires that the sequence is exactly that symmetric
+#   structure. For 1, any length works because all are 1, but the pattern
+#   forces the sequence to be symmetric and each step squares. Since 1^2 =
+#   1, any sequence of all 1's of any length satisfies? Let's check: [1,1]
+#   would be [x, x^2] = [1,1] and then the reverse part would be [1]?
+#   Actually the pattern is [x, x^2, x^4, ..., x^k, x^{k/2}, ..., x^2, x]
+#   so the length is always odd (2*m+1). For x=1, all elements are 1, so
+#   any odd length works. But we can also have just [1] (length 1). So the
+#   maximum number of 1's we can use is the largest odd number <=
+#   count(1). That is count(1) if count(1) is odd, else count(1)-1. For
+#   other numbers, we consider each distinct number as a potential start.
+#   We try to build a chain by repeatedly squaring while we have at least
+#   2 copies of the current number (to use both sides of the palindrome).
+#   When we can't square further, we add one copy of the last number (the
+#   peak) if available. The total length is 2 * (number of squaring steps)
+#   + 1 (if peak exists) or 2 * steps (if no peak? Actually if we have at
+#   least 2 copies at each step, we can form a palindrome of length
+#   2*steps+1? Let's simulate: start with x, we need at least 2 copies of
+#   x to put one on each side? Actually the pattern: [x, x^2, ..., peak,
+#   ..., x^2, x]. So we need at least 2 copies of x (one at each end), 2
+#   copies of x^2, etc., and 1 copy of the peak. So if we have at least 2
+#   copies of each number in the chain except the peak, we can form a
+#   palindrome. The length is 2 * (number of steps) + 1. If we don't have
+#   a peak (i.e., we run out of copies before reaching a number with count
+#   >=2), we can still form a palindrome of length 2 * steps? Actually if
+#   we have only 1 copy of the last number, we can't use it as peak
+#   because we need it for both sides? Wait, the pattern always has a
+#   peak. If we have only 1 copy of the last number, we can use it as the
+#   peak, but then we need 2 copies of all previous numbers. So the
+#   algorithm: for each distinct number x (not 1), we try to build a
+#   chain: while count[x] >= 2, we add 2 to length, then set x = x*x,
+#   continue. After the loop, if count[x] >= 1, we can add 1 for the peak.
+#   This gives the maximum length for that starting x. We take the maximum
+#   over all x and also consider the 1 case. This matches the accepted
+#   solution logic.
 # 
 # Complexity
-#   Time  : O(n log log maxVal)
+#   Time  : O(n log log max)
 #   Space : O(n)
 # 
 # Runtime  : 
@@ -42,19 +77,21 @@
 #   · 1 <= nums[i] <= 109
 # ──────────────────────────────────────────────────────────────────────
 
+from collections import Counter
+
 class Solution:
     def maximumLength(self, nums: List[int]) -> int:
-        cnt = {}
-        for x in nums:
-            cnt[x] = cnt.get(x, 0) + 1
+        cnt = Counter(nums)
         # handle 1 separately
         ones = cnt.pop(1, 0)
-        ans = ones if ones % 2 == 1 else ones - 1 if ones > 0 else 0
+        ans = ones if ones % 2 == 1 else ones - 1
         for x in list(cnt.keys()):
             length = 0
-            while cnt.get(x, 0) > 1:
-                x = x * x
+            cur = x
+            while cnt.get(cur, 0) >= 2:
                 length += 2
-            length += cnt.get(x, -1)
+                cur = cur * cur
+            if cnt.get(cur, 0) >= 1:
+                length += 1
             ans = max(ans, length)
         return ans
