@@ -7,20 +7,28 @@
 // Approach
 //   We need to find the longest subsequence that can be arranged into a
 //   palindrome-like pattern where each element is the square of the
-//   previous one from the center outward. The pattern is symmetric: [x,
-//   x^2, x^4, ..., x^(2^k), ..., x^4, x^2, x]. This means we can think of
-//   building sequences by repeatedly squaring numbers. We count
-//   frequencies of each number. For 1, since 1^2 = 1, we can use all 1s
-//   but the sequence must be symmetric; the maximum length using only 1s
-//   is the largest odd number ≤ count(1). For other numbers, we start from
-//   a base x and repeatedly square while we have at least 2 copies of the
-//   current number (to place on both sides). When we can no longer square
-//   (either because the next square is missing or we have only 1 copy), we
-//   add 1 if we have at least one copy of the final number. We track the
-//   maximum length found.
+//   previous one until the middle, then mirrored. The pattern is
+//   symmetric: starting from a base x, then x^2, x^4, ..., up to some
+//   peak, then back down. This means the sequence is determined by
+//   repeatedly squaring a starting number until we reach a number that
+//   appears only once (the peak) or until we cannot square further. The
+//   count of each number matters: for numbers that appear at least twice,
+//   we can use them in pairs (one on each side of the peak). The peak
+//   itself can be used only once. Special case: number 1, because 1^2 = 1,
+//   so any number of 1's can form a sequence of odd length (all 1's). We
+//   handle 1 separately: the best we can do with 1's is the largest odd
+//   number ≤ count(1). For other numbers, we iterate over each distinct
+//   number as a potential start, repeatedly square it while the count of
+//   the current number is at least 2, adding 2 to the length each time.
+//   When we hit a number that appears only once or doesn't exist, we stop.
+//   If the final number exists (count >= 1), we add 1 for the peak. We
+//   track the maximum length found. This approach uses a hash map for
+//   counts and processes each number's chain only once (since squaring
+//   quickly exceeds 1e9, the chain length is small). Complexity: O(n log
+//   max) time, O(n) space.
 // 
 // Complexity
-//   Time  : O(n log log maxVal)
+//   Time  : O(n log M) where M is max value (due to squaring chain length bounded by log log M)
 //   Space : O(n)
 // 
 // Runtime  : 
