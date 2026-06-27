@@ -5,29 +5,32 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-7-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-1-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-6-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-0-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-13-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-1-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-12-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-0-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 1 |
-| 🟡 Medium | 6 |
+| 🟡 Medium | 12 |
 | 🔴 Hard   | 0 |
-| **Total** | **7** |
+| **Total** | **13** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
+| [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
+| [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
+| [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
+| [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
+| [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
 | [#181 Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | 🟢 Easy | Database | Jun 27, 2026 |
 | [#179 Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Array, String, Greedy | Jun 27, 2026 |
 | [#179 Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Array, String, Greedy | Jun 27, 2026 |
 | [#180 Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | 🟡 Medium | Database | Jun 27, 2026 |
-| [#180 Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | 🟡 Medium | Database | Jun 26, 2026 |
-| [#180 Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | 🟡 Medium | Database | Jun 26, 2026 |
-| [#180 Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | 🟡 Medium | Database | Jun 26, 2026 |
 
 ---
-*Last updated: Sat, 27 Jun 2026 08:51:33 GMT*
+*Last updated: Sat, 27 Jun 2026 08:52:42 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
