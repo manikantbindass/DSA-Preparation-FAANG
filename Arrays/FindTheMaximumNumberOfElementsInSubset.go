@@ -5,27 +5,27 @@
 // URL        : https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/
 // ──────────────────────────────────────────────────────────────────────
 // Approach
-//   We need to find the longest subset that can be arranged into a
-//   palindrome-like sequence where each element is the square of the
-//   previous one, except the middle element which appears once (or twice
-//   if the sequence length is even). The pattern is symmetric: [x, x^2,
-//   x^4, ..., x^(2^k), ..., x^4, x^2, x]. This means we can think of
-//   building chains by repeatedly squaring numbers. For each starting
-//   number, we can follow the chain as long as we have at least two copies
-//   of each intermediate number (except possibly the last one which can
-//   have one copy). Special case: number 1, because 1^2 = 1, so any number
-//   of 1's can form a chain of length equal to the count of 1's, but the
-//   pattern requires symmetry: if count is odd, we can use all; if even,
-//   we can use all but one (since the middle element appears once). We use
-//   a frequency map. For each distinct number (except 1), we traverse the
-//   chain: while the current number appears at least twice, we move to its
-//   square and add 2 to the length. At the end, if the final number
-//   appears at least once, we add 1. We track the maximum length. For 1,
-//   we handle separately: if count is odd, answer = count; if even, answer
-//   = count - 1 (since we need odd length for palindrome).
+//   We need to find the longest subsequence that can be arranged into a
+//   palindrome-like pattern where each element is the square of the
+//   previous one until the middle, then mirrored. The pattern is
+//   essentially a sequence that starts with some number x, then repeatedly
+//   squares until reaching a peak, then mirrors back. The length of such a
+//   sequence is 2k+1 where k is the number of squaring steps (including
+//   the middle element counted once). For a given starting number x, we
+//   can build the sequence by repeatedly squaring as long as we have at
+//   least two copies of each intermediate number (except possibly the peak
+//   which needs only one copy). Special case: number 1, because 1^2 = 1,
+//   so we can have any number of 1's, but the pattern requires that the
+//   sequence be symmetric; with 1's we can form a sequence of length
+//   (count of 1's) if count is odd, or count-1 if even (since we need a
+//   single middle element). We use a hashmap to count frequencies, then
+//   for each distinct number (except 1) we try to build the longest chain
+//   by repeatedly squaring while we have at least 2 copies, and finally
+//   add 1 if the peak exists. We track the maximum length. For 1, we
+//   handle separately as described.
 // 
 // Complexity
-//   Time  : O(n log log maxVal)
+//   Time  : O(n log M) where M is max value, due to repeated squaring
 //   Space : O(n)
 // 
 // Runtime  : 
@@ -48,8 +48,8 @@
 
 func maximumLength(nums []int) int {
     cnt := make(map[int]int)
-    for _, v := range nums {
-        cnt[v]++
+    for _, x := range nums {
+        cnt[x]++
     }
     ones := cnt[1]
     delete(cnt, 1)
@@ -63,14 +63,15 @@ func maximumLength(nums []int) int {
     }
     for x := range cnt {
         length := 0
-        for cnt[x] > 1 {
-            x = x * x
+        cur := x
+        for cnt[cur] >= 2 {
             length += 2
+            cur = cur * cur
         }
-        if cnt[x] > 0 {
-            length++
+        if cnt[cur] >= 1 {
+            length += 1
         } else {
-            length--
+            length -= 1
         }
         if length > ans {
             ans = length
