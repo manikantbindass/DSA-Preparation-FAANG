@@ -5,14 +5,14 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-16-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-1-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-15-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-0-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-17-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-1-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-16-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-0-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 1 |
-| 🟡 Medium | 15 |
+| 🟡 Medium | 16 |
 | 🔴 Hard   | 0 |
-| **Total** | **16** |
+| **Total** | **17** |
 
 ## 🕐 Recent Submissions
 
@@ -27,10 +27,10 @@
 | [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
 | [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
 | [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
-| [#181 Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | 🟢 Easy | Database | Jun 27, 2026 |
+| [#3299 Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | Array, Hash Table, Enumeration | Jun 27, 2026 |
 
 ---
-*Last updated: Sat, 27 Jun 2026 08:53:50 GMT*
+*Last updated: Sat, 27 Jun 2026 08:55:53 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
