@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-6-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-0-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-6-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-0-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-7-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-1-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-6-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-0-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 0 |
+| 🟢 Easy   | 1 |
 | 🟡 Medium | 6 |
 | 🔴 Hard   | 0 |
-| **Total** | **6** |
+| **Total** | **7** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#181 Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | 🟢 Easy | Database | Jun 27, 2026 |
 | [#179 Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Array, String, Greedy | Jun 27, 2026 |
 | [#179 Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Array, String, Greedy | Jun 27, 2026 |
 | [#180 Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | 🟡 Medium | Database | Jun 27, 2026 |
@@ -26,7 +27,7 @@
 | [#180 Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | 🟡 Medium | Database | Jun 26, 2026 |
 
 ---
-*Last updated: Fri, 26 Jun 2026 18:52:50 GMT*
+*Last updated: Sat, 27 Jun 2026 08:51:33 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
