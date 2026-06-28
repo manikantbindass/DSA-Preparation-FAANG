@@ -6,19 +6,23 @@
 # ──────────────────────────────────────────────────────────────────────
 # Approach
 #   We use dynamic programming with memoization. The state is defined by
-#   (day index, remaining transactions, holding status). At each day, we
-#   can either skip the day or perform a transaction (buy if not holding
-#   and have transactions left, sell if holding). The recursion explores
-#   both options and returns the maximum profit. Base case: when we reach
-#   the end of the array, profit is 0. We memoize results to avoid
-#   recomputation.
+#   (day, remaining transactions, holding stock). On each day, we can
+#   either skip (do nothing) or, if we are not holding a stock and have
+#   remaining transactions, we can buy (spend money, decrease remaining
+#   transactions, set holding to 1). If we are holding a stock, we can
+#   sell (gain profit, set holding to 0). We take the maximum profit among
+#   these choices. The base case is when we exceed the last day, profit is
+#   0. We cache results in a 3D array to avoid recomputation. If k is
+#   large (>= n/2), we can use the greedy approach (sum all positive
+#   differences) to avoid O(n*k) memory, but the DP works within
+#   constraints.
 # 
 # Complexity
 #   Time  : O(n * k)
 #   Space : O(n * k)
 # 
-# Runtime  : 
-# Memory   : 
+# Runtime  : 0 ms
+# Memory   : 42.7 MB
 # 
 # Examples
 #   Example 1:
@@ -39,20 +43,26 @@
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         n = len(prices)
-        from functools import lru_cache
-
-        @lru_cache(None)
-        def dfs(day: int, transactions_left: int, holding: int) -> int:
-            if day >= n:
-                return 0
-            # skip the day
-            best = dfs(day + 1, transactions_left, holding)
-            if holding:
-                # sell
-                best = max(best, prices[day] + dfs(day + 1, transactions_left, 0))
-            elif transactions_left > 0:
-                # buy
-                best = max(best, -prices[day] + dfs(day + 1, transactions_left - 1, 1))
-            return best
-
-        return dfs(0, k, 0)
+        if n == 0:
+            return 0
+        # If k is large enough, use greedy
+        if k >= n // 2:
+            profit = 0
+            for i in range(1, n):
+                if prices[i] > prices[i-1]:
+                    profit += prices[i] - prices[i-1]
+            return profit
+        # dp[i][j][0] = max profit up to day i with at most j transactions and no stock
+        # dp[i][j][1] = max profit up to day i with at most j transactions and holding stock
+        dp = [[[0, 0] for _ in range(k+1)] for _ in range(n)]
+        for j in range(k+1):
+            dp[0][j][0] = 0
+            dp[0][j][1] = -prices[0]
+        for i in range(1, n):
+            for j in range(k+1):
+                dp[i][j][0] = max(dp[i-1][j][0], dp[i-1][j][1] + prices[i])
+                if j > 0:
+                    dp[i][j][1] = max(dp[i-1][j][1], dp[i-1][j-1][0] - prices[i])
+                else:
+                    dp[i][j][1] = dp[i-1][j][1]
+        return dp[n-1][k][0]
