@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-34-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-7-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-26-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-1-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-35-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-7-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-27-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-1-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 7 |
-| 🟡 Medium | 26 |
+| 🟡 Medium | 27 |
 | 🔴 Hard   | 1 |
-| **Total** | **34** |
+| **Total** | **35** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#0 minimum-time-to-reach-target-with-limited-power](https://leetcode.com/problems/minimum-time-to-reach-target-with-limited-power/) | 🟡 Medium |  | Jun 28, 2026 |
 | [#0 maximum-subarray-sum-after-multiplier](https://leetcode.com/problems/maximum-subarray-sum-after-multiplier/) | 🟡 Medium |  | Jun 28, 2026 |
 | [#0 filter-occupied-intervals](https://leetcode.com/problems/filter-occupied-intervals/) | 🟡 Medium |  | Jun 28, 2026 |
 | [#0 maximum-total-sum-of-k-selected-elements](https://leetcode.com/problems/maximum-total-sum-of-k-selected-elements/) | 🟡 Medium |  | Jun 28, 2026 |
@@ -27,10 +28,9 @@
 | [#185 Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | 🔴 Hard | Database | Jun 27, 2026 |
 | [#184 Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) | 🟡 Medium | Database | Jun 27, 2026 |
 | [#183 Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | 🟢 Easy | Database | Jun 27, 2026 |
-| [#183 Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | 🟢 Easy | Database | Jun 27, 2026 |
 
 ---
-*Last updated: Sun, 28 Jun 2026 03:25:27 GMT*
+*Last updated: Sun, 28 Jun 2026 04:49:47 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
