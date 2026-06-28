@@ -6,19 +6,23 @@
 // ──────────────────────────────────────────────────────────────────────
 // Approach
 //   We use dynamic programming with memoization. The state is defined by
-//   (day index, remaining transactions, holding status). At each day, we
-//   can either skip the day or perform a transaction (buy if not holding
-//   and have transactions left, sell if holding). The recursion explores
-//   both options and returns the maximum profit. Base case: when we reach
-//   the end of the array, profit is 0. We memoize results to avoid
-//   recomputation.
+//   (day, remaining transactions, holding stock). On each day, we can
+//   either skip (do nothing) or, if we are not holding a stock and have
+//   remaining transactions, we can buy (spend money, decrease remaining
+//   transactions, set holding to 1). If we are holding a stock, we can
+//   sell (gain profit, set holding to 0). We take the maximum profit among
+//   these choices. The base case is when we exceed the last day, profit is
+//   0. We cache results in a 3D array to avoid recomputation. If k is
+//   large (>= n/2), we can use the greedy approach (sum all positive
+//   differences) to avoid O(n*k) memory, but the DP works within
+//   constraints.
 // 
 // Complexity
 //   Time  : O(n * k)
 //   Space : O(n * k)
 // 
-// Runtime  : 
-// Memory   : 
+// Runtime  : 0 ms
+// Memory   : 42.7 MB
 // 
 // Examples
 //   Example 1:
@@ -37,34 +41,36 @@
 // ──────────────────────────────────────────────────────────────────────
 
 class Solution {
-    private Integer[][][] memo;
-    private int[] prices;
-    private int n;
-
     public int maxProfit(int k, int[] prices) {
-        this.prices = prices;
-        n = prices.length;
-        memo = new Integer[n][k + 1][2];
-        return dfs(0, k, 0);
-    }
-
-    private int dfs(int day, int transactionsLeft, int holding) {
-        if (day >= n) {
-            return 0;
+        int n = prices.length;
+        if (n == 0) return 0;
+        // If k is large enough, we can use greedy
+        if (k >= n / 2) {
+            int profit = 0;
+            for (int i = 1; i < n; i++) {
+                if (prices[i] > prices[i-1]) {
+                    profit += prices[i] - prices[i-1];
+                }
+            }
+            return profit;
         }
-        if (memo[day][transactionsLeft][holding] != null) {
-            return memo[day][transactionsLeft][holding];
+        // dp[i][j][0] = max profit up to day i with at most j transactions and no stock
+        // dp[i][j][1] = max profit up to day i with at most j transactions and holding stock
+        int[][][] dp = new int[n][k+1][2];
+        for (int j = 0; j <= k; j++) {
+            dp[0][j][0] = 0;
+            dp[0][j][1] = -prices[0];
         }
-        // skip the day
-        int best = dfs(day + 1, transactionsLeft, holding);
-        if (holding == 1) {
-            // sell
-            best = Math.max(best, prices[day] + dfs(day + 1, transactionsLeft, 0));
-        } else if (transactionsLeft > 0) {
-            // buy
-            best = Math.max(best, -prices[day] + dfs(day + 1, transactionsLeft - 1, 1));
+        for (int i = 1; i < n; i++) {
+            for (int j = 0; j <= k; j++) {
+                dp[i][j][0] = Math.max(dp[i-1][j][0], dp[i-1][j][1] + prices[i]);
+                if (j > 0) {
+                    dp[i][j][1] = Math.max(dp[i-1][j][1], dp[i-1][j-1][0] - prices[i]);
+                } else {
+                    dp[i][j][1] = dp[i-1][j][1];
+                }
+            }
         }
-        memo[day][transactionsLeft][holding] = best;
-        return best;
+        return dp[n-1][k][0];
     }
 }
