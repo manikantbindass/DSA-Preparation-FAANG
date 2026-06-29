@@ -42,7 +42,7 @@
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-275%20Problems-22c55e?style=for-the-badge" alt="275 solved" />
+  <img src="https://img.shields.io/badge/Solved-295%20Problems-22c55e?style=for-the-badge" alt="295 solved" />
   <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
 </p>
 
@@ -55,7 +55,7 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-06-29 15:50 UTC
+Last synced: 2026-06-29 19:44 UTC
 
 ### 🚀 LeetCode Stats
 
@@ -113,6 +113,7 @@ DSA-Preparation-FAANG-/
 |-- Arrays/         Core array, two-pointer, prefix, cyclic placement
 |-- Backtracking/   Permutations and combination search
 |-- BinarySearch/   Classic sorted-search templates
+|-- Bit Manipulation/ Bit-level counting and reversal problems
 |-- DP/             Grid DP and stock-state DP
 |-- Graphs/         Union-Find and graph traversal patterns
 |-- Intervals/      Merge and insert interval patterns
@@ -122,6 +123,7 @@ DSA-Preparation-FAANG-/
 |-- Matrix/         Matrix traversal and in-place marking
 |-- MySQL/          SQL database problems and query practice
 |-- SlidingWindow/  Contiguous substring and subarray window patterns
+|-- SQL/            SQL database problems from LeetCode
 |-- Stack/          Monotonic stack problems
 |-- Strings/        Sliding window and formatting
 |-- Trees/          Tree practice area
@@ -500,10 +502,25 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 275 solved problems, while this GitHub repository currently includes 210 tracked folder entries across 622 solution files: 205 DSA entries in Java/Python/Go topic folders plus 5 SQL entries in `MySQL`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 295 solved problems, while this GitHub repository currently includes 233 tracked folder entries across 686 solution files: 220 DSA entries in Java/Python/Go topic folders plus 13 SQL entries in `MySQL` and `SQL`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Count Subarrays With Majority Element II | Arrays | [Java](Arrays/CountSubarraysWithMajorityElementII.java), [Python](Arrays/CountSubarraysWithMajorityElementII.py), [Go](Arrays/CountSubarraysWithMajorityElementII.go) |
+| Largest Number | Arrays | [Java](Arrays/LargestNumber.java), [Python](Arrays/LargestNumber.py), [Go](Arrays/LargestNumber.go) |
+| Consecutive Numbers | SQL | [Java](SQL/ConsecutiveNumbers.java), [Python](SQL/ConsecutiveNumbers.py), [Go](SQL/ConsecutiveNumbers.go), [SQL](SQL/ConsecutiveNumbers.sql) |
+| Find the Maximum Number of Elements in Subset | Arrays | [Java](Arrays/FindTheMaximumNumberOfElementsInSubset.java), [Python](Arrays/FindTheMaximumNumberOfElementsInSubset.py), [Go](Arrays/FindTheMaximumNumberOfElementsInSubset.go) |
+| Duplicate Emails | SQL | [Python](SQL/DuplicateEmails.py), [SQL](SQL/DuplicateEmails.sql) |
+| Customers Who Never Order | SQL | [Python](SQL/CustomersWhoNeverOrder.py), [SQL](SQL/CustomersWhoNeverOrder.sql) |
+| Department Highest Salary | SQL | [Python](SQL/DepartmentHighestSalary.py), [SQL](SQL/DepartmentHighestSalary.sql) |
+| Department Top Three Salaries | MySQL | [Python](MySQL/DepartmentTopThreeSalaries.py), [SQL](MySQL/DepartmentTopThreeSalaries.sql) |
+| Repeated DNA Sequences | Strings | [Java](Strings/RepeatedDNASequences.java), [Python](Strings/RepeatedDNASequences.py), [Go](Strings/RepeatedDNASequences.go) |
+| Maximum Element After Decreasing and Rearranging | Arrays | [Java](Arrays/MaximumElementAfterDecreasingAndRearranging.java), [Python](Arrays/MaximumElementAfterDecreasingAndRearranging.py), [Go](Arrays/MaximumElementAfterDecreasingAndRearranging.go) |
+| Best Time to Buy and Sell Stock IV | DP | [Java](DP/BestTimeToBuyAndSellStockIV.java), [Python](DP/BestTimeToBuyAndSellStockIV.py), [Go](DP/BestTimeToBuyAndSellStockIV.go) |
+| Rotate Array | Arrays | [Java](Arrays/RotateArray.java), [Python](Arrays/RotateArray.py), [Go](Arrays/RotateArray.go) |
+| Number of Strings That Appear as Substrings in Word | Strings | [Java](Strings/NumberOfStringsThatAppearAsSubstringsInWord.java), [Python](Strings/NumberOfStringsThatAppearAsSubstringsInWord.py), [Go](Strings/NumberOfStringsThatAppearAsSubstringsInWord.go) |
+| Reverse Bits | Bit Manipulation | [Java](Bit%20Manipulation/ReverseBits.java), [Python](Bit%20Manipulation/ReverseBits.py), [Go](Bit%20Manipulation/ReverseBits.go) |
+| Number of 1 Bits | Bit Manipulation | [Java](Bit%20Manipulation/NumberOf1Bits.java), [Python](Bit%20Manipulation/NumberOf1Bits.py), [Go](Bit%20Manipulation/NumberOf1Bits.go) |
 | Process String with Special Operations II | Strings | [Java](Strings/ProcessStringWithSpecialOperationsII.java), [Python](Strings/ProcessStringWithSpecialOperationsII.py), [Go](Strings/ProcessStringWithSpecialOperationsII.go) |
 | Maximum Product Subarray | Arrays | [Java](Arrays/MaximumProductSubarray.java), [Python](Arrays/MaximumProductSubarray.py), [Go](Arrays/MaximumProductSubarray.go) |
 | Find Peak Element | BinarySearch | [Java](BinarySearch/FindPeakElement.java), [Python](BinarySearch/FindPeakElement.py), [Go](BinarySearch/FindPeakElement.go) |
@@ -715,37 +732,39 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 275 |
-| DSA topic problems with code | 205 |
-| SQL problems in MySQL | 5 |
-| Repo tracked folder entries | 210 |
-| Problems with Java, Python, and Go | 203 |
-| Total solution files | 622 |
-| Java solution files | 204 |
-| Python solution files | 208 |
-| Go solution files | 204 |
+| LeetCode profile solved total | 295 |
+| DSA topic folder entries | 220 |
+| SQL folder entries | 13 |
+| Repo tracked folder entries | 233 |
+| Problems with Java, Python, and Go | 217 |
+| Total solution files | 686 |
+| Java solution files | 220 |
+| Python solution files | 231 |
+| Go solution files | 220 |
 | C++ solution files | 1 |
-| SQL solution files | 5 |
+| SQL solution files | 14 |
 
 ## Topic Coverage From Solution Folders
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 50 |
+| Arrays | 55 |
 | Backtracking | 15 |
 | BinarySearch | 9 |
-| DP | 24 |
+| Bit Manipulation | 2 |
+| DP | 28 |
 | Graphs | 11 |
-| Intervals | 2 |
+| Intervals | 3 |
 | LinkedList | 16 |
 | Math | 11 |
 | Matrix | 10 |
-| MySQL | 5 |
+| MySQL | 9 |
 | SlidingWindow | 1 |
+| SQL | 4 |
 | Stack | 4 |
-| Strings | 25 |
+| Strings | 28 |
 | Trees | 27 |
-| Total | 210 |
+| Total | 233 |
 
 ## Pattern Checklist
 
