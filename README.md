@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-37-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-7-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-27-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-38-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-7-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-28-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 7 |
-| 🟡 Medium | 27 |
+| 🟡 Medium | 28 |
 | 🔴 Hard   | 3 |
-| **Total** | **37** |
+| **Total** | **38** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#189 Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array, Math, Two Pointers | Jun 28, 2026 |
 | [#188 Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | 🔴 Hard | Array, Dynamic Programming | Jun 28, 2026 |
 | [#188 Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | 🔴 Hard | Array, Dynamic Programming | Jun 28, 2026 |
 | [#0 minimum-time-to-reach-target-with-limited-power](https://leetcode.com/problems/minimum-time-to-reach-target-with-limited-power/) | 🟡 Medium |  | Jun 28, 2026 |
@@ -27,10 +28,9 @@
 | [#1956 Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | 🟡 Medium | Array, Greedy, Sorting | Jun 28, 2026 |
 | [#1956 Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | 🟡 Medium | Array, Greedy, Sorting | Jun 28, 2026 |
 | [#187 Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | 🟡 Medium | Hash Table, String, Bit Manipulation | Jun 27, 2026 |
-| [#185 Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | 🔴 Hard | Database | Jun 27, 2026 |
 
 ---
-*Last updated: Sun, 28 Jun 2026 06:03:43 GMT*
+*Last updated: Mon, 29 Jun 2026 05:20:39 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
