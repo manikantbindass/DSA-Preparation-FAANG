@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-41-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-10-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-28-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-42-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-10-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-29-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 10 |
-| 🟡 Medium | 28 |
+| 🟡 Medium | 29 |
 | 🔴 Hard   | 3 |
-| **Total** | **41** |
+| **Total** | **42** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#1460 Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 Medium | Hash Table, String, Sliding Window | Jun 30, 2026 |
 | [#191 Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | 🟢 Easy | Divide and Conquer, Bit Manipulation | Jun 29, 2026 |
 | [#190 Reverse Bits](https://leetcode.com/problems/reverse-bits/) | 🟢 Easy | Divide and Conquer, Bit Manipulation | Jun 29, 2026 |
 | [#2099 Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 Easy | Array, String | Jun 29, 2026 |
@@ -27,10 +28,9 @@
 | [#0 minimum-time-to-reach-target-with-limited-power](https://leetcode.com/problems/minimum-time-to-reach-target-with-limited-power/) | 🟡 Medium |  | Jun 28, 2026 |
 | [#0 maximum-subarray-sum-after-multiplier](https://leetcode.com/problems/maximum-subarray-sum-after-multiplier/) | 🟡 Medium |  | Jun 28, 2026 |
 | [#0 filter-occupied-intervals](https://leetcode.com/problems/filter-occupied-intervals/) | 🟡 Medium |  | Jun 28, 2026 |
-| [#0 maximum-total-sum-of-k-selected-elements](https://leetcode.com/problems/maximum-total-sum-of-k-selected-elements/) | 🟡 Medium |  | Jun 28, 2026 |
 
 ---
-*Last updated: Tue, 30 Jun 2026 04:57:17 GMT*
+*Last updated: Tue, 30 Jun 2026 11:44:37 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
