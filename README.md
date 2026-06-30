@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-40-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-9-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-28-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-41-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-10-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-28-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 9 |
+| 🟢 Easy   | 10 |
 | 🟡 Medium | 28 |
 | 🔴 Hard   | 3 |
-| **Total** | **40** |
+| **Total** | **41** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#191 Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | 🟢 Easy | Divide and Conquer, Bit Manipulation | Jun 29, 2026 |
 | [#190 Reverse Bits](https://leetcode.com/problems/reverse-bits/) | 🟢 Easy | Divide and Conquer, Bit Manipulation | Jun 29, 2026 |
 | [#2099 Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 Easy | Array, String | Jun 29, 2026 |
 | [#189 Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array, Math, Two Pointers | Jun 28, 2026 |
@@ -27,10 +28,9 @@
 | [#0 maximum-subarray-sum-after-multiplier](https://leetcode.com/problems/maximum-subarray-sum-after-multiplier/) | 🟡 Medium |  | Jun 28, 2026 |
 | [#0 filter-occupied-intervals](https://leetcode.com/problems/filter-occupied-intervals/) | 🟡 Medium |  | Jun 28, 2026 |
 | [#0 maximum-total-sum-of-k-selected-elements](https://leetcode.com/problems/maximum-total-sum-of-k-selected-elements/) | 🟡 Medium |  | Jun 28, 2026 |
-| [#1956 Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | 🟡 Medium | Array, Greedy, Sorting | Jun 28, 2026 |
 
 ---
-*Last updated: Mon, 29 Jun 2026 11:58:32 GMT*
+*Last updated: Tue, 30 Jun 2026 04:57:17 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
