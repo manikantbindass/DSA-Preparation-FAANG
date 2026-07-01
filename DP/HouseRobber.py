@@ -7,9 +7,9 @@
 # Approach
 #   The problem is solved using dynamic programming. The key insight is
 #   that at each house, the robber has two choices: either rob the current
-#   house and skip the next one, or skip the current house and move to the
-#   next. This leads to a recurrence relation: dp[i] = max(nums[i] +
-#   dp[i+2], dp[i+1]). The solution uses memoization (top-down DP) to
+#   house and then skip the next one, or skip the current house and move
+#   to the next. This leads to a recurrence relation: dp[i] = max(nums[i]
+#   + dp[i+2], dp[i+1]). The solution uses memoization (top-down DP) to
 #   avoid redundant calculations. The base case is when i >= n, return 0.
 #   The final answer is dp[0].
 # 
@@ -17,8 +17,8 @@
 #   Time  : O(n)
 #   Space : O(n)
 # 
-# Runtime  : 0 ms
-# Memory   : 42.3 MB
+# Runtime  : 
+# Memory   : 
 # 
 # Examples
 #   Example 1:
@@ -39,30 +39,21 @@ import pandas as pd
 
 def rob(nums):
     """
-    Calculate the maximum amount of money that can be robbed without alerting police.
-    
-    Parameters:
-    nums (list[int]): List of money in each house
-    
-    Returns:
-    int: Maximum amount that can be robbed
+    Returns the maximum amount of money that can be robbed without alerting the police.
+    Uses dynamic programming with O(1) space.
     """
     if not nums:
         return 0
     n = len(nums)
     if n == 1:
         return nums[0]
-    
-    # Using two variables to keep track of previous two states
-    prev2 = 0  # dp[i-2]
-    prev1 = nums[0]  # dp[i-1]
-    
-    for i in range(1, n):
-        current = max(prev1, nums[i] + prev2)
-        prev2 = prev1
-        prev1 = current
-    
-    return prev1
+    # dp_prev2 = dp[i-2], dp_prev1 = dp[i-1]
+    dp_prev2 = nums[0]
+    dp_prev1 = max(nums[0], nums[1])
+    for i in range(2, n):
+        current = max(nums[i] + dp_prev2, dp_prev1)
+        dp_prev2, dp_prev1 = dp_prev1, current
+    return dp_prev1
 
 # Example usage:
 # nums = [1,2,3,1]
