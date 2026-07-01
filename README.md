@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-47-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-12-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-32-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-48-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-13-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-32-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 12 |
+| 🟢 Easy   | 13 |
 | 🟡 Medium | 32 |
 | 🔴 Hard   | 3 |
-| **Total** | **47** |
+| **Total** | **48** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#196 Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | 🟢 Easy | Database | Jul 1, 2026 |
 | [#195 Tenth Line](https://leetcode.com/problems/tenth-line/) | 🟢 Easy | Shell | Jul 1, 2026 |
 | [#194 Transpose File](https://leetcode.com/problems/transpose-file/) | 🟡 Medium | Shell | Jul 1, 2026 |
 | [#2914 Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | 🟡 Medium | Array, Binary Search, Breadth-First Search | Jul 1, 2026 |
@@ -27,10 +28,9 @@
 | [#191 Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | 🟢 Easy | Divide and Conquer, Bit Manipulation | Jun 29, 2026 |
 | [#190 Reverse Bits](https://leetcode.com/problems/reverse-bits/) | 🟢 Easy | Divide and Conquer, Bit Manipulation | Jun 29, 2026 |
 | [#2099 Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 Easy | Array, String | Jun 29, 2026 |
-| [#189 Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array, Math, Two Pointers | Jun 28, 2026 |
 
 ---
-*Last updated: Wed, 01 Jul 2026 11:11:32 GMT*
+*Last updated: Wed, 01 Jul 2026 11:20:37 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
