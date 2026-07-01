@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-43-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-10-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-30-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-44-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-11-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-30-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 10 |
+| 🟢 Easy   | 11 |
 | 🟡 Medium | 30 |
 | 🔴 Hard   | 3 |
-| **Total** | **43** |
+| **Total** | **44** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#193 Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | 🟢 Easy | Shell | Jun 30, 2026 |
 | [#192 Word Frequency](https://leetcode.com/problems/word-frequency/) | 🟡 Medium | Shell | Jun 30, 2026 |
 | [#1460 Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 Medium | Hash Table, String, Sliding Window | Jun 30, 2026 |
 | [#191 Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | 🟢 Easy | Divide and Conquer, Bit Manipulation | Jun 29, 2026 |
@@ -27,10 +28,9 @@
 | [#188 Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | 🔴 Hard | Array, Dynamic Programming | Jun 28, 2026 |
 | [#188 Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | 🔴 Hard | Array, Dynamic Programming | Jun 28, 2026 |
 | [#0 minimum-time-to-reach-target-with-limited-power](https://leetcode.com/problems/minimum-time-to-reach-target-with-limited-power/) | 🟡 Medium |  | Jun 28, 2026 |
-| [#0 maximum-subarray-sum-after-multiplier](https://leetcode.com/problems/maximum-subarray-sum-after-multiplier/) | 🟡 Medium |  | Jun 28, 2026 |
 
 ---
-*Last updated: Tue, 30 Jun 2026 12:03:09 GMT*
+*Last updated: Wed, 01 Jul 2026 06:29:24 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
