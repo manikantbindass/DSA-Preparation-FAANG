@@ -1,0 +1,30 @@
+-- ──────────────────────────────────────────────────────────────────────
+-- LeetCode #196 · Delete Duplicate Emails
+-- Difficulty : Easy
+-- Topics     : Database
+-- URL        : https://leetcode.com/problems/delete-duplicate-emails/
+-- ──────────────────────────────────────────────────────────────────────
+-- Approach
+--   We need to delete duplicate emails from the Person table, keeping only
+--   the row with the smallest id for each email. In SQL, we can use a
+--   self-join to identify rows that have the same email but a larger id,
+--   and delete those rows. The DELETE statement with a JOIN (or using a
+--   subquery) allows us to remove the duplicates efficiently.
+-- 
+-- Complexity
+--   Time  : O(n^2) in worst case for self-join, but typically O(n log n) with indexing
+--   Space : O(1)
+-- 
+-- Runtime  : 
+-- Memory   : 
+-- 
+-- Examples
+--   Example 1:
+--     Input  : 
+--     Output : 
+--     Explanation: john@example.com is repeated two times. We keep the row with the smallest Id = 1.
+-- 
+-- Constraints
+-- ──────────────────────────────────────────────────────────────────────
+
+DELETE p1 FROM Person p1, Person p2 WHERE p1.email = p2.email AND p1.id > p2.id;
