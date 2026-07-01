@@ -7,9 +7,9 @@
 -- Approach
 --   The problem is solved using dynamic programming. The key insight is
 --   that at each house, the robber has two choices: either rob the current
---   house and skip the next one, or skip the current house and move to the
---   next. This leads to a recurrence relation: dp[i] = max(nums[i] +
---   dp[i+2], dp[i+1]). The solution uses memoization (top-down DP) to
+--   house and then skip the next one, or skip the current house and move
+--   to the next. This leads to a recurrence relation: dp[i] = max(nums[i]
+--   + dp[i+2], dp[i+1]). The solution uses memoization (top-down DP) to
 --   avoid redundant calculations. The base case is when i >= n, return 0.
 --   The final answer is dp[0].
 -- 
@@ -17,8 +17,8 @@
 --   Time  : O(n)
 --   Space : O(n)
 -- 
--- Runtime  : 0 ms
--- Memory   : 42.3 MB
+-- Runtime  : 
+-- Memory   : 
 -- 
 -- Examples
 --   Example 1:
@@ -35,6 +35,22 @@
 --   · 0 <= nums[i] <= 400
 -- ──────────────────────────────────────────────────────────────────────
 
--- Since SQL is not suitable for this algorithmic problem, we provide a placeholder.
--- The problem requires dynamic programming which cannot be efficiently expressed in SQL.
-SELECT -1 AS result;
+-- Since SQL is not typically used for this type of algorithmic problem, we simulate the DP logic using a recursive CTE or iterative approach. Here we use a recursive CTE to compute the maximum amount.
+-- Note: This assumes a table 'houses' with columns 'id' (1-indexed) and 'amount'.
+WITH RECURSIVE dp AS (
+    -- Base case: for the last house, max is its amount
+    SELECT id, amount AS max_rob
+    FROM houses
+    WHERE id = (SELECT MAX(id) FROM houses)
+    UNION ALL
+    -- Recursive step: for each previous house, compute max of robbing it or skipping
+    SELECT h.id, 
+           GREATEST(h.amount + COALESCE(n2.max_rob, 0), n1.max_rob) AS max_rob
+    FROM houses h
+    LEFT JOIN dp n1 ON n1.id = h.id + 1
+    LEFT JOIN dp n2 ON n2.id = h.id + 2
+    WHERE h.id < (SELECT MAX(id) FROM houses)
+)
+SELECT max_rob AS result
+FROM dp
+WHERE id = 1;
