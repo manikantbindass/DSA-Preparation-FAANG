@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-50-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-14-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-33-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-51-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-14-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-34-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 14 |
-| 🟡 Medium | 33 |
+| 🟡 Medium | 34 |
 | 🔴 Hard   | 3 |
-| **Total** | **50** |
+| **Total** | **51** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#198 House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Array, Dynamic Programming | Jul 2, 2026 |
 | [#198 House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Array, Dynamic Programming | Jul 2, 2026 |
 | [#197 Rising Temperature](https://leetcode.com/problems/rising-temperature/) | 🟢 Easy | Database | Jul 1, 2026 |
 | [#196 Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | 🟢 Easy | Database | Jul 1, 2026 |
@@ -27,10 +28,9 @@
 | [#193 Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | 🟢 Easy | Shell | Jun 30, 2026 |
 | [#192 Word Frequency](https://leetcode.com/problems/word-frequency/) | 🟡 Medium | Shell | Jun 30, 2026 |
 | [#1460 Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 Medium | Hash Table, String, Sliding Window | Jun 30, 2026 |
-| [#191 Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | 🟢 Easy | Divide and Conquer, Bit Manipulation | Jun 29, 2026 |
 
 ---
-*Last updated: Wed, 01 Jul 2026 18:40:33 GMT*
+*Last updated: Wed, 01 Jul 2026 18:57:32 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
