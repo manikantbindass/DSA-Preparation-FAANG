@@ -5,19 +5,21 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-51-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-14-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-34-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-53-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-14-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-36-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 14 |
-| 🟡 Medium | 34 |
+| 🟡 Medium | 36 |
 | 🔴 Hard   | 3 |
-| **Total** | **51** |
+| **Total** | **53** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#3558 Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium | Array, Breadth-First Search, Graph Theory | Jul 2, 2026 |
+| [#198 House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Array, Dynamic Programming | Jul 2, 2026 |
 | [#198 House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Array, Dynamic Programming | Jul 2, 2026 |
 | [#198 House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Array, Dynamic Programming | Jul 2, 2026 |
 | [#197 Rising Temperature](https://leetcode.com/problems/rising-temperature/) | 🟢 Easy | Database | Jul 1, 2026 |
@@ -26,11 +28,9 @@
 | [#194 Transpose File](https://leetcode.com/problems/transpose-file/) | 🟡 Medium | Shell | Jul 1, 2026 |
 | [#2914 Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | 🟡 Medium | Array, Binary Search, Breadth-First Search | Jul 1, 2026 |
 | [#193 Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | 🟢 Easy | Shell | Jun 30, 2026 |
-| [#192 Word Frequency](https://leetcode.com/problems/word-frequency/) | 🟡 Medium | Shell | Jun 30, 2026 |
-| [#1460 Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 Medium | Hash Table, String, Sliding Window | Jun 30, 2026 |
 
 ---
-*Last updated: Wed, 01 Jul 2026 18:57:32 GMT*
+*Last updated: Thu, 02 Jul 2026 15:13:08 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
