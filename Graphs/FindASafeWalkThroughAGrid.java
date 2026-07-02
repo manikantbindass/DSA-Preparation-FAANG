@@ -5,25 +5,24 @@
 // URL        : https://leetcode.com/problems/find-a-safe-walk-through-a-grid/
 // ──────────────────────────────────────────────────────────────────────
 // Approach
-//   We model the grid as a graph where each cell is a node and edges
-//   connect adjacent cells. The cost of entering a cell is the value of
-//   that cell (0 or 1). We want to find the minimum total health loss (sum
-//   of cell values) from (0,0) to (m-1,n-1). If that minimum loss is less
-//   than the given health, we can reach safely. Since all edge weights are
-//   non-negative (0 or 1), we can use a 0-1 BFS (deque) or Dijkstra's
-//   algorithm. The solution uses a deque for 0-1 BFS: we maintain a
-//   distance array initialized to infinity, set dist[0][0] = grid[0][0],
-//   and use a deque. When exploring neighbors, if the new distance is
-//   smaller, we update and push to front if the edge weight is 0, else to
-//   back. This ensures we process nodes in order of increasing distance.
-//   Finally, we check if dist[m-1][n-1] < health.
+//   We model the problem as a shortest path problem where each cell has a
+//   cost equal to its value (0 or 1). The goal is to find the minimum
+//   total cost (number of unsafe cells visited) from (0,0) to (m-1,n-1).
+//   If that minimum cost is less than the given health, we can reach
+//   safely. We use a 0-1 BFS (or Dijkstra with a deque) because edge
+//   weights are 0 or 1. The algorithm maintains a distance matrix
+//   initialized to infinity, sets dist[0][0] = grid[0][0], and uses a
+//   deque to process cells. For each neighbor, if the new distance is
+//   smaller, we update and push the neighbor to the front if the edge
+//   weight is 0, else to the back. This ensures we always process cells
+//   with smaller distances first, achieving O(m*n) time.
 // 
 // Complexity
 //   Time  : O(m * n)
 //   Space : O(m * n)
 // 
-// Runtime  : 0 ms
-// Memory   : 42.1 MB
+// Runtime  : 
+// Memory   : 
 // 
 // Examples
 //   Example 1:
