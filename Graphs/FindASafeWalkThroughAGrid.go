@@ -5,25 +5,24 @@
 // URL        : https://leetcode.com/problems/find-a-safe-walk-through-a-grid/
 // ──────────────────────────────────────────────────────────────────────
 // Approach
-//   We model the grid as a graph where each cell is a node and edges
-//   connect adjacent cells. The cost of entering a cell is the value of
-//   that cell (0 or 1). We want to find the minimum total health loss (sum
-//   of cell values) from (0,0) to (m-1,n-1). If that minimum loss is less
-//   than the given health, we can reach safely. Since all edge weights are
-//   non-negative (0 or 1), we can use a 0-1 BFS (deque) or Dijkstra's
-//   algorithm. The solution uses a deque for 0-1 BFS: we maintain a
-//   distance array initialized to infinity, set dist[0][0] = grid[0][0],
-//   and use a deque. When exploring neighbors, if the new distance is
-//   smaller, we update and push to front if the edge weight is 0, else to
-//   back. This ensures we process nodes in order of increasing distance.
-//   Finally, we check if dist[m-1][n-1] < health.
+//   We model the problem as a shortest path problem where each cell has a
+//   cost equal to its value (0 or 1). The goal is to find the minimum
+//   total cost (number of unsafe cells visited) from (0,0) to (m-1,n-1).
+//   If that minimum cost is less than the given health, we can reach
+//   safely. We use a 0-1 BFS (or Dijkstra with a deque) because edge
+//   weights are 0 or 1. The algorithm maintains a distance matrix
+//   initialized to infinity, sets dist[0][0] = grid[0][0], and uses a
+//   deque to process cells. For each neighbor, if the new distance is
+//   smaller, we update and push the neighbor to the front if the edge
+//   weight is 0, else to the back. This ensures we always process cells
+//   with smaller distances first, achieving O(m*n) time.
 // 
 // Complexity
 //   Time  : O(m * n)
 //   Space : O(m * n)
 // 
-// Runtime  : 0 ms
-// Memory   : 42.1 MB
+// Runtime  : 
+// Memory   : 
 // 
 // Examples
 //   Example 1:
@@ -45,6 +44,10 @@
 //   · grid[i][j] is either 0 or 1.
 // ──────────────────────────────────────────────────────────────────────
 
+import (
+    "container/list"
+)
+
 func findSafeWalk(grid [][]int, health int) bool {
     m := len(grid)
     n := len(grid[0])
@@ -56,23 +59,22 @@ func findSafeWalk(grid [][]int, health int) bool {
         }
     }
     dist[0][0] = grid[0][0]
-    dq := make([][2]int, 0)
-    dq = append(dq, [2]int{0, 0})
-    dirs := [][2]int{{-1, 0}, {1, 0}, {0, -1}, {0, 1}}
-    for len(dq) > 0 {
-        cur := dq[0]
-        dq = dq[1:]
+    dq := list.New()
+    dq.PushFront([]int{0, 0})
+    dirs := []int{-1, 0, 1, 0, -1}
+    for dq.Len() > 0 {
+        cur := dq.Remove(dq.Front()).([]int)
         x, y := cur[0], cur[1]
-        for _, d := range dirs {
-            nx, ny := x+d[0], y+d[1]
+        for i := 0; i < 4; i++ {
+            nx, ny := x+dirs[i], y+dirs[i+1]
             if nx >= 0 && nx < m && ny >= 0 && ny < n {
                 nd := dist[x][y] + grid[nx][ny]
                 if nd < dist[nx][ny] {
                     dist[nx][ny] = nd
                     if grid[nx][ny] == 0 {
-                        dq = append([][2]int{{nx, ny}}, dq...)
+                        dq.PushFront([]int{nx, ny})
                     } else {
-                        dq = append(dq, [2]int{nx, ny})
+                        dq.PushBack([]int{nx, ny})
                     }
                 }
             }
