@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-54-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-14-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-37-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-55-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-14-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-38-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-3-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 14 |
-| 🟡 Medium | 37 |
+| 🟡 Medium | 38 |
 | 🔴 Hard   | 3 |
-| **Total** | **54** |
+| **Total** | **55** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#199 Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | Tree, Depth-First Search, Breadth-First Search | Jul 2, 2026 |
 | [#3558 Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium | Array, Breadth-First Search, Graph Theory | Jul 2, 2026 |
 | [#3558 Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium | Array, Breadth-First Search, Graph Theory | Jul 2, 2026 |
 | [#198 House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Array, Dynamic Programming | Jul 2, 2026 |
@@ -27,10 +28,9 @@
 | [#196 Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | 🟢 Easy | Database | Jul 1, 2026 |
 | [#195 Tenth Line](https://leetcode.com/problems/tenth-line/) | 🟢 Easy | Shell | Jul 1, 2026 |
 | [#194 Transpose File](https://leetcode.com/problems/transpose-file/) | 🟡 Medium | Shell | Jul 1, 2026 |
-| [#2914 Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | 🟡 Medium | Array, Binary Search, Breadth-First Search | Jul 1, 2026 |
 
 ---
-*Last updated: Thu, 02 Jul 2026 17:15:33 GMT*
+*Last updated: Thu, 02 Jul 2026 18:01:06 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
