@@ -5,20 +5,19 @@
 # URL        : https://leetcode.com/problems/bitwise-and-of-numbers-range/
 # ──────────────────────────────────────────────────────────────────────
 # Approach
-#   The bitwise AND of all numbers in a range [left, right] is determined
-#   by the common prefix of the binary representations of left and right.
-#   Any bit that changes within the range will be zero in the result. The
-#   algorithm repeatedly clears the lowest set bit of right until right <=
-#   left, effectively finding the common prefix. This works because
-#   clearing the lowest set bit reduces the number to the next lower
-#   number that shares a longer prefix with left.
+#   The bitwise AND of a range [left, right] is determined by the common
+#   prefix of the binary representations of left and right. The algorithm
+#   repeatedly clears the lowest set bit of right until right <= left.
+#   This works because any bit that changes within the range will be zero
+#   in the AND result. The final value of right is the common prefix (the
+#   AND of all numbers).
 # 
 # Complexity
-#   Time  : O(log n) where n is the maximum bit length (32 for 32-bit integers)
+#   Time  : O(log n)
 #   Space : O(1)
 # 
-# Runtime  : 
-# Memory   : 
+# Runtime  : 0 ms
+# Memory   : 42.2 MB
 # 
 # Examples
 #   Example 1:
