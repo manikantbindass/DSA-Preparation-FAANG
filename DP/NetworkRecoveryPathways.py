@@ -6,21 +6,21 @@
 # ──────────────────────────────────────────────────────────────────────
 # Approach
 #   We need to find the maximum possible minimum edge cost along any path
-#   from node 0 to node n-1 that stays within total cost k and uses only
+#   from node 0 to node n-1 that stays within total cost k and only uses
 #   online intermediate nodes. Since the graph is a DAG, we can binary
 #   search on the minimum edge cost threshold. For a candidate threshold
 #   mid, we consider only edges with cost >= mid and run Dijkstra (or any
 #   shortest path) to check if there exists a path from 0 to n-1 with
 #   total cost <= k. The binary search finds the largest mid for which
-#   such a path exists. If no path exists even with the smallest possible
+#   such a path exists. If no path exists even for the smallest possible
 #   threshold, return -1.
 # 
 # Complexity
 #   Time  : O((n + m) log n log C) where C is the range of edge costs
 #   Space : O(n + m)
 # 
-# Runtime  : 4 ms
-# Memory   : 42.6 MB
+# Runtime  : 
+# Memory   : 
 # 
 # Examples
 #   Example 1:
