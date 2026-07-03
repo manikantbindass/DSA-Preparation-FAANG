@@ -6,18 +6,20 @@
 // ──────────────────────────────────────────────────────────────────────
 // Approach
 //   The problem is to determine if a number is a happy number. A happy
-//   number eventually reaches 1 when repeatedly replaced by the sum of the
-//   squares of its digits; otherwise, it enters a cycle that does not
-//   include 1. The solution uses Floyd's cycle detection algorithm (two
-//   pointers: slow and fast) to detect cycles without extra space. The
-//   slow pointer moves one step (computes sum of squares once), and the
-//   fast pointer moves two steps (computes sum of squares twice). If they
-//   meet at 1, the number is happy; if they meet at any other number, a
-//   cycle exists and the number is not happy. This approach is efficient
-//   with O(log n) time per step and O(1) space.
+//   number is defined by repeatedly replacing the number by the sum of the
+//   squares of its digits until it becomes 1 (happy) or enters a cycle
+//   that does not include 1 (unhappy). The key observation is that the
+//   process either reaches 1 or enters a cycle. To detect cycles
+//   efficiently, we can use Floyd's cycle detection algorithm (two
+//   pointers: slow and fast). The slow pointer moves one step (computes
+//   the next number once), and the fast pointer moves two steps (computes
+//   the next number twice). If they meet at a number other than 1, a cycle
+//   is detected and the number is unhappy. If the fast pointer reaches 1,
+//   the number is happy. This approach uses O(1) space and avoids using a
+//   hash set. The helper function computes the sum of squares of digits.
 // 
 // Complexity
-//   Time  : O(log n) per step, overall O(log n) due to cycle detection
+//   Time  : O(log n) average, but bounded by the cycle length; effectively O(log n) per step and the number of steps is small.
 //   Space : O(1)
 // 
 // Runtime  : 0 ms
