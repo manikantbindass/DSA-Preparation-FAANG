@@ -6,21 +6,21 @@
 // ──────────────────────────────────────────────────────────────────────
 // Approach
 //   We need to find the maximum possible minimum edge cost along any path
-//   from node 0 to node n-1 that stays within total cost k and uses only
+//   from node 0 to node n-1 that stays within total cost k and only uses
 //   online intermediate nodes. Since the graph is a DAG, we can binary
 //   search on the minimum edge cost threshold. For a candidate threshold
 //   mid, we consider only edges with cost >= mid and run Dijkstra (or any
 //   shortest path) to check if there exists a path from 0 to n-1 with
 //   total cost <= k. The binary search finds the largest mid for which
-//   such a path exists. If no path exists even with the smallest possible
+//   such a path exists. If no path exists even for the smallest possible
 //   threshold, return -1.
 // 
 // Complexity
 //   Time  : O((n + m) log n log C) where C is the range of edge costs
 //   Space : O(n + m)
 // 
-// Runtime  : 4 ms
-// Memory   : 42.6 MB
+// Runtime  : 
+// Memory   : 
 // 
 // Examples
 //   Example 1:
@@ -50,6 +50,10 @@ import (
 	"math"
 )
 
+type Edge struct {
+	to, cost int
+}
+
 type Item struct {
 	dist int64
 	node int
@@ -71,13 +75,13 @@ func (pq *PriorityQueue) Pop() interface{} {
 
 func findMaxPathScore(edges [][]int, online []bool, k int64) int {
 	n := len(online)
-	g := make([][][2]int, n)
+	g := make([][]Edge, n)
 	minCost := math.MaxInt32
 	maxCost := 0
 	for _, e := range edges {
 		u, v, w := e[0], e[1], e[2]
 		if online[u] && online[v] {
-			g[u] = append(g[u], [2]int{v, w})
+			g[u] = append(g[u], Edge{v, w})
 			if w < minCost {
 				minCost = w
 			}
@@ -90,14 +94,15 @@ func findMaxPathScore(edges [][]int, online []bool, k int64) int {
 	check := func(mid int) bool {
 		dist := make([]int64, n)
 		for i := range dist {
-			dist[i] = math.MaxInt64 / 4
+			dist[i] = math.MaxInt64
 		}
 		dist[0] = 0
 		pq := &PriorityQueue{}
-		heap.Push(pq, &Item{dist: 0, node: 0})
+		heap.Push(pq, &Item{0, 0})
 		for pq.Len() > 0 {
-			cur := heap.Pop(pq).(*Item)
-			d, u := cur.dist, cur.node
+			item := heap.Pop(pq).(*Item)
+			d := item.dist
+			u := item.node
 			if d > k {
 				return false
 			}
@@ -107,15 +112,14 @@ func findMaxPathScore(edges [][]int, online []bool, k int64) int {
 			if dist[u] < d {
 				continue
 			}
-			for _, edge := range g[u] {
-				v, w := edge[0], edge[1]
-				if w < mid {
+			for _, e := range g[u] {
+				if e.cost < mid {
 					continue
 				}
-				nd := d + int64(w)
-				if nd < dist[v] {
-					dist[v] = nd
-					heap.Push(pq, &Item{dist: nd, node: v})
+				nd := d + int64(e.cost)
+				if nd < dist[e.to] {
+					dist[e.to] = nd
+					heap.Push(pq, &Item{nd, e.to})
 				}
 			}
 		}
