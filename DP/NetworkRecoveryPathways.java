@@ -6,21 +6,21 @@
 // ──────────────────────────────────────────────────────────────────────
 // Approach
 //   We need to find the maximum possible minimum edge cost along any path
-//   from node 0 to node n-1 that stays within total cost k and uses only
+//   from node 0 to node n-1 that stays within total cost k and only uses
 //   online intermediate nodes. Since the graph is a DAG, we can binary
 //   search on the minimum edge cost threshold. For a candidate threshold
 //   mid, we consider only edges with cost >= mid and run Dijkstra (or any
 //   shortest path) to check if there exists a path from 0 to n-1 with
 //   total cost <= k. The binary search finds the largest mid for which
-//   such a path exists. If no path exists even with the smallest possible
+//   such a path exists. If no path exists even for the smallest possible
 //   threshold, return -1.
 // 
 // Complexity
 //   Time  : O((n + m) log n log C) where C is the range of edge costs
 //   Space : O(n + m)
 // 
-// Runtime  : 4 ms
-// Memory   : 42.6 MB
+// Runtime  : 
+// Memory   : 
 // 
 // Examples
 //   Example 1:
@@ -43,16 +43,19 @@
 //   · The given graph is a directed acyclic graph.
 // ──────────────────────────────────────────────────────────────────────
 
+import java.util.*;
+
 class Solution {
     int n;
     List<int[]>[] g;
     long k;
+    
     boolean check(int mid) {
         long[] dist = new long[n];
         Arrays.fill(dist, Long.MAX_VALUE / 4);
         dist[0] = 0;
         PriorityQueue<long[]> pq = new PriorityQueue<>(Comparator.comparingLong(a -> a[0]));
-        pq.offer(new long[] {0, 0});
+        pq.offer(new long[]{0, 0});
         while (!pq.isEmpty()) {
             long[] cur = pq.poll();
             long d = cur[0];
@@ -66,12 +69,13 @@ class Solution {
                 long nd = d + w;
                 if (nd < dist[v]) {
                     dist[v] = nd;
-                    pq.offer(new long[] {nd, v});
+                    pq.offer(new long[]{nd, v});
                 }
             }
         }
         return false;
     }
+    
     public int findMaxPathScore(int[][] edges, boolean[] online, long k) {
         this.k = k;
         n = online.length;
@@ -82,7 +86,7 @@ class Solution {
         for (int[] e : edges) {
             int u = e[0], v = e[1], w = e[2];
             if (!online[u] || !online[v]) continue;
-            g[u].add(new int[] {v, w});
+            g[u].add(new int[]{v, w});
             l = Math.min(l, w);
             r = Math.max(r, w);
         }
