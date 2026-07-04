@@ -6,18 +6,16 @@
 // ──────────────────────────────────────────────────────────────────────
 // Approach
 //   We use the Sieve of Eratosthenes algorithm. Create a boolean array of
-//   size n (since we only care about numbers < n) and initially mark all
-//   entries as true (potential primes). Start from 2, the first prime. For
-//   each prime i, mark all multiples of i (starting from i*i to avoid
-//   redundant marking) as false. Count the number of true entries. This
-//   efficiently finds all primes up to n-1.
+//   size n, initially all true. Iterate from 2 to n-1; if the number is
+//   still marked prime, increment the count and mark all its multiples as
+//   non-prime. Return the count.
 // 
 // Complexity
 //   Time  : O(n log log n)
 //   Space : O(n)
 // 
-// Runtime  : 0 ms
-// Memory   : 42.3 MB
+// Runtime  : 
+// Memory   : 
 // 
 // Examples
 //   Example 1:
@@ -37,7 +35,7 @@
 
 class Solution {
     public int countPrimes(int n) {
-        if (n < 2) return 0;
+        if (n <= 2) return 0;
         boolean[] isPrime = new boolean[n];
         Arrays.fill(isPrime, true);
         int count = 0;
