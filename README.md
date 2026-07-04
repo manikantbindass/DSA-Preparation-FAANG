@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-61-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-15-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-41-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-5-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-62-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-16-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-41-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-5-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 15 |
+| 🟢 Easy   | 16 |
 | 🟡 Medium | 41 |
 | 🔴 Hard   | 5 |
-| **Total** | **61** |
+| **Total** | **62** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#203 Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | 🟢 Easy | Linked List, Recursion | Jul 4, 2026 |
 | [#202 Happy Number](https://leetcode.com/problems/happy-number/) | 🟢 Easy | Hash Table, Math, Two Pointers | Jul 4, 2026 |
 | [#201 Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | 🟡 Medium | Bit Manipulation | Jul 3, 2026 |
 | [#201 Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | 🟡 Medium | Bit Manipulation | Jul 3, 2026 |
@@ -27,10 +28,9 @@
 | [#199 Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | Tree, Depth-First Search, Breadth-First Search | Jul 2, 2026 |
 | [#3558 Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium | Array, Breadth-First Search, Graph Theory | Jul 2, 2026 |
 | [#3558 Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium | Array, Breadth-First Search, Graph Theory | Jul 2, 2026 |
-| [#198 House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Array, Dynamic Programming | Jul 2, 2026 |
 
 ---
-*Last updated: Fri, 03 Jul 2026 21:07:12 GMT*
+*Last updated: Sat, 04 Jul 2026 09:34:31 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
