@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-68-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-18-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-45-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-5-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-69-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-18-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-46-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-5-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 18 |
-| 🟡 Medium | 45 |
+| 🟡 Medium | 46 |
 | 🔴 Hard   | 5 |
-| **Total** | **68** |
+| **Total** | **69** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#0 maximum-valid-pair-sum](https://leetcode.com/problems/maximum-valid-pair-sum/) | 🟡 Medium |  | Jul 4, 2026 |
 | [#0 unique-middle-element](https://leetcode.com/problems/unique-middle-element/) | 🟡 Medium |  | Jul 4, 2026 |
 | [#205 Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | Hash Table, String | Jul 4, 2026 |
 | [#205 Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | Hash Table, String | Jul 4, 2026 |
@@ -27,10 +28,9 @@
 | [#203 Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | 🟢 Easy | Linked List, Recursion | Jul 4, 2026 |
 | [#202 Happy Number](https://leetcode.com/problems/happy-number/) | 🟢 Easy | Hash Table, Math, Two Pointers | Jul 4, 2026 |
 | [#201 Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | 🟡 Medium | Bit Manipulation | Jul 3, 2026 |
-| [#201 Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | 🟡 Medium | Bit Manipulation | Jul 3, 2026 |
 
 ---
-*Last updated: Sat, 04 Jul 2026 14:43:18 GMT*
+*Last updated: Sat, 04 Jul 2026 15:07:17 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
