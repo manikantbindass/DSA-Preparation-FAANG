@@ -5,19 +5,21 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-64-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-16-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-43-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-5-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-66-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-17-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-44-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-5-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 16 |
-| 🟡 Medium | 43 |
+| 🟢 Easy   | 17 |
+| 🟡 Medium | 44 |
 | 🔴 Hard   | 5 |
-| **Total** | **64** |
+| **Total** | **66** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#205 Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | Hash Table, String | Jul 4, 2026 |
+| [#204 Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Array, Math, Enumeration | Jul 4, 2026 |
 | [#204 Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Array, Math, Enumeration | Jul 4, 2026 |
 | [#2582 Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Union-Find | Jul 4, 2026 |
 | [#203 Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | 🟢 Easy | Linked List, Recursion | Jul 4, 2026 |
@@ -26,11 +28,9 @@
 | [#201 Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | 🟡 Medium | Bit Manipulation | Jul 3, 2026 |
 | [#3919 Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/) | 🔴 Hard | Array, Binary Search, Dynamic Programming | Jul 3, 2026 |
 | [#3919 Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/) | 🔴 Hard | Array, Binary Search, Dynamic Programming | Jul 3, 2026 |
-| [#200 Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | Array, Depth-First Search, Breadth-First Search | Jul 2, 2026 |
-| [#199 Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | Tree, Depth-First Search, Breadth-First Search | Jul 2, 2026 |
 
 ---
-*Last updated: Sat, 04 Jul 2026 13:27:29 GMT*
+*Last updated: Sat, 04 Jul 2026 14:15:07 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
