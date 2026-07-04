@@ -11,15 +11,14 @@
 #   c2 from t), check if there is an existing mapping. If not, create it;
 #   if yes, verify it matches. Also ensure no two different characters in
 #   s map to the same character in t by checking the reverse mapping. If
-#   any inconsistency is found, return false. If the loop completes,
-#   return true.
+#   all pairs satisfy the bijection, return true; otherwise false.
 # 
 # Complexity
 #   Time  : O(n)
-#   Space : O(1)
+#   Space : O(1) because the maps have at most 256 entries for ASCII
 # 
-# Runtime  : 0 ms
-# Memory   : 43 MB
+# Runtime  : 
+# Memory   : 
 # 
 # Examples
 #   Example 1:
