@@ -5,19 +5,21 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-76-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-18-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-51-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-7-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-78-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-19-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-52-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-7-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 18 |
-| 🟡 Medium | 51 |
+| 🟢 Easy   | 19 |
+| 🟡 Medium | 52 |
 | 🔴 Hard   | 7 |
-| **Total** | **76** |
+| **Total** | **78** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#207 Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 5, 2026 |
+| [#206 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | Linked List, Recursion | Jul 5, 2026 |
 | [#1234 Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | 🔴 Hard | Array, Dynamic Programming, Matrix | Jul 5, 2026 |
 | [#1234 Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | 🔴 Hard | Array, Dynamic Programming, Matrix | Jul 5, 2026 |
 | [#0 palindromic-subarray-sum](https://leetcode.com/problems/palindromic-subarray-sum/) | 🟡 Medium |  | Jul 5, 2026 |
@@ -26,11 +28,9 @@
 | [#0 count-distinct-ways-to-form-target-from-two-strings](https://leetcode.com/problems/count-distinct-ways-to-form-target-from-two-strings/) | 🟡 Medium |  | Jul 4, 2026 |
 | [#0 minimum-operations-to-transform-binary-string](https://leetcode.com/problems/minimum-operations-to-transform-binary-string/) | 🟡 Medium |  | Jul 4, 2026 |
 | [#0 maximum-valid-pair-sum](https://leetcode.com/problems/maximum-valid-pair-sum/) | 🟡 Medium |  | Jul 4, 2026 |
-| [#0 unique-middle-element](https://leetcode.com/problems/unique-middle-element/) | 🟡 Medium |  | Jul 4, 2026 |
-| [#205 Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | Hash Table, String | Jul 4, 2026 |
 
 ---
-*Last updated: Sun, 05 Jul 2026 06:06:15 GMT*
+*Last updated: Sun, 05 Jul 2026 06:23:19 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
