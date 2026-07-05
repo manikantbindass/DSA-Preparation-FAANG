@@ -6,20 +6,21 @@
 // ──────────────────────────────────────────────────────────────────────
 // Approach
 //   We use dynamic programming from bottom-right to top-left. For each
-//   cell, we consider three possible previous moves (up, left, up-left)
-//   and track the maximum sum and number of ways to reach that cell. We
-//   initialize the start cell 'S' with sum 0 and 1 way. For each cell, we
-//   update from its three predecessors (down, right, down-right) if they
-//   are valid. After processing all predecessors, we add the cell's
-//   numeric value (if any) to the sum. The answer is the values at the
-//   top-left 'E' cell. If unreachable, return [0,0].
+//   cell (i,j), we consider three possible previous cells (down, right,
+//   down-right) that can reach it. We maintain two DP tables: f[i][j] =
+//   maximum sum from (i,j) to (n-1,n-1), and g[i][j] = number of ways to
+//   achieve that maximum sum. We initialize f[n-1][n-1]=0, g[n-1][n-1]=1.
+//   For each cell, we update f and g by comparing sums from the three
+//   directions. After processing all cells, we add the digit value of the
+//   current cell (if it's a digit) to f[i][j]. Finally, answer is f[0][0]
+//   and g[0][0] (if reachable, else [0,0]).
 // 
 // Complexity
 //   Time  : O(n^2)
 //   Space : O(n^2)
 // 
-// Runtime  : 
-// Memory   : 
+// Runtime  : 0 ms
+// Memory   : 42.8 MB
 // 
 // Examples
 //   Example 1:
@@ -38,7 +39,7 @@
 
 func pathsWithMaxScore(board []string) []int {
     n := len(board)
-    const mod = 1_000_000_007
+    const MOD = 1000000007
     f := make([][]int, n)
     g := make([][]int, n)
     for i := 0; i < n; i++ {
@@ -50,22 +51,22 @@ func pathsWithMaxScore(board []string) []int {
     }
     f[n-1][n-1] = 0
     g[n-1][n-1] = 1
-
+    
     for i := n - 1; i >= 0; i-- {
         for j := n - 1; j >= 0; j-- {
-            if i == n-1 && j == n-1 {
+            if board[i][j] == 'X' || board[i][j] == 'S' {
                 continue
             }
-            // check three predecessors: down, right, down-right
-            dirs := [][2]int{{1, 0}, {0, 1}, {1, 1}}
+            // check three directions
+            dirs := [][2]int{{1,0}, {0,1}, {1,1}}
             for _, d := range dirs {
-                x, y := i+d[0], j+d[1]
-                if x < n && y < n && f[x][y] != -1 && board[i][j] != 'X' {
+                x, y := i + d[0], j + d[1]
+                if x < n && y < n && f[x][y] != -1 {
                     if f[x][y] > f[i][j] {
                         f[i][j] = f[x][y]
                         g[i][j] = g[x][y]
                     } else if f[x][y] == f[i][j] {
-                        g[i][j] = (g[i][j] + g[x][y]) % mod
+                        g[i][j] = (g[i][j] + g[x][y]) % MOD
                     }
                 }
             }
@@ -74,7 +75,7 @@ func pathsWithMaxScore(board []string) []int {
             }
         }
     }
-
+    
     if f[0][0] == -1 {
         return []int{0, 0}
     }
