@@ -5,21 +5,23 @@
 // URL        : https://leetcode.com/problems/course-schedule/
 // ──────────────────────────────────────────────────────────────────────
 // Approach
-//   This problem is essentially detecting a cycle in a directed graph. We
-//   can use Kahn's algorithm (BFS-based topological sort) or DFS with
-//   state marking. The BFS approach: build an adjacency list and indegree
-//   array. Start with nodes having indegree 0, process them, decrement
-//   indegrees of neighbors, and add new zero-indegree nodes. If we process
-//   all nodes, no cycle exists. The DFS approach: mark nodes as
-//   0=unvisited, 1=visiting, 2=visited; if we encounter a node in visiting
-//   state, there's a cycle.
+//   The problem is to determine if all courses can be finished given
+//   prerequisites. This is equivalent to detecting a cycle in a directed
+//   graph where courses are nodes and prerequisites are edges. We use
+//   Kahn's algorithm (BFS-based topological sort). First, build an
+//   adjacency list and compute in-degree for each node. Then, push all
+//   nodes with in-degree 0 into a queue. While the queue is not empty, pop
+//   a node, decrement in-degree of its neighbors, and if any neighbor's
+//   in-degree becomes 0, push it. Count the number of nodes processed. If
+//   the count equals numCourses, there is no cycle and we can finish all
+//   courses; otherwise, there is a cycle and we return false.
 // 
 // Complexity
-//   Time  : O(V + E)
-//   Space : O(V + E)
+//   Time  : O(V + E) where V = numCourses, E = prerequisites.length
+//   Space : O(V + E) for adjacency list and queue
 // 
-// Runtime  : 
-// Memory   : 
+// Runtime  : 0 ms
+// Memory   : 42.7 MB
 // 
 // Examples
 //   Example 1:
@@ -43,29 +45,29 @@ import java.util.*;
 
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        // Build adjacency list and indegree array
+        // Build adjacency list and in-degree array
         List<List<Integer>> adj = new ArrayList<>();
         int[] indegree = new int[numCourses];
         for (int i = 0; i < numCourses; i++) {
             adj.add(new ArrayList<>());
         }
-        for (int[] pre : prerequisites) {
-            int course = pre[0];
-            int prereq = pre[1];
-            adj.get(prereq).add(course);
+        for (int[] prereq : prerequisites) {
+            int course = prereq[0];
+            int pre = prereq[1];
+            adj.get(pre).add(course);
             indegree[course]++;
         }
-        // Queue for BFS (Kahn's algorithm)
+        // Queue for BFS
         Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < numCourses; i++) {
             if (indegree[i] == 0) {
                 queue.offer(i);
             }
         }
-        int processed = 0;
+        int count = 0;
         while (!queue.isEmpty()) {
             int node = queue.poll();
-            processed++;
+            count++;
             for (int neighbor : adj.get(node)) {
                 indegree[neighbor]--;
                 if (indegree[neighbor] == 0) {
@@ -73,6 +75,6 @@ class Solution {
                 }
             }
         }
-        return processed == numCourses;
+        return count == numCourses;
     }
 }
