@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-75-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-18-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-51-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-6-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-76-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-18-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-51-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-7-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 18 |
 | 🟡 Medium | 51 |
-| 🔴 Hard   | 6 |
-| **Total** | **75** |
+| 🔴 Hard   | 7 |
+| **Total** | **76** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#1234 Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | 🔴 Hard | Array, Dynamic Programming, Matrix | Jul 5, 2026 |
 | [#1234 Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | 🔴 Hard | Array, Dynamic Programming, Matrix | Jul 5, 2026 |
 | [#0 palindromic-subarray-sum](https://leetcode.com/problems/palindromic-subarray-sum/) | 🟡 Medium |  | Jul 5, 2026 |
 | [#0 divisible-game](https://leetcode.com/problems/divisible-game/) | 🟡 Medium |  | Jul 5, 2026 |
@@ -27,10 +28,9 @@
 | [#0 maximum-valid-pair-sum](https://leetcode.com/problems/maximum-valid-pair-sum/) | 🟡 Medium |  | Jul 4, 2026 |
 | [#0 unique-middle-element](https://leetcode.com/problems/unique-middle-element/) | 🟡 Medium |  | Jul 4, 2026 |
 | [#205 Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | Hash Table, String | Jul 4, 2026 |
-| [#205 Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | Hash Table, String | Jul 4, 2026 |
 
 ---
-*Last updated: Sun, 05 Jul 2026 04:37:03 GMT*
+*Last updated: Sun, 05 Jul 2026 06:06:15 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
