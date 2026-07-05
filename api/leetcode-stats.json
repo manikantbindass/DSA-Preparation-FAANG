@@ -15,14 +15,14 @@
     "sourceStatus": "ok",
     "topPercentage": 0.39
   },
-  "generatedAt": "2026-07-05 08:54 UTC",
+  "generatedAt": "2026-07-05 13:42 UTC",
   "goal": 300,
   "leetcode": {
     "easySolved": 82,
     "goalProgressPercent": 108.3,
     "hardSolved": 63,
     "mediumSolved": 180,
-    "ranking": 447407,
+    "ranking": 421026,
     "totalSolved": 325
   },
   "profileUrl": "https://leetcode.com/u/manikantbindass/",
