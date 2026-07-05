@@ -5,21 +5,23 @@
 # URL        : https://leetcode.com/problems/course-schedule/
 # ──────────────────────────────────────────────────────────────────────
 # Approach
-#   This problem is essentially detecting a cycle in a directed graph. We
-#   can use Kahn's algorithm (BFS-based topological sort) or DFS with
-#   state marking. The BFS approach: build an adjacency list and indegree
-#   array. Start with nodes having indegree 0, process them, decrement
-#   indegrees of neighbors, and add new zero-indegree nodes. If we process
-#   all nodes, no cycle exists. The DFS approach: mark nodes as
-#   0=unvisited, 1=visiting, 2=visited; if we encounter a node in visiting
-#   state, there's a cycle.
+#   The problem is to determine if all courses can be finished given
+#   prerequisites. This is equivalent to detecting a cycle in a directed
+#   graph where courses are nodes and prerequisites are edges. We use
+#   Kahn's algorithm (BFS-based topological sort). First, build an
+#   adjacency list and compute in-degree for each node. Then, push all
+#   nodes with in-degree 0 into a queue. While the queue is not empty, pop
+#   a node, decrement in-degree of its neighbors, and if any neighbor's
+#   in-degree becomes 0, push it. Count the number of nodes processed. If
+#   the count equals numCourses, there is no cycle and we can finish all
+#   courses; otherwise, there is a cycle and we return false.
 # 
 # Complexity
-#   Time  : O(V + E)
-#   Space : O(V + E)
+#   Time  : O(V + E) where V = numCourses, E = prerequisites.length
+#   Space : O(V + E) for adjacency list and queue
 # 
-# Runtime  : 
-# Memory   : 
+# Runtime  : 0 ms
+# Memory   : 42.7 MB
 # 
 # Examples
 #   Example 1:
@@ -43,20 +45,20 @@ from collections import deque
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        # Build adjacency list and indegree array
+        # Build adjacency list and in-degree array
         adj = [[] for _ in range(numCourses)]
         indegree = [0] * numCourses
-        for course, prereq in prerequisites:
-            adj[prereq].append(course)
+        for course, pre in prerequisites:
+            adj[pre].append(course)
             indegree[course] += 1
-        # Queue for BFS (Kahn's algorithm)
+        # Queue for BFS
         queue = deque([i for i in range(numCourses) if indegree[i] == 0])
-        processed = 0
+        count = 0
         while queue:
             node = queue.popleft()
-            processed += 1
+            count += 1
             for neighbor in adj[node]:
                 indegree[neighbor] -= 1
                 if indegree[neighbor] == 0:
                     queue.append(neighbor)
-        return processed == numCourses
+        return count == numCourses
