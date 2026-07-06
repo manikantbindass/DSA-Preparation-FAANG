@@ -5,19 +5,21 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-79-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-19-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-53-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-7-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-81-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-19-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-55-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-7-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 19 |
-| 🟡 Medium | 53 |
+| 🟡 Medium | 55 |
 | 🔴 Hard   | 7 |
-| **Total** | **79** |
+| **Total** | **81** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#208 Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | Hash Table, String, Design | Jul 6, 2026 |
+| [#1222 Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | 🟡 Medium | Array, Sorting | Jul 6, 2026 |
 | [#207 Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 5, 2026 |
 | [#207 Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 5, 2026 |
 | [#206 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | Linked List, Recursion | Jul 5, 2026 |
@@ -26,11 +28,9 @@
 | [#0 palindromic-subarray-sum](https://leetcode.com/problems/palindromic-subarray-sum/) | 🟡 Medium |  | Jul 5, 2026 |
 | [#0 divisible-game](https://leetcode.com/problems/divisible-game/) | 🟡 Medium |  | Jul 5, 2026 |
 | [#0 subsequence-after-one-replacement](https://leetcode.com/problems/subsequence-after-one-replacement/) | 🟡 Medium |  | Jul 5, 2026 |
-| [#0 count-distinct-ways-to-form-target-from-two-strings](https://leetcode.com/problems/count-distinct-ways-to-form-target-from-two-strings/) | 🟡 Medium |  | Jul 4, 2026 |
-| [#0 minimum-operations-to-transform-binary-string](https://leetcode.com/problems/minimum-operations-to-transform-binary-string/) | 🟡 Medium |  | Jul 4, 2026 |
 
 ---
-*Last updated: Mon, 06 Jul 2026 05:40:32 GMT*
+*Last updated: Mon, 06 Jul 2026 06:49:15 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
