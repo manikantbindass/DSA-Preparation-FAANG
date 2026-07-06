@@ -55,13 +55,13 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-07-06 07:52 UTC
+Last synced: 2026-07-06 10:25 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-421026-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
 ![Solved](https://img.shields.io/badge/Solved-328-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-328%2F1000-f59e0b?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-328%2F300-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
@@ -70,9 +70,9 @@ Last synced: 2026-07-06 07:52 UTC
 | Easy | 82 |
 | Medium | 183 |
 | Hard | 63 |
-| Goal progress | 328 / 1000, 32.8% |
+| Goal progress | 328 / 300, 109.3% |
 
-![Overall Goal Progress](https://progress-bar.xyz/33/?scale=100&title=Goal+328%2F1000&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/109/?scale=100&title=Goal+328%2F300&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData

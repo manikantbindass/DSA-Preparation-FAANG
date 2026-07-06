@@ -15,11 +15,11 @@
     "sourceStatus": "ok",
     "topPercentage": 0.39
   },
-  "generatedAt": "2026-07-06 07:52 UTC",
-  "goal": 1000,
+  "generatedAt": "2026-07-06 10:25 UTC",
+  "goal": 300,
   "leetcode": {
     "easySolved": 82,
-    "goalProgressPercent": 32.8,
+    "goalProgressPercent": 109.3,
     "hardSolved": 63,
     "mediumSolved": 183,
     "ranking": 421026,
