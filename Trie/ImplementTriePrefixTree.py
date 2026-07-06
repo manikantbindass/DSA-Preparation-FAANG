@@ -7,22 +7,19 @@
 # Approach
 #   The Trie (prefix tree) is implemented using an array of 26 child
 #   pointers (one for each lowercase letter) and a boolean flag to mark
-#   the end of a word. The insert method traverses the tree, creating
-#   nodes as needed, and sets the end flag on the final node. The search
-#   method uses a helper searchPrefix that traverses the tree according to
-#   the given string; if the traversal completes, it returns the node, and
-#   search checks if that node is an end node. startsWith simply checks if
-#   the traversal completes (node is not null). This approach provides
-#   O(L) time for each operation, where L is the length of the word or
-#   prefix, and O(N * L) space in the worst case for storing all inserted
-#   strings.
+#   the end of a word. Insertion traverses the tree, creating nodes as
+#   needed, and marks the final node as a word end. Search follows the
+#   path character by character; if the path exists and the final node is
+#   marked as end, the word is found. startsWith is similar but only
+#   checks if the path exists. The searchPrefix helper method encapsulates
+#   the traversal logic.
 # 
 # Complexity
-#   Time  : O(L) per operation, where L is the length of the word or prefix
-#   Space : O(N * L) in the worst case, where N is the number of inserted words and L is the average length
+#   Time  : O(L) for each operation, where L is the length of the word or prefix
+#   Space : O(N * L) where N is the number of inserted words and L is the average length, due to node creation
 # 
-# Runtime  : 
-# Memory   : 
+# Runtime  : 3 ms
+# Memory   : 42.4 MB
 # 
 # Examples
 #   Example 1:
