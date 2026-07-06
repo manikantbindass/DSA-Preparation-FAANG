@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-78-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-19-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-52-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-7-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-79-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-19-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-53-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-7-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 19 |
-| 🟡 Medium | 52 |
+| 🟡 Medium | 53 |
 | 🔴 Hard   | 7 |
-| **Total** | **78** |
+| **Total** | **79** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#207 Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 5, 2026 |
 | [#207 Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 5, 2026 |
 | [#206 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | Linked List, Recursion | Jul 5, 2026 |
 | [#1234 Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | 🔴 Hard | Array, Dynamic Programming, Matrix | Jul 5, 2026 |
@@ -27,10 +28,9 @@
 | [#0 subsequence-after-one-replacement](https://leetcode.com/problems/subsequence-after-one-replacement/) | 🟡 Medium |  | Jul 5, 2026 |
 | [#0 count-distinct-ways-to-form-target-from-two-strings](https://leetcode.com/problems/count-distinct-ways-to-form-target-from-two-strings/) | 🟡 Medium |  | Jul 4, 2026 |
 | [#0 minimum-operations-to-transform-binary-string](https://leetcode.com/problems/minimum-operations-to-transform-binary-string/) | 🟡 Medium |  | Jul 4, 2026 |
-| [#0 maximum-valid-pair-sum](https://leetcode.com/problems/maximum-valid-pair-sum/) | 🟡 Medium |  | Jul 4, 2026 |
 
 ---
-*Last updated: Sun, 05 Jul 2026 06:23:19 GMT*
+*Last updated: Mon, 06 Jul 2026 05:40:32 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
