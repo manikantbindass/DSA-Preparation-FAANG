@@ -42,8 +42,8 @@
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-295%20Problems-22c55e?style=for-the-badge" alt="295 solved" />
-  <img src="https://img.shields.io/badge/Goal-300%20Problems-2563eb?style=for-the-badge" alt="300 problem goal" />
+  <img src="https://img.shields.io/badge/Solved-328%20Problems-22c55e?style=for-the-badge" alt="328 solved" />
+  <img src="https://img.shields.io/badge/Goal-1000%20Problems-2563eb?style=for-the-badge" alt="1000 problem goal" />
 </p>
 
 ## Mission
@@ -55,30 +55,30 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-07-06 03:41 UTC
+Last synced: 2026-07-06 07:52 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-421026-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-325-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-325%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-328-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-328%2F1000-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 421,026 |
-| Solved | 325 |
+| Solved | 328 |
 | Easy | 82 |
-| Medium | 180 |
+| Medium | 183 |
 | Hard | 63 |
-| Goal progress | 325 / 300, 108.3% |
+| Goal progress | 328 / 1000, 32.8% |
 
-![Overall Goal Progress](https://progress-bar.xyz/108/?scale=100&title=Goal+325%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/33/?scale=100&title=Goal+328%2F1000&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 82
-    "Medium" : 180
+    "Medium" : 183
     "Hard" : 63
 ```
 
@@ -122,11 +122,13 @@ DSA-Preparation-FAANG-/
 |-- Math/           Number patterns, bit-based construction, and counting
 |-- Matrix/         Matrix traversal and in-place marking
 |-- MySQL/          SQL database problems and query practice
+|-- Shell/          Shell-style LeetCode file-processing tasks
 |-- SlidingWindow/  Contiguous substring and subarray window patterns
 |-- SQL/            SQL database problems from LeetCode
 |-- Stack/          Monotonic stack problems
 |-- Strings/        Sliding window and formatting
 |-- Trees/          Tree practice area
+|-- Trie/           Prefix tree design problems
 |-- Notes/          Pattern notes and cheat sheets
 |-- resources/      Jupyter notebook guide for core interview algorithms
 `-- Manikant-DSA-FAANG-Prep/  Daily logs and extra practice structure
@@ -502,10 +504,29 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 295 solved problems, while this GitHub repository currently includes 233 tracked folder entries across 686 solution files: 220 DSA entries in Java/Python/Go topic folders plus 13 SQL entries in `MySQL` and `SQL`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 328 solved problems, while this GitHub repository currently includes 267 tracked folder entries across 775 solution files: 246 DSA/Trie entries in Java/Python/Go topic folders plus 21 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Find the Safest Path in a Grid | Arrays | [Java](Arrays/FindTheSafestPathInAGrid.java), [Python](Arrays/FindTheSafestPathInAGrid.py), [Go](Arrays/FindTheSafestPathInAGrid.go) |
+| Transpose File | Shell | [TypeScript](Shell/TransposeFile.ts) |
+| Tenth Line | Shell | [TypeScript](Shell/TenthLine.ts) |
+| Delete Duplicate Emails | SQL | [SQL](SQL/DeleteDuplicateEmails.sql) |
+| Rising Temperature | SQL | [Python](SQL/RisingTemperature.py), [SQL](SQL/RisingTemperature.sql) |
+| House Robber | DP | [Java](DP/HouseRobber.java), [Python](DP/HouseRobber.py), [Go](DP/HouseRobber.go) |
+| Find a Safe Walk Through a Grid | Graphs | [Java](Graphs/FindASafeWalkThroughAGrid.java), [Python](Graphs/FindASafeWalkThroughAGrid.py), [Go](Graphs/FindASafeWalkThroughAGrid.go) |
+| Network Recovery Pathways | DP | [Java](DP/NetworkRecoveryPathways.java), [Python](DP/NetworkRecoveryPathways.py), [Go](DP/NetworkRecoveryPathways.go) |
+| Bitwise AND of Numbers Range | Bit Manipulation | [Java](Bit%20Manipulation/BitwiseANDOfNumbersRange.java), [Python](Bit%20Manipulation/BitwiseANDOfNumbersRange.py), [Go](Bit%20Manipulation/BitwiseANDOfNumbersRange.go) |
+| Happy Number | Math | [Java](Math/HappyNumber.java), [Python](Math/HappyNumber.py), [Go](Math/HappyNumber.go) |
+| Remove Linked List Elements | LinkedList | [Java](LinkedList/RemoveLinkedListElements.java), [Python](LinkedList/RemoveLinkedListElements.py), [Go](LinkedList/RemoveLinkedListElements.go) |
+| Minimum Score of a Path Between Two Cities | Graphs | [Java](Graphs/MinimumScoreOfAPathBetweenTwoCities.java), [Python](Graphs/MinimumScoreOfAPathBetweenTwoCities.py), [Go](Graphs/MinimumScoreOfAPathBetweenTwoCities.go) |
+| Count Primes | Math | [Java](Math/CountPrimes.java), [Python](Math/CountPrimes.py), [Go](Math/CountPrimes.go) |
+| Isomorphic Strings | Strings | [Java](Strings/IsomorphicStrings.java), [Python](Strings/IsomorphicStrings.py), [Go](Strings/IsomorphicStrings.go) |
+| Number of Paths with Max Score | DP | [Java](DP/NumberOfPathsWithMaxScore.java), [Python](DP/NumberOfPathsWithMaxScore.py), [Go](DP/NumberOfPathsWithMaxScore.go) |
+| Course Schedule | Graphs | [Java](Graphs/CourseSchedule.java), [Python](Graphs/CourseSchedule.py), [Go](Graphs/CourseSchedule.go) |
+| Remove Covered Intervals | Intervals | [Java](Intervals/RemoveCoveredIntervals.java), [Python](Intervals/RemoveCoveredIntervals.py), [Go](Intervals/RemoveCoveredIntervals.go) |
+| Implement Trie (Prefix Tree) | Trie | [Java](Trie/ImplementTriePrefixTree.java), [Python](Trie/ImplementTriePrefixTree.py), [Go](Trie/ImplementTriePrefixTree.go) |
+| Minimum Size Subarray Sum | SlidingWindow | [Java](SlidingWindow/MinimumSizeSubarraySum.java), [Python](SlidingWindow/MinimumSizeSubarraySum.py), [Go](SlidingWindow/MinimumSizeSubarraySum.go) |
 | Count Subarrays With Majority Element II | Arrays | [Java](Arrays/CountSubarraysWithMajorityElementII.java), [Python](Arrays/CountSubarraysWithMajorityElementII.py), [Go](Arrays/CountSubarraysWithMajorityElementII.go) |
 | Largest Number | Arrays | [Java](Arrays/LargestNumber.java), [Python](Arrays/LargestNumber.py), [Go](Arrays/LargestNumber.go) |
 | Consecutive Numbers | SQL | [Java](SQL/ConsecutiveNumbers.java), [Python](SQL/ConsecutiveNumbers.py), [Go](SQL/ConsecutiveNumbers.go), [SQL](SQL/ConsecutiveNumbers.sql) |
@@ -732,39 +753,43 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 295 |
-| DSA topic folder entries | 220 |
-| SQL folder entries | 13 |
-| Repo tracked folder entries | 233 |
-| Problems with Java, Python, and Go | 217 |
-| Total solution files | 686 |
-| Java solution files | 220 |
-| Python solution files | 231 |
-| Go solution files | 220 |
+| LeetCode profile solved total | 328 |
+| DSA/Trie topic folder entries | 246 |
+| SQL/Shell folder entries | 21 |
+| Repo tracked folder entries | 267 |
+| Problems with Java, Python, and Go | 243 |
+| Total solution files | 775 |
+| Java solution files | 247 |
+| Python solution files | 260 |
+| Go solution files | 247 |
 | C++ solution files | 1 |
-| SQL solution files | 14 |
+| SQL solution files | 16 |
+| TypeScript shell files | 2 |
+| Text shell files | 2 |
 
 ## Topic Coverage From Solution Folders
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 55 |
-| Backtracking | 15 |
+| Arrays | 57 |
+| Backtracking | 16 |
 | BinarySearch | 9 |
-| Bit Manipulation | 2 |
-| DP | 28 |
-| Graphs | 11 |
-| Intervals | 3 |
-| LinkedList | 16 |
-| Math | 11 |
+| Bit Manipulation | 3 |
+| DP | 33 |
+| Graphs | 15 |
+| Intervals | 4 |
+| LinkedList | 18 |
+| Math | 14 |
 | Matrix | 10 |
 | MySQL | 9 |
-| SlidingWindow | 1 |
-| SQL | 4 |
+| Shell | 6 |
+| SlidingWindow | 3 |
+| SQL | 6 |
 | Stack | 4 |
-| Strings | 28 |
-| Trees | 27 |
-| Total | 233 |
+| Strings | 31 |
+| Trees | 28 |
+| Trie | 1 |
+| Total | 267 |
 
 ## Pattern Checklist
 
