@@ -5,22 +5,21 @@
 // URL        : https://leetcode.com/problems/course-schedule-ii/
 // ──────────────────────────────────────────────────────────────────────
 // Approach
-//   This problem is a classic topological sort on a directed graph where
-//   courses are nodes and prerequisites are edges from prerequisite to
-//   dependent course. We use Kahn's algorithm (BFS) to compute a valid
-//   ordering. First, build an adjacency list and compute indegree for each
-//   node. Initialize a queue with all nodes having indegree 0. While the
-//   queue is not empty, pop a node, add it to the result, and for each
-//   neighbor, decrement its indegree; if it becomes 0, push it into the
-//   queue. After processing, if the result size equals numCourses, return
-//   the result; otherwise, return an empty array indicating a cycle.
+//   This problem is a classic topological sort on a directed graph. We
+//   model courses as nodes and prerequisites as directed edges from
+//   prerequisite to dependent course. Using Kahn's algorithm (BFS), we
+//   compute indegrees for each node, then repeatedly enqueue nodes with
+//   indegree 0, process them, and decrement indegrees of their neighbors.
+//   The order of processing gives a valid course order. If the number of
+//   processed nodes equals numCourses, we return the order; otherwise, a
+//   cycle exists and we return an empty array.
 // 
 // Complexity
-//   Time  : O(V + E) where V = numCourses, E = prerequisites.length
-//   Space : O(V + E) for adjacency list and queue
+//   Time  : O(V + E)
+//   Space : O(V + E)
 // 
-// Runtime  : 0 ms
-// Memory   : 42.9 MB
+// Runtime  : 
+// Memory   : 
 // 
 // Examples
 //   Example 1:
@@ -45,33 +44,33 @@
 // ──────────────────────────────────────────────────────────────────────
 
 func findOrder(numCourses int, prerequisites [][]int) []int {
-    g := make([][]int, numCourses)
-    indeg := make([]int, numCourses)
+    graph := make([][]int, numCourses)
+    indegree := make([]int, numCourses)
     for _, p := range prerequisites {
         a, b := p[0], p[1]
-        g[b] = append(g[b], a)
-        indeg[a]++
+        graph[b] = append(graph[b], a)
+        indegree[a]++
     }
-    q := make([]int, 0)
+    queue := make([]int, 0)
     for i := 0; i < numCourses; i++ {
-        if indeg[i] == 0 {
-            q = append(q, i)
+        if indegree[i] == 0 {
+            queue = append(queue, i)
         }
     }
-    ans := make([]int, 0, numCourses)
-    for len(q) > 0 {
-        u := q[0]
-        q = q[1:]
-        ans = append(ans, u)
-        for _, v := range g[u] {
-            indeg[v]--
-            if indeg[v] == 0 {
-                q = append(q, v)
+    order := make([]int, 0, numCourses)
+    for len(queue) > 0 {
+        course := queue[0]
+        queue = queue[1:]
+        order = append(order, course)
+        for _, neighbor := range graph[course] {
+            indegree[neighbor]--
+            if indegree[neighbor] == 0 {
+                queue = append(queue, neighbor)
             }
         }
     }
-    if len(ans) == numCourses {
-        return ans
+    if len(order) == numCourses {
+        return order
     }
     return []int{}
 }
