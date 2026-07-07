@@ -5,22 +5,21 @@
 # URL        : https://leetcode.com/problems/course-schedule-ii/
 # ──────────────────────────────────────────────────────────────────────
 # Approach
-#   This problem is a classic topological sort on a directed graph where
-#   courses are nodes and prerequisites are edges from prerequisite to
-#   dependent course. We use Kahn's algorithm (BFS) to compute a valid
-#   ordering. First, build an adjacency list and compute indegree for each
-#   node. Initialize a queue with all nodes having indegree 0. While the
-#   queue is not empty, pop a node, add it to the result, and for each
-#   neighbor, decrement its indegree; if it becomes 0, push it into the
-#   queue. After processing, if the result size equals numCourses, return
-#   the result; otherwise, return an empty array indicating a cycle.
+#   This problem is a classic topological sort on a directed graph. We
+#   model courses as nodes and prerequisites as directed edges from
+#   prerequisite to dependent course. Using Kahn's algorithm (BFS), we
+#   compute indegrees for each node, then repeatedly enqueue nodes with
+#   indegree 0, process them, and decrement indegrees of their neighbors.
+#   The order of processing gives a valid course order. If the number of
+#   processed nodes equals numCourses, we return the order; otherwise, a
+#   cycle exists and we return an empty array.
 # 
 # Complexity
-#   Time  : O(V + E) where V = numCourses, E = prerequisites.length
-#   Space : O(V + E) for adjacency list and queue
+#   Time  : O(V + E)
+#   Space : O(V + E)
 # 
-# Runtime  : 0 ms
-# Memory   : 42.9 MB
+# Runtime  : 
+# Memory   : 
 # 
 # Examples
 #   Example 1:
@@ -45,21 +44,22 @@
 # ──────────────────────────────────────────────────────────────────────
 
 from collections import deque
+from typing import List
 
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        g = [[] for _ in range(numCourses)]
-        indeg = [0] * numCourses
+        graph = [[] for _ in range(numCourses)]
+        indegree = [0] * numCourses
         for a, b in prerequisites:
-            g[b].append(a)
-            indeg[a] += 1
-        q = deque([i for i in range(numCourses) if indeg[i] == 0])
-        ans = []
-        while q:
-            u = q.popleft()
-            ans.append(u)
-            for v in g[u]:
-                indeg[v] -= 1
-                if indeg[v] == 0:
-                    q.append(v)
-        return ans if len(ans) == numCourses else []
+            graph[b].append(a)
+            indegree[a] += 1
+        queue = deque([i for i in range(numCourses) if indegree[i] == 0])
+        order = []
+        while queue:
+            course = queue.popleft()
+            order.append(course)
+            for neighbor in graph[course]:
+                indegree[neighbor] -= 1
+                if indegree[neighbor] == 0:
+                    queue.append(neighbor)
+        return order if len(order) == numCourses else []
