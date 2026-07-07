@@ -6,22 +6,20 @@
 // ──────────────────────────────────────────────────────────────────────
 // Approach
 //   We use a Trie (prefix tree) where each node has an array of 26 child
-//   pointers (for lowercase letters) and a boolean flag indicating if the
-//   node marks the end of a word. For addWord, we traverse the trie
-//   creating nodes as needed and mark the last node as end. For search, we
-//   use recursion or a stack to handle '.' wildcards: when encountering a
-//   '.', we try all 26 children; otherwise, we follow the specific child.
-//   The recursion returns true if any path leads to a word end. This
-//   approach efficiently supports the operations with O(L) time for add
-//   and O(26^d * L) worst-case for search where d is number of dots, but
-//   given at most 2 dots, it's acceptable.
+//   pointers (for 'a' to 'z') and a boolean flag indicating if the node is
+//   the end of a word. For addWord, we traverse the trie creating nodes as
+//   needed and mark the last node as end. For search, we use DFS (or
+//   recursion) to handle '.' wildcards: at each '.' we try all 26
+//   children; otherwise we follow the specific child. The search returns
+//   true if any path reaches a node that is end of word and the word
+//   length matches.
 // 
 // Complexity
-//   Time  : addWord: O(L), search: O(26^d * L) where L is word length and d is number of dots (max 2)
-//   Space : O(N * L) where N is number of words added
+//   Time  : O(N) for addWord (N = word length), O(26^D) worst-case for search where D is number of dots (but D ≤ 2 per constraints, so effectively O(N) average).
+//   Space : O(total characters inserted) for the trie.
 // 
-// Runtime  : 3 ms
-// Memory   : 42.1 MB
+// Runtime  : 
+// Memory   : 
 // 
 // Examples
 //   Example 1:
@@ -51,8 +49,8 @@ func Constructor() WordDictionary {
 
 func (this *WordDictionary) AddWord(word string) {
     node := this.root
-    for _, ch := range word {
-        idx := ch - 'a'
+    for i := 0; i < len(word); i++ {
+        idx := word[i] - 'a'
         if node.children[idx] == nil {
             node.children[idx] = &TrieNode{}
         }
@@ -62,10 +60,10 @@ func (this *WordDictionary) AddWord(word string) {
 }
 
 func (this *WordDictionary) Search(word string) bool {
-    return this.searchInNode(word, 0, this.root)
+    return searchInNode(word, 0, this.root)
 }
 
-func (this *WordDictionary) searchInNode(word string, pos int, node *TrieNode) bool {
+func searchInNode(word string, pos int, node *TrieNode) bool {
     if node == nil {
         return false
     }
@@ -75,13 +73,13 @@ func (this *WordDictionary) searchInNode(word string, pos int, node *TrieNode) b
     ch := word[pos]
     if ch == '.' {
         for i := 0; i < 26; i++ {
-            if node.children[i] != nil && this.searchInNode(word, pos+1, node.children[i]) {
+            if node.children[i] != nil && searchInNode(word, pos+1, node.children[i]) {
                 return true
             }
         }
         return false
     } else {
         idx := ch - 'a'
-        return this.searchInNode(word, pos+1, node.children[idx])
+        return searchInNode(word, pos+1, node.children[idx])
     }
 }
