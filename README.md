@@ -5,19 +5,22 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-86-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-20-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-59-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-7-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-89-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-20-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-61-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-8-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 20 |
-| 🟡 Medium | 59 |
-| 🔴 Hard   | 7 |
-| **Total** | **86** |
+| 🟡 Medium | 61 |
+| 🔴 Hard   | 8 |
+| **Total** | **89** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#212 Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | Array, String, Backtracking | Jul 7, 2026 |
+| [#211 Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | String, Depth-First Search, Design | Jul 7, 2026 |
+| [#211 Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | String, Depth-First Search, Design | Jul 7, 2026 |
 | [#210 Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 7, 2026 |
 | [#210 Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 7, 2026 |
 | [#4135 Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | 🟢 Easy | Math | Jul 7, 2026 |
@@ -25,12 +28,9 @@
 | [#208 Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | Hash Table, String, Design | Jul 6, 2026 |
 | [#208 Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | Hash Table, String, Design | Jul 6, 2026 |
 | [#1222 Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | 🟡 Medium | Array, Sorting | Jul 6, 2026 |
-| [#207 Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 5, 2026 |
-| [#207 Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 5, 2026 |
-| [#206 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | Linked List, Recursion | Jul 5, 2026 |
 
 ---
-*Last updated: Tue, 07 Jul 2026 15:40:16 GMT*
+*Last updated: Tue, 07 Jul 2026 16:19:55 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
