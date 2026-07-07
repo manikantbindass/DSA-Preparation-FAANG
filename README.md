@@ -5,19 +5,21 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-83-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-19-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-57-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-7-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-85-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-20-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-58-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-7-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 19 |
-| 🟡 Medium | 57 |
+| 🟢 Easy   | 20 |
+| 🟡 Medium | 58 |
 | 🔴 Hard   | 7 |
-| **Total** | **83** |
+| **Total** | **85** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#210 Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 7, 2026 |
+| [#4135 Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | 🟢 Easy | Math | Jul 7, 2026 |
 | [#209 Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | 🟡 Medium | Array, Binary Search, Sliding Window | Jul 6, 2026 |
 | [#208 Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | Hash Table, String, Design | Jul 6, 2026 |
 | [#208 Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | Hash Table, String, Design | Jul 6, 2026 |
@@ -26,11 +28,9 @@
 | [#207 Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 5, 2026 |
 | [#206 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | Linked List, Recursion | Jul 5, 2026 |
 | [#1234 Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | 🔴 Hard | Array, Dynamic Programming, Matrix | Jul 5, 2026 |
-| [#1234 Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | 🔴 Hard | Array, Dynamic Programming, Matrix | Jul 5, 2026 |
-| [#0 palindromic-subarray-sum](https://leetcode.com/problems/palindromic-subarray-sum/) | 🟡 Medium |  | Jul 5, 2026 |
 
 ---
-*Last updated: Tue, 07 Jul 2026 11:15:18 GMT*
+*Last updated: Tue, 07 Jul 2026 14:59:11 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
