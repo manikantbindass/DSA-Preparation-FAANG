@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 5
     env:
       LEETCODE_USERNAME: ${{ vars.LEETCODE_USERNAME || 'manikantbindass' }}
-      LEETCODE_GOAL: "300"
+      LEETCODE_GOAL: "1000"
 
     steps:
       - name: Checkout repository

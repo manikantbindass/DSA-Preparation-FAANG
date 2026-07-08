@@ -42,7 +42,7 @@
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-334%20Problems-22c55e?style=for-the-badge" alt="334 solved" />
+  <img src="https://img.shields.io/badge/Solved-335%20Problems-22c55e?style=for-the-badge" alt="335 solved" />
   <img src="https://img.shields.io/badge/Goal-1000%20Problems-2563eb?style=for-the-badge" alt="1000 problem goal" />
 </p>
 
@@ -55,31 +55,31 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-07-08 14:12 UTC
+Last synced: 2026-07-08 15:16 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-406582-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-334-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-334%2F300-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-335-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-335%2F1000-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 406,582 |
-| Solved | 334 |
+| Solved | 335 |
 | Easy | 83 |
 | Medium | 187 |
-| Hard | 64 |
-| Goal progress | 334 / 300, 111.3% |
+| Hard | 65 |
+| Goal progress | 335 / 1000, 33.5% |
 
-![Overall Goal Progress](https://progress-bar.xyz/111/?scale=100&title=Goal+334%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/34/?scale=100&title=Goal+335%2F1000&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 83
     "Medium" : 187
-    "Hard" : 64
+    "Hard" : 65
 ```
 
 ### 🏁 Contest Snapshot
@@ -504,7 +504,7 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 334 solved problems, while this GitHub repository currently includes 273 tracked folder entries across 793 solution files: 252 DSA/Trie entries in Java/Python/Go topic folders plus 21 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 335 solved problems, while this GitHub repository currently includes 273 tracked folder entries across 793 solution files: 252 DSA/Trie entries in Java/Python/Go topic folders plus 21 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
@@ -759,7 +759,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 334 |
+| LeetCode profile solved total | 335 |
 | DSA/Trie topic folder entries | 252 |
 | SQL/Shell folder entries | 21 |
 | Repo tracked folder entries | 273 |
