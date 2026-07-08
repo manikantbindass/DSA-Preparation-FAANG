@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-90-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-20-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-61-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-9-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-91-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-20-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-62-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-9-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 20 |
-| 🟡 Medium | 61 |
+| 🟡 Medium | 62 |
 | 🔴 Hard   | 9 |
-| **Total** | **90** |
+| **Total** | **91** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#4136 Concatenate Non-Zero Digits and Multiply by Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/) | 🟡 Medium | Math, String, Prefix Sum | Jul 8, 2026 |
 | [#212 Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | Array, String, Backtracking | Jul 7, 2026 |
 | [#212 Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | Array, String, Backtracking | Jul 7, 2026 |
 | [#211 Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | String, Depth-First Search, Design | Jul 7, 2026 |
@@ -27,10 +28,9 @@
 | [#4135 Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | 🟢 Easy | Math | Jul 7, 2026 |
 | [#209 Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | 🟡 Medium | Array, Binary Search, Sliding Window | Jul 6, 2026 |
 | [#208 Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | Hash Table, String, Design | Jul 6, 2026 |
-| [#208 Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | Hash Table, String, Design | Jul 6, 2026 |
 
 ---
-*Last updated: Wed, 08 Jul 2026 08:46:52 GMT*
+*Last updated: Wed, 08 Jul 2026 13:50:33 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
