@@ -42,7 +42,7 @@
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-328%20Problems-22c55e?style=for-the-badge" alt="328 solved" />
+  <img src="https://img.shields.io/badge/Solved-334%20Problems-22c55e?style=for-the-badge" alt="334 solved" />
   <img src="https://img.shields.io/badge/Goal-1000%20Problems-2563eb?style=for-the-badge" alt="1000 problem goal" />
 </p>
 
@@ -55,30 +55,30 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-07-08 08:30 UTC
+Last synced: 2026-07-08 13:58 UTC
 
 ### 🚀 LeetCode Stats
 
-![LeetCode Rank](https://img.shields.io/badge/Rank-415882-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-332-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-332%2F300-f59e0b?style=for-the-badge)
+![LeetCode Rank](https://img.shields.io/badge/Rank-406582-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
+![Solved](https://img.shields.io/badge/Solved-334-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-334%2F1000-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
-| Rank | 415,882 |
-| Solved | 332 |
+| Rank | 406,582 |
+| Solved | 334 |
 | Easy | 83 |
-| Medium | 185 |
+| Medium | 187 |
 | Hard | 64 |
-| Goal progress | 332 / 300, 110.7% |
+| Goal progress | 334 / 1000, 33.4% |
 
-![Overall Goal Progress](https://progress-bar.xyz/111/?scale=100&title=Goal+332%2F300&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/33/?scale=100&title=Goal+334%2F1000&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 83
-    "Medium" : 185
+    "Medium" : 187
     "Hard" : 64
 ```
 
@@ -504,10 +504,16 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 328 solved problems, while this GitHub repository currently includes 267 tracked folder entries across 775 solution files: 246 DSA/Trie entries in Java/Python/Go topic folders plus 21 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 334 solved problems, while this GitHub repository currently includes 273 tracked folder entries across 793 solution files: 252 DSA/Trie entries in Java/Python/Go topic folders plus 21 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Concatenate Non-Zero Digits and Multiply by Sum I | Math | [Java](Math/ConcatenateNonZeroDigitsAndMultiplyBySumI.java), [Python](Math/ConcatenateNonZeroDigitsAndMultiplyBySumI.py), [Go](Math/ConcatenateNonZeroDigitsAndMultiplyBySumI.go) |
+| Course Schedule II | Graphs | [Java](Graphs/CourseScheduleII.java), [Python](Graphs/CourseScheduleII.py), [Go](Graphs/CourseScheduleII.go) |
+| Design Add and Search Words Data Structure | Trie | [Java](Trie/DesignAddAndSearchWordsDataStructure.java), [Python](Trie/DesignAddAndSearchWordsDataStructure.py), [Go](Trie/DesignAddAndSearchWordsDataStructure.go) |
+| Word Search II | Trie | [Java](Trie/WordSearchII.java), [Python](Trie/WordSearchII.py), [Go](Trie/WordSearchII.go) |
+| Concatenate Non-Zero Digits and Multiply by Sum II | Math | [Java](Math/ConcatenateNonZeroDigitsAndMultiplyBySumII.java), [Python](Math/ConcatenateNonZeroDigitsAndMultiplyBySumII.py), [Go](Math/ConcatenateNonZeroDigitsAndMultiplyBySumII.go) |
+| House Robber II | DP | [Java](DP/HouseRobberII.java), [Python](DP/HouseRobberII.py), [Go](DP/HouseRobberII.go) |
 | Find the Safest Path in a Grid | Arrays | [Java](Arrays/FindTheSafestPathInAGrid.java), [Python](Arrays/FindTheSafestPathInAGrid.py), [Go](Arrays/FindTheSafestPathInAGrid.go) |
 | Transpose File | Shell | [TypeScript](Shell/TransposeFile.ts) |
 | Tenth Line | Shell | [TypeScript](Shell/TenthLine.ts) |
@@ -753,15 +759,15 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 328 |
-| DSA/Trie topic folder entries | 246 |
+| LeetCode profile solved total | 334 |
+| DSA/Trie topic folder entries | 252 |
 | SQL/Shell folder entries | 21 |
-| Repo tracked folder entries | 267 |
-| Problems with Java, Python, and Go | 243 |
-| Total solution files | 775 |
-| Java solution files | 247 |
-| Python solution files | 260 |
-| Go solution files | 247 |
+| Repo tracked folder entries | 273 |
+| Problems with Java, Python, and Go | 249 |
+| Total solution files | 793 |
+| Java solution files | 253 |
+| Python solution files | 266 |
+| Go solution files | 253 |
 | C++ solution files | 1 |
 | SQL solution files | 16 |
 | TypeScript shell files | 2 |
@@ -775,11 +781,11 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Backtracking | 16 |
 | BinarySearch | 9 |
 | Bit Manipulation | 3 |
-| DP | 33 |
-| Graphs | 15 |
+| DP | 34 |
+| Graphs | 16 |
 | Intervals | 4 |
 | LinkedList | 18 |
-| Math | 14 |
+| Math | 16 |
 | Matrix | 10 |
 | MySQL | 9 |
 | Shell | 6 |
@@ -788,8 +794,8 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Stack | 4 |
 | Strings | 31 |
 | Trees | 28 |
-| Trie | 1 |
-| Total | 267 |
+| Trie | 3 |
+| Total | 273 |
 
 ## Pattern Checklist
 

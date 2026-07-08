@@ -22,7 +22,7 @@ API_PATH = Path("api/leetcode-stats.json")
 PUBLIC_API_URL = "https://leetcode-stats-api.herokuapp.com/{username}"
 GRAPHQL_URL = "https://leetcode.com/graphql"
 DEFAULT_USERNAME = "manikantbindass"
-DEFAULT_GOAL = 300
+DEFAULT_GOAL = 1000
 MAX_ATTEMPTS = 3
 TIMEOUT_SECONDS = 10
 
