@@ -5,20 +5,19 @@
 # URL        : https://leetcode.com/problems/combination-sum-iii/
 # ──────────────────────────────────────────────────────────────────────
 # Approach
-#   We use backtracking to generate all combinations of k numbers from 1
-#   to 9 that sum to n. Starting from 1, we try adding each number to the
-#   current combination, recursively exploring further numbers, and
-#   backtrack when the combination size exceeds k or the sum exceeds n.
-#   When the combination size equals k and sum equals n, we add a copy to
-#   the result list. This ensures each number is used at most once and
-#   combinations are unique.
+#   We use backtracking to generate all combinations of k distinct numbers
+#   from 1 to 9 that sum to n. Starting from 1, we recursively add
+#   numbers, ensuring we don't exceed k numbers or the target sum. When
+#   the combination has exactly k numbers and sum equals n, we add it to
+#   the result. We prune branches where the remaining sum is too small or
+#   too large.
 # 
 # Complexity
 #   Time  : O(9! / (9-k)!)
 #   Space : O(k)
 # 
-# Runtime  : 0 ms
-# Memory   : 42.3 MB
+# Runtime  : 
+# Memory   : 
 # 
 # Examples
 #   Example 1:
@@ -37,20 +36,24 @@
 #   · 1 <= n <= 60
 # ──────────────────────────────────────────────────────────────────────
 
+from typing import List
+
 class Solution:
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
         result = []
         
-        def backtrack(start: int, path: List[int], remaining: int):
-            if len(path) == k and remaining == 0:
-                result.append(path[:])
+        def backtrack(start: int, remaining_k: int, remaining_sum: int, current: List[int]):
+            if remaining_k == 0 and remaining_sum == 0:
+                result.append(current[:])
                 return
-            if len(path) > k or remaining < 0:
+            if remaining_k == 0 or remaining_sum <= 0:
                 return
             for i in range(start, 10):
-                path.append(i)
-                backtrack(i + 1, path, remaining - i)
-                path.pop()
+                if i > remaining_sum:
+                    break
+                current.append(i)
+                backtrack(i + 1, remaining_k - 1, remaining_sum - i, current)
+                current.pop()
         
-        backtrack(1, [], n)
+        backtrack(1, k, n, [])
         return result
