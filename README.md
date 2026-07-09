@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-92-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-20-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-63-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-9-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-93-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-20-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-63-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-10-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 20 |
 | 🟡 Medium | 63 |
-| 🔴 Hard   | 9 |
-| **Total** | **92** |
+| 🔴 Hard   | 10 |
+| **Total** | **93** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#214 Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) | 🔴 Hard | String, Rolling Hash, String Matching | Jul 8, 2026 |
 | [#213 House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Array, Dynamic Programming | Jul 8, 2026 |
 | [#4136 Concatenate Non-Zero Digits and Multiply by Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/) | 🟡 Medium | Math, String, Prefix Sum | Jul 8, 2026 |
 | [#212 Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | Array, String, Backtracking | Jul 7, 2026 |
@@ -27,10 +28,9 @@
 | [#210 Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 7, 2026 |
 | [#210 Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 7, 2026 |
 | [#4135 Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | 🟢 Easy | Math | Jul 7, 2026 |
-| [#209 Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | 🟡 Medium | Array, Binary Search, Sliding Window | Jul 6, 2026 |
 
 ---
-*Last updated: Wed, 08 Jul 2026 15:14:54 GMT*
+*Last updated: Thu, 09 Jul 2026 11:32:51 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
