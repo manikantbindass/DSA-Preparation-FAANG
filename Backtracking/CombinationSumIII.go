@@ -5,20 +5,19 @@
 // URL        : https://leetcode.com/problems/combination-sum-iii/
 // ──────────────────────────────────────────────────────────────────────
 // Approach
-//   We use backtracking to generate all combinations of k numbers from 1
-//   to 9 that sum to n. Starting from 1, we try adding each number to the
-//   current combination, recursively exploring further numbers, and
-//   backtrack when the combination size exceeds k or the sum exceeds n.
-//   When the combination size equals k and sum equals n, we add a copy to
-//   the result list. This ensures each number is used at most once and
-//   combinations are unique.
+//   We use backtracking to generate all combinations of k distinct numbers
+//   from 1 to 9 that sum to n. Starting from 1, we recursively add
+//   numbers, ensuring we don't exceed k numbers or the target sum. When
+//   the combination has exactly k numbers and sum equals n, we add it to
+//   the result. We prune branches where the remaining sum is too small or
+//   too large.
 // 
 // Complexity
 //   Time  : O(9! / (9-k)!)
 //   Space : O(k)
 // 
-// Runtime  : 0 ms
-// Memory   : 42.3 MB
+// Runtime  : 
+// Memory   : 
 // 
 // Examples
 //   Example 1:
@@ -39,23 +38,26 @@
 
 func combinationSum3(k int, n int) [][]int {
     result := [][]int{}
-    var backtrack func(start int, path []int, remain int)
-    backtrack = func(start int, path []int, remain int) {
-        if len(path) == k && remain == 0 {
-            comb := make([]int, k)
-            copy(comb, path)
-            result = append(result, comb)
+    var backtrack func(start, remainingK, remainingSum int, current []int)
+    backtrack = func(start, remainingK, remainingSum int, current []int) {
+        if remainingK == 0 && remainingSum == 0 {
+            temp := make([]int, len(current))
+            copy(temp, current)
+            result = append(result, temp)
             return
         }
-        if len(path) > k || remain < 0 {
+        if remainingK == 0 || remainingSum <= 0 {
             return
         }
         for i := start; i <= 9; i++ {
-            path = append(path, i)
-            backtrack(i+1, path, remain-i)
-            path = path[:len(path)-1]
+            if i > remainingSum {
+                break
+            }
+            current = append(current, i)
+            backtrack(i+1, remainingK-1, remainingSum-i, current)
+            current = current[:len(current)-1]
         }
     }
-    backtrack(1, []int{}, n)
+    backtrack(1, k, n, []int{})
     return result
 }
