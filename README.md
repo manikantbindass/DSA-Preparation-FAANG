@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-93-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-20-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-63-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-10-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-94-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-20-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-64-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-10-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 20 |
-| 🟡 Medium | 63 |
+| 🟡 Medium | 64 |
 | 🔴 Hard   | 10 |
-| **Total** | **93** |
+| **Total** | **94** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#3838 Path Existence Queries in a Graph I](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/) | 🟡 Medium | Array, Hash Table, Binary Search | Jul 9, 2026 |
 | [#214 Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) | 🔴 Hard | String, Rolling Hash, String Matching | Jul 8, 2026 |
 | [#213 House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Array, Dynamic Programming | Jul 8, 2026 |
 | [#4136 Concatenate Non-Zero Digits and Multiply by Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/) | 🟡 Medium | Math, String, Prefix Sum | Jul 8, 2026 |
@@ -27,10 +28,9 @@
 | [#211 Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | String, Depth-First Search, Design | Jul 7, 2026 |
 | [#210 Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 7, 2026 |
 | [#210 Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Jul 7, 2026 |
-| [#4135 Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | 🟢 Easy | Math | Jul 7, 2026 |
 
 ---
-*Last updated: Thu, 09 Jul 2026 11:32:51 GMT*
+*Last updated: Thu, 09 Jul 2026 13:55:30 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
