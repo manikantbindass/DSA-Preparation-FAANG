@@ -5,20 +5,19 @@
 // URL        : https://leetcode.com/problems/combination-sum-iii/
 // ──────────────────────────────────────────────────────────────────────
 // Approach
-//   We use backtracking to generate all combinations of k numbers from 1
-//   to 9 that sum to n. Starting from 1, we try adding each number to the
-//   current combination, recursively exploring further numbers, and
-//   backtrack when the combination size exceeds k or the sum exceeds n.
-//   When the combination size equals k and sum equals n, we add a copy to
-//   the result list. This ensures each number is used at most once and
-//   combinations are unique.
+//   We use backtracking to generate all combinations of k distinct numbers
+//   from 1 to 9 that sum to n. Starting from 1, we recursively add
+//   numbers, ensuring we don't exceed k numbers or the target sum. When
+//   the combination has exactly k numbers and sum equals n, we add it to
+//   the result. We prune branches where the remaining sum is too small or
+//   too large.
 // 
 // Complexity
 //   Time  : O(9! / (9-k)!)
 //   Space : O(k)
 // 
-// Runtime  : 0 ms
-// Memory   : 42.3 MB
+// Runtime  : 
+// Memory   : 
 // 
 // Examples
 //   Example 1:
@@ -37,25 +36,29 @@
 //   · 1 <= n <= 60
 // ──────────────────────────────────────────────────────────────────────
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Solution {
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> result = new ArrayList<>();
-        backtrack(result, new ArrayList<>(), k, n, 1);
+        backtrack(1, k, n, new ArrayList<>(), result);
         return result;
     }
     
-    private void backtrack(List<List<Integer>> result, List<Integer> temp, int k, int remain, int start) {
-        if (temp.size() == k && remain == 0) {
-            result.add(new ArrayList<>(temp));
+    private void backtrack(int start, int k, int remaining, List<Integer> current, List<List<Integer>> result) {
+        if (k == 0 && remaining == 0) {
+            result.add(new ArrayList<>(current));
             return;
         }
-        if (temp.size() > k || remain < 0) {
+        if (k == 0 || remaining <= 0) {
             return;
         }
         for (int i = start; i <= 9; i++) {
-            temp.add(i);
-            backtrack(result, temp, k, remain - i, i + 1);
-            temp.remove(temp.size() - 1);
+            if (i > remaining) break;
+            current.add(i);
+            backtrack(i + 1, k - 1, remaining - i, current, result);
+            current.remove(current.size() - 1);
         }
     }
 }
