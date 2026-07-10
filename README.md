@@ -5,19 +5,20 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-98-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-20-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-67-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-11-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-99-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-20-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-67-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-12-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
 | 🟢 Easy   | 20 |
 | 🟡 Medium | 67 |
-| 🔴 Hard   | 11 |
-| **Total** | **98** |
+| 🔴 Hard   | 12 |
+| **Total** | **99** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
+| [#218 The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | 🔴 Hard | Array, Divide and Conquer, Binary Indexed Tree | Jul 10, 2026 |
 | [#3852 Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) | 🔴 Hard | Array, Two Pointers, Binary Search | Jul 10, 2026 |
 | [#216 Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Array, Backtracking | Jul 9, 2026 |
 | [#216 Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Array, Backtracking | Jul 9, 2026 |
@@ -27,10 +28,9 @@
 | [#213 House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Array, Dynamic Programming | Jul 8, 2026 |
 | [#4136 Concatenate Non-Zero Digits and Multiply by Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/) | 🟡 Medium | Math, String, Prefix Sum | Jul 8, 2026 |
 | [#212 Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | Array, String, Backtracking | Jul 7, 2026 |
-| [#212 Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | Array, String, Backtracking | Jul 7, 2026 |
 
 ---
-*Last updated: Fri, 10 Jul 2026 12:16:09 GMT*
+*Last updated: Fri, 10 Jul 2026 14:51:41 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
