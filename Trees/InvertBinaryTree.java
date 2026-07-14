@@ -49,8 +49,6 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Time Complexity: O(V + E) or O(n)
  * Space Complexity: O(1) to O(n)
- * Runtime: 0 ms
- * Memory: 42.6 MB
  */
 
 /**
