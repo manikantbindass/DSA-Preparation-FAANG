@@ -62,6 +62,8 @@
  * Topics: Math, String, Stack
  * Time Complexity: See solution
  * Space Complexity: O(1) to O(n)
+ * Runtime: 16 ms
+ * Memory: 48.2 MB
  */
 
 class Solution {
