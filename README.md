@@ -55,49 +55,49 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-07-16 08:16 UTC
+Last synced: 2026-07-16 13:54 UTC
 
 ### 🚀 LeetCode Stats
 
-![LeetCode Rank](https://img.shields.io/badge/Rank-362758-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-361-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-361%2F1000-f59e0b?style=for-the-badge)
+![LeetCode Rank](https://img.shields.io/badge/Rank-359855-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
+![Solved](https://img.shields.io/badge/Solved-362-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-362%2F1000-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
-| Rank | 362,758 |
-| Solved | 361 |
+| Rank | 359,855 |
+| Solved | 362 |
 | Easy | 92 |
-| Medium | 198 |
+| Medium | 199 |
 | Hard | 71 |
-| Goal progress | 361 / 1000, 36.1% |
+| Goal progress | 362 / 1000, 36.2% |
 
-![Overall Goal Progress](https://progress-bar.xyz/36/?scale=100&title=Goal+361%2F1000&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/36/?scale=100&title=Goal+362%2F1000&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 92
-    "Medium" : 198
+    "Medium" : 199
     "Hard" : 71
 ```
 
 ### 🏁 Contest Snapshot
 
-![Contest Participation](https://img.shields.io/badge/Participations-7-8b5cf6?style=for-the-badge)
-![Contest Rating](https://img.shields.io/badge/Contest_Rating-2390.5-0ea5e9?style=for-the-badge)
-![Top Percentage](https://img.shields.io/badge/Top-0.34%25-f97316?style=for-the-badge)
+![Contest Participation](https://img.shields.io/badge/Participations-8-8b5cf6?style=for-the-badge)
+![Contest Rating](https://img.shields.io/badge/Contest_Rating-2387.8-0ea5e9?style=for-the-badge)
+![Top Percentage](https://img.shields.io/badge/Top-0.35%25-f97316?style=for-the-badge)
 
 | Contest Metric | Value |
 |---|---:|
-| Participations | 7 |
-| Contest rating | 2390.5 |
-| Global ranking | 2,827 |
-| Top percentage | 0.34% |
-| Latest recorded contest | Weekly Contest 509 |
-| Latest recorded date | 2026-07-05 02:30 UTC |
+| Participations | 8 |
+| Contest rating | 2387.8 |
+| Global ranking | 2,869 |
+| Top percentage | 0.35% |
+| Latest recorded contest | Weekly Contest 510 |
+| Latest recorded date | 2026-07-12 02:30 UTC |
 | Latest recorded result | 4 / 4 solved |
-| Latest recorded rank | 644 |
+| Latest recorded rank | 593 |
 | Contest API source status | ok |
 
 Public JSON API: [api/leetcode-stats.json](https://raw.githubusercontent.com/manikantbindass/DSA-Preparation-FAANG/main/api/leetcode-stats.json)

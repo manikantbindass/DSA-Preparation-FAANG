@@ -1,29 +1,29 @@
 {
   "contest": {
-    "attendedContestsCount": 7,
-    "globalRanking": 2827,
+    "attendedContestsCount": 8,
+    "globalRanking": 2869,
     "latestContest": {
       "problemsSolved": 4,
-      "ranking": 644,
-      "startTime": 1783218600,
-      "startTimeUtc": "2026-07-05T02:30:00+00:00",
-      "title": "Weekly Contest 509",
+      "ranking": 593,
+      "startTime": 1783823400,
+      "startTimeUtc": "2026-07-12T02:30:00+00:00",
+      "title": "Weekly Contest 510",
       "totalProblems": 4
     },
-    "rating": 2390.5064128540735,
+    "rating": 2387.8120294510827,
     "source": "leetcode.com/graphql",
     "sourceStatus": "ok",
-    "topPercentage": 0.34
+    "topPercentage": 0.35
   },
-  "generatedAt": "2026-07-16 08:16 UTC",
+  "generatedAt": "2026-07-16 13:54 UTC",
   "goal": 1000,
   "leetcode": {
     "easySolved": 92,
-    "goalProgressPercent": 36.1,
+    "goalProgressPercent": 36.2,
     "hardSolved": 71,
-    "mediumSolved": 198,
-    "ranking": 362758,
-    "totalSolved": 361
+    "mediumSolved": 199,
+    "ranking": 359855,
+    "totalSolved": 362
   },
   "profileUrl": "https://leetcode.com/u/manikantbindass/",
   "username": "manikantbindass"
