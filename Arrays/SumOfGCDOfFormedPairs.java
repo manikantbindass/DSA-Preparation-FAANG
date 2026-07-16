@@ -141,6 +141,8 @@
  * Topics: Array, Math, Two Pointers, Sorting, Simulation, Number Theory
  * Time Complexity: O(n log n)
  * Space Complexity: O(1) to O(n)
+ * Runtime: 2 ms
+ * Memory: 42.9 MB
  */
 
 class Solution {
