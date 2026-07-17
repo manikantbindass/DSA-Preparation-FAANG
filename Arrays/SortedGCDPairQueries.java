@@ -86,6 +86,8 @@
  * Topics: Array, Hash Table, Math, Binary Search, Combinatorics, Counting, Number Theory, Prefix Sum
  * Time Complexity: O(log n)
  * Space Complexity: O(n)
+ * Runtime: 1 ms
+ * Memory: 42.6 MB
  */
 
 class Solution {
