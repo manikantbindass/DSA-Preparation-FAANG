@@ -42,7 +42,7 @@
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-335%20Problems-22c55e?style=for-the-badge" alt="335 solved" />
+  <img src="https://img.shields.io/badge/Solved-369%20Problems-22c55e?style=for-the-badge" alt="369 solved" />
   <img src="https://img.shields.io/badge/Goal-1000%20Problems-2563eb?style=for-the-badge" alt="1000 problem goal" />
 </p>
 
@@ -55,29 +55,29 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-07-18 13:17 UTC
+Last synced: 2026-07-18 15:51 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-350899-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-367-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-367%2F1000-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-369-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-369%2F1000-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 350,899 |
-| Solved | 367 |
-| Easy | 94 |
+| Solved | 369 |
+| Easy | 96 |
 | Medium | 200 |
 | Hard | 73 |
-| Goal progress | 367 / 1000, 36.7% |
+| Goal progress | 369 / 1000, 36.9% |
 
-![Overall Goal Progress](https://progress-bar.xyz/37/?scale=100&title=Goal+367%2F1000&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/37/?scale=100&title=Goal+369%2F1000&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
-    "Easy" : 94
+    "Easy" : 96
     "Medium" : 200
     "Hard" : 73
 ```
@@ -504,10 +504,38 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 335 solved problems, while this GitHub repository currently includes 273 tracked folder entries across 793 solution files: 252 DSA/Trie entries in Java/Python/Go topic folders plus 21 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 369 solved problems, while this GitHub repository currently includes 305 tracked folder entries across 851 solution files: 284 DSA/Trie entries in Java/Python/Go topic folders plus 21 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Shortest Palindrome | Strings | [Java](Strings/ShortestPalindrome.java), [Python](Strings/ShortestPalindrome.py), [Go](Strings/ShortestPalindrome.go) |
+| Path Existence Queries in a Graph I | Graphs | [Java](Graphs/PathExistenceQueriesInAGraphI.java), [Python](Graphs/PathExistenceQueriesInAGraphI.py), [Go](Graphs/PathExistenceQueriesInAGraphI.go) |
+| Kth Largest Element in an Array | DP | [Java](DP/KthLargestElementInAnArray.java), [Python](DP/KthLargestElementInAnArray.py), [Go](DP/KthLargestElementInAnArray.go) |
+| Combination Sum III | Backtracking | [Java](Backtracking/CombinationSumIII.java), [Python](Backtracking/CombinationSumIII.py), [Go](Backtracking/CombinationSumIII.go) |
+| Path Existence Queries in a Graph II | Graphs | [Java](Graphs/PathExistenceQueriesInAGraphII.java), [Python](Graphs/PathExistenceQueriesInAGraphII.py), [Go](Graphs/PathExistenceQueriesInAGraphII.go) |
+| Contains Duplicate | Arrays | [Java](Arrays/ContainsDuplicate.java), [Python](Arrays/ContainsDuplicate.py), [Go](Arrays/ContainsDuplicate.go) |
+| The Skyline Problem | Arrays | [Java](Arrays/TheSkylineProblem.java), [Python](Arrays/TheSkylineProblem.py), [Go](Arrays/TheSkylineProblem.go) |
+| Count the Number of Complete Components | Graphs | [Java](Graphs/CountTheNumberOfCompleteComponents.java), [Python](Graphs/CountTheNumberOfCompleteComponents.py), [Go](Graphs/CountTheNumberOfCompleteComponents.go) |
+| Contains Duplicate II | Arrays | [Java](Arrays/ContainsDuplicateII.java), [Python](Arrays/ContainsDuplicateII.py), [Go](Arrays/ContainsDuplicateII.go) |
+| Contains Duplicate III | Arrays | [Java](Arrays/ContainsDuplicateIII.java), [Python](Arrays/ContainsDuplicateIII.py), [Go](Arrays/ContainsDuplicateIII.go) |
+| Sequential Digits | Math | [Java](Math/SequentialDigits.java), [Python](Math/SequentialDigits.py), [Go](Math/SequentialDigits.go) |
+| Basic Calculator | Math | [Java](Math/BasicCalculator.java) |
+| Rectangle Area | Math | [Java](Math/RectangleArea.java) |
+| Implement Stack using Queues | Stack | [Java](Stack/ImplementStackUsingQueues.java), [Python](Stack/ImplementStackUsingQueues.py), [Go](Stack/ImplementStackUsingQueues.go) |
+| Find the Number of Subsequences With Equal GCD | Arrays | [Java](Arrays/FindTheNumberOfSubsequencesWithEqualGCD.java), [Python](Arrays/FindTheNumberOfSubsequencesWithEqualGCD.py), [Go](Arrays/FindTheNumberOfSubsequencesWithEqualGCD.go) |
+| Invert Binary Tree | Trees | [Java](Trees/InvertBinaryTree.java) |
+| Basic Calculator II | Math | [Java](Math/BasicCalculatorII.java) |
+| GCD of Odd and Even Sums | Math | [Java](Math/GCDOfOddAndEvenSums.java) |
+| Summary Ranges | Arrays | [Java](Arrays/SummaryRanges.java) |
+| Majority Element II | Arrays | [Java](Arrays/MajorityElementII.java) |
+| Sum of GCD of Formed Pairs | Arrays | [Java](Arrays/SumOfGCDOfFormedPairs.java) |
+| Kth Smallest Element in a BST | Trees | [Java](Trees/KthSmallestElementInABST.java) |
+| Power of Two | Math | [Java](Math/PowerOfTwo.java) |
+| Sorted GCD Pair Queries | Arrays | [Java](Arrays/SortedGCDPairQueries.java) |
+| Implement Queue using Stacks | Stack | [Java](Stack/ImplementQueueUsingStacks.java) |
+| Number of Digit One | Math | [Java](Math/NumberOfDigitOne.java) |
+| Find Greatest Common Divisor of Array | Arrays | [Java](Arrays/FindGreatestCommonDivisorOfArray.java) |
+| Palindrome Linked List | LinkedList | [Java](LinkedList/PalindromeLinkedList.java) |
 | Concatenate Non-Zero Digits and Multiply by Sum I | Math | [Java](Math/ConcatenateNonZeroDigitsAndMultiplyBySumI.java), [Python](Math/ConcatenateNonZeroDigitsAndMultiplyBySumI.py), [Go](Math/ConcatenateNonZeroDigitsAndMultiplyBySumI.go) |
 | Course Schedule II | Graphs | [Java](Graphs/CourseScheduleII.java), [Python](Graphs/CourseScheduleII.py), [Go](Graphs/CourseScheduleII.go) |
 | Design Add and Search Words Data Structure | Trie | [Java](Trie/DesignAddAndSearchWordsDataStructure.java), [Python](Trie/DesignAddAndSearchWordsDataStructure.py), [Go](Trie/DesignAddAndSearchWordsDataStructure.go) |
@@ -759,15 +787,15 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 335 |
-| DSA/Trie topic folder entries | 252 |
+| LeetCode profile solved total | 369 |
+| DSA/Trie topic folder entries | 284 |
 | SQL/Shell folder entries | 21 |
-| Repo tracked folder entries | 273 |
-| Problems with Java, Python, and Go | 249 |
-| Total solution files | 793 |
-| Java solution files | 253 |
-| Python solution files | 266 |
-| Go solution files | 253 |
+| Repo tracked folder entries | 305 |
+| Problems with Java, Python, and Go | 262 |
+| Total solution files | 851 |
+| Java solution files | 285 |
+| Python solution files | 279 |
+| Go solution files | 266 |
 | C++ solution files | 1 |
 | SQL solution files | 16 |
 | TypeScript shell files | 2 |
@@ -777,25 +805,25 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 57 |
-| Backtracking | 16 |
+| Arrays | 71 |
+| Backtracking | 17 |
 | BinarySearch | 9 |
 | Bit Manipulation | 3 |
-| DP | 34 |
-| Graphs | 16 |
+| DP | 35 |
+| Graphs | 19 |
 | Intervals | 4 |
-| LinkedList | 18 |
-| Math | 16 |
+| LinkedList | 19 |
+| Math | 23 |
 | Matrix | 10 |
 | MySQL | 9 |
 | Shell | 6 |
 | SlidingWindow | 3 |
 | SQL | 6 |
-| Stack | 4 |
-| Strings | 31 |
-| Trees | 28 |
+| Stack | 6 |
+| Strings | 32 |
+| Trees | 30 |
 | Trie | 3 |
-| Total | 273 |
+| Total | 305 |
 
 ## Pattern Checklist
 
