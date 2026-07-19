@@ -9,6 +9,8 @@
  * Topics: General
  * Time Complexity: See solution
  * Space Complexity: O(1) to O(n)
+ * Runtime: 1 ms
+ * Memory: 44 MB
  */
 
 class Solution {
