@@ -104,6 +104,8 @@
  * Topics: String, Enumeration
  * Time Complexity: See solution
  * Space Complexity: O(1) to O(n)
+ * Runtime: 0 ms
+ * Memory: 42.5 MB
  */
 
 class Solution {
