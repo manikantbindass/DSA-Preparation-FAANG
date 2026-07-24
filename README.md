@@ -55,30 +55,30 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-07-24 02:46 UTC
+Last synced: 2026-07-24 08:29 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-314923-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-393-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-393%2F1000-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-394-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-394%2F1000-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 314,923 |
-| Solved | 393 |
+| Solved | 394 |
 | Easy | 101 |
-| Medium | 215 |
+| Medium | 216 |
 | Hard | 77 |
-| Goal progress | 393 / 1000, 39.3% |
+| Goal progress | 394 / 1000, 39.4% |
 
-![Overall Goal Progress](https://progress-bar.xyz/39/?scale=100&title=Goal+393%2F1000&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/39/?scale=100&title=Goal+394%2F1000&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 101
-    "Medium" : 215
+    "Medium" : 216
     "Hard" : 77
 ```
 
