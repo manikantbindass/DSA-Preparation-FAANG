@@ -55,7 +55,7 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-07-23 19:19 UTC
+Last synced: 2026-07-24 02:46 UTC
 
 ### 🚀 LeetCode Stats
 
@@ -84,20 +84,20 @@ pie showData
 
 ### 🏁 Contest Snapshot
 
-![Contest Participation](https://img.shields.io/badge/Participations-8-8b5cf6?style=for-the-badge)
-![Contest Rating](https://img.shields.io/badge/Contest_Rating-2387.8-0ea5e9?style=for-the-badge)
-![Top Percentage](https://img.shields.io/badge/Top-0.35%25-f97316?style=for-the-badge)
+![Contest Participation](https://img.shields.io/badge/Participations-10-8b5cf6?style=for-the-badge)
+![Contest Rating](https://img.shields.io/badge/Contest_Rating-2493.9-0ea5e9?style=for-the-badge)
+![Top Percentage](https://img.shields.io/badge/Top-0.20%25-f97316?style=for-the-badge)
 
 | Contest Metric | Value |
 |---|---:|
-| Participations | 8 |
-| Contest rating | 2387.8 |
-| Global ranking | 2,869 |
-| Top percentage | 0.35% |
-| Latest recorded contest | Weekly Contest 510 |
-| Latest recorded date | 2026-07-12 02:30 UTC |
+| Participations | 10 |
+| Contest rating | 2493.9 |
+| Global ranking | 1,701 |
+| Top percentage | 0.20% |
+| Latest recorded contest | Weekly Contest 511 |
+| Latest recorded date | 2026-07-19 02:30 UTC |
 | Latest recorded result | 4 / 4 solved |
-| Latest recorded rank | 593 |
+| Latest recorded rank | 118 |
 | Contest API source status | ok |
 
 Public JSON API: [api/leetcode-stats.json](https://raw.githubusercontent.com/manikantbindass/DSA-Preparation-FAANG/main/api/leetcode-stats.json)

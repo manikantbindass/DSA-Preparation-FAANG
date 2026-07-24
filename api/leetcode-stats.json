@@ -1,21 +1,21 @@
 {
   "contest": {
-    "attendedContestsCount": 8,
-    "globalRanking": 2869,
+    "attendedContestsCount": 10,
+    "globalRanking": 1701,
     "latestContest": {
       "problemsSolved": 4,
-      "ranking": 593,
-      "startTime": 1783823400,
-      "startTimeUtc": "2026-07-12T02:30:00+00:00",
-      "title": "Weekly Contest 510",
+      "ranking": 118,
+      "startTime": 1784428200,
+      "startTimeUtc": "2026-07-19T02:30:00+00:00",
+      "title": "Weekly Contest 511",
       "totalProblems": 4
     },
-    "rating": 2387.8120294510827,
+    "rating": 2493.928150117033,
     "source": "leetcode.com/graphql",
     "sourceStatus": "ok",
-    "topPercentage": 0.35
+    "topPercentage": 0.2
   },
-  "generatedAt": "2026-07-23 19:19 UTC",
+  "generatedAt": "2026-07-24 02:46 UTC",
   "goal": 1000,
   "leetcode": {
     "easySolved": 101,
