@@ -5,32 +5,32 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-100-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-21-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-67-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-12-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-399-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-104-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-217-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-78-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 21 |
-| 🟡 Medium | 67 |
-| 🔴 Hard   | 12 |
-| **Total** | **100** |
+| 🟢 Easy   | 104 |
+| 🟡 Medium | 217 |
+| 🔴 Hard   | 78 |
+| **Total** | **399** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
-| [#217 Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | Array, Hash Table, Sorting | Jul 10, 2026 |
-| [#218 The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | 🔴 Hard | Array, Divide and Conquer, Binary Indexed Tree | Jul 10, 2026 |
-| [#3852 Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) | 🔴 Hard | Array, Two Pointers, Binary Search | Jul 10, 2026 |
-| [#216 Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Array, Backtracking | Jul 9, 2026 |
-| [#216 Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Array, Backtracking | Jul 9, 2026 |
-| [#215 Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 Medium | Array, Divide and Conquer, Sorting | Jul 9, 2026 |
-| [#3838 Path Existence Queries in a Graph I](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/) | 🟡 Medium | Array, Hash Table, Binary Search | Jul 9, 2026 |
-| [#214 Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) | 🔴 Hard | String, Rolling Hash, String Matching | Jul 8, 2026 |
-| [#213 House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Array, Dynamic Programming | Jul 8, 2026 |
-| [#4136 Concatenate Non-Zero Digits and Multiply by Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/) | 🟡 Medium | Math, String, Prefix Sum | Jul 8, 2026 |
+| [#1081 Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium | String, Stack, Greedy, Monotonic Stack | Jul 25, 2026 |
+| [#236 Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 Medium | Tree, Depth-First Search, Binary Tree | Jul 25, 2026 |
+| [#237 Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | 🟡 Medium | Linked List | Jul 25, 2026 |
+| [#1260 Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 Easy | Array, Matrix, Simulation | Jul 25, 2026 |
+| [#239 Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue | Jul 25, 2026 |
+| [#238 Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array, Prefix Sum | Jul 25, 2026 |
+| [#3499 Maximize Active Section with Trade I](https://leetcode.com/problems/maximize-active-section-with-trade-i/) | 🟡 Medium | String, Enumeration | Jul 25, 2026 |
+| [#3501 Maximize Active Section with Trade II](https://leetcode.com/problems/maximize-active-section-with-trade-ii/) | 🔴 Hard | Array, String, Binary Search, Segment Tree | Jul 25, 2026 |
+| [#240 Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🟡 Medium | Array, Binary Search, Divide and Conquer, Matrix | Jul 25, 2026 |
+| [#241 Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | 🟡 Medium | Math, String, Dynamic Programming, Recursion, Memoization | Jul 25, 2026 |
 
 ---
-*Last updated: Sat, 11 Jul 2026 08:26:52 GMT*
+*Last updated: Sat, 25 Jul 2026 13:03:00 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
@@ -42,7 +42,7 @@
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-369%20Problems-22c55e?style=for-the-badge" alt="369 solved" />
+  <img src="https://img.shields.io/badge/Solved-399%20Problems-22c55e?style=for-the-badge" alt="399 solved" />
   <img src="https://img.shields.io/badge/Goal-1000%20Problems-2563eb?style=for-the-badge" alt="1000 problem goal" />
 </p>
 
@@ -55,29 +55,29 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-07-25 08:07 UTC
+Last synced: 2026-07-25 13:03 UTC
 
 ### 🚀 LeetCode Stats
 
-![LeetCode Rank](https://img.shields.io/badge/Rank-311261-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-398-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-398%2F1000-f59e0b?style=for-the-badge)
+![LeetCode Rank](https://img.shields.io/badge/Rank-307781-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
+![Solved](https://img.shields.io/badge/Solved-399-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-399%2F1000-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
-| Rank | 311,261 |
-| Solved | 398 |
-| Easy | 103 |
+| Rank | 307,781 |
+| Solved | 399 |
+| Easy | 104 |
 | Medium | 217 |
 | Hard | 78 |
-| Goal progress | 398 / 1000, 39.8% |
+| Goal progress | 399 / 1000, 39.9% |
 
-![Overall Goal Progress](https://progress-bar.xyz/40/?scale=100&title=Goal+398%2F1000&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/40/?scale=100&title=Goal+399%2F1000&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
-    "Easy" : 103
+    "Easy" : 104
     "Medium" : 217
     "Hard" : 78
 ```
@@ -504,10 +504,31 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 369 solved problems, while this GitHub repository currently includes 305 tracked folder entries across 851 solution files: 284 DSA/Trie entries in Java/Python/Go topic folders plus 21 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 399 solved problems, while this GitHub repository currently includes 331 tracked folder entries across 882 solution files: 309 DSA/Trie entries in Java/Python/Go topic folders plus 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Smallest Subsequence of Distinct Characters | Arrays | [Java](Arrays/SmallestSubsequenceOfDistinctCharacters.java) |
+| Lowest Common Ancestor of a Binary Tree | Trees | [Java](Trees/LowestCommonAncestorOfABinaryTree.java) |
+| Delete Node in a Linked List | LinkedList | [Java](LinkedList/DeleteNodeInALinkedList.java) |
+| Shift 2D Grid | Arrays | [Java](Arrays/Shift2DGrid.java) |
+| Sliding Window Maximum | Arrays | [Java](Arrays/SlidingWindowMaximum.java) |
+| Product of Array Except Self | Arrays | [Java](Arrays/ProductOfArrayExceptSelf.java) |
+| Maximize Active Section with Trade I | Arrays | [Java](Arrays/MaximizeActiveSectionWithTradeI.java) |
+| Maximize Active Section with Trade II | Arrays | [Java](Arrays/MaximizeActiveSectionWithTradeII.java) |
+| Search a 2D Matrix II | Arrays | [Java](Arrays/SearchA2DMatrixII.java) |
+| Different Ways to Add Parentheses | Math | [Java](Math/DifferentWaysToAddParentheses.java) |
+| Valid Anagram | Arrays | [Java](Arrays/ValidAnagram.java) |
+| Binary Tree Paths | Arrays | [Java](Arrays/BinaryTreePaths.java) |
+| Number of Unique XOR Triplets I | Arrays | [Java](Arrays/NumberOfUniqueXORTripletsI.java) |
+| Add Digits | Math | [Java](Math/AddDigits.java) |
+| Single Number III | Arrays | [Java](Arrays/SingleNumberIII.java) |
+| Number of Unique XOR Triplets II | Arrays | [Java](Arrays/NumberOfUniqueXORTripletsII.java) |
+| Trips and Users | SQL | [Python](SQL/TripsAndUsers.py), [SQL](SQL/TripsAndUsers.sql) |
+| Ugly Number | Math | [Java](Math/UglyNumber.java), [Go](Math/UglyNumber.go) |
+| Maximum Product of Two Digits | Math | [Java](Math/MaximumProductOfTwoDigits.java), [Go](Math/MaximumProductOfTwoDigits.go) |
+| Ugly Number II | Arrays | [Java](Arrays/UglyNumberII.java), [Go](Arrays/UglyNumberII.go) |
+| Missing Number | Arrays | [Java](Arrays/MissingNumber.java), [Go](Arrays/MissingNumber.go) |
 | Shortest Palindrome | Strings | [Java](Strings/ShortestPalindrome.java), [Python](Strings/ShortestPalindrome.py), [Go](Strings/ShortestPalindrome.go) |
 | Path Existence Queries in a Graph I | Graphs | [Java](Graphs/PathExistenceQueriesInAGraphI.java), [Python](Graphs/PathExistenceQueriesInAGraphI.py), [Go](Graphs/PathExistenceQueriesInAGraphI.go) |
 | Kth Largest Element in an Array | DP | [Java](DP/KthLargestElementInAnArray.java), [Python](DP/KthLargestElementInAnArray.py), [Go](DP/KthLargestElementInAnArray.go) |
@@ -787,17 +808,17 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 369 |
-| DSA/Trie topic folder entries | 284 |
-| SQL/Shell folder entries | 21 |
-| Repo tracked folder entries | 305 |
-| Problems with Java, Python, and Go | 262 |
-| Total solution files | 851 |
-| Java solution files | 285 |
-| Python solution files | 279 |
-| Go solution files | 266 |
+| LeetCode profile solved total | 399 |
+| DSA/Trie topic folder entries | 309 |
+| SQL/Shell folder entries | 22 |
+| Repo tracked folder entries | 331 |
+| Problems with Java, Python, and Go | 263 |
+| Total solution files | 882 |
+| Java solution files | 310 |
+| Python solution files | 280 |
+| Go solution files | 270 |
 | C++ solution files | 1 |
-| SQL solution files | 16 |
+| SQL solution files | 17 |
 | TypeScript shell files | 2 |
 | Text shell files | 2 |
 
@@ -805,25 +826,25 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 71 |
+| Arrays | 89 |
 | Backtracking | 17 |
 | BinarySearch | 9 |
 | Bit Manipulation | 3 |
 | DP | 35 |
 | Graphs | 19 |
 | Intervals | 4 |
-| LinkedList | 19 |
-| Math | 23 |
+| LinkedList | 20 |
+| Math | 27 |
 | Matrix | 10 |
 | MySQL | 9 |
 | Shell | 6 |
 | SlidingWindow | 3 |
-| SQL | 6 |
+| SQL | 7 |
 | Stack | 6 |
 | Strings | 32 |
-| Trees | 30 |
+| Trees | 32 |
 | Trie | 3 |
-| Total | 305 |
+| Total | 331 |
 
 ## Pattern Checklist
 
