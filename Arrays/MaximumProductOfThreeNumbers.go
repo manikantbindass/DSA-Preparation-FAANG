@@ -48,6 +48,8 @@
  * Topics: Array, Math, Sorting
  * Time Complexity: O(n log n)
  * Space Complexity: O(1) to O(n)
+ * Runtime: 1 ms
+ * Memory: 43 MB
  */
 
 /*
