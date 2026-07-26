@@ -47,8 +47,6 @@
  * Topics: Math, String, Recursion
  * Time Complexity: See solution
  * Space Complexity: O(1) to O(n)
- * Runtime: 4 ms
- * Memory: 42.8 MB
  */
 
 /*
