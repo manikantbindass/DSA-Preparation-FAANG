@@ -53,8 +53,6 @@
  * Topics: Binary Search, Interactive
  * Time Complexity: O(log n)
  * Space Complexity: O(1) to O(n)
- * Runtime: 1 ms
- * Memory: 41.8 MB
  */
 
 /*
