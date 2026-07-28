@@ -70,6 +70,8 @@
  * Topics: String, Sorting, Counting Sort
  * Time Complexity: O(n log n)
  * Space Complexity: O(1) to O(n)
+ * Runtime: 20 ms
+ * Memory: 48.1 MB
  */
 
 /*
