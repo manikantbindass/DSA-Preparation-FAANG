@@ -67,8 +67,6 @@
  * Topics: Array, Design, Iterator
  * Time Complexity: See solution
  * Space Complexity: O(1) to O(n)
- * Runtime: 2 ms
- * Memory: 42.6 MB
  */
 
 // Java Iterator interface reference:
