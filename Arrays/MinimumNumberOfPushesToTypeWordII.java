@@ -97,8 +97,6 @@
  * Topics: Hash Table, String, Greedy, Sorting, Counting
  * Time Complexity: O(n log n)
  * Space Complexity: O(n)
- * Runtime: 1 ms
- * Memory: 42.9 MB
  */
 
 class Solution {
