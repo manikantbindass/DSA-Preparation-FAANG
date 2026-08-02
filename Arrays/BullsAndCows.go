@@ -70,8 +70,6 @@
  * Topics: Hash Table, String, Counting
  * Time Complexity: O(n)
  * Space Complexity: O(n)
- * Runtime: 0 ms
- * Memory: 42.8 MB
  */
 
 /*
