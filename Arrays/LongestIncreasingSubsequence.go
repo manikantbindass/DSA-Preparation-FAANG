@@ -59,8 +59,6 @@
  * Topics: Array, Binary Search, Dynamic Programming, Longest Increasing Subsequence
  * Time Complexity: O(n²) typical DP
  * Space Complexity: O(n) or O(n²)
- * Runtime: 0 ms
- * Memory: 42.8 MB
  */
 
 /*
