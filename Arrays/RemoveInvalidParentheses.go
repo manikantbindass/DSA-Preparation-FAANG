@@ -55,8 +55,6 @@
  * Topics: String, Backtracking, Breadth-First Search
  * Time Complexity: See solution
  * Space Complexity: O(1) to O(n)
- * Runtime: 3 ms
- * Memory: 42.8 MB
  */
 
 /*
