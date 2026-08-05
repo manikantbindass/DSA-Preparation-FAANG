@@ -10,20 +10,20 @@
       "title": "Weekly Contest 512",
       "totalProblems": 4
     },
-    "rating": 2545.8392638157293,
+    "rating": 2545.837886993923,
     "source": "leetcode.com/graphql",
     "sourceStatus": "ok",
     "topPercentage": 0.16
   },
-  "generatedAt": "2026-08-05 02:37 UTC",
+  "generatedAt": "2026-08-05 14:11 UTC",
   "goal": 1000,
   "leetcode": {
     "easySolved": 116,
-    "goalProgressPercent": 43.9,
+    "goalProgressPercent": 44.2,
     "hardSolved": 88,
-    "mediumSolved": 235,
-    "ranking": 263392,
-    "totalSolved": 439
+    "mediumSolved": 238,
+    "ranking": 259218,
+    "totalSolved": 442
   },
   "profileUrl": "https://leetcode.com/u/manikantbindass/",
   "username": "manikantbindass"
