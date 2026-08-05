@@ -91,8 +91,6 @@
  * Topics: Depth-First Search, Breadth-First Search, Graph Theory
  * Time Complexity: O(V + E) or O(n)
  * Space Complexity: O(1) to O(n)
- * Runtime: 1 ms
- * Memory: 42.7 MB
  */
 
 /*
