@@ -55,29 +55,29 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-08-06 14:12 UTC
+Last synced: 2026-08-07 00:02 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-258366-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-442-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-442%2F1000-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-443-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-443%2F1000-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 258,366 |
-| Solved | 442 |
-| Easy | 116 |
+| Solved | 443 |
+| Easy | 117 |
 | Medium | 238 |
 | Hard | 88 |
-| Goal progress | 442 / 1000, 44.2% |
+| Goal progress | 443 / 1000, 44.3% |
 
-![Overall Goal Progress](https://progress-bar.xyz/44/?scale=100&title=Goal+442%2F1000&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/44/?scale=100&title=Goal+443%2F1000&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
-    "Easy" : 116
+    "Easy" : 117
     "Medium" : 238
     "Hard" : 88
 ```
@@ -85,19 +85,19 @@ pie showData
 ### 🏁 Contest Snapshot
 
 ![Contest Participation](https://img.shields.io/badge/Participations-11-8b5cf6?style=for-the-badge)
-![Contest Rating](https://img.shields.io/badge/Contest_Rating-2545.8-0ea5e9?style=for-the-badge)
+![Contest Rating](https://img.shields.io/badge/Contest_Rating-2548.7-0ea5e9?style=for-the-badge)
 ![Top Percentage](https://img.shields.io/badge/Top-0.16%25-f97316?style=for-the-badge)
 
 | Contest Metric | Value |
 |---|---:|
 | Participations | 11 |
-| Contest rating | 2545.8 |
-| Global ranking | 1,323 |
+| Contest rating | 2548.7 |
+| Global ranking | 1,309 |
 | Top percentage | 0.16% |
-| Latest recorded contest | Weekly Contest 511 |
-| Latest recorded date | 2026-07-19 02:30 UTC |
+| Latest recorded contest | Weekly Contest 512 |
+| Latest recorded date | 2026-07-26 02:30 UTC |
 | Latest recorded result | 4 / 4 solved |
-| Latest recorded rank | 118 |
+| Latest recorded rank | 44 |
 | Contest API source status | ok |
 
 Public JSON API: [api/leetcode-stats.json](https://raw.githubusercontent.com/manikantbindass/DSA-Preparation-FAANG/main/api/leetcode-stats.json)
