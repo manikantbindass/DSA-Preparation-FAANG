@@ -65,6 +65,8 @@
  * Topics: Math, Dynamic Programming, Minimax, Game Theory, Nim Game, Sprague–Grundy Theorem, Zero-Sum Game
  * Time Complexity: O(n²) typical DP
  * Space Complexity: O(n) or O(n²)
+ * Runtime: 0 ms
+ * Memory: 42 MB
  */
 
 /*
