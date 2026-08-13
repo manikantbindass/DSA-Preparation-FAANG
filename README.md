@@ -5,32 +5,32 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-399-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-104-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-217-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-78-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-450-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-118-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-241-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-91-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 104 |
-| 🟡 Medium | 217 |
-| 🔴 Hard   | 78 |
-| **Total** | **399** |
+| 🟢 Easy   | 118 |
+| 🟡 Medium | 241 |
+| 🔴 Hard   | 91 |
+| **Total** | **450** |
 
 ## 🕐 Recent Submissions
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
-| [#1081 Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium | String, Stack, Greedy, Monotonic Stack | Jul 25, 2026 |
-| [#236 Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 Medium | Tree, Depth-First Search, Binary Tree | Jul 25, 2026 |
-| [#237 Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | 🟡 Medium | Linked List | Jul 25, 2026 |
-| [#1260 Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 Easy | Array, Matrix, Simulation | Jul 25, 2026 |
-| [#239 Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue | Jul 25, 2026 |
-| [#238 Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array, Prefix Sum | Jul 25, 2026 |
-| [#3499 Maximize Active Section with Trade I](https://leetcode.com/problems/maximize-active-section-with-trade-i/) | 🟡 Medium | String, Enumeration | Jul 25, 2026 |
-| [#3501 Maximize Active Section with Trade II](https://leetcode.com/problems/maximize-active-section-with-trade-ii/) | 🔴 Hard | Array, String, Binary Search, Segment Tree | Jul 25, 2026 |
-| [#240 Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🟡 Medium | Array, Binary Search, Divide and Conquer, Matrix | Jul 25, 2026 |
-| [#241 Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | 🟡 Medium | Math, String, Dynamic Programming, Recursion, Memoization | Jul 25, 2026 |
+| [#628 Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | 🟢 Easy | Array, Math, Sorting | Aug 13, 2026 |
+| [#273 Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | 🔴 Hard | Math, String, Recursion | Aug 13, 2026 |
+| [#274 H-Index](https://leetcode.com/problems/h-index/) | 🟡 Medium | Array, Sorting, Counting Sort | Aug 13, 2026 |
+| [#1464 Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 Easy | Array, Sorting, Heap (Priority Queue) | Aug 13, 2026 |
+| [#275 H-Index II](https://leetcode.com/problems/h-index-ii/) | 🟡 Medium | Array, Binary Search | Aug 13, 2026 |
+| [#278 First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | Binary Search, Interactive | Aug 13, 2026 |
+| [#3517 Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 Medium | String, Sorting, Counting Sort | Aug 13, 2026 |
+| [#282 Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | 🔴 Hard | Math, String, Backtracking | Aug 13, 2026 |
+| [#283 Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Array, Two Pointers | Aug 13, 2026 |
+| [#3518 Smallest Palindromic Rearrangement II](https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/) | 🔴 Hard | Hash Table, Math, String, Combinatorics, Counting | Aug 13, 2026 |
 
 ---
-*Last updated: Sat, 25 Jul 2026 13:03:00 GMT*
+*Last updated: Thu, 13 Aug 2026 00:47:00 GMT*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
@@ -42,7 +42,7 @@
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-399%20Problems-22c55e?style=for-the-badge" alt="399 solved" />
+  <img src="https://img.shields.io/badge/Solved-450%20Problems-22c55e?style=for-the-badge" alt="450 solved" />
   <img src="https://img.shields.io/badge/Goal-1000%20Problems-2563eb?style=for-the-badge" alt="1000 problem goal" />
 </p>
 
@@ -55,31 +55,31 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-08-12 19:02 UTC
+Last synced: 2026-08-13 00:47 UTC
 
 ### 🚀 LeetCode Stats
 
 ![LeetCode Rank](https://img.shields.io/badge/Rank-252468-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-449-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-449%2F1000-f59e0b?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-450-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-450%2F1000-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
 | Rank | 252,468 |
-| Solved | 449 |
+| Solved | 450 |
 | Easy | 118 |
 | Medium | 241 |
-| Hard | 90 |
-| Goal progress | 449 / 1000, 44.9% |
+| Hard | 91 |
+| Goal progress | 450 / 1000, 45.0% |
 
-![Overall Goal Progress](https://progress-bar.xyz/45/?scale=100&title=Goal+449%2F1000&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/45/?scale=100&title=Goal+450%2F1000&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 118
     "Medium" : 241
-    "Hard" : 90
+    "Hard" : 91
 ```
 
 ### 🏁 Contest Snapshot
@@ -504,10 +504,47 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 399 solved problems, while this GitHub repository currently includes 331 tracked folder entries across 882 solution files: 309 DSA/Trie entries in Java/Python/Go topic folders plus 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 450 solved problems, while this GitHub repository currently includes 380 tracked folder entries across 980 solution files: 358 DSA/Trie entries in Java/Python/Go topic folders plus 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Maximum Product of Three Numbers | Arrays | [Java](Arrays/MaximumProductOfThreeNumbers.java), [Go](Arrays/MaximumProductOfThreeNumbers.go) |
+| Integer to English Words | Math | [Java](Math/IntegerToEnglishWords.java), [Go](Math/IntegerToEnglishWords.go) |
+| H-Index | Arrays | [Java](Arrays/HIndex.java), [Go](Arrays/HIndex.go) |
+| Maximum Product of Two Elements in an Array | Arrays | [Java](Arrays/MaximumProductOfTwoElementsInAnArray.java), [Go](Arrays/MaximumProductOfTwoElementsInAnArray.go) |
+| H-Index II | Arrays | [Java](Arrays/HIndexII.java), [Go](Arrays/HIndexII.go) |
+| First Bad Version | BinarySearch | [Java](BinarySearch/FirstBadVersion.java), [Go](BinarySearch/FirstBadVersion.go) |
+| Smallest Palindromic Rearrangement I | Arrays | [Java](Arrays/SmallestPalindromicRearrangementI.java), [Go](Arrays/SmallestPalindromicRearrangementI.go) |
+| Expression Add Operators | Math | [Java](Math/ExpressionAddOperators.java), [Go](Math/ExpressionAddOperators.go) |
+| Move Zeroes | Arrays | [Java](Arrays/MoveZeroes.java), [Go](Arrays/MoveZeroes.go) |
+| Smallest Palindromic Rearrangement II | Arrays | [Java](Arrays/SmallestPalindromicRearrangementII.java), [Go](Arrays/SmallestPalindromicRearrangementII.go) |
+| Peeking Iterator | Arrays | [Java](Arrays/PeekingIterator.java), [Go](Arrays/PeekingIterator.go) |
+| Find the Duplicate Number | Arrays | [Java](Arrays/FindTheDuplicateNumber.java), [Go](Arrays/FindTheDuplicateNumber.go) |
+| Minimum Number of Pushes to Type Word I | Math | [Java](Math/MinimumNumberOfPushesToTypeWordI.java), [Go](Math/MinimumNumberOfPushesToTypeWordI.go) |
+| Game of Life | Arrays | [Java](Arrays/GameOfLife.java), [Go](Arrays/GameOfLife.go) |
+| Word Pattern | Arrays | [Java](Arrays/WordPattern.java), [Go](Arrays/WordPattern.go) |
+| Minimum Number of Pushes to Type Word II | Arrays | [Java](Arrays/MinimumNumberOfPushesToTypeWordII.java), [Go](Arrays/MinimumNumberOfPushesToTypeWordII.go) |
+| Nim Game | Math | [Java](Math/NimGame.java), [Go](Math/NimGame.go) |
+| Find Median from Data Stream | Arrays | [Java](Arrays/FindMedianFromDataStream.java), [Go](Arrays/FindMedianFromDataStream.go) |
+| Predict the Winner | Arrays | [Java](Arrays/PredictTheWinner.java), [Go](Arrays/PredictTheWinner.go) |
+| Serialize and Deserialize Binary Tree | Arrays | [Java](Arrays/SerializeAndDeserializeBinaryTree.java), [Go](Arrays/SerializeAndDeserializeBinaryTree.go) |
+| Stone Game | Arrays | [Java](Arrays/StoneGame.java), [Go](Arrays/StoneGame.go) |
+| Bulls and Cows | Arrays | [Java](Arrays/BullsAndCows.java), [Go](Arrays/BullsAndCows.go) |
+| Stone Game III | Arrays | [Java](Arrays/StoneGameIII.java), [Go](Arrays/StoneGameIII.go) |
+| Longest Increasing Subsequence | Arrays | [Java](Arrays/LongestIncreasingSubsequence.java), [Go](Arrays/LongestIncreasingSubsequence.go) |
+| Remove Invalid Parentheses | Arrays | [Java](Arrays/RemoveInvalidParentheses.java), [Go](Arrays/RemoveInvalidParentheses.go) |
+| Find Missing Elements | Arrays | [Java](Arrays/FindMissingElements.java), [Go](Arrays/FindMissingElements.go) |
+| Range Sum Query - Immutable | Arrays | [Java](Arrays/RangeSumQueryImmutable.java), [Go](Arrays/RangeSumQueryImmutable.go) |
+| Range Sum Query 2D - Immutable | Arrays | [Java](Arrays/RangeSumQuery2DImmutable.java), [Go](Arrays/RangeSumQuery2DImmutable.go) |
+| Remove Methods From Project | Graphs | [Java](Graphs/RemoveMethodsFromProject.java), [Go](Graphs/RemoveMethodsFromProject.go) |
+| Additive Number | Arrays | [Java](Arrays/AdditiveNumber.java), [Go](Arrays/AdditiveNumber.go) |
+| Range Sum Query - Mutable | Arrays | [Java](Arrays/RangeSumQueryMutable.java), [Go](Arrays/RangeSumQueryMutable.go) |
+| Smallest Divisible Digit Product I | Math | [Java](Math/SmallestDivisibleDigitProductI.java), [Go](Math/SmallestDivisibleDigitProductI.go) |
+| Find the Lexicographically Smallest Valid Sequence | Arrays | [Java](Arrays/FindTheLexicographicallySmallestValidSequence.java), [Go](Arrays/FindTheLexicographicallySmallestValidSequence.go) |
+| Stone Game II | Arrays | [Java](Arrays/StoneGameII.java), [Go](Arrays/StoneGameII.go) |
+| Stone Game IV | Math | [Java](Math/StoneGameIV.java), [Go](Math/StoneGameIV.go) |
+| Smallest Missing Integer Greater Than Sequential Prefix Sum | Arrays | [Java](Arrays/SmallestMissingIntegerGreaterThanSequentialPrefixSum.java), [Go](Arrays/SmallestMissingIntegerGreaterThanSequentialPrefixSum.go) |
+| Length of Longest Subarray With at Most K Frequency | Arrays | [Java](Arrays/LengthOfLongestSubarrayWithAtMostKFrequency.java), [Go](Arrays/LengthOfLongestSubarrayWithAtMostKFrequency.go) |
 | Smallest Subsequence of Distinct Characters | Arrays | [Java](Arrays/SmallestSubsequenceOfDistinctCharacters.java) |
 | Lowest Common Ancestor of a Binary Tree | Trees | [Java](Trees/LowestCommonAncestorOfABinaryTree.java) |
 | Delete Node in a Linked List | LinkedList | [Java](LinkedList/DeleteNodeInALinkedList.java) |
@@ -808,15 +845,15 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 399 |
-| DSA/Trie topic folder entries | 309 |
+| LeetCode profile solved total | 450 |
+| DSA/Trie topic folder entries | 358 |
 | SQL/Shell folder entries | 22 |
-| Repo tracked folder entries | 331 |
+| Repo tracked folder entries | 380 |
 | Problems with Java, Python, and Go | 263 |
-| Total solution files | 882 |
-| Java solution files | 310 |
+| Total solution files | 980 |
+| Java solution files | 359 |
 | Python solution files | 280 |
-| Go solution files | 270 |
+| Go solution files | 319 |
 | C++ solution files | 1 |
 | SQL solution files | 17 |
 | TypeScript shell files | 2 |
@@ -826,15 +863,15 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 89 |
+| Arrays | 129 |
 | Backtracking | 17 |
-| BinarySearch | 9 |
+| BinarySearch | 10 |
 | Bit Manipulation | 3 |
 | DP | 35 |
-| Graphs | 19 |
+| Graphs | 20 |
 | Intervals | 4 |
 | LinkedList | 20 |
-| Math | 27 |
+| Math | 34 |
 | Matrix | 10 |
 | MySQL | 9 |
 | Shell | 6 |
@@ -844,7 +881,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Strings | 32 |
 | Trees | 32 |
 | Trie | 3 |
-| Total | 331 |
+| Total | 380 |
 
 ## Pattern Checklist
 
