@@ -87,6 +87,8 @@
  * Topics: Array, Hash Table
  * Time Complexity: O(n)
  * Space Complexity: O(n)
+ * Runtime: 1 ms
+ * Memory: 42.6 MB
  */
 
 class Solution {
