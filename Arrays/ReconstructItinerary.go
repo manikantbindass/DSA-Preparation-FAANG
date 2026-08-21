@@ -65,6 +65,8 @@
  * Topics: Array, String, Depth-First Search, Graph Theory, Sorting, Heap (Priority Queue), Eulerian Circuit, Eulerian Path, Semi-Eulerian Graph
  * Time Complexity: O(n log n)
  * Space Complexity: O(1) to O(n)
+ * Runtime: 1 ms
+ * Memory: 42.4 MB
  */
 
 /*
