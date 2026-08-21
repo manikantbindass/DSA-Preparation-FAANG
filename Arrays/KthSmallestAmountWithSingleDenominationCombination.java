@@ -72,6 +72,8 @@
  * Topics: Array, Math, Binary Search, Bit Manipulation, Combinatorics, Number Theory
  * Time Complexity: O(log n)
  * Space Complexity: O(1) to O(n)
+ * Runtime: 0 ms
+ * Memory: 42.7 MB
  */
 
 class Solution {
