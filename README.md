@@ -55,17 +55,17 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-08-22 06:41 UTC
+Last synced: 2026-08-22 12:40 UTC
 
 ### 🚀 LeetCode Stats
 
-![LeetCode Rank](https://img.shields.io/badge/Rank-242031-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
+![LeetCode Rank](https://img.shields.io/badge/Rank-238285-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
 ![Solved](https://img.shields.io/badge/Solved-465-22c55e?style=for-the-badge)
 ![Goal](https://img.shields.io/badge/Goal-465%2F1000-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
-| Rank | 242,031 |
+| Rank | 238,285 |
 | Solved | 465 |
 | Easy | 122 |
 | Medium | 248 |
