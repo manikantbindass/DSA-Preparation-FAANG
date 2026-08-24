@@ -87,6 +87,8 @@
  * Topics: Array, Math, Dynamic Programming, Minimax, Prefix Sum, Game Theory, Zero-Sum Game
  * Time Complexity: O(n²) typical DP
  * Space Complexity: O(n) or O(n²)
+ * Runtime: 0 ms
+ * Memory: 42.5 MB
  */
 
 class Solution {
