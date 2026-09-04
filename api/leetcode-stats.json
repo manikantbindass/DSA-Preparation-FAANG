@@ -10,19 +10,19 @@
       "title": "Weekly Contest 513",
       "totalProblems": 4
     },
-    "rating": 2579.7233210997556,
+    "rating": 2579.723,
     "source": "leetcode.com/graphql",
     "sourceStatus": "ok",
     "topPercentage": 0.14
   },
-  "generatedAt": "2026-09-04 03:23 UTC",
+  "generatedAt": "2026-09-04 10:48 UTC",
   "goal": 1000,
   "leetcode": {
     "easySolved": 124,
     "goalProgressPercent": 47.8,
     "hardSolved": 99,
     "mediumSolved": 255,
-    "ranking": 228192,
+    "ranking": 228375,
     "totalSolved": 478
   },
   "profileUrl": "https://leetcode.com/u/manikantbindass/",
