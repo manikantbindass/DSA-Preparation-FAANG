@@ -67,8 +67,6 @@
  * Topics: Array, Hash Table, Binary Search, Dynamic Programming, Sliding Window
  * Time Complexity: O(n²) typical DP
  * Space Complexity: O(n) or O(n²)
- * Runtime: 0 ms
- * Memory: 42.8 MB
  */
 
 class Solution {
