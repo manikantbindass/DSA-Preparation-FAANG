@@ -84,8 +84,6 @@
  * Topics: Hash Table, String, Backtracking, Stack, Breadth-First Search, Sorting
  * Time Complexity: O(n log n)
  * Space Complexity: O(n)
- * Runtime: 2 ms
- * Memory: 45.1 MB
  */
 
 class Solution {
