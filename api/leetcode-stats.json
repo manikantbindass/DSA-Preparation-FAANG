@@ -1,7 +1,7 @@
 {
   "contest": {
     "attendedContestsCount": 12,
-    "globalRanking": 1171,
+    "globalRanking": 1174,
     "latestContest": {
       "problemsSolved": 4,
       "ranking": 77,
@@ -15,15 +15,15 @@
     "sourceStatus": "ok",
     "topPercentage": 0.14
   },
-  "generatedAt": "2026-09-25 03:54 UTC",
+  "generatedAt": "2026-09-25 11:22 UTC",
   "goal": 1000,
   "leetcode": {
     "easySolved": 130,
-    "goalProgressPercent": 49.9,
-    "hardSolved": 104,
+    "goalProgressPercent": 50.0,
+    "hardSolved": 105,
     "mediumSolved": 265,
-    "ranking": 213453,
-    "totalSolved": 499
+    "ranking": 212741,
+    "totalSolved": 500
   },
   "profileUrl": "https://leetcode.com/u/manikantbindass/",
   "username": "manikantbindass"
