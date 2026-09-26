@@ -5,16 +5,18 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-479-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-125-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-255-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-99-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-501-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-130-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-266-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-105-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 125 |
-| 🟡 Medium | 255 |
-| 🔴 Hard   | 99 |
-| **Total** | **479** |
+| 🟢 Easy   | 130 |
+| 🟡 Medium | 266 |
+| 🔴 Hard   | 105 |
+| **Total** | **501** |
 
 ## 🕐 Recent Submissions
+
+LeetCode profile counts were last synced on Sep 26, 2026; the submission list below was last retrieved on Sep 4, 2026.
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
@@ -30,7 +32,7 @@
 | [#316 Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | String, Stack, Greedy, Monotonic Stack | Sep 4, 2026 |
 
 ---
-*Last updated: Fri, 04 Sep 2026 16:37:00 GMT*
+*Stats last synced: Sat, 26 Sep 2026 15:57 UTC*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
@@ -42,7 +44,7 @@
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-479%20Problems-22c55e?style=for-the-badge" alt="479 solved" />
+  <img src="https://img.shields.io/badge/Solved-501%20Problems-22c55e?style=for-the-badge" alt="501 solved" />
   <img src="https://img.shields.io/badge/Goal-1000%20Problems-2563eb?style=for-the-badge" alt="1000 problem goal" />
 </p>
 
@@ -504,7 +506,7 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. LeetCode GraphQL currently reports 479 solved problems, while this GitHub repository currently includes 406 tracked folder entries across 1032 solution files: 384 DSA/Trie entries in Java/Python/Go topic folders plus 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The latest saved LeetCode profile snapshot reports 501 solved problems. This GitHub repository includes 429 tracked topic entries across 1078 solution files: 407 DSA/Trie entries plus 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
@@ -866,20 +868,43 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Merge Sorted Array | Arrays | [Java](Arrays/MergeSortedArray.java) |
 | Edit Distance | DP | [Java](DP/EditDistance.java), [Python](DP/EditDistance.py), [Go](DP/EditDistance.go) |
 | Minimum Path Sum | DP | [Java](DP/MinimumPathSum.java), [Python](DP/MinimumPathSum.py), [Go](DP/MinimumPathSum.go), [C++](DP/MinimumPathSum.cpp) |
+| Smallest Stable Index II | Arrays | [Java](Arrays/SmallestStableIndexII.java), [Go](Arrays/SmallestStableIndexII.go) |
+| Distinct Subsequences (Arrays implementation) | Arrays | [Java](Arrays/DistinctSubsequences.java), [Go](Arrays/DistinctSubsequences.go) |
+| Super Ugly Number | Arrays | [Java](Arrays/SuperUglyNumber.java), [Go](Arrays/SuperUglyNumber.go) |
+| Distinct Subsequences II | Arrays | [Java](Arrays/DistinctSubsequencesII.java), [Go](Arrays/DistinctSubsequencesII.go) |
+| Count Commas in Range | Math | [Java](Math/CountCommasInRange.java), [Go](Math/CountCommasInRange.go) |
+| Count Commas in Range II | Math | [Java](Math/CountCommasInRangeII.java), [Go](Math/CountCommasInRangeII.go) |
+| Count Nodes Equal to Average of Subtree | Trees | [Java](Trees/CountNodesEqualToAverageOfSubtree.java), [Go](Trees/CountNodesEqualToAverageOfSubtree.go) |
+| Unique 3-Digit Even Numbers | Arrays | [Java](Arrays/Unique3DigitEvenNumbers.java), [Go](Arrays/Unique3DigitEvenNumbers.go) |
+| Maximum Score of Non-overlapping Intervals | Arrays | [Java](Arrays/MaximumScoreOfNonoverlappingIntervals.java), [Go](Arrays/MaximumScoreOfNonoverlappingIntervals.go) |
+| Image Overlap | Arrays | [Java](Arrays/ImageOverlap.java), [Go](Arrays/ImageOverlap.go) |
+| Rectangle Overlap | Math | [Java](Math/RectangleOverlap.java), [Go](Math/RectangleOverlap.go) |
+| Maximum Number of Non-overlapping Palindrome Substrings | Arrays | [Java](Arrays/MaximumNumberOfNonoverlappingPalindromeSubstrings.java), [Go](Arrays/MaximumNumberOfNonoverlappingPalindromeSubstrings.go) |
+| Number of Sets of K Non-overlapping Line Segments | Math | [Java](Math/NumberOfSetsOfKNonOverlappingLineSegments.java), [Go](Math/NumberOfSetsOfKNonOverlappingLineSegments.go) |
+| Find Two Non-overlapping Sub-arrays Each With Target Sum | Arrays | [Java](Arrays/FindTwoNonoverlappingSubarraysEachWithTargetSum.java), [Go](Arrays/FindTwoNonoverlappingSubarraysEachWithTargetSum.go) |
+| Maximum Number of Non-overlapping Substrings | Arrays | [Java](Arrays/MaximumNumberOfNonOverlappingSubstrings.java), [Go](Arrays/MaximumNumberOfNonOverlappingSubstrings.go) |
+| Circle and Rectangle Overlapping | Math | [Java](Math/CircleAndRectangleOverlapping.java), [Go](Math/CircleAndRectangleOverlapping.go) |
+| Reverse Degree of a String | Arrays | [Java](Arrays/ReverseDegreeOfAString.java), [Go](Arrays/ReverseDegreeOfAString.go) |
+| Find X Value of Array I | Arrays | [Java](Arrays/FindXValueOfArrayI.java), [Go](Arrays/FindXValueOfArrayI.go) |
+| Find X Value of Array II | Arrays | [Java](Arrays/FindXValueOfArrayII.java), [Go](Arrays/FindXValueOfArrayII.go) |
+| Minimum Operations to Reduce X to Zero | Arrays | [Java](Arrays/MinimumOperationsToReduceXToZero.java), [Go](Arrays/MinimumOperationsToReduceXToZero.go) |
+| Smallest Index With Digit Sum Equal to Index | Arrays | [Java](Arrays/SmallestIndexWithDigitSumEqualToIndex.java), [Go](Arrays/SmallestIndexWithDigitSumEqualToIndex.go) |
+| Brace Expansion II | Arrays | [Java](Arrays/BraceExpansionII.java), [Go](Arrays/BraceExpansionII.go) |
+| Evaluate the Bracket Pairs of a String | Arrays | [Java](Arrays/EvaluateTheBracketPairsOfAString.java), [Go](Arrays/EvaluateTheBracketPairsOfAString.go) |
 
 ## Repository Coverage
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 479 |
-| DSA/Trie topic folder entries | 384 |
+| LeetCode profile solved total | 501 |
+| DSA/Trie topic folder entries | 407 |
 | SQL/Shell folder entries | 22 |
-| Repo tracked folder entries | 406 |
-| Problems with Java, Python, and Go | 263 |
-| Total solution files | 1032 |
-| Java solution files | 385 |
+| Repo tracked folder entries | 429 |
+| Problems with Java, Python, and Go | 265 |
+| Total solution files | 1078 |
+| Java solution files | 408 |
 | Python solution files | 280 |
-| Go solution files | 345 |
+| Go solution files | 368 |
 | C++ solution files | 1 |
 | SQL solution files | 17 |
 | TypeScript shell files | 2 |
@@ -889,7 +914,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 151 |
+| Arrays | 168 |
 | Backtracking | 17 |
 | BinarySearch | 10 |
 | Bit Manipulation | 3 |
@@ -897,7 +922,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Graphs | 21 |
 | Intervals | 4 |
 | LinkedList | 21 |
-| Math | 36 |
+| Math | 41 |
 | Matrix | 10 |
 | MySQL | 9 |
 | Shell | 6 |
@@ -905,9 +930,9 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | SQL | 7 |
 | Stack | 6 |
 | Strings | 32 |
-| Trees | 32 |
+| Trees | 33 |
 | Trie | 3 |
-| Total | 406 |
+| Total | 429 |
 
 ## Pattern Checklist
 
