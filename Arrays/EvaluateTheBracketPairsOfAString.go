@@ -96,8 +96,6 @@
  * Topics: Array, Hash Table, String
  * Time Complexity: O(n)
  * Space Complexity: O(n)
- * Runtime: 0 ms
- * Memory: 42.7 MB
  */
 
 /*
