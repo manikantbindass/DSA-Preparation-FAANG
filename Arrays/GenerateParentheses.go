@@ -38,32 +38,23 @@
  * Topics: String, Dynamic Programming, Backtracking, Bracket Sequences
  * Time Complexity: O(n²) typical DP
  * Space Complexity: O(n) or O(n²)
+ * Runtime: 0 ms
+ * Memory: 4 MB
  */
 
-/*
- * Original Solution (java) — translate to Go:
- *
- * func generateParenthesis(n int) (ans []string) {
- * 	var dfs func(int, int, string)
- * 	dfs = func(l, r int, t string) {
- * 		if l > n || r > n || l < r {
- * 			return
- * 		}
- * 		if l == n && r == n {
- * 			ans = append(ans, t)
- * 			return
- * 		}
- * 		dfs(l+1, r, t+"(")
- * 		dfs(l, r+1, t+")")
- * 	}
- * 	dfs(0, 0, "")
- * 	return ans
- * }
- */
-
-package generateparentheses
-
-func solve() interface{} {
-	// TODO: Implement Go solution
-	return nil
+func generateParenthesis(n int) (ans []string) {
+	var dfs func(int, int, string)
+	dfs = func(l, r int, t string) {
+		if l > n || r > n || l < r {
+			return
+		}
+		if l == n && r == n {
+			ans = append(ans, t)
+			return
+		}
+		dfs(l+1, r, t+"(")
+		dfs(l, r+1, t+")")
+	}
+	dfs(0, 0, "")
+	return ans
 }
