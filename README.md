@@ -57,30 +57,30 @@ This repository tracks my FAANG-level DSA preparation with Java, Python, and Go 
 ## Progress Dashboard
 
 <!-- LEETCODE-STATS:START -->
-Last synced: 2026-10-14 03:56 UTC
+Last synced: 2026-10-14 11:22 UTC
 
 ### 🚀 LeetCode Stats
 
-![LeetCode Rank](https://img.shields.io/badge/Rank-203026-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-514-22c55e?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-514%2F1000-f59e0b?style=for-the-badge)
+![LeetCode Rank](https://img.shields.io/badge/Rank-202376-2563eb?style=for-the-badge&logo=leetcode&logoColor=white)
+![Solved](https://img.shields.io/badge/Solved-515-22c55e?style=for-the-badge)
+![Goal](https://img.shields.io/badge/Goal-515%2F1000-f59e0b?style=for-the-badge)
 
 | Metric | Progress |
 |---|---:|
-| Rank | 203,026 |
-| Solved | 514 |
+| Rank | 202,376 |
+| Solved | 515 |
 | Easy | 133 |
-| Medium | 274 |
+| Medium | 275 |
 | Hard | 107 |
-| Goal progress | 514 / 1000, 51.4% |
+| Goal progress | 515 / 1000, 51.5% |
 
-![Overall Goal Progress](https://progress-bar.xyz/51/?scale=100&title=Goal+514%2F1000&width=700&color=22c55e&suffix=%25)
+![Overall Goal Progress](https://progress-bar.xyz/52/?scale=100&title=Goal+515%2F1000&width=700&color=22c55e&suffix=%25)
 
 ```mermaid
 pie showData
     title Solved Problems by Difficulty
     "Easy" : 133
-    "Medium" : 274
+    "Medium" : 275
     "Hard" : 107
 ```
 
