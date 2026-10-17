@@ -87,8 +87,6 @@
  * Topics: Array, Hash Table, Sorting
  * Time Complexity: O(n log n)
  * Space Complexity: O(n)
- * Runtime: 1 ms
- * Memory: 41.2 MB
  */
 
 class Solution {
