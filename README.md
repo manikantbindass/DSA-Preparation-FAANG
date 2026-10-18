@@ -5,18 +5,18 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-501-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-130-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-266-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-105-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-518-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-134-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-276-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-108-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 130 |
-| 🟡 Medium | 266 |
-| 🔴 Hard   | 105 |
-| **Total** | **501** |
+| 🟢 Easy   | 134 |
+| 🟡 Medium | 276 |
+| 🔴 Hard   | 108 |
+| **Total** | **518** |
 
 ## 🕐 Recent Submissions
 
-LeetCode profile counts were last synced on Sep 26, 2026; the submission list below was last retrieved on Sep 4, 2026.
+LeetCode profile counts were last synced on Oct 18, 2026; the submission list below was last retrieved on Sep 4, 2026.
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
@@ -32,7 +32,7 @@ LeetCode profile counts were last synced on Sep 26, 2026; the submission list be
 | [#316 Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | String, Stack, Greedy, Monotonic Stack | Sep 4, 2026 |
 
 ---
-*Stats last synced: Sat, 26 Sep 2026 15:57 UTC*
+*Stats last synced: Sun, 18 Oct 2026 15:31 UTC*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
@@ -44,7 +44,7 @@ LeetCode profile counts were last synced on Sep 26, 2026; the submission list be
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-501%20Problems-22c55e?style=for-the-badge" alt="501 solved" />
+  <img src="https://img.shields.io/badge/Solved-518%20Problems-22c55e?style=for-the-badge" alt="518 solved" />
   <img src="https://img.shields.io/badge/Goal-1000%20Problems-2563eb?style=for-the-badge" alt="1000 problem goal" />
 </p>
 
@@ -506,10 +506,31 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The latest saved LeetCode profile snapshot reports 501 solved problems. This GitHub repository includes 429 tracked topic entries across 1078 solution files: 407 DSA/Trie entries plus 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The latest saved LeetCode profile snapshot reports 518 solved problems. This GitHub repository includes 450 tracked topic entries across 1120 solution files: 428 DSA/Trie entries plus 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Reverse Substrings Between Each Pair of Parentheses | Arrays | [Java](Arrays/ReverseSubstringsBetweenEachPairOfParentheses.java), [Go](Arrays/ReverseSubstringsBetweenEachPairOfParentheses.go) |
+| Maximum Nesting Depth of the Parentheses | Arrays | [Java](Arrays/MaximumNestingDepthOfTheParentheses.java), [Go](Arrays/MaximumNestingDepthOfTheParentheses.go) |
+| Check if There Is a Valid Parentheses String Path | Arrays | [Java](Arrays/CheckIfThereIsAValidParenthesesStringPath.java), [Go](Arrays/CheckIfThereIsAValidParenthesesStringPath.go) |
+| Maximum Nesting Depth of Two Valid Parentheses Strings | Arrays | [Java](Arrays/MaximumNestingDepthOfTwoValidParenthesesStrings.java), [Go](Arrays/MaximumNestingDepthOfTwoValidParenthesesStrings.go) |
+| Valid Parentheses | Arrays | [Java](Arrays/ValidParentheses.java), [Go](Arrays/ValidParentheses.go) |
+| Generate Parentheses | Arrays, Backtracking | Arrays: [Java](Arrays/GenerateParentheses.java), [Go](Arrays/GenerateParentheses.go); Backtracking: [Java](Backtracking/GenerateParentheses.java), [Python](Backtracking/GenerateParentheses.py), [Go](Backtracking/GenerateParentheses.go) |
+| Longest Valid Parentheses | Arrays | [Java](Arrays/LongestValidParentheses.java), [Go](Arrays/LongestValidParentheses.go) |
+| Valid Parenthesis String | Arrays | [Java](Arrays/ValidParenthesisString.java), [Go](Arrays/ValidParenthesisString.go) |
+| Score of Parentheses | Arrays | [Java](Arrays/ScoreOfParentheses.java), [Go](Arrays/ScoreOfParentheses.go) |
+| Minimum Add to Make Parentheses Valid | Arrays | [Java](Arrays/MinimumAddToMakeParenthesesValid.java), [Go](Arrays/MinimumAddToMakeParenthesesValid.go) |
+| Remove Outermost Parentheses | Arrays | [Java](Arrays/RemoveOutermostParentheses.java), [Go](Arrays/RemoveOutermostParentheses.go) |
+| Minimum Insertions to Balance a Parentheses String | Arrays | [Java](Arrays/MinimumInsertionsToBalanceAParenthesesString.java), [Go](Arrays/MinimumInsertionsToBalanceAParenthesesString.go) |
+| Minimum Sum of Squared Difference | Arrays | [Java](Arrays/MinimumSumOfSquaredDifference.java), [Go](Arrays/MinimumSumOfSquaredDifference.go) |
+| Sum of Squares of Special Elements | Arrays | [Java](Arrays/SumOfSquaresOfSpecialElements.java), [Go](Arrays/SumOfSquaresOfSpecialElements.go) |
+| Apply Operations on Array to Maximize Sum of Squares | Arrays | [Java](Arrays/ApplyOperationsOnArrayToMaximizeSumOfSquares.java), [Go](Arrays/ApplyOperationsOnArrayToMaximizeSumOfSquares.go) |
+| Maximum Alternating Sum of Squares | Arrays | [Java](Arrays/MaximumAlternatingSumOfSquares.java), [Go](Arrays/MaximumAlternatingSumOfSquares.go) |
+| Maximize Sum of Squares of Digits | Math | [Java](Math/MaximizeSumOfSquaresOfDigits.java), [Go](Math/MaximizeSumOfSquaresOfDigits.go) |
+| Subarrays Distinct Element Sum of Squares I | Arrays | [Java](Arrays/SubarraysDistinctElementSumOfSquaresI.java), [Go](Arrays/SubarraysDistinctElementSumOfSquaresI.go) |
+| Subarrays Distinct Element Sum of Squares II | Arrays | [Java](Arrays/SubarraysDistinctElementSumOfSquaresII.java), [Go](Arrays/SubarraysDistinctElementSumOfSquaresII.go) |
+| Minimum Swaps to Sort by Digit Sum | Arrays | [Java](Arrays/MinimumSwapsToSortByDigitSum.java), [Go](Arrays/MinimumSwapsToSortByDigitSum.go) |
+| Number of Ways to Reorder Array to Get Same BST | Arrays | [Java](Arrays/NumberOfWaysToReorderArrayToGetSameBST.java), [Go](Arrays/NumberOfWaysToReorderArrayToGetSameBST.go) |
 | Stone Game IX | Arrays | [Java](Arrays/StoneGameIX.java), [Go](Arrays/StoneGameIX.go) |
 | Stone Game V | Arrays | [Java](Arrays/StoneGameV.java), [Go](Arrays/StoneGameV.go) |
 | Find the Largest Almost Missing Integer | Arrays | [Java](Arrays/FindTheLargestAlmostMissingInteger.java), [Go](Arrays/FindTheLargestAlmostMissingInteger.go) |
@@ -833,7 +854,6 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Trapping Rain Water | Arrays | [Java](Arrays/TrappingRainWater.java), [Python](Arrays/TrappingRainWater.py), [Go](Arrays/TrappingRainWater.go) |
 | Rotate Image | Matrix | [Java](Matrix/RotateImage.java), [Python](Matrix/RotateImage.py), [Go](Matrix/RotateImage.go) |
 | Maximize the Distance Between Points on a Square | BinarySearch | [Java](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.java), [Python](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.py), [Go](BinarySearch/MaximizeTheDistanceBetweenPointsOnASquare.go) |
-| Generate Parentheses | Backtracking | [Java](Backtracking/GenerateParentheses.java), [Python](Backtracking/GenerateParentheses.py), [Go](Backtracking/GenerateParentheses.go) |
 | Word Ladder | Graphs | [Java](Graphs/WordLadder.java), [Python](Graphs/WordLadder.py), [Go](Graphs/WordLadder.go) |
 | Multiply Strings | Strings | [Java](Strings/MultiplyStrings.java), [Python](Strings/MultiplyStrings.py), [Go](Strings/MultiplyStrings.go) |
 | Minimum Window Substring | SlidingWindow | [Java](SlidingWindow/MinimumWindowSubstring.java), [Python](SlidingWindow/MinimumWindowSubstring.py), [Go](SlidingWindow/MinimumWindowSubstring.go) |
@@ -896,15 +916,15 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 501 |
-| DSA/Trie topic folder entries | 407 |
+| LeetCode profile solved total | 518 |
+| DSA/Trie topic folder entries | 428 |
 | SQL/Shell folder entries | 22 |
-| Repo tracked folder entries | 429 |
+| Repo tracked folder entries | 450 |
 | Problems with Java, Python, and Go | 265 |
-| Total solution files | 1078 |
-| Java solution files | 408 |
+| Total solution files | 1120 |
+| Java solution files | 429 |
 | Python solution files | 280 |
-| Go solution files | 368 |
+| Go solution files | 389 |
 | C++ solution files | 1 |
 | SQL solution files | 17 |
 | TypeScript shell files | 2 |
@@ -914,7 +934,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 168 |
+| Arrays | 188 |
 | Backtracking | 17 |
 | BinarySearch | 10 |
 | Bit Manipulation | 3 |
@@ -922,7 +942,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Graphs | 21 |
 | Intervals | 4 |
 | LinkedList | 21 |
-| Math | 41 |
+| Math | 42 |
 | Matrix | 10 |
 | MySQL | 9 |
 | Shell | 6 |
@@ -932,7 +952,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Strings | 32 |
 | Trees | 33 |
 | Trie | 3 |
-| Total | 429 |
+| Total | 450 |
 
 ## Pattern Checklist
 
