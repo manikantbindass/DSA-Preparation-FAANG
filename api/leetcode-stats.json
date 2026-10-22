@@ -15,15 +15,15 @@
     "sourceStatus": "ok",
     "topPercentage": 0.14
   },
-  "generatedAt": "2026-10-21 21:21 UTC",
+  "generatedAt": "2026-10-22 03:42 UTC",
   "goal": 1000,
   "leetcode": {
     "easySolved": 135,
-    "goalProgressPercent": 52.2,
+    "goalProgressPercent": 52.3,
     "hardSolved": 110,
-    "mediumSolved": 277,
+    "mediumSolved": 278,
     "ranking": 197449,
-    "totalSolved": 522
+    "totalSolved": 523
   },
   "profileUrl": "https://leetcode.com/u/manikantbindass/",
   "username": "manikantbindass"
