@@ -71,8 +71,6 @@
  * Topics: Array, Hash Table, Sliding Window, Sorting
  * Time Complexity: O(n log n)
  * Space Complexity: O(n)
- * Runtime: 2 ms
- * Memory: 42.6 MB
  */
 
 class Solution {
