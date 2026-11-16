@@ -5,18 +5,18 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-518-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-134-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-276-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-108-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-545-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-140-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-291-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-114-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 134 |
-| 🟡 Medium | 276 |
-| 🔴 Hard   | 108 |
-| **Total** | **518** |
+| 🟢 Easy   | 140 |
+| 🟡 Medium | 291 |
+| 🔴 Hard   | 114 |
+| **Total** | **545** |
 
 ## 🕐 Recent Submissions
 
-LeetCode profile counts were last synced on Oct 18, 2026; the submission list below was last retrieved on Sep 4, 2026.
+LeetCode profile counts were last synced on Nov 16, 2026; the submission list below was last retrieved on Sep 4, 2026.
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
@@ -32,7 +32,7 @@ LeetCode profile counts were last synced on Oct 18, 2026; the submission list be
 | [#316 Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | String, Stack, Greedy, Monotonic Stack | Sep 4, 2026 |
 
 ---
-*Stats last synced: Sun, 18 Oct 2026 15:31 UTC*
+*Stats last synced: Mon, 16 Nov 2026 05:17 UTC*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
@@ -44,7 +44,7 @@ LeetCode profile counts were last synced on Oct 18, 2026; the submission list be
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-518%20Problems-22c55e?style=for-the-badge" alt="518 solved" />
+  <img src="https://img.shields.io/badge/Solved-545%20Problems-22c55e?style=for-the-badge" alt="545 solved" />
   <img src="https://img.shields.io/badge/Goal-1000%20Problems-2563eb?style=for-the-badge" alt="1000 problem goal" />
 </p>
 
@@ -506,10 +506,33 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The latest saved LeetCode profile snapshot reports 518 solved problems. This GitHub repository includes 450 tracked topic entries across 1120 solution files: 428 DSA/Trie entries plus 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The latest saved LeetCode profile snapshot reports 545 solved problems. This GitHub repository includes 473 tracked topic entries across 1166 solution files: 451 DSA/Trie entries plus 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Find Target Indices After Sorting Array | Arrays | [Java](Arrays/FindTargetIndicesAfterSortingArray.java), [Go](Arrays/FindTargetIndicesAfterSortingArray.go) |
+| Sum of Sortable Integers | Arrays | [Java](Arrays/SumOfSortableIntegers.java), [Go](Arrays/SumOfSortableIntegers.go) |
+| Minimum Operations to Sort a String | Arrays | [Java](Arrays/MinimumOperationsToSortAString.java), [Go](Arrays/MinimumOperationsToSortAString.go) |
+| Minimum Operations to Sort a Permutation | Arrays | [Java](Arrays/MinimumOperationsToSortAPermutation.java), [Go](Arrays/MinimumOperationsToSortAPermutation.go) |
+| Maximum K to Sort a Permutation | Arrays | [Java](Arrays/MaximumKToSortAPermutation.java), [Go](Arrays/MaximumKToSortAPermutation.go) |
+| Count Days Spent Together | Math | [Java](Math/CountDaysSpentTogether.java), [Go](Math/CountDaysSpentTogether.go) |
+| Number of Closed Islands | Arrays | [Java](Arrays/NumberOfClosedIslands.java), [Go](Arrays/NumberOfClosedIslands.go) |
+| Count Islands With Total Value Divisible by K | Arrays | [Java](Arrays/CountIslandsWithTotalValueDivisibleByK.java), [Go](Arrays/CountIslandsWithTotalValueDivisibleByK.go) |
+| Minimum XOR Path in a Grid | Arrays | [Java](Arrays/MinimumXORPathInAGrid.java), [Go](Arrays/MinimumXORPathInAGrid.go) |
+| Palindromic Path Queries in a Tree | Arrays | [Java](Arrays/PalindromicPathQueriesInATree.java), [Go](Arrays/PalindromicPathQueriesInATree.go) |
+| Minimum Operations to Make Elements Within K Subarrays Equal | Arrays | [Java](Arrays/MinimumOperationsToMakeElementsWithinKSubarraysEqual.java), [Go](Arrays/MinimumOperationsToMakeElementsWithinKSubarraysEqual.go) |
+| Find the Distance Value Between Two Arrays | Arrays | [Java](Arrays/FindTheDistanceValueBetweenTwoArrays.java), [Go](Arrays/FindTheDistanceValueBetweenTwoArrays.go) |
+| Count Zero Request Servers | Arrays | [Java](Arrays/CountZeroRequestServers.java), [Go](Arrays/CountZeroRequestServers.go) |
+| Process Tasks Using Servers | Arrays | [Java](Arrays/ProcessTasksUsingServers.java), [Go](Arrays/ProcessTasksUsingServers.go) |
+| Count Servers that Communicate | Arrays | [Java](Arrays/CountServersThatCommunicate.java), [Go](Arrays/CountServersThatCommunicate.go) |
+| Find Servers That Handled Most Number of Requests | Arrays | [Java](Arrays/FindServersThatHandledMostNumberOfRequests.java), [Go](Arrays/FindServersThatHandledMostNumberOfRequests.go) |
+| Climbing Stairs II | Arrays | [Java](Arrays/ClimbingStairsII.java), [Go](Arrays/ClimbingStairsII.go) |
+| Minimum Cost to Acquire Required Items | Math | [Java](Math/MinimumCostToAcquireRequiredItems.java), [Go](Math/MinimumCostToAcquireRequiredItems.go) |
+| Longest Strictly Increasing or Strictly Decreasing Subarray | Arrays | [Java](Arrays/LongestStrictlyIncreasingOrStrictlyDecreasingSubarray.java), [Go](Arrays/LongestStrictlyIncreasingOrStrictlyDecreasingSubarray.go) |
+| Count Non-Decreasing Subarrays After K Operations | Arrays | [Java](Arrays/CountNonDecreasingSubarraysAfterKOperations.java), [Go](Arrays/CountNonDecreasingSubarraysAfterKOperations.go) |
+| Minimum Positive Sum Subarray | Arrays | [Java](Arrays/MinimumPositiveSumSubarray.java), [Go](Arrays/MinimumPositiveSumSubarray.go) |
+| Number of Sub-arrays With Odd Sum | Arrays | [Java](Arrays/NumberOfSubarraysWithOddSum.java), [Go](Arrays/NumberOfSubarraysWithOddSum.go) |
+| Calculate Digit Sum of a String | Arrays | [Java](Arrays/CalculateDigitSumOfAString.java), [Go](Arrays/CalculateDigitSumOfAString.go) |
 | Reverse Substrings Between Each Pair of Parentheses | Arrays | [Java](Arrays/ReverseSubstringsBetweenEachPairOfParentheses.java), [Go](Arrays/ReverseSubstringsBetweenEachPairOfParentheses.go) |
 | Maximum Nesting Depth of the Parentheses | Arrays | [Java](Arrays/MaximumNestingDepthOfTheParentheses.java), [Go](Arrays/MaximumNestingDepthOfTheParentheses.go) |
 | Check if There Is a Valid Parentheses String Path | Arrays | [Java](Arrays/CheckIfThereIsAValidParenthesesStringPath.java), [Go](Arrays/CheckIfThereIsAValidParenthesesStringPath.go) |
@@ -916,15 +939,15 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 518 |
-| DSA/Trie topic folder entries | 428 |
+| LeetCode profile solved total | 545 |
+| DSA/Trie topic folder entries | 451 |
 | SQL/Shell folder entries | 22 |
-| Repo tracked folder entries | 450 |
+| Repo tracked folder entries | 473 |
 | Problems with Java, Python, and Go | 265 |
-| Total solution files | 1120 |
-| Java solution files | 429 |
+| Total solution files | 1166 |
+| Java solution files | 452 |
 | Python solution files | 280 |
-| Go solution files | 389 |
+| Go solution files | 412 |
 | C++ solution files | 1 |
 | SQL solution files | 17 |
 | TypeScript shell files | 2 |
@@ -934,7 +957,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 188 |
+| Arrays | 209 |
 | Backtracking | 17 |
 | BinarySearch | 10 |
 | Bit Manipulation | 3 |
@@ -942,7 +965,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Graphs | 21 |
 | Intervals | 4 |
 | LinkedList | 21 |
-| Math | 42 |
+| Math | 44 |
 | Matrix | 10 |
 | MySQL | 9 |
 | Shell | 6 |
@@ -952,7 +975,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Strings | 32 |
 | Trees | 33 |
 | Trie | 3 |
-| Total | 450 |
+| Total | 473 |
 
 ## Pattern Checklist
 
