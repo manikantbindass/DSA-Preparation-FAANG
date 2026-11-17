@@ -51,8 +51,6 @@
  * Topics: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set, Treap
  * Time Complexity: O(log n)
  * Space Complexity: O(1) to O(n)
- * Runtime: 1 ms
- * Memory: 41.3 MB
  */
 
 class BinaryIndexedTree {
