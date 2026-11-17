@@ -59,8 +59,6 @@
  * Topics: Array, Dynamic Programming, Breadth-First Search, Knapsack Problem, Complete Knapsack
  * Time Complexity: O(n²) typical DP
  * Space Complexity: O(n) or O(n²)
- * Runtime: 0 ms
- * Memory: 41.6 MB
  */
 
 class Solution {
