@@ -57,6 +57,8 @@
  * Topics: Array, Dynamic Programming, Sorting
  * Time Complexity: O(n²) typical DP
  * Space Complexity: O(n) or O(n²)
+ * Runtime: 1 ms
+ * Memory: 41.9 MB
  */
 
 /*
