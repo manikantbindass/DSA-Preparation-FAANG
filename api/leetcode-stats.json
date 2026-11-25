@@ -1,7 +1,7 @@
 {
   "contest": {
     "attendedContestsCount": 12,
-    "globalRanking": 1180,
+    "globalRanking": 1183,
     "latestContest": {
       "problemsSolved": 4,
       "ranking": 77,
@@ -15,14 +15,14 @@
     "sourceStatus": "ok",
     "topPercentage": 0.14
   },
-  "generatedAt": "2026-11-25 07:27 UTC",
+  "generatedAt": "2026-11-25 21:13 UTC",
   "goal": 1000,
   "leetcode": {
     "easySolved": 144,
     "goalProgressPercent": 55.8,
     "hardSolved": 118,
     "mediumSolved": 296,
-    "ranking": 174211,
+    "ranking": 174292,
     "totalSolved": 558
   },
   "profileUrl": "https://leetcode.com/u/manikantbindass/",
