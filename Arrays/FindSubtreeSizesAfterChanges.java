@@ -1,6 +1,6 @@
 /*
- * LeetCode Problem 3576: Find Subtree Sizes After Changes
- * Problem Number: 3576
+ * LeetCode Problem 3331: Find Subtree Sizes After Changes
+ * Problem Number: 3331
  * Difficulty: Medium
  * Link: https://leetcode.com/problems/find-subtree-sizes-after-changes/
  *
@@ -78,40 +78,56 @@
  * Topics: Array, Hash Table, String, Tree, Depth-First Search
  * Time Complexity: O(n)
  * Space Complexity: O(n)
- * Runtime: 1 ms
- * Memory: 42.1 MB
+ * Approach: Traverse the original tree iteratively and accumulate each subtree at its new parent on exit.
  */
 
+import java.util.Arrays;
+
 class Solution {
-    private List<Integer>[] g;
-    private List<Integer>[] d;
-    private char[] s;
-    private int[] ans;
     public int[] findSubtreeSizes(int[] parent, String s) {
-        int n = s.length();
-        g = new List[n];
-        d = new List[26];
-        this.s = s.toCharArray();
-        Arrays.setAll(g, k -> new ArrayList<>());
-        Arrays.setAll(d, k -> new ArrayList<>());
-        for (int i = 1; i < n; ++i) {
-            g[parent[i]].add(i);
+        int n = parent.length;
+        int[] firstChild = new int[n];
+        int[] nextSibling = new int[n];
+        Arrays.fill(firstChild, -1);
+        for (int node = 1; node < n; node++) {
+            int originalParent = parent[node];
+            nextSibling[node] = firstChild[originalParent];
+            firstChild[originalParent] = node;
         }
-        ans = new int[n];
-        dfs(0, -1);
-        return ans;
-    }
-    private void dfs(int i, int fa) {
-        ans[i] = 1;
-        int idx = s[i] - 'a';
-        d[idx].add(i);
-        for (int j : g[i]) {
-            dfs(j, i);
+
+        int[] nearest = new int[26];
+        Arrays.fill(nearest, -1);
+        int[] previous = new int[n];
+        int[] sizes = new int[n];
+        Arrays.fill(sizes, 1);
+        int[] stack = new int[n];
+        int pending = 0;
+        stack[pending++] = 0;
+
+        while (pending > 0) {
+            int event = stack[--pending];
+            if (event >= 0) {
+                int node = event;
+                int letter = s.charAt(node) - 'a';
+                previous[node] = nearest[letter];
+                nearest[letter] = node;
+
+                // The complemented node marks the exit after all original children.
+                stack[pending++] = ~node;
+                for (int child = firstChild[node]; child != -1; child = nextSibling[child]) {
+                    stack[pending++] = child;
+                }
+            } else {
+                int node = ~event;
+                int letter = s.charAt(node) - 'a';
+                int ancestor = previous[node];
+                nearest[letter] = ancestor;
+                int newParent = ancestor != -1 ? ancestor : parent[node];
+                if (newParent != -1) {
+                    sizes[newParent] += sizes[node];
+                }
+            }
         }
-        int k = d[idx].size() > 1 ? d[idx].get(d[idx].size() - 2) : fa;
-        if (k >= 0) {
-            ans[k] += ans[i];
-        }
-        d[idx].remove(d[idx].size() - 1);
+        return sizes;
     }
 }

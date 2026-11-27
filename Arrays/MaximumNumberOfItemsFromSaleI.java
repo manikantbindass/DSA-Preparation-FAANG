@@ -1,6 +1,6 @@
 /*
- * LeetCode Problem 3742: Maximum Number of Items From Sale I
- * Problem Number: 3742
+ * LeetCode Problem 3946: Maximum Number of Items From Sale I
+ * Problem Number: 3946
  * Difficulty: Medium
  * Link: https://leetcode.com/problems/maximum-number-of-items-from-sale-i/
  *
@@ -82,34 +82,46 @@
  * - 1 <= budget <= 1500
  *
  * Topics: Array, Dynamic Programming, Greedy
- * Time Complexity: O(n²) typical DP
- * Space Complexity: O(n) or O(n²)
- * Runtime: 0 ms
- * Memory: 41.6 MB
+ * Time Complexity: O(F log F + n*budget), where F is the maximum factor
+ * Space Complexity: O(F + budget)
+ * Approach: Count multiples by factor, then use 0/1 knapsack for first purchases and the cheapest item for extra copies.
  */
 
 class Solution {
     public int maximumSaleItems(int[][] items, int budget) {
-        int[] f = new int[budget + 1];
-        int mn = Integer.MAX_VALUE;
+        int maxFactor = 0;
+        int cheapest = items[0][1];
+        for (int[] item : items) {
+            maxFactor = Math.max(maxFactor, item[0]);
+            cheapest = Math.min(cheapest, item[1]);
+        }
+
+        int[] frequency = new int[maxFactor + 1];
+        for (int[] item : items) {
+            frequency[item[0]]++;
+        }
+        int[] reward = new int[maxFactor + 1];
+        for (int factor = 1; factor <= maxFactor; factor++) {
+            if (frequency[factor] == 0) {
+                continue;
+            }
+            for (int multiple = factor; multiple <= maxFactor; multiple += factor) {
+                reward[factor] += frequency[multiple];
+            }
+        }
+
+        // Any budget left after first purchases can buy extra copies at this price.
+        int[] dp = new int[budget + 1];
+        for (int spend = 0; spend <= budget; spend++) {
+            dp[spend] = spend / cheapest;
+        }
         for (int[] item : items) {
             int factor = item[0];
             int price = item[1];
-            mn = Math.min(mn, price);
-            int cnt = 0;
-            for (int[] jItem : items) {
-                if (jItem[0] % factor == 0) {
-                    cnt++;
-                }
-            }
-            for (int j = budget; j >= price; j--) {
-                f[j] = Math.max(f[j], f[j - price] + cnt);
+            for (int spend = budget; spend >= price; spend--) {
+                dp[spend] = Math.max(dp[spend], dp[spend - price] + reward[factor]);
             }
         }
-        int ans = 0;
-        for (int i = 0; i <= budget; i++) {
-            ans = Math.max(ans, f[i] + (budget - i) / mn);
-        }
-        return ans;
+        return dp[budget];
     }
 }

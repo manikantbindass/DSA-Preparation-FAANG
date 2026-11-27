@@ -49,9 +49,12 @@
  * - The answer is
  *
  * Topics: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set, Treap
- * Time Complexity: O(log n)
- * Space Complexity: O(1) to O(n)
+ * Time Complexity: O(n log n)
+ * Space Complexity: O(n)
+ * Approach: Use a Fenwick tree over prefix sums to count earlier prefixes in the inclusive target interval.
  */
+
+import java.util.Arrays;
 
 class BinaryIndexedTree {
     private int n;

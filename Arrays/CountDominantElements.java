@@ -1,6 +1,6 @@
 /*
- * LeetCode Problem 4485: Count Dominant Elements
- * Problem Number: 4485
+ * LeetCode Problem 4120: Count Dominant Elements
+ * Problem Number: 4120
  * Difficulty: Easy
  * Link: https://leetcode.com/problems/count-dominant-elements/
  *
@@ -83,9 +83,10 @@
  * - 1 <= nums.length <= 100
  * - 1 <= nums[i] <= 100
  *
- * Topics: General
- * Time Complexity: See solution
- * Space Complexity: O(1) to O(n)
+ * Topics: Array, Simulation
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ * Approach: Compare each value times its neighbor count with the sum of its neighbors.
  */
 
 class Solution {

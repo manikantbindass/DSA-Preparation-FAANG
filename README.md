@@ -506,10 +506,24 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The latest saved LeetCode profile snapshot reports 545 solved problems. This GitHub repository includes 473 tracked topic entries across 1166 solution files: 451 DSA/Trie entries plus 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The latest saved LeetCode profile snapshot reports 545 solved problems. This GitHub repository includes 488 tracked topic entries across 1210 solution files, with 466 DSA/Trie entries and 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
+| Minimum Changes to Make K Semi-palindromes | Arrays | [Java](Arrays/MinimumChangesToMakeKSemipalindromes.java), [Python](Arrays/MinimumChangesToMakeKSemipalindromes.py), [Go](Arrays/MinimumChangesToMakeKSemipalindromes.go) |
+| Coin Change | Arrays | [Java](Arrays/CoinChange.java), [Python](Arrays/CoinChange.py), [Go](Arrays/CoinChange.go) |
+| Count of Smaller Numbers After Self | Arrays | [Java](Arrays/CountOfSmallerNumbersAfterSelf.java), [Python](Arrays/CountOfSmallerNumbersAfterSelf.py), [Go](Arrays/CountOfSmallerNumbersAfterSelf.go) |
+| Count of Range Sum | Arrays | [Java](Arrays/CountOfRangeSum.java), [Python](Arrays/CountOfRangeSum.py), [Go](Arrays/CountOfRangeSum.go) |
+| Minimum Number of Changes to Make Binary String Beautiful | Arrays | [Java](Arrays/MinimumNumberOfChangesToMakeBinaryStringBeautiful.java), [Python](Arrays/MinimumNumberOfChangesToMakeBinaryStringBeautiful.py), [Go](Arrays/MinimumNumberOfChangesToMakeBinaryStringBeautiful.go) |
+| Minimum Score by Changing Two Elements | Arrays | [Java](Arrays/MinimumScoreByChangingTwoElements.java), [Python](Arrays/MinimumScoreByChangingTwoElements.py), [Go](Arrays/MinimumScoreByChangingTwoElements.go) |
+| Maximize Consecutive Elements in an Array After Modification | Arrays | [Java](Arrays/MaximizeConsecutiveElementsInAnArrayAfterModification.java), [Python](Arrays/MaximizeConsecutiveElementsInAnArrayAfterModification.py), [Go](Arrays/MaximizeConsecutiveElementsInAnArrayAfterModification.go) |
+| Find Subtree Sizes After Changes | Arrays | [Java](Arrays/FindSubtreeSizesAfterChanges.java), [Python](Arrays/FindSubtreeSizesAfterChanges.py), [Go](Arrays/FindSubtreeSizesAfterChanges.go) |
+| Check if All A's Appears Before All B's | Arrays | [Java](Arrays/CheckIfAllAsAppearsBeforeAllBs.java), [Python](Arrays/CheckIfAllAsAppearsBeforeAllBs.py), [Go](Arrays/CheckIfAllAsAppearsBeforeAllBs.go) |
+| Product of the Last K Numbers | Arrays | [Java](Arrays/ProductOfTheLastKNumbers.java), [Python](Arrays/ProductOfTheLastKNumbers.py), [Go](Arrays/ProductOfTheLastKNumbers.go) |
+| Count Dominant Elements | Arrays | [Java](Arrays/CountDominantElements.java), [Python](Arrays/CountDominantElements.py), [Go](Arrays/CountDominantElements.go) |
+| Smallest Unique Subarray | Arrays | [Java](Arrays/SmallestUniqueSubarray.java), [Python](Arrays/SmallestUniqueSubarray.py), [Go](Arrays/SmallestUniqueSubarray.go) |
+| Stone Removal Game | Math | [Java](Math/StoneRemovalGame.java), [Python](Math/StoneRemovalGame.py), [Go](Math/StoneRemovalGame.go) |
+| Maximum Number of Items From Sale I | Arrays | [Java](Arrays/MaximumNumberOfItemsFromSaleI.java), [Python](Arrays/MaximumNumberOfItemsFromSaleI.py), [Go](Arrays/MaximumNumberOfItemsFromSaleI.go) |
 | Find Target Indices After Sorting Array | Arrays | [Java](Arrays/FindTargetIndicesAfterSortingArray.java), [Go](Arrays/FindTargetIndicesAfterSortingArray.go) |
 | Sum of Sortable Integers | Arrays | [Java](Arrays/SumOfSortableIntegers.java), [Go](Arrays/SumOfSortableIntegers.go) |
 | Minimum Operations to Sort a String | Arrays | [Java](Arrays/MinimumOperationsToSortAString.java), [Go](Arrays/MinimumOperationsToSortAString.go) |
@@ -940,14 +954,14 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Metric | Count |
 |---|---:|
 | LeetCode profile solved total | 545 |
-| DSA/Trie topic folder entries | 451 |
+| DSA/Trie topic folder entries | 466 |
 | SQL/Shell folder entries | 22 |
-| Repo tracked folder entries | 473 |
-| Problems with Java, Python, and Go | 265 |
-| Total solution files | 1166 |
-| Java solution files | 452 |
-| Python solution files | 280 |
-| Go solution files | 412 |
+| Repo tracked folder entries | 488 |
+| Problems with Java, Python, and Go | 279 |
+| Total solution files | 1210 |
+| Java solution files | 467 |
+| Python solution files | 294 |
+| Go solution files | 427 |
 | C++ solution files | 1 |
 | SQL solution files | 17 |
 | TypeScript shell files | 2 |
@@ -957,7 +971,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Topic Folder | Problems |
 |---|---:|
-| Arrays | 209 |
+| Arrays | 223 |
 | Backtracking | 17 |
 | BinarySearch | 10 |
 | Bit Manipulation | 3 |
@@ -965,7 +979,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Graphs | 21 |
 | Intervals | 4 |
 | LinkedList | 21 |
-| Math | 44 |
+| Math | 45 |
 | Matrix | 10 |
 | MySQL | 9 |
 | Shell | 6 |
@@ -975,7 +989,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 | Strings | 32 |
 | Trees | 33 |
 | Trie | 3 |
-| Total | 473 |
+| Total | 488 |
 
 ## Pattern Checklist
 
