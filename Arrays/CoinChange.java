@@ -57,9 +57,12 @@
  * - 0 <= amount <= 104
  *
  * Topics: Array, Dynamic Programming, Breadth-First Search, Knapsack Problem, Complete Knapsack
- * Time Complexity: O(n²) typical DP
- * Space Complexity: O(n) or O(n²)
+ * Time Complexity: O(n*amount)
+ * Space Complexity: O(amount)
+ * Approach: Use complete knapsack to minimize the number of coins for each amount.
  */
+
+import java.util.Arrays;
 
 class Solution {
     public int coinChange(int[] coins, int amount) {

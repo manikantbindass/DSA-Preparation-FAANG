@@ -1,6 +1,6 @@
 /*
- * LeetCode Problem 3298: Maximize Consecutive Elements in an Array After Modification
- * Problem Number: 3298
+ * LeetCode Problem 3041: Maximize Consecutive Elements in an Array After Modification
+ * Problem Number: 3041
  * Difficulty: Hard
  * Link: https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/
  *
@@ -55,22 +55,23 @@
  * - 1 <= nums[i] <= 106
  *
  * Topics: Array, Dynamic Programming, Sorting
- * Time Complexity: O(n²) typical DP
- * Space Complexity: O(n) or O(n²)
- * Runtime: 1 ms
- * Memory: 41.9 MB
+ * Time Complexity: O(n log n + M), where M is the maximum value
+ * Space Complexity: O(n + M), including sorting
+ * Approach: Process sorted values and update the incremented endpoint before the unchanged endpoint.
  */
+
+import java.util.Arrays;
 
 class Solution {
     public int maxSelectedElements(int[] nums) {
         Arrays.sort(nums);
         int mx = nums[nums.length - 1];
         int[] dp = new int[mx + 3];
-        int res= 0;
+        int res = 0;
         for (int x : nums) {
             dp[x + 1] = Math.max(dp[x + 1], dp[x] + 1);
-            dp[x]= Math.max(dp[x], dp[x - 1] + 1);
-            res= Math.max(res, Math.max(dp[x], dp[x + 1]));
+            dp[x] = Math.max(dp[x], dp[x - 1] + 1);
+            res = Math.max(res, Math.max(dp[x], dp[x + 1]));
         }
         return res;
     }

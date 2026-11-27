@@ -1,89 +1,25 @@
-/*
- * LeetCode Problem 322: Coin Change
- * Problem Number: 322
- * Difficulty: Medium
- * Link: https://leetcode.com/problems/coin-change/
- *
- * You are given an integer array coins representing coins of different
- * denominations and an integer amount representing a total amount of money.
- *
- * Return the fewest number of coins that you need to make up that amount. If that
- * amount of money cannot be made up by any combination of the coins, return -1.
- *
- * You may assume that you have an infinite number of each kind of coin.
- *
- *
- *
- * Example 1:
- *
- * Input: coins = [1,2,5], amount = 11
- * Output: 3
- * Explanation: 11 = 5 + 5 + 1
- *
- * Example 2:
- *
- * Input: coins = [2], amount = 3
- * Output: -1
- *
- * Example 3:
- *
- * Input: coins = [1], amount = 0
- * Output: 0
- *
- *
- *
- * Constraints:
- *
- * 	1 <= coins.length <= 12
- * 	1 <= coins[i] <= 231 - 1
- * 	0 <= amount <= 104
- *
- * Example 1:
- * Input: coins = [1,2,5], amount = 11
- * Output: 3
- * Explanation: 11 = 5 + 5 + 1
- *
- * Example 2:
- * Input: coins = [2], amount = 3
- * Output: -1
- *
- * Example 3:
- * Input: coins = [1], amount = 0
- * Output: 0
- *
- * Constraints:
- * - 1 <= coins.length <= 12
- * - 1 <= coins[i] <= 231 - 1
- * - 0 <= amount <= 104
- *
- * Topics: Array, Dynamic Programming, Breadth-First Search, Knapsack Problem, Complete Knapsack
- * Time Complexity: O(n²) typical DP
- * Space Complexity: O(n) or O(n²)
- */
-
-/*
- * Original Solution (java) — translate to Go:
- *
- * class Solution {
- *     public int coinChange(int[] coins, int amount) {
- *         final int inf = 1 << 30;
- *         int n = amount;
- *         int[] f = new int[n + 1];
- *         Arrays.fill(f, inf);
- *         f[0] = 0;
- *         for (int x : coins) {
- *             for (int j = x; j <= n; ++j) {
- *                 f[j] = Math.min(f[j], f[j - x] + 1);
- *             }
- *         }
- *         return f[n] >= inf ? -1 : f[n];
- *     }
- * }
- */
+// LeetCode Problem 322: Coin Change
+// Difficulty: Medium
+// Link: https://leetcode.com/problems/coin-change/
+// Approach: Use complete knapsack to minimize the number of coins for each amount.
+// Time Complexity: O(n*amount)
+// Space Complexity: O(amount)
 
 package coinchange
 
-func solve() interface{} {
-	// TODO: Implement Go solution
-	return nil
+func coinChange(coins []int, amount int) int {
+	unreachable := amount + 1
+	dp := make([]int, amount+1)
+	for total := 1; total <= amount; total++ {
+		dp[total] = unreachable
+	}
+	for _, coin := range coins {
+		for total := coin; total <= amount; total++ {
+			dp[total] = min(dp[total], dp[total-coin]+1)
+		}
+	}
+	if dp[amount] == unreachable {
+		return -1
+	}
+	return dp[amount]
 }

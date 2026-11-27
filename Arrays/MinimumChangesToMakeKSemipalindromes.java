@@ -1,6 +1,6 @@
 /*
- * LeetCode Problem 2879: Minimum Changes to Make K Semi-palindromes
- * Problem Number: 2879
+ * LeetCode Problem 2911: Minimum Changes to Make K Semi-palindromes
+ * Problem Number: 2911
  * Difficulty: Hard
  * Link: https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/
  *
@@ -92,9 +92,12 @@
  * - s contains only lowercase English letters.
  *
  * Topics: Two Pointers, String, Dynamic Programming
- * Time Complexity: O(n²) typical DP
- * Space Complexity: O(n) or O(n²)
+ * Time Complexity: O(n^3 log n + k*n^2)
+ * Space Complexity: O(n^2)
+ * Approach: Precompute the mismatch cost for each substring over its proper divisors, then partition with dynamic programming.
  */
+
+import java.util.Arrays;
 
 class Solution {
     public int minimumChanges(String s, int k) {

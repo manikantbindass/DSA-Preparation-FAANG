@@ -1,6 +1,6 @@
 /*
- * LeetCode Problem 1477: Product of the Last K Numbers
- * Problem Number: 1477
+ * LeetCode Problem 1352: Product of the Last K Numbers
+ * Problem Number: 1352
  * Difficulty: Medium
  * Link: https://leetcode.com/problems/product-of-the-last-k-numbers/
  *
@@ -71,12 +71,16 @@
  * - The product of the stream at any point in time will fit in a
  *
  * Topics: Array, Math, Design, Data Stream, Prefix Sum
- * Time Complexity: See solution
- * Space Complexity: O(1) to O(n)
+ * Time Complexity: O(1) amortized per add, O(1) per query
+ * Space Complexity: O(n)
+ * Approach: Track prefix products since the last zero and divide to get a suffix product.
  */
 
+import java.util.ArrayList;
+import java.util.List;
+
 class ProductOfNumbers {
-    private List<Integer> s = new ArrayList<>();
+    private final List<Integer> s = new ArrayList<>();
     public ProductOfNumbers() {
         s.add(1);
     }

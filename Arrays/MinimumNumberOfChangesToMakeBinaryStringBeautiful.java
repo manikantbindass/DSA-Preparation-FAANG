@@ -1,6 +1,6 @@
 /*
- * LeetCode Problem 3174: Minimum Number of Changes to Make Binary String Beautiful
- * Problem Number: 3174
+ * LeetCode Problem 2914: Minimum Number of Changes to Make Binary String Beautiful
+ * Problem Number: 2914
  * Difficulty: Medium
  * Link: https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/
  *
@@ -74,10 +74,9 @@
  * - s[i] is either '0' or '1'.
  *
  * Topics: String
- * Time Complexity: See solution
- * Space Complexity: O(1) to O(n)
- * Runtime: 0 ms
- * Memory: 41.5 MB
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ * Approach: Count mismatched adjacent pairs starting at even indices.
  */
 
 class Solution {

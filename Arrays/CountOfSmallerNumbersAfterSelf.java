@@ -53,9 +53,19 @@
  * - -104 <= nums[i] <= 104
  *
  * Topics: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set, Treap
- * Time Complexity: O(log n)
- * Space Complexity: O(1) to O(n)
+ * Time Complexity: O(n log n)
+ * Space Complexity: O(n)
+ * Approach: Scan from right to left and use a Fenwick tree over compressed values to count strictly smaller elements.
  */
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 class Solution {
     public List<Integer> countSmaller(int[] nums) {

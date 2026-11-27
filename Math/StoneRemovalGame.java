@@ -1,6 +1,6 @@
 /*
- * LeetCode Problem 3625: Stone Removal Game
- * Problem Number: 3625
+ * LeetCode Problem 3360: Stone Removal Game
+ * Problem Number: 3360
  * Difficulty: Easy
  * Link: https://leetcode.com/problems/stone-removal-game/
  *
@@ -57,20 +57,18 @@
  * - 1 <= n <= 50
  *
  * Topics: Math, Simulation
- * Time Complexity: See solution
- * Space Complexity: O(1) to O(n)
- * Runtime: 0 ms
- * Memory: 41.4 MB
+ * Time Complexity: O(1)
+ * Space Complexity: O(1)
+ * Approach: Simulate the decreasing removal sizes and check the parity of legal moves.
  */
 
 class Solution {
     public boolean canAliceWin(int n) {
-        int x = 10, k = 0;
-        while (n >= x) {
-            n -= x;
-            --x;
-            ++k;
+        boolean aliceTurn = true;
+        for (int stones = 10; stones > 0 && n >= stones; stones--) {
+            n -= stones;
+            aliceTurn = !aliceTurn;
         }
-        return k % 2 == 1;
+        return !aliceTurn;
     }
 }

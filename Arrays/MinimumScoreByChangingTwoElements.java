@@ -1,6 +1,6 @@
 /*
- * LeetCode Problem 2706: Minimum Score by Changing Two Elements
- * Problem Number: 2706
+ * LeetCode Problem 2567: Minimum Score by Changing Two Elements
+ * Problem Number: 2567
  * Difficulty: Medium
  * Link: https://leetcode.com/problems/minimum-score-by-changing-two-elements/
  *
@@ -61,8 +61,11 @@
  *
  * Topics: Array, Greedy, Sorting
  * Time Complexity: O(n log n)
- * Space Complexity: O(1) to O(n)
+ * Space Complexity: O(n) including sorting, O(1) apart from sorting
+ * Approach: Sort and compare the three ranges left after removing two extreme elements.
  */
+
+import java.util.Arrays;
 
 class Solution {
     public int minimizeSum(int[] nums) {

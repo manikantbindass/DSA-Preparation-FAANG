@@ -1,6 +1,6 @@
 /*
- * LeetCode Problem 2243: Check if All A's Appears Before All B's
- * Problem Number: 2243
+ * LeetCode Problem 2124: Check if All A's Appears Before All B's
+ * Problem Number: 2124
  * Difficulty: Easy
  * Link: https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/
  *
@@ -56,10 +56,9 @@
  * - s[i] is either 'a' or 'b'.
  *
  * Topics: String
- * Time Complexity: See solution
- * Space Complexity: O(1) to O(n)
- * Runtime: 0 ms
- * Memory: 42.3 MB
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ * Approach: Check whether an adjacent b-to-a transition occurs.
  */
 
 class Solution {

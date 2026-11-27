@@ -1,6 +1,6 @@
 /*
- * LeetCode Problem 4105: Smallest Unique Subarray
- * Problem Number: 4105
+ * LeetCode Problem 3934: Smallest Unique Subarray
+ * Problem Number: 3934
  * Difficulty: Hard
  * Link: https://leetcode.com/problems/smallest-unique-subarray/
  *
@@ -93,9 +93,12 @@
  * - 1 <= nums[i] <= 105
  *
  * Topics: Array, Hash Table, Binary Search, Rolling Hash, Suffix Array, Hash Function
- * Time Complexity: O(log n)
- * Space Complexity: O(n)
+ * Time Complexity: O(n log n + M), where M is the maximum value
+ * Space Complexity: O(n + M)
+ * Approach: Build a suffix array by rank doubling, then use neighboring common prefix lengths to find unique prefixes.
  */
+
+import java.util.Arrays;
 
 class Solution {
     public int smallestUniqueSubarray(int[] nums) {
@@ -137,6 +140,7 @@ class Solution {
         }
         int[] rk = new int[n];
         for (int i = 0; i < n; i++) rk[sa[i]] = i;
+        // lcp[r] is the common prefix with the preceding suffix.
         int[] lcp = new int[n + 1];
         int h = 0;
         for (int i = 0; i < n; i++) {
