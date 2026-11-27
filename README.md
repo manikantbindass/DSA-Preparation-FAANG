@@ -5,18 +5,18 @@
 
 ## 📊 Progress
 
-![Total](https://img.shields.io/badge/Total-545-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-140-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-291-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-114-ef4444?style=flat-square)
+![Total](https://img.shields.io/badge/Total-559-4f6ef7?style=flat-square) ![Easy](https://img.shields.io/badge/Easy-145-22c55e?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-296-f59e0b?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-118-ef4444?style=flat-square)
 
 | Difficulty | Solved |
 |-----------|--------|
-| 🟢 Easy   | 140 |
-| 🟡 Medium | 291 |
-| 🔴 Hard   | 114 |
-| **Total** | **545** |
+| 🟢 Easy   | 145 |
+| 🟡 Medium | 296 |
+| 🔴 Hard   | 118 |
+| **Total** | **559** |
 
 ## 🕐 Recent Submissions
 
-LeetCode profile counts were last synced on Nov 16, 2026; the submission list below was last retrieved on Sep 4, 2026.
+LeetCode profile counts reflect the Nov 27, 2026 snapshot. The submission list below was last retrieved on Sep 4, 2026.
 
 | Problem | Difficulty | Topics | Date |
 |---------|-----------|--------|------|
@@ -32,7 +32,7 @@ LeetCode profile counts were last synced on Nov 16, 2026; the submission list be
 | [#316 Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | String, Stack, Greedy, Monotonic Stack | Sep 4, 2026 |
 
 ---
-*Stats last synced: Mon, 16 Nov 2026 05:17 UTC*
+*Stats last synced: Fri, 27 Nov 2026 07:12 UTC*
 <!-- LEETCODE-AI-SYNC:END -->
 
 <p align="center">
@@ -44,7 +44,7 @@ LeetCode profile counts were last synced on Nov 16, 2026; the submission list be
   <img src="https://img.shields.io/badge/Language-Java-ef4444?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/Language-Go-00add8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Solved-545%20Problems-22c55e?style=for-the-badge" alt="545 solved" />
+  <img src="https://img.shields.io/badge/Solved-559%20Problems-22c55e?style=for-the-badge" alt="559 solved" />
   <img src="https://img.shields.io/badge/Goal-1000%20Problems-2563eb?style=for-the-badge" alt="1000 problem goal" />
 </p>
 
@@ -506,7 +506,7 @@ Graph questions are about modeling relationships, then picking traversal or conn
 
 ## Recently Added LeetCode Solutions
 
-These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. The latest saved LeetCode profile snapshot reports 545 solved problems. This GitHub repository includes 488 tracked topic entries across 1210 solution files, with 466 DSA/Trie entries and 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
+These solution files cover the latest public accepted submissions exposed by LeetCode for the profile. See the Progress Dashboard for the latest saved LeetCode profile totals. This GitHub repository includes 488 tracked topic entries across 1210 solution files, with 466 DSA/Trie entries and 22 SQL/Shell entries in `MySQL`, `SQL`, and `Shell`. Source code is not public through LeetCode's profile API, so language versions here are repo-maintained solutions unless a LeetCode export is added.
 
 | Problem | Topic Folder | Solution |
 |---|---|---|
@@ -953,7 +953,7 @@ These solution files cover the latest public accepted submissions exposed by Lee
 
 | Metric | Count |
 |---|---:|
-| LeetCode profile solved total | 545 |
+| LeetCode profile solved total | 559 |
 | DSA/Trie topic folder entries | 466 |
 | SQL/Shell folder entries | 22 |
 | Repo tracked folder entries | 488 |
