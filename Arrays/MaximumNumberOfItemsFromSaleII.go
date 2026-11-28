@@ -95,6 +95,8 @@
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Time Complexity: O(n log n)
  * Space Complexity: O(1) to O(n)
+ * Runtime: 1 ms
+ * Memory: 41.9 MB
  */
 
 /*
